@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<naming>
+
+ <namestyles>
+
+    <!--Eldimor-->
+
+    <namestyle Name="Eldimor" HyphenationChance="0" TwoNameChance="0" Format="TitleCase">
+      <scopes>
+        <scope Name="Culture" Culture="Eldimor" Priority="50" Combine="true" />
+        <scope Name="Faction" Faction="Eldimor" Priority="100" Combine="false" />
+		<scope Name="Faction" Faction="Sivilao" Priority="100" Combine="false" />
+        <scope Name="Species" Species="eldimor" Priority="50" Combine="true" />
+		<scope Name="Subtype1" Subtype="Temperate Drek" Priority="50" Combine="true" />
+		<scope Name="Subtype2" Subtype="Temperate Orm" Priority="50" Combine="true" />
+		<scope Name="Subtype3" Subtype="Temperate Mavot" Priority="50" Combine="true" />
+      </scopes>
+      <prefixes Amount="1">
+        <prefix Name="Im" />
+		<prefix Name="Hi" />
+		<prefix Name="O" />
+		<prefix Name="Pi" />
+		<prefix Name="Fo" />
+		<prefix Name="Sa" />
+		<prefix Name="Mi" />
+		<prefix Name="Ta" />
+		<prefix Name="Dr" />
+		<prefix Name="Dw" />
+		<prefix Name="Ra" />
+		<prefix Name="Sp" />
+		<prefix Name="Ri" />
+		<prefix Name="Jo" />
+		<prefix Name="J" />
+		<prefix Name="Do" Weight="2"/>
+		<prefix Name="Uk" />
+		<prefix Name="Gr" />
+		<prefix Name="Ge" />
+		<prefix Name="U" />
+		<prefix Name="Jo" />
+		<prefix Name="Br" />
+		<prefix Name="B" />
+		<prefix Name="Da Na" />
+		<prefix Name="No" />
+		<prefix Name="Ej" />
+		<prefix Name="Ri" />
+		<prefix Name="Ra" />
+		<prefix Name="Lo" />
+      </prefixes>
+      <infixes Amount="0-3">
+        <infix Name="k" Weight="2"/>
+		<infix Name="l" Weight="3"/>
+		<infix Name="r" />
+		<infix Name="s" />
+		<infix Name="ig" />
+		<infix Name="d" />
+		<infix Name="a" Weight="3"/>
+		<infix Name="er" Weight="2"/>
+		<infix Name="an" />
+		<infix Name="tt" />
+		<infix Name="b" />
+		<infix Name="se" />
+		<infix Name="i" />
+		<infix Name="sh" />
+		<infix Name="bb" />
+		<infix Name="o" />
+		<infix Name="rr" />
+      </infixes>
+      <postfixes Amount="1">
+        <postfix Name="ua" />
+		<postfix Name="er" Weight="2"/>
+		<postfix Name="i" />
+		<postfix Name="rl" />
+		<postfix Name="ah" />
+		<postfix Name="ke" />
+		<postfix Name="ha" />
+		<postfix Name="ip" />
+		<postfix Name="ht" />
+		<postfix Name="an" />
+		<postfix Name="ur" />
+		<postfix Name="il" />
+		<postfix Name="ra" Weight="3"/>
+		<postfix Name="t" />
+		<postfix Name="la" />
+		<postfix Name="te" />
+		<postfix Name="do" />
+		<postfix Name="he" />
+		<postfix Name="ge" />
+		<postfix Name="et" Weight="2"/>
+		<postfix Name="ph" />
+		<postfix Name="eh" />
+		<postfix Name="d" />
+		<postfix Name="a" />
+		<postfix Name="ky" Weight="2"/>
+		<postfix Name="el" />
+      </postfixes>
+    </namestyle>
+
+	<namestyle Name="Eldimor Hero Title">
+      <scopes>
+        <scope Name="Main" Type="Title" Special="Hero" Faction="Eldimor" Priority="200" Combine="false" />
+        <scope Name="Culture" Type="Title" Special="Hero" Culture="Eldimor" Priority="150" Combine="true" />
+      </scopes>
+      <templates>
+        <template Name="*Title*" />
+      </templates>
+      <templatevars>
+        <templatevar Name="Title">
+          <value Name="The Pirate King" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+
+</namestyles>
+
+</naming>

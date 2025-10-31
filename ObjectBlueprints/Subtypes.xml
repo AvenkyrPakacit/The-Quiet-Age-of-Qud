@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<subtypes>
+  <class ID="Eldimor" ChargenTitle="choose calling" SingularTitle="calling">
+    <category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
+	<subtype Name="Temperate Drek" Gear="StartingGear_Common" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" DetailColor="R">
+      <stat Name="Toughness" Bonus="2" />
+      <skills>
+        <skill Name="Survival" />
+        <skill Name="Survival_DesertCanyonSurvival" />
+        <skill Name="Tinkering_Scavenger" />
+        <skill Name="Endurance_Longstrider" />
+      </skills>
+    </subtype>
+    <subtype Name="Temperate Orm" Gear="StartingGear_Common" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp" DetailColor="R">
+      <stat Name="Strength" Bonus="2" />
+      <skills>
+        <skill Name="Endurance_Weathered" />
+      </skills>
+    </subtype>
+    <subtype Name="Temperate Mavot" Gear="StartingGear_Common" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="r">
+      <stat Name="Agility" Bonus="2" />
+      <skills>
+        <skill Name="Acrobatics_Dodge" />
+        <skill Name="CookingAndGathering" />
+        <skill Name="CookingAndGathering_Butchery" />
+      </skills>
+    </subtype>
+	</category>
+  </class>

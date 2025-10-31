@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+
+  <!--Bases-->
+
+  <object Name="BaseDrekir" Inherits="BaseAnimal">
+    <part Name="Render" DisplayName="Drek" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" RenderString="s" ColorString="&amp;m" DetailColor="g" />
+    <part Name="Brain" Factions="Eldimor-100" />
+    <part Name="ConversationScript" ConversationID="Cannibal" />
+    <mutation Name="HeightenedSmell" Level="1" />
+    <tag Name="Species" Value="eldimor" />
+    <tag Name="Culture" Value="Eldimor" />
+    <tag Name="BaseObject" Value="*noinherit" />
+  </object>
+
+  <object Name="BaseOrmer" Inherits="BaseAnimal">
+    <part Name="Render" DisplayName="Orm" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" RenderString="s" ColorString="&amp;m" DetailColor="g" />
+    <part Name="Brain" Factions="Eldimor-100" />
+    <part Name="ConversationScript" ConversationID="Cannibal" />
+    <mutation Name="HeightenedSmell" Level="1" />
+    <tag Name="Species" Value="eldimor" />
+    <tag Name="Culture" Value="Eldimor" />
+    <tag Name="BaseObject" Value="*noinherit" />
+  </object>
+
+  <object Name="BaseMavotur" Inherits="BaseAnimal">
+    <part Name="Render" DisplayName="Mavot" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" RenderString="s" ColorString="&amp;m" DetailColor="g" />
+    <part Name="Brain" Factions="Eldimor-100" />
+    <part Name="ConversationScript" ConversationID="Cannibal" />
+    <mutation Name="HeightenedSmell" Level="1" />
+    <tag Name="Species" Value="eldimor" />
+    <tag Name="Culture" Value="Eldimor" />
+    <tag Name="BaseObject" Value="*noinherit" />
+  </object>
+
+  <!--Character Types-->
+
+  <object Name="TQAQ_Drekir" Inherits="BaseDrekir">
+    <part Name="Render" DisplayName="Drek" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" RenderString="s" ColorString="&amp;m" DetailColor="g" />
+    <part Name="Body" Anatomy="TailedBiped" />
+    <tag Name="BaseObject" Value="*noinherit" />
+  </object>
+
+  <object Name="TQAQ_Dralkir" Inherits="BaseDrekir">
+    <part Name="Render" DisplayName="Dralk" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" RenderString="s" ColorString="&amp;m" DetailColor="g" />
+    <part Name="Body" Anatomy="TailedBiped" />
+    <tag Name="BaseObject" Value="*noinherit" />
+  </object>
+
+  <object Name="TQAQ_Ormer" Inherits="BaseDrekir">
+    <part Name="Render" DisplayName="Orm" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" RenderString="s" ColorString="&amp;m" DetailColor="g" />
+    <part Name="Body" Anatomy="TailedBiped" />
+    <tag Name="BaseObject" Value="*noinherit" />
+  </object>
+
+  <object Name="TQAQ_Mavotur" Inherits="BaseDrekir">
+    <part Name="Render" DisplayName="Mavot" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" RenderString="s" ColorString="&amp;m" DetailColor="g" />
+    <part Name="Body" Anatomy="TailedBiped" />
+    <tag Name="BaseObject" Value="*noinherit" />
+  </object>
+
+</objects>
