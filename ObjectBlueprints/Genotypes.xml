@@ -24,7 +24,7 @@
     <extrainfo>Starts with Heightened Smell</extrainfo>
     <extrainfo>Moderate starting attributes</extrainfo>
     <extrainfo>-600 reputation with {{C|the Putus Templar}}</extrainfo>
-    <extrainfo>0 reputation with {{C|snapjaws}}</extrainfo>
+    <extrainfo>Friendly reputation with {{C|the Eldimor}}</extrainfo>
   </genotype>
   <genotype Name="Ormer" MutationPoints="12" StatPoints="44" AllowedMutationCategories="*"
     RandomWeight="10" DisplayName="Ormer" Subtypes="Ormer" Class="" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp"
@@ -50,7 +50,7 @@
     <extrainfo>Starts with Heightened Smell</extrainfo>
     <extrainfo>Moderate starting attributes</extrainfo>
     <extrainfo>-600 reputation with {{C|the Putus Templar}}</extrainfo>
-    <extrainfo>0 reputation with {{C|snapjaws}}</extrainfo>
+    <extrainfo>Friendly reputation with {{C|the Eldimor}}</extrainfo>
   </genotype>
   <genotype Name="Mavotur" MutationPoints="12" StatPoints="44" AllowedMutationCategories="*"
     RandomWeight="10" DisplayName="Mavotur" Subtypes="Mavotur" Class="" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp"
@@ -76,6 +76,6 @@
     <extrainfo>Starts with Heightened Smell</extrainfo>
     <extrainfo>Moderate starting attributes</extrainfo>
     <extrainfo>-600 reputation with {{C|the Putus Templar}}</extrainfo>
-    <extrainfo>0 reputation with {{C|snapjaws}}</extrainfo>
+    <extrainfo>Friendly reputation with {{C|the Eldimor}}</extrainfo>
   </genotype>
 </genotypes>
