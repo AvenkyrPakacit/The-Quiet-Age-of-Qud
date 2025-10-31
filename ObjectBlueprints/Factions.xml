@@ -3,7 +3,7 @@
 
   <faction
     Name="Eldimor"
-    DisplayName="The Eldimor"
+    DisplayName="Eldimor"
     Old="true"
     FormatWithArticle="true"
     InitialPlayerReputation="0"
@@ -25,10 +25,10 @@
 
   <faction
     Name="Sivilao"
-    DisplayName="The Sivilao"
+    DisplayName="Sivilao"
     Old="true"
     FormatWithArticle="true"
-    InitialPlayerReputation="0"
+    InitialPlayerReputation="-250"
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"

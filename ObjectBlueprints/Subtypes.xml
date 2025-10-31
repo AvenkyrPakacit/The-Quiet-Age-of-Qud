@@ -11,6 +11,7 @@
       </skills>
     </subtype>
 	</category>
+  </class>
 	<class ID="Ormer" ChargenTitle="choose origin" SingularTitle="origin">
     <category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
     <subtype Name="Temperate Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp" DetailColor="g">
@@ -22,6 +23,7 @@
       </skills>
     </subtype>
 	</category>
+  </class>
 	<class ID="Mavotur" ChargenTitle="choose origin" SingularTitle="origin">
     <category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
     <subtype Name="Temperate Mavot Hiker" Gear="StartingGear_EldimorHiker" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="g">
@@ -34,3 +36,4 @@
     </subtype>
 	</category>
   </class>
+</subtypes>
