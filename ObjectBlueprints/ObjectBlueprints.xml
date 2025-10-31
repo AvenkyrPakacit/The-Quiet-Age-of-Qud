@@ -2,6 +2,7 @@
 <objects>
   <object Name="EldimorBody" Inherits="Humanoid">
     <part Name="Body" Anatomy="TailedBiped" />
-    <mutation Name="HeightenedSmell" Level="1" />
+    <mutation Name="Carnivorous" Level="1" />
+	<mutation Name="HeightenedSmell" Level="1" />
   </object>
 </objects>

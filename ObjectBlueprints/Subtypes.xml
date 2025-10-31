@@ -2,8 +2,9 @@
 <subtypes>
   <class ID="Eldimor" ChargenTitle="choose calling" SingularTitle="calling">
     <category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
-	<subtype Name="Temperate Drek" Gear="StartingGear_Common" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" DetailColor="R">
-      <stat Name="Toughness" Bonus="2" />
+	<subtype Name="Temperate Drek" Gear="StartingGear_Eldimor" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" DetailColor="g">
+      <stat Name="Agility" Bonus="2" />
+	  <stat Name="Willpower" Bonus="3" />
       <skills>
         <skill Name="Survival" />
         <skill Name="Survival_DesertCanyonSurvival" />
@@ -11,14 +12,16 @@
         <skill Name="Endurance_Longstrider" />
       </skills>
     </subtype>
-    <subtype Name="Temperate Orm" Gear="StartingGear_Common" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp" DetailColor="R">
+    <subtype Name="Temperate Orm" Gear="StartingGear_Eldimor" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp" DetailColor="g">
       <stat Name="Strength" Bonus="2" />
+	  <stat Name="Toughness" Bonus="3" />
       <skills>
         <skill Name="Endurance_Weathered" />
       </skills>
     </subtype>
-    <subtype Name="Temperate Mavot" Gear="StartingGear_Common" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="r">
-      <stat Name="Agility" Bonus="2" />
+    <subtype Name="Temperate Mavot" Gear="StartingGear_Eldimor" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="g">
+      <stat Name="Intelligence" Bonus="2" />
+	  <stat Name="Ego" Bonus="3" />
       <skills>
         <skill Name="Acrobatics_Dodge" />
         <skill Name="CookingAndGathering" />

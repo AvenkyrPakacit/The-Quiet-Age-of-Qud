@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<populations>
+
+  <population Name="StartingGear_Eldimor">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Common" />
+      <object Blueprint="HalfFullWaterskin" Number="1" />
+      <object Blueprint="Bear Jerky" Number="8-10" />
+      <object Blueprint="Walking Stick" Number="1" />
+      <object Blueprint="Furs" Number="1" />
+      <object Blueprint="Witchwood Bark" Number="3-4" />
+    </group>
+  </population>
+
+</populations>
