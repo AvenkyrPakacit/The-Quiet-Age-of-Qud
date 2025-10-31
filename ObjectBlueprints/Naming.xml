@@ -11,9 +11,9 @@
         <scope Name="Faction" Faction="Eldimor" Priority="100" Combine="false" />
 		<scope Name="Faction" Faction="Sivilao" Priority="100" Combine="false" />
         <scope Name="Species" Species="eldimor" Priority="50" Combine="true" />
-		<scope Name="Subtype1" Subtype="Temperate Drek" Priority="50" Combine="true" />
-		<scope Name="Subtype2" Subtype="Temperate Orm" Priority="50" Combine="true" />
-		<scope Name="Subtype3" Subtype="Temperate Mavot" Priority="50" Combine="true" />
+		<scope Name="Subtype1" Subtype="Temperate Drek Hiker" Priority="50" Combine="true" />
+		<scope Name="Subtype2" Subtype="Temperate Orm Hiker" Priority="50" Combine="true" />
+		<scope Name="Subtype3" Subtype="Temperate Mavot Hiker" Priority="50" Combine="true" />
       </scopes>
       <prefixes Amount="1">
         <prefix Name="Im" />

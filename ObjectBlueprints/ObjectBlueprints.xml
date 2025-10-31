@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <objects>
-  <object Name="EldimorBody" Inherits="Humanoid">
+
+  <object Name="EldimorBodyDrekir" Inherits="Humanoid">
     <part Name="Body" Anatomy="TailedBiped" />
     <mutation Name="Carnivorous" Level="1" />
 	<mutation Name="HeightenedSmell" Level="1" />
   </object>
+
+  <object Name="EldimorBodyOrmer" Inherits="Humanoid">
+    <part Name="Body" Anatomy="TailedBiped" />
+	<mutation Name="HeightenedSmell" Level="1" />
+  </object>
+
+  <object Name="EldimorBodyMavotur" Inherits="Humanoid">
+    <part Name="Body" Anatomy="TailedBiped" />
+	<mutation Name="HeightenedSmell" Level="1" />
+    <mutation Name="Wings" Level="1" />
+  </object>
+
 </objects>

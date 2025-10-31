@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <subtypes>
-  <class ID="Eldimor" ChargenTitle="choose calling" SingularTitle="calling">
+  <class ID="Drekir" ChargenTitle="choose origin" SingularTitle="origin">
     <category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
-	<subtype Name="Temperate Drek" Gear="StartingGear_Eldimor" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" DetailColor="g">
-      <stat Name="Agility" Bonus="2" />
-	  <stat Name="Willpower" Bonus="3" />
+	<subtype Name="Temperate Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
       <skills>
         <skill Name="Survival" />
-        <skill Name="Survival_DesertCanyonSurvival" />
-        <skill Name="Tinkering_Scavenger" />
-        <skill Name="Endurance_Longstrider" />
+        <skill Name="Survival_SaltmarshSurvival" />
       </skills>
     </subtype>
-    <subtype Name="Temperate Orm" Gear="StartingGear_Eldimor" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp" DetailColor="g">
-      <stat Name="Strength" Bonus="2" />
-	  <stat Name="Toughness" Bonus="3" />
+	</category>
+	<class ID="Ormer" ChargenTitle="choose origin" SingularTitle="origin">
+    <category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
+    <subtype Name="Temperate Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
       <skills>
-        <skill Name="Endurance_Weathered" />
+        <skill Name="Survival" />
+        <skill Name="Survival_SaltmarshSurvival" />
       </skills>
     </subtype>
-    <subtype Name="Temperate Mavot" Gear="StartingGear_Eldimor" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="g">
-      <stat Name="Intelligence" Bonus="2" />
-	  <stat Name="Ego" Bonus="3" />
+	</category>
+	<class ID="Mavotur" ChargenTitle="choose origin" SingularTitle="origin">
+    <category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
+    <subtype Name="Temperate Mavot Hiker" Gear="StartingGear_EldimorHiker" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
       <skills>
-        <skill Name="Acrobatics_Dodge" />
-        <skill Name="CookingAndGathering" />
-        <skill Name="CookingAndGathering_Butchery" />
+        <skill Name="Survival" />
+        <skill Name="Survival_SaltmarshSurvival" />
       </skills>
     </subtype>
 	</category>

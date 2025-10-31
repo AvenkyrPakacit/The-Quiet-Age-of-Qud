@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <populations>
 
-  <population Name="StartingGear_Eldimor">
+  <population Name="StartingGear_EldimorHiker">
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
       <object Blueprint="HalfFullWaterskin" Number="1" />

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<factions>
+
+  <faction
+    Name="Eldimor"
+    DisplayName="The Eldimor"
+    Old="true"
+    FormatWithArticle="true"
+    InitialPlayerReputation="0"
+    PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
+    NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
+    HistoricalSignificance="1"
+  >
+    <feeling About="*" Value="0" />
+    <waterritual
+      Skill="ShortBlades"
+    />
+    <interests>
+      <interest Tags="tech" />
+    </interests>
+    <factionworshipattitudes>
+      <factionworshipattitude Name="Eldimor" Attitude="100" />
+    </factionworshipattitudes>
+  </faction>
+
+  <faction
+    Name="Sivilao"
+    DisplayName="The Sivilao"
+    Old="true"
+    FormatWithArticle="true"
+    InitialPlayerReputation="0"
+    PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
+    NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
+    HistoricalSignificance="1"
+  >
+    <feeling About="*" Value="0" />
+    <waterritual
+      Skill="ShortBlades"
+    />
+    <interests>
+      <interest Tags="tech" />
+    </interests>
+    <factionworshipattitudes>
+      <factionworshipattitude Name="Sivilao" Attitude="100" />
+    </factionworshipattitudes>
+  </faction>
+
+</factions>
