@@ -4,9 +4,9 @@
   <conversation ID="Drekir">
     <start ID="Start">
       <text>
-        *Yip*~
-        *Yipral*~
-        *Rattles*
+        {{emote|*Yip*}}~
+        {{emote|*Yipral*}}~
+        {{emote|*Rattles*}}
 	  </text>
       <choice Target="End">Live and drink.</choice>
     </start>
@@ -15,8 +15,8 @@
   <conversation ID="Ormer">
     <start ID="Start">
       <text>
-        *Groans*~
-        *Huffs*
+        {{emote|*Groans*}}~
+        {{emote|*Huffs*}}
 	  </text>
       <choice Target="End">Live and drink.</choice>
     </start>
@@ -25,7 +25,7 @@
   <conversation ID="Mavotur">
     <start ID="Start">
       <text>
-	  *Growls*
+	  {{emote|*Growls*}}
 	  </text>
       <choice Target="End">Live and drink.</choice>
     </start>

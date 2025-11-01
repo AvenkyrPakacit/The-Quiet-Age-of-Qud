@@ -10,13 +10,16 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
+		EmblemTile="creatures/sw_snapjaw.bmp"
+    EmblemTileColor="w"
+    EmblemDetailColor="c"
   >
     <feeling About="*" Value="0" />
     <waterritual
-      Skill="ShortBlades"
+      Skill="Customs"
     />
     <interests>
-      <interest Tags="tech" />
+      <interest Tags="eldimor,lair" />
     </interests>
     <factionworshipattitudes>
       <factionworshipattitude Name="Eldimor" Attitude="100" />
@@ -32,13 +35,16 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
+		EmblemTile="creatures/sw_snapjaw.bmp"
+    EmblemTileColor="W"
+    EmblemDetailColor="C"
   >
     <feeling About="*" Value="0" />
     <waterritual
-      Skill="ShortBlades"
+	  skill="Tactics"
     />
     <interests>
-      <interest Tags="tech" />
+      <interest Tags="eldimor,lair" />
     </interests>
     <factionworshipattitudes>
       <factionworshipattitude Name="Sivilao" Attitude="100" />

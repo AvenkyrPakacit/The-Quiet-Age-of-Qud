@@ -6,6 +6,7 @@
   <object Name="BaseDrekir" Inherits="BaseHumanoid">
     <part Name="Render" DisplayName="Drek" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" RenderString="d" ColorString="&amp;w" DetailColor="g" />
     <part Name="Brain" Factions="Eldimor-100" />
+	<part Name="Body" Anatomy="TailedBiped" />
 	<stat Name="Strength" Value="10" />
     <stat Name="Agility" Value="12" />
     <stat Name="Toughness" Value="10" />
@@ -22,6 +23,7 @@
   <object Name="BaseOrmer" Inherits="BaseHumanoid">
     <part Name="Render" DisplayName="Orm" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp" RenderString="O" ColorString="&amp;w" DetailColor="g" />
     <part Name="Brain" Factions="Eldimor-100" />
+	<part Name="Body" Anatomy="TailedBiped" />
 	<stat Name="Strength" Value="12" />
     <stat Name="Agility" Value="10" />
     <stat Name="Toughness" Value="12" />
@@ -38,6 +40,7 @@
   <object Name="BaseMavotur" Inherits="BaseHumanoid">
     <part Name="Render" DisplayName="Mavot" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" RenderString="M" ColorString="&amp;w" DetailColor="g" />
     <part Name="Brain" Factions="Eldimor-100" />
+	<part Name="Body" Anatomy="TailedBiped" />
 	<stat Name="Strength" Value="10" />
     <stat Name="Agility" Value="10" />
     <stat Name="Toughness" Value="10" />
@@ -52,31 +55,57 @@
   </object>
 
   <!--Character Types-->
+  
+  <object Name="TQAQ_Drekir_Temperate" Inherits="BaseDrekir">
+    <part Name="Render" DisplayName="Temperate Drek" ColorString="&amp;w" DetailColor="g" />
+	<stat Name="ColdResistance" Value="15" />
+    <stat Name="HeatResistance" Value="15" />
+	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
+    <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
+  </object>
 
-  <object Name="TQAQ_Drekir" Inherits="BaseDrekir">
-    <part Name="Render" DisplayName="Drek"/>
-    <part Name="Body" Anatomy="TailedBiped" />
-    <tag Name="BaseObject" Value="*noinherit" />
+  <object Name="TQAQ_Drekir_Hiker_Temperate" Inherits="TQAQ_Drekir_Temperate">
+    <part Name="Render" DisplayName="Temperate Drek Hiker"/>
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
   </object>
 
   <object Name="TQAQ_Dralkir" Inherits="BaseDrekir">
     <part Name="Render" DisplayName="Dralk" RenderString="D" ColorString="&amp;W" DetailColor="C" />
-    <part Name="Body" Anatomy="TailedBiped" />
 	<stat Name="Strength" Boost="1" />
     <stat Name="Toughness" Boost="1" />
-    <tag Name="BaseObject" Value="*noinherit" />
+	<tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
+    <tag Name="DynamicObjectsTable:Jungle_Creatures" />
+    <tag Name="DynamicObjectsTable:Hills_Creatures" />
+    <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
+	<tag Name="DynamicObjectsTable:DeepJungle_Creatures" />
+	<tag Name="DynamicObjectsTable:Mountains_Creatures" />
+	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
   </object>
 
-  <object Name="TQAQ_Ormer" Inherits="BaseOrmer">
-    <part Name="Render" DisplayName="Orm"/>
-    <part Name="Body" Anatomy="TailedBiped" />
-    <tag Name="BaseObject" Value="*noinherit" />
+  <object Name="TQAQ_Ormer_Temperate" Inherits="BaseOrmer">
+    <part Name="Render" DisplayName="Temperate Orm" ColorString="&amp;w" DetailColor="g" />
+	<stat Name="ColdResistance" Value="15" />
+    <stat Name="HeatResistance" Value="15" />
+	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
+    <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
   </object>
 
-  <object Name="TQAQ_Mavotur" Inherits="BaseMavotur">
-    <part Name="Render" DisplayName="Mavot"/>
-    <part Name="Body" Anatomy="TailedBiped" />
-    <tag Name="BaseObject" Value="*noinherit" />
+  <object Name="TQAQ_Ormer_Hiker_Temperate" Inherits="TQAQ_Ormer_Temperate">
+    <part Name="Render" DisplayName="Orm Hiker"/>
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
+  </object>
+
+  <object Name="TQAQ_Mavotur_Temperate" Inherits="BaseMavotur">
+    <part Name="Render" DisplayName="Temperate Mavot" ColorString="&amp;w" DetailColor="g" />
+	<stat Name="ColdResistance" Value="15" />
+    <stat Name="HeatResistance" Value="15" />
+	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
+    <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
+  </object>
+
+  <object Name="TQAQ_Mavotur_Hiker_Temperate" Inherits="TQAQ_Mavotur_Temperate">
+    <part Name="Render" DisplayName="Mavot Hiker"/>
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
   </object>
 
 </objects>
