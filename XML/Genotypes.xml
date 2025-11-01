@@ -21,8 +21,10 @@
       <reputation With="Eldimor" Value="250" />
     </reputations>
     <extrainfo>Mutations</extrainfo>
+	<extrainfo>Starts with Carnivorous</extrainfo>
     <extrainfo>Starts with Heightened Smell</extrainfo>
     <extrainfo>Moderate starting attributes</extrainfo>
+	<extrainfo>Higher Agility and Willpower</extrainfo>
     <extrainfo>-600 reputation with {{C|the Putus Templar}}</extrainfo>
     <extrainfo>Friendly reputation with {{C|the Eldimor}}</extrainfo>
   </genotype>
@@ -49,6 +51,7 @@
     <extrainfo>Mutations</extrainfo>
     <extrainfo>Starts with Heightened Smell</extrainfo>
     <extrainfo>Moderate starting attributes</extrainfo>
+	<extrainfo>Higher Strength and Toughness</extrainfo>
     <extrainfo>-600 reputation with {{C|the Putus Templar}}</extrainfo>
     <extrainfo>Friendly reputation with {{C|the Eldimor}}</extrainfo>
   </genotype>
@@ -74,7 +77,9 @@
     </reputations>
     <extrainfo>Mutations</extrainfo>
     <extrainfo>Starts with Heightened Smell</extrainfo>
+	<extrainfo>Starts with Wings</extrainfo>
     <extrainfo>Moderate starting attributes</extrainfo>
+	<extrainfo>Higher Intelligence and Ego</extrainfo>
     <extrainfo>-600 reputation with {{C|the Putus Templar}}</extrainfo>
     <extrainfo>Friendly reputation with {{C|the Eldimor}}</extrainfo>
   </genotype>

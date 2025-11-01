@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <populations>
 
+  <population Name="StartingGear_Sivilao">
+    <group Name="Items" Style="pickeach">
+      <object Blueprint="TQAQ_Chest_Stal" Number="1" />
+      <object Blueprint="TQAQ_Feet_Stal" Number="1" />
+      <object Blueprint="TQAQ_Hands_Stal" Number="1" />
+      <object Blueprint="TQAQ_Head_Stal" Number="1" />
+    </group>
+  </population>
+
   <population Name="StartingGear_EldimorHiker">
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
@@ -8,6 +17,30 @@
       <object Blueprint="Bear Jerky" Number="8-10" />
       <object Blueprint="Walking Stick" Number="1" />
       <object Blueprint="Furs" Number="1" />
+      <object Blueprint="Witchwood Bark" Number="3-4" />
+    </group>
+  </population>
+
+  <population Name="StartingGear_EldimorPeltast">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Common" />
+	  <table Name="HumanoidEquipment" />
+      <object Blueprint="HalfFullWaterskin" Number="1" />
+	  <object Blueprint="Wooden Buckler" Number="1" />
+      <object Blueprint="Bear Jerky" Number="8-10" />
+      <object Blueprint="TQAQ_ThrowingSpear__Bronze" Number="4-6" />
+      <object Blueprint="Witchwood Bark" Number="3-4" />
+    </group>
+  </population>
+
+  <population Name="StartingGear_SivilaoPeltast">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Common" />
+	  <table Name="StartingGear_Sivilao" />
+      <object Blueprint="HalfFullWaterskin" Number="1" />
+	  <object Blueprint="Wooden Buckler" Number="1" />
+      <object Blueprint="Bear Jerky" Number="8-10" />
+      <object Blueprint="TQAQ_ThrowingSpear__Bronze" Number="4-6" />
       <object Blueprint="Witchwood Bark" Number="3-4" />
     </group>
   </population>

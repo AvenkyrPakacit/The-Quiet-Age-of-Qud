@@ -11,6 +11,14 @@
 		<skill Name="Survival_PlainsSurvival" />
       </skills>
     </subtype>
+	<subtype Name="Temperate Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
+      <skills>
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
 	</category>
   </class>
 	<class ID="Ormer" ChargenTitle="choose origin" SingularTitle="origin">
@@ -24,6 +32,14 @@
 		<skill Name="Survival_PlainsSurvival" />
       </skills>
     </subtype>
+	<subtype Name="Temperate Orm Peltast" Gear="StartingGear_EldimorPeltast" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
+      <skills>
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
 	</category>
   </class>
 	<class ID="Mavotur" ChargenTitle="choose origin" SingularTitle="origin">
@@ -35,6 +51,14 @@
         <skill Name="Survival" />
         <skill Name="Survival_SaltmarshSurvival" />
 		<skill Name="Survival_PlainsSurvival" />
+      </skills>
+    </subtype>
+	<subtype Name="Temperate Mavot Peltast" Gear="StartingGear_EldimorPeltast" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
+      <skills>
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
       </skills>
     </subtype>
 	</category>

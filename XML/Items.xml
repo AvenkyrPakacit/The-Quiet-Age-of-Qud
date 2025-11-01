@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+
+  <!--Armor-->
+
+  <object Name="TQAQ_Chest_Stal" Inherits="BaseArmor">
+    <part Name="Render" DisplayName="{{C|Stal}} chestplate" Tile="Items/sw_chest_hightier2.bmp" ColorString="&amp;m" TileColor="&amp;C" DetailColor="m" RenderString="]" />
+    <part Name="Description" Short="." />
+    <part Name="Armor" AV="8" DV="-2" WornOn="Body" />
+    <part Name="Physics" Weight="18" />
+    <part Name="Commerce" Value="3000" />
+    <tag Name="Tier" Value="8" />
+	<tag Name="EquipSound" Value="sfx_equip_metal_quantum" />
+    <tag Name="Role" Value="Rare" />
+  </object>
+
+  <object Name="TQAQ_Feet_Stal" Inherits="BaseBoot">
+    <part Name="Render" DisplayName="{{C|Stal}} greaves" ColorString="&amp;c" TileColor="&amp;m" DetailColor="C" Tile="Items/sw_boots_hightier2.bmp" RenderString="]" />
+    <part Name="Description" Short="." />
+    <part Name="Armor" AV="4" DV="0" WornOn="Feet" />
+    <part Name="Physics" Weight="5" />
+    <part Name="Commerce" Value="750" />
+	<tag Name="EquipSound" Value="sfx_equip_armor_metal_quantum" />
+    <tag Name="Tier" Value="8" />
+    <tag Name="Role" Value="Rare" />
+  </object>
+
+  <object Name="TQAQ_Hands_Stal" Inherits="BaseGlove">
+    <part Name="Render" DisplayName="{{C|Stal}} gauntlets" RenderString="]" ColorString="&amp;c" TileColor="&amp;m" DetailColor="C" Tile="Items/sw_gauntlets_hightier2.bmp" />
+    <part Name="Description" Short="." />
+    <part Name="Armor" AV="4" DV="0" WornOn="Hands" />
+    <part Name="Physics" Weight="5" />
+    <part Name="Commerce" Value="75" />
+	<tag Name="EquipSound" Value="sfx_equip_armor_metal_quantum" />
+    <tag Name="Tier" Value="8" />
+    <tag Name="Role" Value="Rare" />
+  </object>
+
+  <object Name="TQAQ_Head_Stal" Inherits="BaseHelmet">
+    <part Name="Render" DisplayName="{{C|Stal}} helm" ColorString="&amp;m" TileColor="&amp;C" DetailColor="m" Tile="Items/sw_helm_hightier2.bmp" RenderString="]" />
+    <part Name="Description" Short="Quark-gluon plasma rapidly cooled and was extinguished on the voidpeaks of the early universe, except where the globules got trapped in 6D kinks of spacetime. There they glided in the slipstream for billions of years until beings discovered them, built machines to extract and cool them, and reheat them in their stellar furnaces." />
+    <part Name="Armor" AV="4" DV="0" WornOn="Head" />
+    <part Name="Commerce" Value="750" />
+    <part Name="Physics" Weight="4" />
+    <tag Name="Tier" Value="8" />
+    <tag Name="DynamicObjectsTable:Headwear" />
+    <tag Name="Role" Value="Rare" />
+	<tag Name="EquipSound" Value="sfx_equip_armor_metal_quantum" />
+  </object>
+
+  <!--Thrown weapons-->
+
+  <object Name="TQAQ_ThrowingSpear__Bronze" Inherits="BaseDagger">
+    <part Name="Render" DisplayName="{{w|bronze}} throwing spear" Tile="Items/sw_shortblade_1.bmp" ColorString="&amp;w" />
+    <part Name="MeleeWeapon" MaxStrengthBonus="1" BaseDamage="1d2" />
+    <part Name="ThrownWeapon" Penetration="1" Damage="1d2" Attributes="ShortBlades" />
+    <part Name="Commerce" Value="5" />
+    <part Name="Description" Short="Solid bronze spindled into a wooden pole weighted to the tip." />
+    <part Name="Metal" />
+    <tag Name="HideThrownWeaponPerformance" />
+    <tag Name="Tier" Value="0" />
+	<tag Name="Spear" />
+		<stag Name="Contemporary" />
+  </object>
+
+</objects>

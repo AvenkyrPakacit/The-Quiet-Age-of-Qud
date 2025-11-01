@@ -14,6 +14,9 @@
 		<scope Name="Subtype1" Subtype="Temperate Drek Hiker" Priority="50" Combine="true" />
 		<scope Name="Subtype2" Subtype="Temperate Orm Hiker" Priority="50" Combine="true" />
 		<scope Name="Subtype3" Subtype="Temperate Mavot Hiker" Priority="50" Combine="true" />
+		<scope Name="Subtype4" Subtype="Temperate Drek Peltast" Priority="50" Combine="true" />
+		<scope Name="Subtype5" Subtype="Temperate Orm Peltast" Priority="50" Combine="true" />
+		<scope Name="Subtype6" Subtype="Temperate Mavot Peltast" Priority="50" Combine="true" />
       </scopes>
       <prefixes Amount="1">
         <prefix Name="Im" />

@@ -6,6 +6,7 @@
       <text>
         {{emote|*Yip*}}~
         {{emote|*Yipral*}}~
+        {{emote|*Yop*}}~
         {{emote|*Rattles*}}
 	  </text>
       <choice Target="End">Live and drink.</choice>

@@ -72,6 +72,15 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
   </object>
 
+  <object Name="TQAQ_Drekir_Peltast_Temperate" Inherits="TQAQ_Drekir_Temperate">
+    <part Name="Render" DisplayName="Temperate Drek Peltast"/>
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Shield" />
+	<skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorPeltast" />
+  </object>
+
   <object Name="TQAQ_Dralkir" Inherits="BaseDrekir">
     <part Name="Render" DisplayName="Dralk" RenderString="D" ColorString="&amp;W" DetailColor="C" />
 	<stat Name="Strength" Boost="1" />
@@ -83,6 +92,16 @@
 	<tag Name="DynamicObjectsTable:DeepJungle_Creatures" />
 	<tag Name="DynamicObjectsTable:Mountains_Creatures" />
 	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Peltast" Inherits="TQAQ_Dralkir">
+    <part Name="Render" DisplayName="Dralk Peltast"/>
+	<part Name="Brain" Factions="Sivilao-100" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Shield" />
+	<skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_SivilaoPeltast" />
   </object>
 
   <object Name="TQAQ_Ormer_Temperate" Inherits="BaseOrmer">
@@ -101,6 +120,15 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
   </object>
 
+  <object Name="TQAQ_Ormer_Peltast_Temperate" Inherits="TQAQ_Ormer_Temperate">
+    <part Name="Render" DisplayName="Temperate Orm Peltast"/>
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Shield" />
+	<skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorPeltast" />
+  </object>
+
   <object Name="TQAQ_Mavotur_Temperate" Inherits="BaseMavotur">
     <part Name="Render" DisplayName="Temperate Mavot" ColorString="&amp;w" DetailColor="g" />
 	<stat Name="ColdResistance" Value="15" />
@@ -115,6 +143,15 @@
 	<skill Name="Survival_SaltmarshSurvival" />
 	<skill Name="Survival_PlainsSurvival" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
+  </object>
+
+  <object Name="TQAQ_Mavotur_Peltast_Temperate" Inherits="TQAQ_Mavotur_Temperate">
+    <part Name="Render" DisplayName="Temperate Orm Peltast"/>
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Shield" />
+	<skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorPeltast" />
   </object>
 
 </objects>
