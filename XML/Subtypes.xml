@@ -8,6 +8,7 @@
       <skills>
         <skill Name="Survival" />
         <skill Name="Survival_SaltmarshSurvival" />
+		<skill Name="Survival_PlainsSurvival" />
       </skills>
     </subtype>
 	</category>
@@ -20,6 +21,7 @@
       <skills>
         <skill Name="Survival" />
         <skill Name="Survival_SaltmarshSurvival" />
+		<skill Name="Survival_PlainsSurvival" />
       </skills>
     </subtype>
 	</category>
@@ -32,6 +34,7 @@
       <skills>
         <skill Name="Survival" />
         <skill Name="Survival_SaltmarshSurvival" />
+		<skill Name="Survival_PlainsSurvival" />
       </skills>
     </subtype>
 	</category>

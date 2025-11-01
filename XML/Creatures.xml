@@ -66,6 +66,9 @@
 
   <object Name="TQAQ_Drekir_Hiker_Temperate" Inherits="TQAQ_Drekir_Temperate">
     <part Name="Render" DisplayName="Temperate Drek Hiker"/>
+	<skill Name="Survival" />
+	<skill Name="Survival_SaltmarshSurvival" />
+	<skill Name="Survival_PlainsSurvival" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
   </object>
 
@@ -91,7 +94,10 @@
   </object>
 
   <object Name="TQAQ_Ormer_Hiker_Temperate" Inherits="TQAQ_Ormer_Temperate">
-    <part Name="Render" DisplayName="Orm Hiker"/>
+    <part Name="Render" DisplayName="Temperate Orm Hiker"/>
+	<skill Name="Survival" />
+	<skill Name="Survival_SaltmarshSurvival" />
+	<skill Name="Survival_PlainsSurvival" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
   </object>
 
@@ -104,7 +110,10 @@
   </object>
 
   <object Name="TQAQ_Mavotur_Hiker_Temperate" Inherits="TQAQ_Mavotur_Temperate">
-    <part Name="Render" DisplayName="Mavot Hiker"/>
+    <part Name="Render" DisplayName="Temperate Mavot Hiker"/>
+	<skill Name="Survival" />
+	<skill Name="Survival_SaltmarshSurvival" />
+	<skill Name="Survival_PlainsSurvival" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
   </object>
 
