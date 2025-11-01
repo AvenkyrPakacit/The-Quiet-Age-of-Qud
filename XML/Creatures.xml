@@ -6,7 +6,7 @@
   <object Name="BaseDrekir" Inherits="BaseAnimal">
     <part Name="Render" DisplayName="Drek" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" RenderString="s" ColorString="&amp;m" DetailColor="g" />
     <part Name="Brain" Factions="Eldimor-100" />
-    <part Name="ConversationScript" ConversationID="Cannibal" />
+    <part Name="ConversationScript" ConversationID="Drekir" />
     <mutation Name="HeightenedSmell" Level="1" />
     <tag Name="Species" Value="eldimor" />
     <tag Name="Culture" Value="Eldimor" />
@@ -16,7 +16,7 @@
   <object Name="BaseOrmer" Inherits="BaseAnimal">
     <part Name="Render" DisplayName="Orm" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" RenderString="s" ColorString="&amp;m" DetailColor="g" />
     <part Name="Brain" Factions="Eldimor-100" />
-    <part Name="ConversationScript" ConversationID="Cannibal" />
+    <part Name="ConversationScript" ConversationID="Ormer" />
     <mutation Name="HeightenedSmell" Level="1" />
     <tag Name="Species" Value="eldimor" />
     <tag Name="Culture" Value="Eldimor" />
@@ -26,7 +26,7 @@
   <object Name="BaseMavotur" Inherits="BaseAnimal">
     <part Name="Render" DisplayName="Mavot" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" RenderString="s" ColorString="&amp;m" DetailColor="g" />
     <part Name="Brain" Factions="Eldimor-100" />
-    <part Name="ConversationScript" ConversationID="Cannibal" />
+    <part Name="ConversationScript" ConversationID="Mavotur" />
     <mutation Name="HeightenedSmell" Level="1" />
     <tag Name="Species" Value="eldimor" />
     <tag Name="Culture" Value="Eldimor" />

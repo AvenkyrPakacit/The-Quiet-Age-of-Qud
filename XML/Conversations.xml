@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<conversations>
+
+  <conversation ID="Drekir">
+    <start ID="Start">
+      <text>
+        *Yip*~
+        *Yipral*~
+        *Rattles*
+	  </text>
+      <choice Target="End">Live and drink.</choice>
+    </start>
+  </conversation>
+
+  <conversation ID="Ormer">
+    <start ID="Start">
+      <text>
+        *Groans*~
+        *Huffs*
+	  </text>
+      <choice Target="End">Live and drink.</choice>
+    </start>
+  </conversation>
+
+  <conversation ID="Mavotur">
+    <start ID="Start">
+      <text>
+	  *Growls*
+	  </text>
+      <choice Target="End">Live and drink.</choice>
+    </start>
+  </conversation>
+
+</conversations>
