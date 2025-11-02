@@ -79,6 +79,7 @@
 
   <object Name="TQAQ_Drekir_Peltast_Temperate" Inherits="TQAQ_Drekir_Temperate">
     <part Name="Render" DisplayName="Temperate Drek Peltast"/>
+	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Shield" />
@@ -102,6 +103,7 @@
   <object Name="TQAQ_Dralkir_Peltast" Inherits="TQAQ_Dralkir">
     <part Name="Render" DisplayName="Dralk Peltast"/>
 	<part Name="Brain" Factions="Sivilao-100" />
+	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Shield" />
@@ -127,6 +129,7 @@
 
   <object Name="TQAQ_Ormer_Peltast_Temperate" Inherits="TQAQ_Ormer_Temperate">
     <part Name="Render" DisplayName="Temperate Orm Peltast"/>
+	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Shield" />
@@ -152,6 +155,7 @@
 
   <object Name="TQAQ_Mavotur_Peltast_Temperate" Inherits="TQAQ_Mavotur_Temperate">
     <part Name="Render" DisplayName="Temperate Orm Peltast"/>
+	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Shield" />

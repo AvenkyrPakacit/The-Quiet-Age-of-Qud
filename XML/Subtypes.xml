@@ -14,6 +14,7 @@
 	<subtype Name="Temperate Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
+	  <stat Name="Agility" Bonus="3" />
       <skills>
         <skill Name="Shield" />
         <skill Name="ShortBlades" />
@@ -35,6 +36,7 @@
 	<subtype Name="Temperate Orm Peltast" Gear="StartingGear_EldimorPeltast" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
+	  <stat Name="Agility" Bonus="3" />
       <skills>
         <skill Name="Shield" />
         <skill Name="ShortBlades" />
@@ -56,6 +58,7 @@
 	<subtype Name="Temperate Mavot Peltast" Gear="StartingGear_EldimorPeltast" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
+	  <stat Name="Agility" Bonus="3" />
       <skills>
         <skill Name="Shield" />
         <skill Name="ShortBlades" />

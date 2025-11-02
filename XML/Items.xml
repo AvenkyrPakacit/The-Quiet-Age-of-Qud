@@ -4,7 +4,7 @@
   <!--Armor-->
 
   <object Name="TQAQ_Chest_Stal" Inherits="BaseArmor">
-    <part Name="Render" DisplayName="{{C|Stal}} chestplate" Tile="Items/sw_chest_hightier2.bmp" ColorString="&amp;m" TileColor="&amp;C" DetailColor="m" RenderString="]" />
+    <part Name="Render" DisplayName="{{C|Stal}} chestplate" Tile="Items/sw_chest_hightier2.bmp" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" RenderString="]" />
     <part Name="Description" Short="." />
     <part Name="Armor" AV="8" DV="-2" WornOn="Body" />
     <part Name="Physics" Weight="18" />
@@ -15,7 +15,7 @@
   </object>
 
   <object Name="TQAQ_Feet_Stal" Inherits="BaseBoot">
-    <part Name="Render" DisplayName="{{C|Stal}} greaves" ColorString="&amp;c" TileColor="&amp;m" DetailColor="C" Tile="Items/sw_boots_hightier2.bmp" RenderString="]" />
+    <part Name="Render" DisplayName="{{C|Stal}} greaves" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" Tile="Items/sw_boots_hightier2.bmp" RenderString="]" />
     <part Name="Description" Short="." />
     <part Name="Armor" AV="4" DV="0" WornOn="Feet" />
     <part Name="Physics" Weight="5" />
@@ -26,7 +26,7 @@
   </object>
 
   <object Name="TQAQ_Hands_Stal" Inherits="BaseGlove">
-    <part Name="Render" DisplayName="{{C|Stal}} gauntlets" RenderString="]" ColorString="&amp;c" TileColor="&amp;m" DetailColor="C" Tile="Items/sw_gauntlets_hightier2.bmp" />
+    <part Name="Render" DisplayName="{{C|Stal}} gauntlets" RenderString="]" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" Tile="Items/sw_gauntlets_hightier2.bmp" />
     <part Name="Description" Short="." />
     <part Name="Armor" AV="4" DV="0" WornOn="Hands" />
     <part Name="Physics" Weight="5" />
@@ -37,8 +37,8 @@
   </object>
 
   <object Name="TQAQ_Head_Stal" Inherits="BaseHelmet">
-    <part Name="Render" DisplayName="{{C|Stal}} helm" ColorString="&amp;m" TileColor="&amp;C" DetailColor="m" Tile="Items/sw_helm_hightier2.bmp" RenderString="]" />
-    <part Name="Description" Short="Quark-gluon plasma rapidly cooled and was extinguished on the voidpeaks of the early universe, except where the globules got trapped in 6D kinks of spacetime. There they glided in the slipstream for billions of years until beings discovered them, built machines to extract and cool them, and reheat them in their stellar furnaces." />
+    <part Name="Render" DisplayName="{{C|Stal}} helm" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" Tile="Items/sw_helm_hightier2.bmp" RenderString="]" />
+    <part Name="Description" Short="." />
     <part Name="Armor" AV="4" DV="0" WornOn="Head" />
     <part Name="Commerce" Value="750" />
     <part Name="Physics" Weight="4" />
