@@ -14,6 +14,7 @@
     <stat Name="Willpower" Value="12" />
     <stat Name="Ego" Value="10" />
     <part Name="ConversationScript" ConversationID="Drekir" />
+    <mutation Name="Carnivorous" Level="1" />
     <mutation Name="HeightenedSmell" Level="1" />
     <tag Name="Species" Value="eldimor" />
     <tag Name="Culture" Value="Eldimor" />
@@ -49,6 +50,9 @@
     <stat Name="Ego" Value="12" />
     <part Name="ConversationScript" ConversationID="Mavotur" />
     <mutation Name="HeightenedSmell" Level="1" />
+    <mutation Name="SensePsychic" Level="1" />
+    <mutation Name="SunderMind" Level="1" />
+    <mutation Name="Wings" Level="1" />
     <tag Name="Species" Value="eldimor" />
     <tag Name="Culture" Value="Eldimor" />
     <tag Name="BaseObject" Value="*noinherit" />

@@ -10,6 +10,13 @@
     </group>
   </population>
 
+  <population Name="StartingGear_EldimorArmour">
+    <group Name="Items" Style="pickeach">
+      <object Blueprint="Leather Armor" Number="1" />
+      <object Blueprint="Leather Moccasins" Number="1" />
+    </group>
+  </population>
+
   <population Name="StartingGear_EldimorHiker">
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
@@ -24,7 +31,7 @@
   <population Name="StartingGear_EldimorPeltast">
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
-	  <table Name="HumanoidEquipment" />
+	  <table Name="StartingGear_EldimorArmour" />
       <object Blueprint="HalfFullWaterskin" Number="1" />
 	  <object Blueprint="Wooden Buckler" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />

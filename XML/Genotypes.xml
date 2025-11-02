@@ -21,7 +21,7 @@
       <reputation With="Eldimor" Value="250" />
     </reputations>
     <extrainfo>Mutations</extrainfo>
-	<extrainfo>Starts with Carnivorous</extrainfo>
+	<extrainfo>Are Carnivorous</extrainfo>
     <extrainfo>Starts with Heightened Smell</extrainfo>
     <extrainfo>Moderate starting attributes</extrainfo>
 	<extrainfo>Higher Agility and Willpower</extrainfo>
@@ -76,8 +76,8 @@
       <reputation With="Eldimor" Value="250" />
     </reputations>
     <extrainfo>Mutations</extrainfo>
-    <extrainfo>Starts with Heightened Smell</extrainfo>
-	<extrainfo>Starts with Wings</extrainfo>
+    <extrainfo>Starts with Heightened Smell, Sunder Mind, and Wings</extrainfo>
+	<extrainfo>Can sense psychics.</extrainfo>
     <extrainfo>Moderate starting attributes</extrainfo>
 	<extrainfo>Higher Intelligence and Ego</extrainfo>
     <extrainfo>-600 reputation with {{C|the Putus Templar}}</extrainfo>
