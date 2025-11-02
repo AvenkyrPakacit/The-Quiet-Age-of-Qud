@@ -17,6 +17,7 @@
 	<mutation Name="HeightenedSmell" Level="1" />
     <mutation Name="SensePsychic" Level="1" />
     <mutation Name="SunderMind" Level="1" />
+    <mutation Name="Telepathy" Level="1" />
     <mutation Name="Wings" Level="1" />
   </object>
 
