@@ -48,7 +48,7 @@
 	<tag Name="EquipSound" Value="sfx_equip_armor_metal_quantum" />
   </object>
 
-  <!--Thrown weapons-->
+  <!--Spears-->
 
   <object Name="TQAQ_ThrowingSpear__Bronze" Inherits="BaseDagger">
     <part Name="Render" DisplayName="{{w|bronze}} throwing spear" Tile="Items/sw_shortblade_1.bmp" ColorString="&amp;w" />
@@ -57,10 +57,15 @@
     <part Name="Commerce" Value="5" />
     <part Name="Description" Short="Solid bronze spindled into a wooden pole weighted to the tip." />
     <part Name="Metal" />
-    <tag Name="HideThrownWeaponPerformance" />
     <tag Name="Tier" Value="0" />
 	<tag Name="Spear" />
 		<stag Name="Contemporary" />
+  </object>
+
+  <object Name="TQAQ_Spear__Bronze" Inherits="TQAQ_ThrowingSpear__Bronze">
+    <part Name="Render" DisplayName="{{w|bronze}} spear" Tile="Items/sw_shortblade_1.bmp" ColorString="&amp;w" />
+    <tag Name="NoAIEquipAsThrownWeapon" />
+    <tag Name="HideThrownWeaponPerformance" />
   </object>
 
 </objects>

@@ -13,7 +13,7 @@
   <population Name="StartingGear_EldimorArmour">
     <group Name="Items" Style="pickeach">
       <object Blueprint="Leather Armor" Number="1" />
-      <object Blueprint="Leather Moccasins" Number="1" />
+      <object Blueprint="LeatherBracer" Number="2" />
     </group>
   </population>
 
@@ -36,6 +36,7 @@
 	  <object Blueprint="Wooden Buckler" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
       <object Blueprint="TQAQ_ThrowingSpear__Bronze" Number="4-6" />
+      <object Blueprint="TQAQ_Spear__Bronze" Number="1" />
       <object Blueprint="Witchwood Bark" Number="3-4" />
     </group>
   </population>
@@ -48,6 +49,7 @@
 	  <object Blueprint="Wooden Buckler" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
       <object Blueprint="TQAQ_ThrowingSpear__Bronze" Number="4-6" />
+      <object Blueprint="TQAQ_Spear__Bronze" Number="1" />
       <object Blueprint="Witchwood Bark" Number="3-4" />
     </group>
   </population>
