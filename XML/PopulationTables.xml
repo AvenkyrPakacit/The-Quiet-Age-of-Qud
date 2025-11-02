@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <populations>
 
+  <population Name="StartingGear_EldimorVillager">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Common" />
+      <object Blueprint="HalfFullWaterskin" Number="1" />
+      <object Blueprint="Bear Jerky" Number="8-10" />
+      <object Blueprint="Furs" Number="1" />
+      <object Blueprint="Witchwood Bark" Number="3-4" />
+    </group>
+  </population>
+
+  <population Name="StartingGear_EldimorVillager_Mavotur">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_EldimorVillager" />
+	  <object Blueprint="TQAQ_Mask_Manaslate" Number="1" />
+    </group>
+  </population>
+
   <population Name="StartingGear_Sivilao">
     <group Name="Items" Style="pickeach">
       <object Blueprint="TQAQ_Chest_Stal" Number="1" />
@@ -10,10 +27,24 @@
     </group>
   </population>
 
+  <population Name="StartingGear_Sivilao_Mavotur">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Sivilao" />
+	  <object Blueprint="TQAQ_Mask_Manaslate" Number="1" />
+    </group>
+  </population>
+
   <population Name="StartingGear_EldimorArmour">
     <group Name="Items" Style="pickeach">
       <object Blueprint="Leather Armor" Number="1" />
       <object Blueprint="LeatherBracer" Number="2" />
+    </group>
+  </population>
+  
+  <population Name="StartingGear_EldimorArmour_Mavotur">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_EldimorArmour" />
+	  <object Blueprint="TQAQ_Mask_Manaslate" Number="1" />
     </group>
   </population>
 
@@ -25,6 +56,13 @@
       <object Blueprint="Walking Stick" Number="1" />
       <object Blueprint="Furs" Number="1" />
       <object Blueprint="Witchwood Bark" Number="3-4" />
+    </group>
+  </population>
+
+  <population Name="StartingGear_EldimorHiker_Mavotur">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_EldimorHiker" />
+	  <object Blueprint="TQAQ_Mask_Manaslate" Number="1" />
     </group>
   </population>
 
@@ -40,11 +78,37 @@
       <object Blueprint="Witchwood Bark" Number="3-4" />
     </group>
   </population>
+  
+  <population Name="StartingGear_EldimorPeltast_Mavotur">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Common" />
+	  <table Name="StartingGear_EldimorArmour_Mavotur" />
+      <object Blueprint="HalfFullWaterskin" Number="1" />
+	  <object Blueprint="Wooden Buckler" Number="1" />
+      <object Blueprint="Bear Jerky" Number="8-10" />
+      <object Blueprint="TQAQ_ThrowingSpear__Bronze" Number="4-6" />
+      <object Blueprint="TQAQ_Spear__Bronze" Number="1" />
+      <object Blueprint="Witchwood Bark" Number="3-4" />
+    </group>
+  </population>
 
   <population Name="StartingGear_SivilaoPeltast">
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
 	  <table Name="StartingGear_Sivilao" />
+      <object Blueprint="HalfFullWaterskin" Number="1" />
+	  <object Blueprint="Wooden Buckler" Number="1" />
+      <object Blueprint="Bear Jerky" Number="8-10" />
+      <object Blueprint="TQAQ_ThrowingSpear__Bronze" Number="4-6" />
+      <object Blueprint="TQAQ_Spear__Bronze" Number="1" />
+      <object Blueprint="Witchwood Bark" Number="3-4" />
+    </group>
+  </population>
+
+  <population Name="StartingGear_SivilaoPeltast_Mavotur">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Common" />
+	  <table Name="StartingGear_Sivilao_Mavotur" />
       <object Blueprint="HalfFullWaterskin" Number="1" />
 	  <object Blueprint="Wooden Buckler" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />

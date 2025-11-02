@@ -65,6 +65,7 @@
     <part Name="Render" DisplayName="Temperate Drek" ColorString="&amp;w" DetailColor="g" />
 	<stat Name="ColdResistance" Value="15" />
     <stat Name="HeatResistance" Value="15" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
 	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
     <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
   </object>
@@ -91,6 +92,7 @@
     <part Name="Render" DisplayName="Dralk" RenderString="D" ColorString="&amp;W" DetailColor="C" />
 	<stat Name="Strength" Boost="1" />
     <stat Name="Toughness" Boost="1" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
 	<tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
     <tag Name="DynamicObjectsTable:Jungle_Creatures" />
     <tag Name="DynamicObjectsTable:Hills_Creatures" />
@@ -115,6 +117,7 @@
     <part Name="Render" DisplayName="Temperate Orm" ColorString="&amp;w" DetailColor="g" />
 	<stat Name="ColdResistance" Value="15" />
     <stat Name="HeatResistance" Value="15" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
 	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
     <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
   </object>
@@ -141,6 +144,7 @@
     <part Name="Render" DisplayName="Temperate Mavot" ColorString="&amp;w" DetailColor="g" />
 	<stat Name="ColdResistance" Value="15" />
     <stat Name="HeatResistance" Value="15" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager_Mavotur" />
 	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
     <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
   </object>
@@ -150,17 +154,17 @@
 	<skill Name="Survival" />
 	<skill Name="Survival_SaltmarshSurvival" />
 	<skill Name="Survival_PlainsSurvival" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker_Mavotur" />
   </object>
 
   <object Name="TQAQ_Mavotur_Peltast_Temperate" Inherits="TQAQ_Mavotur_Temperate">
-    <part Name="Render" DisplayName="Temperate Orm Peltast"/>
+    <part Name="Render" DisplayName="Temperate Mavot Peltast"/>
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Shield" />
 	<skill Name="ShortBlades" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorPeltast" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorPeltast_Mavotur" />
   </object>
 
 </objects>

@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <objects>
 
+  <!--Natural-->
+
+  <object Name="TQAQ_Mask_Manaslate" Inherits="BaseMask">
+    <part Name="Armor" AV="4" DV="0" WornOn="Face" />
+		<part Name="Render" DisplayName="manaslate mask" RenderString="*" Tile="items/sw_mask.bmp" TileColor="&amp;w" DetailColor="W" />
+		<part Name="Description" Short="A mask of pure manaslate." />
+		<part Name="Commerce" Value="0" />
+		<part Name="NaturalEquipment" />
+		<part Name="NoDamage" />
+		<part Name="NoBreak" />
+		<part Name="Physics" Category="Natural Armor" IsReal="false" Weight="0" />
+		<removepart Name="TinkerItem" />
+		<intproperty Name="Natural" Value="1" />
+		<tag Name="ExcludeFromDynamicEncounters" />
+		<tag Name="NoSparkingQuest" />
+		<tag Name="NaturalGear" />
+		<tag Name="VisibleAsDefaultBehavior" />
+		<tag Name="ShowAsPhysicalFeature" />
+  </object>
+
   <!--Armor-->
 
   <object Name="TQAQ_Chest_Stal" Inherits="BaseArmor">

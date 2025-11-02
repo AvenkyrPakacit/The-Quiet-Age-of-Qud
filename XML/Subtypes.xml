@@ -46,7 +46,7 @@
   </class>
 	<class ID="Mavotur" ChargenTitle="choose origin" SingularTitle="origin">
     <category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
-    <subtype Name="Temperate Mavot Hiker" Gear="StartingGear_EldimorHiker" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="g">
+    <subtype Name="Temperate Mavot Hiker" Gear="StartingGear_EldimorHiker_Mavotur" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
       <skills>
@@ -55,7 +55,7 @@
 		<skill Name="Survival_PlainsSurvival" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Mavot Peltast" Gear="StartingGear_EldimorPeltast" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="g">
+	<subtype Name="Temperate Mavot Peltast" Gear="StartingGear_EldimorPeltast_Mavotur" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
 	  <stat Name="Agility" Bonus="3" />
