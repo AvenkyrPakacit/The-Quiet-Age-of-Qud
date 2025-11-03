@@ -131,7 +131,7 @@
 	  <object Blueprint="Wooden Buckler" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
       <object Blueprint="TQAQ_Cannon" Number="1" />
-      <object Blueprint="Lead Slug" Number="30-50" />
+      <object Blueprint="TQAQ_LeadCannonBall" Number="30-50" />
       <object Blueprint="Witchwood Bark" Number="3-4" />
     </group>
   </population>
