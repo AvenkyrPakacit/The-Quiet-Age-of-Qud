@@ -10,7 +10,7 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="creatures/sw_snapjaw.bmp"
+		EmblemTile="OrmHiker.png"
     EmblemTileColor="w"
     EmblemDetailColor="c"
   >
@@ -35,11 +35,11 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="creatures/sw_snapjaw.bmp"
+		EmblemTile="DrekFighter.png"
     EmblemTileColor="W"
     EmblemDetailColor="C"
   >
-    <feeling About="*" Value="0" />
+    <feeling About="*" Value="-250" />
     <waterritual
 	  skill="Tactics"
     />
