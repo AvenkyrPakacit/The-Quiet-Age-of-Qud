@@ -50,6 +50,122 @@
     </group>
   </population>
 
+  <population Name="Armor 6R" Load="Merge">
+    <group>
+	  <object Weight="5"  Blueprint="TQAQ_Chest_Stal" Number="1" />
+      <object Weight="5"  Blueprint="TQAQ_Feet_Stal" Number="1" />
+      <object Weight="5"  Blueprint="TQAQ_Hands_Stal" Number="1" />
+      <object Weight="5"  Blueprint="TQAQ_Head_Stal" Number="1" />
+    </group>
+  </population>
+
+  <population Name="Armor 7R" Load="Merge">
+    <group>
+	  <object Weight="10"  Blueprint="TQAQ_Chest_Stal" Number="1" />
+      <object Weight="10"  Blueprint="TQAQ_Feet_Stal" Number="1" />
+      <object Weight="10"  Blueprint="TQAQ_Hands_Stal" Number="1" />
+      <object Weight="10"  Blueprint="TQAQ_Head_Stal" Number="1" />
+    </group>
+  </population>
+
+  <population Name="Armor 8R" Load="Merge">
+    <group>
+	  <object Weight="15"  Blueprint="TQAQ_Chest_Stal" Number="1" />
+      <object Weight="15"  Blueprint="TQAQ_Feet_Stal" Number="1" />
+      <object Weight="15"  Blueprint="TQAQ_Hands_Stal" Number="1" />
+      <object Weight="15"  Blueprint="TQAQ_Head_Stal" Number="1" />
+    </group>
+  </population>
+
+  <population Name="TQAQ_TemperateDrekir">
+    <group Name="Creatures" Style="pickeach">
+      <object Chance="100" Number="1-3" Blueprint="TQAQ_Drekir_Temperate" />
+      <object Chance="75" Number="1-3" Blueprint="TQAQ_Drekir_Hiker_Temperate" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Drekir_Peltast_Temperate" />
+      <object Chance="15" Number="1" Blueprint="TQAQ_Drekir_Fighter_Temperate" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Drekir_Archer_Temperate" />
+      <object Chance="15" Number="1" Blueprint="TQAQ_Drekir_Mage_Temperate" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Drekir_Jezailer_Temperate" />
+      <table Name="HumanoidEnvironmentFeatures" Chance="25" />
+      <table Name="TQAQ_TemperateDrekir" Chance="10" />
+    </group>
+  </population>
+
+  <population Name="TQAQ_Dralkir">
+    <group Name="Creatures" Style="pickeach">
+      <object Chance="100" Number="1-3" Blueprint="TQAQ_Dralkir_Sivilao" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Dralkir_Peltast" />
+      <object Chance="15" Number="1" Blueprint="TQAQ_Dralkir_Fighter" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Dralkir_Archer" />
+      <object Chance="15" Number="1" Blueprint="TQAQ_Dralkir_Mage" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Dralkir_Jezailer" />
+      <table Name="HumanoidEnvironmentFeatures" Chance="25" />
+      <table Name="TQAQ_TemperateDrekir" Chance="10" />
+    </group>
+  </population>
+
+  <population Name="TQAQ_TemperateOrmer">
+    <group Name="Creatures" Style="pickeach">
+      <object Chance="100" Number="1-3" Blueprint="TQAQ_Ormer_Temperate" />
+      <object Chance="75" Number="1-3" Blueprint="TQAQ_Ormer_Hiker_Temperate" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Ormer_Slinger_Temperate" />
+      <object Chance="15" Number="1" Blueprint="TQAQ_Ormer_Warrior_Temperate" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Ormer_Axe_Thrower_Temperate" />
+      <object Chance="15" Number="1" Blueprint="TQAQ_Ormer_Mage_Temperate" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Ormer_Cannoneer_Temperate" />
+      <table Name="HumanoidEnvironmentFeatures" Chance="25" />
+      <table Name="TQAQ_TemperateDrekir" Chance="10" />
+    </group>
+  </population>
+
+  <population Name="WatervineCreatures" Load="Merge">
+    <group Name="Creatures">
+      <table Weight="1" Name="TQAQ_TemperateDrekir" />
+      <table Weight="1" Name="TQAQ_TemperateOrmer" />
+      <table Weight="1" Name="TQAQ_Dralkir" />
+    </group>
+  </population>
+
+  <population Name="FlowerfieldCreatures" Load="Merge">
+    <group Name="Creatures">
+      <table Weight="1" Name="TQAQ_TemperateDrekir" />
+      <table Weight="1" Name="TQAQ_TemperateOrmer" />
+      <table Weight="1" Name="TQAQ_Dralkir" />
+    </group>
+  </population>
+
+  <population Name="DesertCanyonCreatures" Load="Merge">
+    <group Name="Creatures">
+      <table Weight="1" Name="TQAQ_Dralkir" />
+    </group>
+  </population>
+  
+  <population Name="HillCreatures" Load="Merge">
+    <group Name="Creatures" Style="pickone">
+      <table Weight="1" Name="TQAQ_Dralkir" />
+    </group>
+  </population>
+
+  <population Name="MountainCreatures" Load="Merge">
+    <group Name="Creatures">
+      <table Weight="1" Name="TQAQ_Dralkir" />
+    </group>
+  </population>
+
+  <population Name="SaltDuneCreatures" Load="Merge">
+    <group Name="Creatures">
+      <group Name="Drekir" Style="pickeach" Weight="2">
+        <table Weight="1" Name="TQAQ_Dralkir" />
+      </group>
+    </group>
+  </population>
+
+  <population Name="JungleCreatures" Load="Merge">
+    <group Name="Creatures">
+      <table Weight="1" Name="TQAQ_Dralkir" />
+    </group>
+  </population>
+
   <population Name="TQAQ_Weapons_Melee">
     <group Name="Items" Style="pickone">
       <object Blueprint="Mace2" Number="1" />
@@ -125,6 +241,19 @@
       <object Blueprint="Witchwood Bark" Number="3-4" />
     </group>
   </population>
+
+  <population Name="StartingGear_EldimorFighter_Sivilao">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Common" />
+	  <table Name="StartingGear_Sivilao" />
+	  <table Name="TQAQ_Weapons_Melee" />
+      <object Blueprint="HalfFullWaterskin" Number="1" />
+	  <object Blueprint="Wooden Buckler" Number="1" />
+      <object Blueprint="Bear Jerky" Number="8-10" />
+      <object Blueprint="ThrowingAxe" Number="4-6" />
+      <object Blueprint="Witchwood Bark" Number="3-4" />
+    </group>
+  </population>
   
   <population Name="StartingGear_EldimorFighter_Mavotur">
     <group Name="Items" Style="pickeach">
@@ -159,10 +288,36 @@
     </group>
   </population>
 
+  <population Name="StartingGear_EldimorArcher_Sivilao">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Common" />
+	  <table Name="StartingGear_Sivilao" />
+      <object Blueprint="HalfFullWaterskin" Number="1" />
+	  <object Blueprint="Wooden Buckler" Number="1" />
+      <object Blueprint="Bear Jerky" Number="8-10" />
+      <object Blueprint="Short Bow" Number="1" />
+      <object Blueprint="Wooden Arrow" Number="30-50" />
+      <object Blueprint="Witchwood Bark" Number="3-4" />
+    </group>
+  </population>
+
   <population Name="StartingGear_EldimorGunner">
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
 	  <table Name="StartingGear_EldimorArmour" />
+      <object Blueprint="HalfFullWaterskin" Number="1" />
+	  <object Blueprint="Wooden Buckler" Number="1" />
+      <object Blueprint="Bear Jerky" Number="8-10" />
+      <object Blueprint="TQAQ_Cannon_small" Number="1" />
+      <object Blueprint="TQAQ_LeadCannonBall_Small" Number="30-50" />
+      <object Blueprint="Witchwood Bark" Number="3-4" />
+    </group>
+  </population>
+
+  <population Name="StartingGear_EldimorGunner_Sivilao">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Common" />
+	  <table Name="StartingGear_Sivilao" />
       <object Blueprint="HalfFullWaterskin" Number="1" />
 	  <object Blueprint="Wooden Buckler" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
