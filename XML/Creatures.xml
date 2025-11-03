@@ -4,7 +4,7 @@
   <!--Bases-->
 
   <object Name="BaseDrekir" Inherits="BaseHumanoid">
-    <part Name="Render" DisplayName="Drek" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" RenderString="d" ColorString="&amp;w" DetailColor="g" />
+    <part Name="Render" DisplayName="Drek" Tile="DrekHiker.png" RenderString="d" ColorString="&amp;w" DetailColor="g" />
     <part Name="Brain" Factions="Eldimor-100" />
 	<part Name="Body" Anatomy="TailedBiped" />
 	<stat Name="Strength" Value="10" />
@@ -22,7 +22,7 @@
   </object>
 
   <object Name="BaseOrmer" Inherits="BaseHumanoid">
-    <part Name="Render" DisplayName="Orm" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp" RenderString="O" ColorString="&amp;w" DetailColor="g" />
+    <part Name="Render" DisplayName="Orm" Tile="OrmHiker.png" RenderString="O" ColorString="&amp;w" DetailColor="g" />
     <part Name="Brain" Factions="Eldimor-100" />
 	<part Name="Body" Anatomy="TailedBiped" />
 	<stat Name="Strength" Value="12" />
@@ -39,7 +39,7 @@
   </object>
 
   <object Name="BaseMavotur" Inherits="BaseHumanoid">
-    <part Name="Render" DisplayName="Mavot" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" RenderString="M" ColorString="&amp;w" DetailColor="g" />
+    <part Name="Render" DisplayName="Mavot" Tile="MavotLibrarian.png" RenderString="M" ColorString="&amp;w" DetailColor="g" />
     <part Name="Brain" Factions="Eldimor-100" />
 	<part Name="Body" Anatomy="TailedBiped" />
 	<stat Name="Strength" Value="10" />
@@ -50,6 +50,7 @@
     <stat Name="Ego" Value="12" />
     <part Name="ConversationScript" ConversationID="Mavotur" />
     <mutation Name="HeightenedSmell" Level="1" />
+    <mutation Name="LeyShifting" />
     <mutation Name="SensePsychic" Level="1" />
     <mutation Name="SunderMind" Level="1" />
     <mutation Name="Telepathy" Level="1" />
@@ -79,13 +80,51 @@
   </object>
 
   <object Name="TQAQ_Drekir_Peltast_Temperate" Inherits="TQAQ_Drekir_Temperate">
-    <part Name="Render" DisplayName="Temperate Drek Peltast"/>
+    <part Name="Render" DisplayName="Temperate Drek Peltast" Tile="DrekPeltast.png"/>
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Shield" />
 	<skill Name="ShortBlades" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorPeltast" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Fighter_Temperate" Inherits="TQAQ_Drekir_Temperate">
+    <part Name="Render" DisplayName="Temperate Drek Fighter" Tile="DrekFighter.png"/>
+	<stat Name="Agility" Boost="1" />
+	<stat Name="Strength'" Boost="1" />
+	<stat Name="Toughness" Boost="1" />
+	<skill Name="Axe" />
+    <skill Name="Cudgel" />
+    <skill Name="LongBlades" />
+    <skill Name="Shield" />
+    <skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Archer_Temperate" Inherits="TQAQ_Drekir_Temperate">
+    <part Name="Render" DisplayName="Temperate Drek Peltast" Tile="DrekArcher.png"/>
+	<stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Rifles" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArcher" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Mage_Temperate" Inherits="TQAQ_Drekir_Temperate">
+    <part Name="Render" DisplayName="Temperate Orm Mage" Tile="OrmMage.png"/>
+	<stat Name="Ego" Boost="3" />
+	<skill Name="CookingAndGathering" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorAxeThrower" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Jezailer_Temperate" Inherits="TQAQ_Drekir_Temperate">
+    <part Name="Render" DisplayName="Temperate Drek Jezailer" Tile="DrekJezailer.png"/>
+	<stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Rifles" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorGunner" />
   </object>
 
   <object Name="TQAQ_Dralkir" Inherits="BaseDrekir">
@@ -103,7 +142,7 @@
   </object>
 
   <object Name="TQAQ_Dralkir_Peltast" Inherits="TQAQ_Dralkir">
-    <part Name="Render" DisplayName="Dralk Peltast"/>
+    <part Name="Render" DisplayName="Dralk Peltast" Tile="DrekPeltast.png"/>
 	<part Name="Brain" Factions="Sivilao-100" />
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
@@ -130,41 +169,89 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
   </object>
 
-  <object Name="TQAQ_Ormer_Peltast_Temperate" Inherits="TQAQ_Ormer_Temperate">
-    <part Name="Render" DisplayName="Temperate Orm Peltast"/>
-	<stat Name="Agility" Boost="3" />
+  <object Name="TQAQ_Ormer_Slinger_Temperate" Inherits="TQAQ_Ormer_Temperate">
+    <part Name="Render" DisplayName="Temperate Orm Slinger" Tile="OrmSlinger.png"/>
+	<stat Name="Strength" Boost="2" />
+	<stat Name="Agility" Boost="1" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
-	<skill Name="Shield" />
-	<skill Name="ShortBlades" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorPeltast" />
+	<skill Name="Cudgel" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorSlinger" />
   </object>
 
-  <object Name="TQAQ_Mavotur_Temperate" Inherits="BaseMavotur">
-    <part Name="Render" DisplayName="Temperate Mavot" ColorString="&amp;w" DetailColor="g" />
-	<stat Name="ColdResistance" Value="15" />
-    <stat Name="HeatResistance" Value="15" />
+  <object Name="TQAQ_Ormer_Warrior_Temperate" Inherits="TQAQ_Ormer_Temperate">
+    <part Name="Render" DisplayName="Temperate Orm Warrior" Tile="OrmWarrior.png"/>
+	<stat Name="Agility" Boost="1" />
+	<stat Name="Strength'" Boost="1" />
+	<stat Name="Toughness" Boost="1" />
+	<skill Name="Axe" />
+    <skill Name="Cudgel" />
+    <skill Name="LongBlades" />
+    <skill Name="Shield" />
+    <skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Axe_Thrower_Temperate" Inherits="TQAQ_Ormer_Temperate">
+    <part Name="Render" DisplayName="Temperate Orm Axe Thrower" Tile="OrmAxeThrower.png"/>
+	<stat Name="Strength" Boost="2" />
+	<stat Name="Agility" Boost="1" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Cudgel" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorAxeThrower" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Mage_Temperate" Inherits="TQAQ_Ormer_Temperate">
+    <part Name="Render" DisplayName="Temperate Orm Mage" Tile="OrmMage.png"/>
+	<stat Name="Ego" Boost="3" />
+	<skill Name="CookingAndGathering" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorAxeThrower" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Cannoneer_Temperate" Inherits="TQAQ_Ormer_Temperate">
+    <part Name="Render" DisplayName="Temperate Orm Cannoneer" Tile="OrmCannoneer.png"/>
+	<stat Name="Strength" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="HeavyWeapons" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorCannoneer" />
+  </object>
+
+  <object Name="TQAQ_Mavotur" Inherits="BaseMavotur">
+    <part Name="Render" DisplayName="Mavot" ColorString="&amp;W" DetailColor="C" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager_Mavotur" />
-	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
+	<tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
+    <tag Name="DynamicObjectsTable:Jungle_Creatures" />
+    <tag Name="DynamicObjectsTable:Hills_Creatures" />
     <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
+	<tag Name="DynamicObjectsTable:DeepJungle_Creatures" />
+	<tag Name="DynamicObjectsTable:Mountains_Creatures" />
+	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
   </object>
 
-  <object Name="TQAQ_Mavotur_Hiker_Temperate" Inherits="TQAQ_Mavotur_Temperate">
-    <part Name="Render" DisplayName="Temperate Mavot Hiker"/>
-	<skill Name="Survival" />
-	<skill Name="Survival_SaltmarshSurvival" />
-	<skill Name="Survival_PlainsSurvival" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker_Mavotur" />
+  <object Name="TQAQ_Mavotur_Librarian" Inherits="TQAQ_Mavotur">
+    <part Name="Render" DisplayName="Mavot Librarian"/>
+	<stat Name="Intelligence" Boost="3" />
+	<skill Name="Tinkering" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorLibrarian_Mavotur" />
   </object>
 
-  <object Name="TQAQ_Mavotur_Peltast_Temperate" Inherits="TQAQ_Mavotur_Temperate">
-    <part Name="Render" DisplayName="Temperate Mavot Peltast"/>
-	<stat Name="Agility" Boost="3" />
+  <object Name="TQAQ_Mavotur_Bard" Inherits="TQAQ_Mavotur">
+    <part Name="Render" DisplayName="Mavot Bard" Tile="MavotBard.png"/>
+	<stat Name="Ego" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
-    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="CookingAndGathering" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage_Mavotur" />
+  </object>
+
+  <object Name="TQAQ_Mavotur_Commander" Inherits="TQAQ_Mavotur">
+    <part Name="Render" DisplayName="Mavot Commander" Tile="MavotCommander.png"/>
+	<stat Name="Strength" Boost="1" />
+	<stat Name="Toughness" Boost="2" />
 	<skill Name="Shield" />
 	<skill Name="ShortBlades" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorPeltast_Mavotur" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter_Mavotur" />
   </object>
 
 </objects>

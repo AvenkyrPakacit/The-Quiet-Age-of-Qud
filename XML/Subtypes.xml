@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <subtypes>
-  <class ID="Drekir" ChargenTitle="choose origin" SingularTitle="origin">
+  <class ID="Drekir" ChargenTitle="choose breed" SingularTitle="breed">
     <category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
-	<subtype Name="Temperate Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" DetailColor="g">
+	<subtype Name="Temperate Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="DrekHiker.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
       <skills>
@@ -11,20 +11,58 @@
 		<skill Name="Survival_PlainsSurvival" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp" DetailColor="g">
+	<subtype Name="Temperate Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="DrekPeltast.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
 	  <stat Name="Agility" Bonus="3" />
       <skills>
         <skill Name="Shield" />
         <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Temperate Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="DrekFighter.png" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
+	  <stat Name="Agility" Bonus="1" />
+	  <stat Name="Strength" Bonus="1" />
+	  <stat Name="Toughness" Bonus="1" />
+      <skills>
+        <skill Name="Axe" />
+        <skill Name="Cudgel" />
+        <skill Name="LongBlades" />
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Temperate Drek Archer" Gear="StartingGear_EldimorArcher" Tile="DrekArcher.png" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Rifles" />
+      </skills>
+    </subtype>
+	<subtype Name="Temperate Drek Mage" Gear="StartingGear_EldimorMage" Tile="DrekMage.png" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
+	  <stat Name="Ego" Bonus="3" />
+      <skills>
+        <skill Name="CookingAndGathering" />
+      </skills>
+    </subtype>
+	<subtype Name="Temperate Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="DrekJezailer.png" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Rifles" />
       </skills>
     </subtype>
 	</category>
   </class>
-	<class ID="Ormer" ChargenTitle="choose origin" SingularTitle="origin">
+	<class ID="Ormer" ChargenTitle="choose breed" SingularTitle="breed">
     <category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
-    <subtype Name="Temperate Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp" DetailColor="g">
+    <subtype Name="Temperate Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="OrmHiker.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
       <skills>
@@ -33,37 +71,79 @@
 		<skill Name="Survival_PlainsSurvival" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Orm Peltast" Gear="StartingGear_EldimorPeltast" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp" DetailColor="g">
+	<subtype Name="Temperate Orm Slinger" Gear="StartingGear_EldimorSlinger" Tile="OrmSlinger.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
-	  <stat Name="Agility" Bonus="3" />
+	  <stat Name="Strength" Bonus="2" />
+	  <stat Name="Agility" Bonus="1" />
       <skills>
+        <skill Name="Cudgel" />
+      </skills>
+    </subtype>
+	<subtype Name="Temperate Orm Warrior" Gear="StartingGear_EldimorFighter" Tile="OrmWarrior.png" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
+	  <stat Name="Agility" Bonus="1" />
+	  <stat Name="Strength" Bonus="1" />
+	  <stat Name="Toughness" Bonus="1" />
+      <skills>
+        <skill Name="Axe" />
+        <skill Name="Cudgel" />
+        <skill Name="LongBlades" />
         <skill Name="Shield" />
         <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Temperate Orm Axe Thrower" Gear="StartingGear_EldimorAxeThrower" Tile="OrmAxeThrower.png" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
+	  <stat Name="Agility" Bonus="1" />
+	  <stat Name="Strength" Bonus="2" />
+      <skills>
+        <skill Name="Cudgel" />
+      </skills>
+    </subtype>
+	<subtype Name="Temperate Orm Mage" Gear="StartingGear_EldimorMage" Tile="OrmMage.png" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
+	  <stat Name="Ego" Bonus="3" />
+      <skills>
+        <skill Name="CookingAndGathering" />
+      </skills>
+    </subtype>
+	<subtype Name="Temperate Orm Cannoneer" Gear="StartingGear_EldimorCannoneer" Tile="OrmCannoneer.png" DetailColor="g">
+      <stat Name="ColdResistance" Bonus="15" />
+	  <stat Name="HeatResistance" Bonus="15" />
+	  <stat Name="Strength" Bonus="3" />
+      <skills>
+        <skill Name="HeavyWeapons" />
       </skills>
     </subtype>
 	</category>
   </class>
-	<class ID="Mavotur" ChargenTitle="choose origin" SingularTitle="origin">
-    <category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
-    <subtype Name="Temperate Mavot Hiker" Gear="StartingGear_EldimorHiker_Mavotur" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="g">
-      <stat Name="ColdResistance" Bonus="15" />
-	  <stat Name="HeatResistance" Bonus="15" />
+	<class ID="Mavotur" ChargenTitle="choose occupation" SingularTitle="occupation">
+    <subtype Name="Mavot Librarian" Gear="StartingGear_EldimorLibrarian_Mavotur" Tile="MavotLibrarian.png" DetailColor="C">
+	  <stat Name="Intelligence" Bonus="3" />
       <skills>
-        <skill Name="Survival" />
-        <skill Name="Survival_SaltmarshSurvival" />
-		<skill Name="Survival_PlainsSurvival" />
+        <skill Name="Tinkering" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Mavot Peltast" Gear="StartingGear_EldimorPeltast_Mavotur" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp" DetailColor="g">
-      <stat Name="ColdResistance" Bonus="15" />
-	  <stat Name="HeatResistance" Bonus="15" />
-	  <stat Name="Agility" Bonus="3" />
+	<subtype Name="Mavot Bard" Gear="StartingGear_EldimorMage_Mavotur" Tile="MavotBard.png" DetailColor="C">
+	  <stat Name="Ego" Bonus="3" />
       <skills>
+        <skill Name="CookingAndGathering" />
+      </skills>
+    </subtype>
+	<subtype Name="Mavot Commander" Gear="StartingGear_EldimorFighter_Mavotur" Tile="MavotCommander.png" DetailColor="C">
+	  <stat Name="Strength" Bonus="1" />
+	  <stat Name="Toughness" Bonus="2" />
+      <skills>
+        <skill Name="Axe" />
+        <skill Name="Cudgel" />
+        <skill Name="LongBlades" />
         <skill Name="Shield" />
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	</category>
   </class>
 </subtypes>

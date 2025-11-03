@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <genotypes>
   <genotype Name="Drekir" MutationPoints="12" StatPoints="44" AllowedMutationCategories="*"
-    RandomWeight="10" DisplayName="Drekir" Subtypes="Drekir" Class="" Tile="Assets_Content_Textures_Creatures_sw_snapjaw.bmp"
-    DetailColor="R" BodyObject="EldimorBodyDrekir" BaseHPGain="1-4" BaseSPGain="50" BaseMPGain="1" Species="eldimor"
+    RandomWeight="10" DisplayName="Drekir" Subtypes="Drekir" Class="" Tile="DrekHiker.png"
+    DetailColor="C" BodyObject="EldimorBodyDrekir" BaseHPGain="1-4" BaseSPGain="50" BaseMPGain="1" Species="eldimor"
     IsMutant="true" CharacterBuilderModules="">
     <!-- Stats -->
     <stat Name="Strength" Minimum="10" Maximum="24" ChargenDescription="Your {{W|Strength}} score determines how effectively you penetrate your opponents' armor with melee attacks, how much damage your melee attacks do, your ability to resist forced movement, and your carry capacity."/>
@@ -29,8 +29,8 @@
     <extrainfo>Friendly reputation with {{C|the Eldimor}}</extrainfo>
   </genotype>
   <genotype Name="Ormer" MutationPoints="12" StatPoints="44" AllowedMutationCategories="*"
-    RandomWeight="10" DisplayName="Ormer" Subtypes="Ormer" Class="" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_bruiser.bmp"
-    DetailColor="R" BodyObject="EldimorBodyOrmer" BaseHPGain="1-4" BaseSPGain="50" BaseMPGain="1" Species="eldimor"
+    RandomWeight="10" DisplayName="Ormer" Subtypes="Ormer" Class="" Tile="OrmHiker.png"
+    DetailColor="C" BodyObject="EldimorBodyOrmer" BaseHPGain="1-4" BaseSPGain="50" BaseMPGain="1" Species="eldimor"
     IsMutant="true" CharacterBuilderModules="">
     <!-- Stats -->
     <stat Name="Strength" Minimum="12" Maximum="24" ChargenDescription="Your {{W|Strength}} score determines how effectively you penetrate your opponents' armor with melee attacks, how much damage your melee attacks do, your ability to resist forced movement, and your carry capacity."/>
@@ -56,8 +56,8 @@
     <extrainfo>Friendly reputation with {{C|the Eldimor}}</extrainfo>
   </genotype>
   <genotype Name="Mavotur" MutationPoints="12" StatPoints="44" AllowedMutationCategories="*"
-    RandomWeight="10" DisplayName="Mavotur" Subtypes="Mavotur" Class="" Tile="Assets_Content_Textures_Creatures_sw_snapjaw_gunner.bmp"
-    DetailColor="R" BodyObject="EldimorBodyMavotur" BaseHPGain="1-4" BaseSPGain="50" BaseMPGain="1" Species="eldimor"
+    RandomWeight="10" DisplayName="Mavotur" Subtypes="Mavotur" Class="" Tile="MavotCommander.png"
+    DetailColor="C" BodyObject="EldimorBodyMavotur" BaseHPGain="1-4" BaseSPGain="50" BaseMPGain="1" Species="eldimor"
     IsMutant="true" CharacterBuilderModules="">
     <!-- Stats -->
     <stat Name="Strength" Minimum="10" Maximum="24" ChargenDescription="Your {{W|Strength}} score determines how effectively you penetrate your opponents' armor with melee attacks, how much damage your melee attacks do, your ability to resist forced movement, and your carry capacity."/>
@@ -78,6 +78,7 @@
     <extrainfo>Mutations</extrainfo>
     <extrainfo>Starts with Heightened Smell, Sunder Mind, and Wings</extrainfo>
 	<extrainfo>Can sense psychics, and are telepathic.</extrainfo>
+	<extrainfo>They can shift their enviroment.</extrainfo>
     <extrainfo>Moderate starting attributes</extrainfo>
 	<extrainfo>Higher Intelligence and Ego</extrainfo>
     <extrainfo>-600 reputation with {{C|the Putus Templar}}</extrainfo>

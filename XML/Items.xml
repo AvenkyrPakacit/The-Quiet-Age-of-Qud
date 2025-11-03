@@ -24,7 +24,7 @@
   <!--Armor-->
 
   <object Name="TQAQ_Chest_Stal" Inherits="BaseArmor">
-    <part Name="Render" DisplayName="{{C|Stal}} chestplate" Tile="Items/sw_chest_hightier2.bmp" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" RenderString="]" />
+    <part Name="Render" DisplayName="{{C|Stal}} chestplate" Tile="Items/sw_chest_hightier1.bmp" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" RenderString="]" />
     <part Name="Description" Short="." />
     <part Name="Armor" AV="8" DV="-2" WornOn="Body" />
     <part Name="Physics" Weight="18" />
@@ -35,7 +35,7 @@
   </object>
 
   <object Name="TQAQ_Feet_Stal" Inherits="BaseBoot">
-    <part Name="Render" DisplayName="{{C|Stal}} greaves" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" Tile="Items/sw_boots_hightier2.bmp" RenderString="]" />
+    <part Name="Render" DisplayName="{{C|Stal}} greaves" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" Tile="Items/sw_boots_hightier1.bmp" RenderString="]" />
     <part Name="Description" Short="." />
     <part Name="Armor" AV="4" DV="0" WornOn="Feet" />
     <part Name="Physics" Weight="5" />
@@ -46,7 +46,7 @@
   </object>
 
   <object Name="TQAQ_Hands_Stal" Inherits="BaseGlove">
-    <part Name="Render" DisplayName="{{C|Stal}} gauntlets" RenderString="]" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" Tile="Items/sw_gauntlets_hightier2.bmp" />
+    <part Name="Render" DisplayName="{{C|Stal}} gauntlets" RenderString="]" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" Tile="Items/sw_gauntlets_hightier1.bmp" />
     <part Name="Description" Short="." />
     <part Name="Armor" AV="4" DV="0" WornOn="Hands" />
     <part Name="Physics" Weight="5" />
@@ -57,7 +57,7 @@
   </object>
 
   <object Name="TQAQ_Head_Stal" Inherits="BaseHelmet">
-    <part Name="Render" DisplayName="{{C|Stal}} helm" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" Tile="Items/sw_helm_hightier2.bmp" RenderString="]" />
+    <part Name="Render" DisplayName="{{C|Stal}} helm" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" Tile="Items/sw_helm_hightier1.bmp" RenderString="]" />
     <part Name="Description" Short="." />
     <part Name="Armor" AV="4" DV="0" WornOn="Head" />
     <part Name="Commerce" Value="750" />
@@ -68,9 +68,30 @@
 	<tag Name="EquipSound" Value="sfx_equip_armor_metal_quantum" />
   </object>
 
+  <!--Guns-->
+
+  <object Name="TQAQ_Cannon" Inherits="BaseMagazineRifle">
+    <part Name="Render" DisplayName="cannon" Tile="Items/sw_musket.bmp" />
+    <part Name="Physics" Weight="50" UsesTwoSlots="true" />
+    <part Name="Commerce" Value="34" />
+    <part Name="MissileWeapon" Skill="HeavyWeapons" ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="12" />
+    <part Name="MagazineAmmoLoader" ProjectileObject="TQAQ_ProjectileCannonBall" AmmoPart="AmmoSlug" MaxAmmo="1" />
+    <part Name="Description" Short="A smoothbore barrel of found steel is blackened by pocks of gunpowder mess." />
+    <part Name="Metal" />
+    <part Name="TinkerItem" Bits="002" CanDisassemble="true" CanBuild="true" />
+    <tag Name="Tier" Value="1" />
+    <tag Name="MissileFireSound" Value="Sounds/Missile/Fires/Rifles/sfx_missile_musket_fire" />
+	  <tag Name="ReloadSound" Value="Sounds/Missile/Reloads/sfx_missile_musket_reload" />
+    <tag Name="DynamicObjectsTable:Guns" />
+		<stag Name="Contemporary" />
+  </object>
+  <object Name="TQAQ_ProjectileCannonBall" Inherits="BaseLeadSlugProjectile">
+    <part Name="Projectile" BasePenetration="8" BaseDamage="2d8" />
+  </object>
+
   <!--Spears-->
 
-  <object Name="TQAQ_ThrowingSpear__Bronze" Inherits="BaseDagger">
+  <object Name="TQAQ_ThrowingSpear_Bronze" Inherits="BaseDagger">
     <part Name="Render" DisplayName="{{w|bronze}} throwing spear" Tile="Items/sw_shortblade_1.bmp" ColorString="&amp;w" />
     <part Name="MeleeWeapon" MaxStrengthBonus="1" BaseDamage="1d2" />
     <part Name="ThrownWeapon" Penetration="1" Damage="1d2" Attributes="ShortBlades" />
@@ -82,7 +103,7 @@
 		<stag Name="Contemporary" />
   </object>
 
-  <object Name="TQAQ_Spear__Bronze" Inherits="TQAQ_ThrowingSpear__Bronze">
+  <object Name="TQAQ_Spear_Bronze" Inherits="TQAQ_ThrowingSpear_Bronze">
     <part Name="Render" DisplayName="{{w|bronze}} spear" Tile="Items/sw_shortblade_1.bmp" ColorString="&amp;w" />
     <tag Name="NoAIEquipAsThrownWeapon" />
     <tag Name="HideThrownWeaponPerformance" />

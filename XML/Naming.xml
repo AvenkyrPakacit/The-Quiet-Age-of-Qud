@@ -13,10 +13,20 @@
         <scope Name="Species" Species="eldimor" Priority="50" Combine="true" />
 		<scope Name="Subtype1" Subtype="Temperate Drek Hiker" Priority="50" Combine="true" />
 		<scope Name="Subtype2" Subtype="Temperate Orm Hiker" Priority="50" Combine="true" />
-		<scope Name="Subtype3" Subtype="Temperate Mavot Hiker" Priority="50" Combine="true" />
+		<scope Name="Subtype3" Subtype="Mavot Librarian" Priority="50" Combine="true" />
 		<scope Name="Subtype4" Subtype="Temperate Drek Peltast" Priority="50" Combine="true" />
-		<scope Name="Subtype5" Subtype="Temperate Orm Peltast" Priority="50" Combine="true" />
+		<scope Name="Subtype5" Subtype="Temperate Orm Slinger" Priority="50" Combine="true" />
 		<scope Name="Subtype6" Subtype="Temperate Mavot Peltast" Priority="50" Combine="true" />
+		<scope Name="Subtype7" Subtype="Temperate Drek Fighter" Priority="50" Combine="true" />
+		<scope Name="Subtype8" Subtype="Temperate Orm Warrior" Priority="50" Combine="true" />
+		<scope Name="Subtype9" Subtype="Mavot Bard" Priority="50" Combine="true" />
+		<scope Name="Subtype10" Subtype="Mavot Commander" Priority="50" Combine="true" />
+		<scope Name="Subtype11" Subtype="Temperate Drek Archer" Priority="50" Combine="true" />
+		<scope Name="Subtype12" Subtype="Temperate Drek Mage" Priority="50" Combine="true" />
+		<scope Name="Subtype13" Subtype="Temperate Drek Jezailer" Priority="50" Combine="true" />
+		<scope Name="Subtype14" Subtype="Temperate Orm Axe Thrower" Priority="50" Combine="true" />
+		<scope Name="Subtype15" Subtype="Temperate Orm Mage" Priority="50" Combine="true" />
+		<scope Name="Subtype16" Subtype="Temperate Orm Cannoneer" Priority="50" Combine="true" />
       </scopes>
       <prefixes Amount="1">
         <prefix Name="Im" />
