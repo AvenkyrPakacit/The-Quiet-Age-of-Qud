@@ -3,19 +3,34 @@
 
   <!--Ammo-->
 
-  <object Name="TQAQ_LeadCannonBall" Inherits="Projectile">
-    <part Name="Render" DisplayName="lead cannonball" ColorString="&amp;w" DetailColor="y" Tile="items/sw_bullet.bmp" />
-    <part Name="TQAQ_AmmoCannon" ProjectileObject="TQAQ_ProjectileLeadCannonBall" />
+  <object Name="TQAQ_LeadCannonBall_Small" Inherits="Projectile">
+    <part Name="Render" DisplayName="small lead cannonball" ColorString="&amp;w" DetailColor="y" Tile="items/sw_bullet.bmp" />
+    <part Name="TQAQ_AmmoCannon" ProjectileObject="TQAQ_ProjectileLeadCannonBall_Small" />
     <part Name="Physics" Category="Ammo" Weight="2" />
-	  <part Name="Commerce" Value="6" />
-    <part Name="Description" Short="Lead is cast to a ball." />
+	<part Name="Commerce" Value="6" />
+    <part Name="Description" Short="Lead is cast to a small ball." />
     <part Name="TinkerItem" Bits="C" CanBuild="true" CanDisassemble="false" NumberMade="50" />
     <tag Name="AlwaysStack" Value="Yes" />
     <tag Name="DynamicObjectsTable:Ammo" />
     <tag Name="TurretStockExclusive" />
   </object>
-  <object Name="TQAQ_ProjectileLeadCannonBall" Inherits="BaseLeadSlugProjectile">
+  <object Name="TQAQ_ProjectileLeadCannonBall_Small" Inherits="BaseLeadSlugProjectile">
     <part Name="Projectile" BasePenetration="6" BaseDamage="2d6" />
+  </object>
+
+  <object Name="TQAQ_LeadCannonBall_Large" Inherits="Projectile">
+    <part Name="Render" DisplayName="large lead cannonball" ColorString="&amp;w" DetailColor="y" Tile="items/sw_bullet.bmp" />
+    <part Name="TQAQ_AmmoCannon" ProjectileObject="TQAQ_ProjectileLeadCannonBall_Large" />
+    <part Name="Physics" Category="Ammo" Weight="4" />
+	<part Name="Commerce" Value="12" />
+    <part Name="Description" Short="Lead is cast to a large ball." />
+    <part Name="TinkerItem" Bits="C" CanBuild="true" CanDisassemble="false" NumberMade="50" />
+    <tag Name="AlwaysStack" Value="Yes" />
+    <tag Name="DynamicObjectsTable:Ammo" />
+    <tag Name="TurretStockExclusive" />
+  </object>
+  <object Name="TQAQ_ProjectileLeadCannonBall_Large" Inherits="BaseLeadSlugProjectile">
+    <part Name="Projectile" BasePenetration="12" BaseDamage="4d6" />
   </object>
 
   <!--Natural-->
@@ -87,12 +102,12 @@
 
   <!--Guns-->
 
-  <object Name="TQAQ_Cannon" Inherits="BaseMagazineRifle">
-    <part Name="Render" DisplayName="cannon" Tile="Items/sw_musket.bmp" />
-    <part Name="Physics" Weight="50" UsesTwoSlots="true" />
-    <part Name="Commerce" Value="34" />
-    <part Name="MissileWeapon" Skill="HeavyWeapons" ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="12" />
-    <part Name="MagazineAmmoLoader" ProjectileObject="TQAQ_ProjectileCannonBall" AmmoPart="TQAQ_AmmoCannon" MaxAmmo="1" />
+  <object Name="TQAQ_Cannon_small" Inherits="BaseMagazineRifle">
+    <part Name="Render" DisplayName="small handgonne" Tile="Items/sw_musket.bmp" />
+    <part Name="Physics" Weight="25" UsesTwoSlots="true" />
+    <part Name="Commerce" Value="17" />
+    <part Name="MissileWeapon" Skill="Rifles" ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="12" />
+    <part Name="MagazineAmmoLoader" ProjectileObject="TQAQ_ProjectileCannonBall_Small" AmmoPart="TQAQ_AmmoCannon" MaxAmmo="1" />
     <part Name="Description" Short="A smoothbore barrel of found steel is blackened by pocks of gunpowder mess." />
     <part Name="Metal" />
     <part Name="TinkerItem" Bits="002" CanDisassemble="true" CanBuild="true" />
@@ -102,8 +117,27 @@
     <tag Name="DynamicObjectsTable:Guns" />
 		<stag Name="Contemporary" />
   </object>
-  <object Name="TQAQ_ProjectileCannonBall" Inherits="BaseLeadSlugProjectile">
+  <object Name="TQAQ_ProjectileCannonBall_Small" Inherits="BaseLeadSlugProjectile">
     <part Name="Projectile" BasePenetration="8" BaseDamage="2d8" />
+  </object>
+
+  <object Name="TQAQ_Cannon_Large" Inherits="BaseMagazineRifle">
+    <part Name="Render" DisplayName="large handgonne" Tile="Items/sw_musket.bmp" />
+    <part Name="Physics" Weight="50" UsesTwoSlots="true" />
+    <part Name="Commerce" Value="34" />
+    <part Name="MissileWeapon" Skill="HeavyWeapons" ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="12" />
+    <part Name="MagazineAmmoLoader" ProjectileObject="TQAQ_ProjectileCannonBall_Large" AmmoPart="TQAQ_AmmoCannon" MaxAmmo="1" />
+    <part Name="Description" Short="A smoothbore barrel of found steel is blackened by pocks of gunpowder mess." />
+    <part Name="Metal" />
+    <part Name="TinkerItem" Bits="002" CanDisassemble="true" CanBuild="true" />
+    <tag Name="Tier" Value="1" />
+    <tag Name="MissileFireSound" Value="Sounds/Missile/Fires/Rifles/sfx_missile_musket_fire" />
+	  <tag Name="ReloadSound" Value="Sounds/Missile/Reloads/sfx_missile_musket_reload" />
+    <tag Name="DynamicObjectsTable:Guns" />
+		<stag Name="Contemporary" />
+  </object>
+  <object Name="TQAQ_ProjectileCannonBall_Large" Inherits="BaseLeadSlugProjectile">
+    <part Name="Projectile" BasePenetration="16" BaseDamage="2d8" />
   </object>
 
   <!--Spears-->
