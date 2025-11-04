@@ -438,7 +438,7 @@ This was Hishkla's calling.
 To protect her family, as she left her clan to rubble." />
     <part Name="Pettable" />
     <property Name="Story" Value="TQAQ_Hishkla_Story" />
-    <tag Name="PetResponse" Value="groans,Don't" />
+    <tag Name="PetResponse" Value="groans,huffs,looks to you with displeasure" />
 	<tag Name="Gender" Value="female" />
     <xtagGrammar Proper="true" />
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
