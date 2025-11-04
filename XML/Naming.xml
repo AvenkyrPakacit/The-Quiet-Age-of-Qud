@@ -108,16 +108,24 @@
       </postfixes>
     </namestyle>
 
-	<namestyle Name="Eldimor Hero Title">
+	<namestyle Name="Eldimor Hero" Base="Eldimor">
       <scopes>
-        <scope Name="Main" Type="Title" Special="Hero" Faction="Eldimor" Priority="200" Combine="false" />
-        <scope Name="Culture" Type="Title" Special="Hero" Culture="Eldimor" Priority="150" Combine="true" />
+        <scope Name="Main" Special="Hero" Faction="Eldimor" Priority="200" Combine="false" />
       </scopes>
       <templates>
-        <template Name="*Title*" />
+        <template Name="*Name*" />
+      </templates>
+    </namestyle>
+
+	<namestyle Name="Eldimor Hero Epithet">
+      <scopes>
+        <scope Name="Main" Type="Epithet" Special="Hero" Faction="Eldimor" Priority="200" Combine="false" />
+      </scopes>
+      <templates>
+        <template Name="*Epithet*" />
       </templates>
       <templatevars>
-        <templatevar Name="Title">
+        <templatevar Name="Epithet">
           <value Name="the Champion" />
           <value Name="the Denhead" />
           <value Name="the Hiker" />
@@ -126,6 +134,25 @@
           <value Name="the Seer" />
           <value Name="the Shaman" />
           <value Name="the Wicca" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+
+	<namestyle Name="Eldimor Hero Title">
+      <scopes>
+        <scope Name="Main" Type="Title" Special="Hero" Faction="Eldimor" Priority="200" Combine="false" />
+      </scopes>
+      <templates>
+        <template Name="of Clan *Clan*" />
+      </templates>
+      <templatevars>
+        <templatevar Name="Clan">
+          <value Name="Hotur" />
+          <value Name="Ibex" />
+          <value Name="Sol" />
+          <value Name="Whitetongue" />
+          <value Name="Yr" />
+          <value Name="Mnim" />
         </templatevar>
       </templatevars>
     </namestyle>

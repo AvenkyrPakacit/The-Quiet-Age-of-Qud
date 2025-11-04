@@ -82,6 +82,13 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
   </object>
 
+  <object Name="TQAQ_Drekir_Hiker_Temperate_Hero" Inherits="TQAQ_Drekir_Hiker_Temperate" >
+    <part Name="Render" DisplayName="Temperate Drek Hero" ColorString="&amp;M" />
+	<builder Name="TQAQ_EldimorHero" />
+    <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
+    <part Name="GivesRep" />
+  </object>
+
   <object Name="TQAQ_Drekir_Peltast_Temperate" Inherits="TQAQ_Drekir_Temperate">
     <part Name="Render" DisplayName="Temperate Drek Peltast" Tile="DrekPeltast.png"/>
 	<stat Name="Agility" Boost="3" />
@@ -90,6 +97,13 @@
 	<skill Name="Shield" />
 	<skill Name="ShortBlades" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorPeltast" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Peltast_Temperate_Hero" Inherits="TQAQ_Drekir_Peltast_Temperate" >
+    <part Name="Render" DisplayName="Temperate Drek Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
+    <part Name="GivesRep" />
   </object>
 
   <object Name="TQAQ_Drekir_Fighter_Temperate" Inherits="TQAQ_Drekir_Temperate">
@@ -105,6 +119,13 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
   </object>
 
+  <object Name="TQAQ_Drekir_Fighter_Temperate_Hero" Inherits="TQAQ_Drekir_Fighter_Temperate" >
+    <part Name="Render" DisplayName="Temperate Drek Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
+    <part Name="GivesRep" />
+  </object>
+
   <object Name="TQAQ_Drekir_Archer_Temperate" Inherits="TQAQ_Drekir_Temperate">
     <part Name="Render" DisplayName="Temperate Drek Peltast" Tile="DrekArcher.png"/>
 	<stat Name="Agility" Boost="3" />
@@ -112,6 +133,13 @@
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Rifles" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArcher" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Archer_Temperate_Hero" Inherits="TQAQ_Drekir_Archer_Temperate" >
+    <part Name="Render" DisplayName="Temperate Drek Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
+    <part Name="GivesRep" />
   </object>
 
   <object Name="TQAQ_Drekir_Mage_Temperate" Inherits="TQAQ_Drekir_Temperate">
@@ -122,6 +150,13 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
   </object>
 
+  <object Name="TQAQ_Drekir_Mage_Temperate_Hero" Inherits="TQAQ_Drekir_Mage_Temperate" >
+    <part Name="Render" DisplayName="Temperate Drek Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
+    <part Name="GivesRep" />
+  </object>
+
   <object Name="TQAQ_Drekir_Jezailer_Temperate" Inherits="TQAQ_Drekir_Temperate">
     <part Name="Render" DisplayName="Temperate Drek Jezailer" Tile="DrekJezailer.png"/>
 	<stat Name="Agility" Boost="3" />
@@ -129,6 +164,13 @@
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Rifles" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorGunner" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Jezailer_Temperate_Hero" Inherits="TQAQ_Drekir_Jezailer_Temperate" >
+    <part Name="Render" DisplayName="Temperate Drek Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
+    <part Name="GivesRep" />
   </object>
 
   <object Name="TQAQ_Dralkir" Inherits="BaseDrekir">
@@ -150,9 +192,8 @@
 	<part Name="Brain" Factions="Sivilao-100" />
   </object>
 
-  <object Name="TQAQ_Dralkir_Peltast" Inherits="TQAQ_Dralkir">
+  <object Name="TQAQ_Dralkir_Peltast" Inherits="TQAQ_Dralkir_Sivilao">
     <part Name="Render" DisplayName="Dralk Peltast" Tile="DrekPeltast.png"/>
-	<part Name="Brain" Factions="Sivilao-100" />
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
@@ -161,9 +202,14 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_SivilaoPeltast" />
   </object>
 
-  <object Name="TQAQ_Dralkir_Fighter" Inherits="TQAQ_Dralkir">
+  <object Name="TQAQ_Dralkir_Peltast_Hero" Inherits="TQAQ_Dralkir_Peltast" >
+    <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Fighter" Inherits="TQAQ_Dralkir_Sivilao">
     <part Name="Render" DisplayName="Dralk Fighter" Tile="DrekFighter.png"/>
-	<part Name="Brain" Factions="Sivilao-100" />
 	<stat Name="Agility" Boost="1" />
 	<stat Name="Strength'" Boost="1" />
 	<stat Name="Toughness" Boost="1" />
@@ -175,9 +221,14 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter_Sivilao" />
   </object>
 
-  <object Name="TQAQ_Dralkir_Archer" Inherits="TQAQ_Dralkir">
+  <object Name="TQAQ_Dralkir_Fighter_Hero" Inherits="TQAQ_Dralkir_Fighter" >
+    <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Archer" Inherits="TQAQ_Dralkir_Sivilao">
     <part Name="Render" DisplayName="Dralk Peltast" Tile="DrekArcher.png"/>
-	<part Name="Brain" Factions="Sivilao-100" />
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
@@ -185,23 +236,39 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArcher_Sivilao" />
   </object>
 
-  <object Name="TQAQ_Dralkir_Mage" Inherits="TQAQ_Dralkir">
+  <object Name="TQAQ_Dralkir_Archer_Hero" Inherits="TQAQ_Dralkir_Archer" >
+    <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Mage" Inherits="TQAQ_Dralkir_Sivilao">
     <part Name="Render" DisplayName="Dralk Mage" Tile="DrekMage.png"/>
 	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
-	<part Name="Brain" Factions="Sivilao-100" />
 	<stat Name="Ego" Boost="3" />
 	<skill Name="CookingAndGathering" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
   </object>
 
-  <object Name="TQAQ_Dralkir_Jezailer" Inherits="TQAQ_Dralkir">
+  <object Name="TQAQ_Dralkir_Mage_Hero" Inherits="TQAQ_Dralkir_Mage" >
+    <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Jezailer" Inherits="TQAQ_Dralkir_Sivilao">
     <part Name="Render" DisplayName="Dralk Jezailer" Tile="DrekJezailer.png"/>
-	<part Name="Brain" Factions="Sivilao-100" />
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Rifles" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorGunner_Sivilao" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Jezailer_Hero" Inherits="TQAQ_Dralkir_Jezailer">
+    <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
   </object>
 
   <object Name="TQAQ_Ormer_Temperate" Inherits="BaseOrmer">
@@ -221,6 +288,12 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
   </object>
 
+  <object Name="TQAQ_Ormer_Hiker_Temperate_Hero" Inherits="TQAQ_Ormer_Hiker_Temperate" >
+    <part Name="Render" DisplayName="Temperate Orm Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
+  </object>
+
   <object Name="TQAQ_Ormer_Slinger_Temperate" Inherits="TQAQ_Ormer_Temperate">
     <part Name="Render" DisplayName="Temperate Orm Slinger" Tile="OrmSlinger.png"/>
 	<stat Name="Strength" Boost="2" />
@@ -229,6 +302,12 @@
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Cudgel" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorSlinger" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Slinger_Temperate_Hero" Inherits="TQAQ_Ormer_Slinger_Temperate" >
+    <part Name="Render" DisplayName="Temperate Orm Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
   </object>
 
   <object Name="TQAQ_Ormer_Warrior_Temperate" Inherits="TQAQ_Ormer_Temperate">
@@ -244,6 +323,12 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
   </object>
 
+  <object Name="TQAQ_Ormer_Warrior_Temperate_Hero" Inherits="TQAQ_Ormer_Warrior_Temperate" >
+    <part Name="Render" DisplayName="Temperate Orm Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
+  </object>
+
   <object Name="TQAQ_Ormer_Axe_Thrower_Temperate" Inherits="TQAQ_Ormer_Temperate">
     <part Name="Render" DisplayName="Temperate Orm Axe Thrower" Tile="OrmAxeThrower.png"/>
 	<stat Name="Strength" Boost="2" />
@@ -254,12 +339,24 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorAxeThrower" />
   </object>
 
+  <object Name="TQAQ_Ormer_Axe_Thrower_Temperate_Hero" Inherits="TQAQ_Ormer_Axe_Thrower_Temperate" >
+    <part Name="Render" DisplayName="Temperate Orm Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
+  </object>
+
   <object Name="TQAQ_Ormer_Mage_Temperate" Inherits="TQAQ_Ormer_Temperate">
     <part Name="Render" DisplayName="Temperate Orm Mage" Tile="OrmMage.png"/>
 	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
 	<stat Name="Ego" Boost="3" />
 	<skill Name="CookingAndGathering" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Mage_Temperate_Hero" Inherits="TQAQ_Ormer_Mage_Temperate" >
+    <part Name="Render" DisplayName="Temperate Orm Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
   </object>
 
   <object Name="TQAQ_Ormer_Cannoneer_Temperate" Inherits="TQAQ_Ormer_Temperate">
@@ -269,6 +366,12 @@
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="HeavyWeapons" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorCannoneer" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Cannoneer_Temperate_Hero" Inherits="TQAQ_Ormer_Cannoneer_Temperate" >
+    <part Name="Render" DisplayName="Temperate Orm Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
   </object>
 
   <object Name="TQAQ_Mavotur" Inherits="BaseMavotur">
@@ -290,6 +393,12 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorLibrarian_Mavotur" />
   </object>
 
+  <object Name="TQAQ_Mavotur_Librarian_Hero" Inherits="TQAQ_Mavotur_Librarian" >
+    <part Name="Render" DisplayName="Mavot Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
+  </object>
+
   <object Name="TQAQ_Mavotur_Bard" Inherits="TQAQ_Mavotur">
     <part Name="Render" DisplayName="Mavot Bard" Tile="MavotBard.png"/>
 	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
@@ -299,6 +408,12 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage_Mavotur" />
   </object>
 
+  <object Name="TQAQ_Mavotur_Bard_Hero" Inherits="TQAQ_Mavotur_Bard" >
+    <part Name="Render" DisplayName="Mavot Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
+  </object>
+
   <object Name="TQAQ_Mavotur_Commander" Inherits="TQAQ_Mavotur">
     <part Name="Render" DisplayName="Mavot Commander" Tile="MavotCommander.png"/>
 	<stat Name="Strength" Boost="1" />
@@ -306,6 +421,12 @@
 	<skill Name="Shield" />
 	<skill Name="ShortBlades" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter_Mavotur" />
+  </object>
+
+  <object Name="TQAQ_Mavotur_Commander_Hero" Inherits="TQAQ_Mavotur_Commander" >
+    <part Name="Render" DisplayName="Mavot Hero" ColorString="&amp;M" />
+    <builder Name="TQAQ_EldimorHero" />
+    <part Name="GivesRep" />
   </object>
 
   <!--Companions-->
@@ -319,6 +440,7 @@ To protect her family, as she left her clan to rubble." />
     <property Name="Story" Value="TQAQ_Hishkla_Story" />
     <tag Name="PetResponse" Value="groans,Don't" />
 	<tag Name="Gender" Value="female" />
+    <xtagGrammar Proper="true" />
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
     <tag Name="StartingPet" />
   </object>
