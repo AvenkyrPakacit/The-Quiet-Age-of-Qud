@@ -118,7 +118,14 @@
       </templates>
       <templatevars>
         <templatevar Name="Title">
-          <value Name="The Pirate King" />
+          <value Name="the Champion" />
+          <value Name="the Denhead" />
+          <value Name="the Hiker" />
+          <value Name="the Oracle" />
+          <value Name="the Pirate King" />
+          <value Name="the Seer" />
+          <value Name="the Shaman" />
+          <value Name="the Wicca" />
         </templatevar>
       </templatevars>
     </namestyle>
