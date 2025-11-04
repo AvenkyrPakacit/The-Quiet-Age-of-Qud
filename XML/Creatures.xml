@@ -308,4 +308,19 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter_Mavotur" />
   </object>
 
+  <!--Companions-->
+
+  <object Name="TQAQ_Hishkla" Inherits="TQAQ_Ormer_Cannoneer_Temperate">
+    <part Name="Render" DisplayName="Hishkla" ColorString="&amp;K"/>
+    <part Name="Description" Short="What stands large and tall carries a thundering shot.
+This was Hishkla's calling.
+To protect her family, as she left her clan to rubble." />
+    <part Name="Pettable" />
+    <property Name="Story" Value="TQAQ_Hishkla_Story" />
+    <tag Name="PetResponse" Value="groans,Don't" />
+	<tag Name="Gender" Value="female" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    <tag Name="StartingPet" />
+  </object>
+
 </objects>
