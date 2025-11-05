@@ -8,8 +8,8 @@
     <namestyle Name="Eldimor" HyphenationChance="0" TwoNameChance="0" Format="TitleCase">
       <scopes>
         <scope Name="Culture" Culture="Eldimor" Priority="50" Combine="true" />
-        <scope Name="Faction" Faction="Eldimor" Priority="100" Combine="false" />
-		<scope Name="Faction" Faction="Sivilao" Priority="100" Combine="false" />
+        <scope Name="Faction1" Faction="Eldimor" Priority="100" Combine="false" />
+		<scope Name="Faction2" Faction="Sivilao" Priority="100" Combine="false" />
         <scope Name="Species" Species="eldimor" Priority="50" Combine="true" />
 		<scope Name="Subtype1" Subtype="Temperate Drek Hiker" Priority="50" Combine="true" />
 		<scope Name="Subtype2" Subtype="Temperate Orm Hiker" Priority="50" Combine="true" />
@@ -110,7 +110,12 @@
 
 	<namestyle Name="Eldimor Hero" Base="Eldimor">
       <scopes>
-        <scope Name="Main" Special="Hero" Faction="Eldimor" Priority="200" Combine="false" />
+        <scope Name="Main1" Special="Hero" Faction="Eldimor" Priority="200" Combine="false" />
+        <scope Name="Main2" Special="Hero" Faction="TQAQ_Temperate_Clans" Priority="200" Combine="false" />
+		<scope Name="Main3" Special="Hero" Faction="TQAQ_Arid_Clans" Priority="200" Combine="false" />
+		<scope Name="Main4" Special="Hero" Faction="TQAQ_Artic_Clans" Priority="200" Combine="false" />
+		<scope Name="Main5" Special="Hero" Faction="TQAQ_Alpine_Clans" Priority="200" Combine="false" />
+		<scope Name="Main5" Special="Hero" Faction="Sivlao" Priority="200" Combine="false" />
       </scopes>
       <templates>
         <template Name="*Name*" />
@@ -119,7 +124,10 @@
 
 	<namestyle Name="Eldimor Hero Epithet">
       <scopes>
-        <scope Name="Main" Type="Epithet" Special="Hero" Faction="Eldimor" Priority="200" Combine="false" />
+		<scope Name="Main1" Type="Epithet" Special="Hero" Faction="TQAQ_Temperate_Clans" Priority="200" Combine="false" />
+		<scope Name="Main2" Type="Epithet" Special="Hero" Faction="TQAQ_Arid_Clans" Priority="200" Combine="false" />
+		<scope Name="Main3" Type="Epithet" Special="Hero" Faction="TQAQ_Artic_Clans" Priority="200" Combine="false" />
+		<scope Name="Main4" Type="Epithet" Special="Hero" Faction="TQAQ_Alpine_Clans" Priority="200" Combine="false" />
       </scopes>
       <templates>
         <template Name="*Epithet*" />
@@ -134,43 +142,6 @@
           <value Name="the Seer" />
           <value Name="the Shaman" />
           <value Name="the Wicca" />
-        </templatevar>
-      </templatevars>
-    </namestyle>
-
-	<namestyle Name="Eldimor Hero Title">
-      <scopes>
-        <scope Name="Main" Type="Title" Special="Hero" Faction="Eldimor" Priority="200" Combine="false" />
-      </scopes>
-      <templates>
-        <template Name="of Clan *Clan*" />
-      </templates>
-      <templatevars>
-        <templatevar Name="Clan">
-		  <!--Temperate-->
-          <value Name="Lowmarsh" />
-          <value Name="Redrock" />
-          <value Name="Saltbog" />
-          <value Name="Whitecrust" />
-          <value Name="Saltvine" />
-          <value Name="Deepbog" />
-          <value Name="Snapmaw" />
-		  <!--Arid-->
-          <value Name="White Dune" />
-          <value Name="Saline Oasis" />
-          <value Name="Issachari" />
-          <value Name="Saltbowl" />
-          <value Name="Firespitter" />
-		  <!--Artic-->
-          <value Name="Highlander" />
-          <value Name="Batholith" />
-          <value Name="Canyonland" />
-          <value Name="Deepcrag" />
-		  <!--Alpine-->
-          <value Name="Greensplit" />
-          <value Name="Basin" />
-          <value Name="Riverland" />
-          <value Name="Yatyl" />
         </templatevar>
       </templatevars>
     </namestyle>
