@@ -220,6 +220,64 @@
       </skills>
     </subtype>
 	</category>
+	<category Name="Tropical" DisplayName="{{cloudy|Tropical}}">
+	<subtype Name="Tropical Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="DrekHiker.png" DetailColor="b">
+	  <stat Name="ColdResistance" Bonus="5" />
+	  <stat Name="HeatResistance" Bonus="25" />
+      <skills>
+        <skill Name="Survival" />
+        <skill Name="Survival_JungleSurvival" />
+        <skill Name="Survival_RiversLakesSurvival" />
+      </skills>
+    </subtype>
+	<subtype Name="Tropical Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="DrekPeltast.png" DetailColor="b">
+	  <stat Name="ColdResistance" Bonus="5" />
+	  <stat Name="HeatResistance" Bonus="25" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Tropical Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="DrekFighter.png" DetailColor="b">
+	  <stat Name="ColdResistance" Bonus="5" />
+	  <stat Name="HeatResistance" Bonus="25" />
+	  <stat Name="Agility" Bonus="1" />
+	  <stat Name="Strength" Bonus="1" />
+	  <stat Name="Toughness" Bonus="1" />
+      <skills>
+        <skill Name="Axe" />
+        <skill Name="Cudgel" />
+        <skill Name="LongBlades" />
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Tropical Drek Archer" Gear="StartingGear_EldimorArcher" Tile="DrekArcher.png" DetailColor="b">
+	  <stat Name="ColdResistance" Bonus="5" />
+	  <stat Name="HeatResistance" Bonus="25" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Rifles" />
+      </skills>
+    </subtype>
+	<subtype Name="Tropical Drek Mage" Gear="StartingGear_EldimorMage" Tile="DrekMage.png" DetailColor="b">
+      <stat Name="ColdResistance" Bonus="5" />
+	  <stat Name="HeatResistance" Bonus="25" />
+	  <stat Name="Ego" Bonus="3" />
+      <skills>
+        <skill Name="CookingAndGathering" />
+      </skills>
+    </subtype>
+	<subtype Name="Tropical Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="DrekJezailer.png" DetailColor="b">
+	  <stat Name="ColdResistance" Bonus="5" />
+	  <stat Name="HeatResistance" Bonus="25" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Rifles" />
+      </skills>
+    </subtype>
+	</category>
   </class>
 	<class ID="Ormer" ChargenTitle="choose breed" SingularTitle="breed">
     <category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
