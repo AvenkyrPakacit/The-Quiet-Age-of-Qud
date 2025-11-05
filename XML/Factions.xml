@@ -93,7 +93,7 @@
     HistoricalSignificance="1"
 		EmblemTile="DrekFighter.png"
     EmblemTileColor="w"
-    EmblemDetailColor="g"
+    EmblemDetailColor="Y"
   >
     <feeling About="Sivilao" Value="-250" />
     <feeling About="*" Value="0" />
@@ -120,8 +120,8 @@
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
 		EmblemTile="DrekFighter.png"
-    EmblemTileColor="w"
-    EmblemDetailColor="g"
+    EmblemTileColor="Y"
+    EmblemDetailColor="w"
   >
     <feeling About="Sivilao" Value="-250" />
     <feeling About="*" Value="0" />

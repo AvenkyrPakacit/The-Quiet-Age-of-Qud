@@ -1,7 +1,168 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <subtypes>
   <class ID="Drekir" ChargenTitle="choose breed" SingularTitle="breed">
-    <category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
+	<category Name="Alpine" DisplayName="{{cloudy|Alpine}}">
+	<subtype Name="Alpine Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="DrekHiker.png" DetailColor="Y">
+	  <stat Name="ColdResistance" Bonus="25" />
+	  <stat Name="HeatResistance" Bonus="5" />
+      <skills>
+        <skill Name="Survival" />
+        <skill Name="Survival_DesertCanyonSurvival" />
+        <skill Name="Survival_MountainsSurvival" />
+      </skills>
+    </subtype>
+	<subtype Name="Alpine Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="DrekPeltast.png" DetailColor="Y">
+	  <stat Name="ColdResistance" Bonus="25" />
+	  <stat Name="HeatResistance" Bonus="5" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Alpine Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="DrekFighter.png" DetailColor="Y">
+	  <stat Name="ColdResistance" Bonus="25" />
+	  <stat Name="HeatResistance" Bonus="5" />
+	  <stat Name="Agility" Bonus="1" />
+	  <stat Name="Strength" Bonus="1" />
+	  <stat Name="Toughness" Bonus="1" />
+      <skills>
+        <skill Name="Axe" />
+        <skill Name="Cudgel" />
+        <skill Name="LongBlades" />
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Alpine Drek Archer" Gear="StartingGear_EldimorArcher" Tile="DrekArcher.png" DetailColor="Y">
+	  <stat Name="ColdResistance" Bonus="25" />
+	  <stat Name="HeatResistance" Bonus="5" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Rifles" />
+      </skills>
+    </subtype>
+	<subtype Name="Alpine Drek Mage" Gear="StartingGear_EldimorMage" Tile="DrekMage.png" DetailColor="Y">
+      <stat Name="ColdResistance" Bonus="25" />
+	  <stat Name="HeatResistance" Bonus="5" />
+	  <stat Name="Ego" Bonus="3" />
+      <skills>
+        <skill Name="CookingAndGathering" />
+      </skills>
+    </subtype>
+	<subtype Name="Alpine Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="DrekJezailer.png" DetailColor="Y">
+	  <stat Name="ColdResistance" Bonus="25" />
+	  <stat Name="HeatResistance" Bonus="5" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Rifles" />
+      </skills>
+    </subtype>
+	</category>
+	<category Name="Arid" DisplayName="{{desert camouflage|Arid}}">
+	<subtype Name="Arid Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="DrekHiker.png" DetailColor="r">
+	  <stat Name="HeatResistance" Bonus="30" />
+      <skills>
+        <skill Name="Survival" />
+        <skill Name="Survival_DesertCanyonSurvival" />
+		<skill Name="Survival_SaltDesertSurvival" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="DrekPeltast.png" DetailColor="r">
+	  <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="DrekFighter.png" DetailColor="r">
+	  <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="1" />
+	  <stat Name="Strength" Bonus="1" />
+	  <stat Name="Toughness" Bonus="1" />
+      <skills>
+        <skill Name="Axe" />
+        <skill Name="Cudgel" />
+        <skill Name="LongBlades" />
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Drek Archer" Gear="StartingGear_EldimorArcher" Tile="DrekArcher.png" DetailColor="r">
+	  <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Rifles" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Drek Mage" Gear="StartingGear_EldimorMage" Tile="DrekMage.png" DetailColor="r">
+      <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Ego" Bonus="3" />
+      <skills>
+        <skill Name="CookingAndGathering" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="DrekJezailer.png" DetailColor="r">
+	  <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Rifles" />
+      </skills>
+    </subtype>
+	</category>
+	<category Name="Artic" DisplayName="{{cloudy|Artic}}">
+	<subtype Name="Artic Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="DrekHiker.png" DetailColor="w">
+	  <stat Name="ColdResistance" Bonus="30" />
+      <skills>
+        <skill Name="Survival" />
+        <skill Name="Survival_MountainsSurvival" />
+      </skills>
+    </subtype>
+	<subtype Name="Artic Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="DrekPeltast.png" DetailColor="w">
+	  <stat Name="ColdResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Artic Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="DrekFighter.png" DetailColor="w">
+	  <stat Name="ColdResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="1" />
+	  <stat Name="Strength" Bonus="1" />
+	  <stat Name="Toughness" Bonus="1" />
+      <skills>
+        <skill Name="Axe" />
+        <skill Name="Cudgel" />
+        <skill Name="LongBlades" />
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Artic Drek Archer" Gear="StartingGear_EldimorArcher" Tile="DrekArcher.png" DetailColor="w">
+	  <stat Name="ColdResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Rifles" />
+      </skills>
+    </subtype>
+	<subtype Name="Artic Drek Mage" Gear="StartingGear_EldimorMage" Tile="DrekMage.png" DetailColor="w">
+      <stat Name="ColdResistance" Bonus="30" />
+	  <stat Name="Ego" Bonus="3" />
+      <skills>
+        <skill Name="CookingAndGathering" />
+      </skills>
+    </subtype>
+	<subtype Name="Artic Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="DrekJezailer.png" DetailColor="w">
+	  <stat Name="ColdResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Rifles" />
+      </skills>
+    </subtype>
+	</category>
+	<category Name="Temperate" DisplayName="{{camouflage|Temperate}}">
 	<subtype Name="Temperate Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="DrekHiker.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
