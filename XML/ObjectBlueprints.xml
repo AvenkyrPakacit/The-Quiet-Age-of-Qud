@@ -4,6 +4,7 @@
   <object Name="EldimorBodyDrekir" Inherits="Humanoid">
     <part Name="Body" Anatomy="TailedBiped" />
     <mutation Name="Carnivorous" Level="1" />
+    <mutation Name="ColdBlooded" Level="1" />
 	<mutation Name="HeightenedSmell" Level="1" />
   </object>
 

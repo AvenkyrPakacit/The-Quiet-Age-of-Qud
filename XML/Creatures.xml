@@ -16,6 +16,7 @@
     <stat Name="Ego" Value="10" />
     <part Name="ConversationScript" ConversationID="Drekir" />
     <mutation Name="Carnivorous" Level="1" />
+    <mutation Name="ColdBlooded" Level="1" />
     <mutation Name="HeightenedSmell" Level="1" />
     <tag Name="Species" Value="eldimor" />
     <tag Name="Culture" Value="Eldimor" />
