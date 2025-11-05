@@ -169,6 +169,7 @@
     </subtype>
 	</category>
 	<category Name="Tropical" DisplayName="{{jungle|Tropical}}">
+	<category Name="Tropical" DisplayName="{{forest|Tropical}}">
 	<subtype Name="Tropical Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="DrekHiker.png" DetailColor="b">
 	  <stat Name="ColdResistance" Bonus="5" />
 	  <stat Name="HeatResistance" Bonus="25" />
