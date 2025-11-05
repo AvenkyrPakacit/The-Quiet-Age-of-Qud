@@ -57,32 +57,40 @@ namespace XRL.World.ObjectBuilders
             Mutations mutations = GO.RequirePart<Mutations>();
             if (epithet == "the Seer")
             {
-                GO.BoostStat("Intelligence", 2);
+                GO.BoostStat("Intelligence", 3);
                 if (!mutations.HasMutation("LightManipulation"))
                 {
                     mutations.AddMutation(new World.Parts.Mutation.LightManipulation(), 5);
                 }
             }
             else
+            if (epithet == "the Denhead")
+            {
+                GO.BoostStat("Strength", 3);
+            }
+            else
             if (epithet == "the Champion")
             {
+                GO.BoostStat("Strength", 3);
                 if (!mutations.HasMutation("AdrenalControl2"))
                 {
                     mutations.AddMutation(new World.Parts.Mutation.AdrenalControl2(), 1);
                 }
             }
             else
+            if (epithet == "the Hiker")
+            {
+                GO.BoostStat("Intelligence", 3);
+            }
+            else
             if (epithet == "the Oracle")
             {
-                if (!mutations.HasMutation("TwoHeaded"))
-                {
-                    mutations.AddMutation(new World.Parts.Mutation.TwoHeaded(), 1);
-                    GO.ReceiveObject(GameObject.Create("Goatfolk_Horns", Context: Context));
-                }
+                GO.BoostStat("Intelligence", 3);
             }
             else
             if (epithet == "the Shaman")
             {
+                GO.BoostStat("Ego", 3);
                 if (!mutations.HasMutation("Syphon Vim"))
                 {
                     mutations.AddMutation(new World.Parts.Mutation.LifeDrain(), 1);
@@ -91,6 +99,7 @@ namespace XRL.World.ObjectBuilders
             else
             if (epithet == "the Wicca")
             {
+                GO.BoostStat("Ego", 3);
                 if (!mutations.HasMutation("ElectricalGeneration"))
                 {
                     mutations.AddMutation(new World.Parts.Mutation.ElectricalGeneration(), 4);
@@ -99,15 +108,8 @@ namespace XRL.World.ObjectBuilders
             else
             if (epithet == "the Pirate King")
             {
-                GO.BoostStat("Strength", 1);
-                if (!mutations.HasMutation("Horns"))
-                {
-                    mutations.AddMutation(new World.Parts.Mutation.Horns(), Rules.Stat.Random(5, 6));
-                }
-                if (!GO.HasSkill("Tactics_Charge"))
-                {
-                    GO.AddSkill("Tactics_Charge");
-                }
+                GO.BoostStat("Ego", 1);
+                GO.BoostStat("Willpower", 2);
             }
             if (!title.IsNullOrEmpty())
             {
@@ -146,9 +148,6 @@ namespace XRL.World.ObjectBuilders
                     GO.BoostStat("Toughness", 1);
                 }
             }
-            GO.ReceiveObjectFromPopulation("Armor 4", BonusModChance: 50, Context: Context);
-            GO.ReceiveObjectFromPopulation("Junk 4", Context: Context);
-            GO.ReceiveObjectFromPopulation("Junk 4R", Context: Context);
             GO.MultiplyStat("Hitpoints", 2);
         }
 
