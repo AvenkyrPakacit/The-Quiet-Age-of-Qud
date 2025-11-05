@@ -84,7 +84,7 @@
 
   <object Name="TQAQ_Drekir_Hiker_Temperate_Hero" Inherits="TQAQ_Drekir_Hiker_Temperate" >
     <part Name="Render" DisplayName="Temperate Drek Hero" ColorString="&amp;M" />
-	<builder Name="TQAQ_EldimorHero" />
+	<builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
     <part Name="GivesRep" />
   </object>
@@ -101,7 +101,8 @@
 
   <object Name="TQAQ_Drekir_Peltast_Temperate_Hero" Inherits="TQAQ_Drekir_Peltast_Temperate" >
     <part Name="Render" DisplayName="Temperate Drek Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans-100" />
+    <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
     <part Name="GivesRep" />
   </object>
@@ -121,7 +122,8 @@
 
   <object Name="TQAQ_Drekir_Fighter_Temperate_Hero" Inherits="TQAQ_Drekir_Fighter_Temperate" >
     <part Name="Render" DisplayName="Temperate Drek Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans-100" />
+    <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
     <part Name="GivesRep" />
   </object>
@@ -137,7 +139,8 @@
 
   <object Name="TQAQ_Drekir_Archer_Temperate_Hero" Inherits="TQAQ_Drekir_Archer_Temperate" >
     <part Name="Render" DisplayName="Temperate Drek Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans-100" />
+    <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
     <part Name="GivesRep" />
   </object>
@@ -152,7 +155,8 @@
 
   <object Name="TQAQ_Drekir_Mage_Temperate_Hero" Inherits="TQAQ_Drekir_Mage_Temperate" >
     <part Name="Render" DisplayName="Temperate Drek Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans-100" />
+    <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
     <part Name="GivesRep" />
   </object>
@@ -168,7 +172,8 @@
 
   <object Name="TQAQ_Drekir_Jezailer_Temperate_Hero" Inherits="TQAQ_Drekir_Jezailer_Temperate" >
     <part Name="Render" DisplayName="Temperate Drek Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans-100" />
+    <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
     <part Name="GivesRep" />
   </object>
@@ -204,7 +209,6 @@
 
   <object Name="TQAQ_Dralkir_Peltast_Hero" Inherits="TQAQ_Dralkir_Peltast" >
     <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
     <part Name="GivesRep" />
   </object>
 
@@ -223,7 +227,6 @@
 
   <object Name="TQAQ_Dralkir_Fighter_Hero" Inherits="TQAQ_Dralkir_Fighter" >
     <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
     <part Name="GivesRep" />
   </object>
 
@@ -238,7 +241,6 @@
 
   <object Name="TQAQ_Dralkir_Archer_Hero" Inherits="TQAQ_Dralkir_Archer" >
     <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
     <part Name="GivesRep" />
   </object>
 
@@ -252,7 +254,6 @@
 
   <object Name="TQAQ_Dralkir_Mage_Hero" Inherits="TQAQ_Dralkir_Mage" >
     <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
     <part Name="GivesRep" />
   </object>
 
@@ -267,7 +268,6 @@
 
   <object Name="TQAQ_Dralkir_Jezailer_Hero" Inherits="TQAQ_Dralkir_Jezailer">
     <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
     <part Name="GivesRep" />
   </object>
 
@@ -290,7 +290,9 @@
 
   <object Name="TQAQ_Ormer_Hiker_Temperate_Hero" Inherits="TQAQ_Ormer_Hiker_Temperate" >
     <part Name="Render" DisplayName="Temperate Orm Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans-100" />
+    <builder Name="TQAQ_EldimorHeroTemperate" />
+    <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
     <part Name="GivesRep" />
   </object>
 
@@ -306,7 +308,9 @@
 
   <object Name="TQAQ_Ormer_Slinger_Temperate_Hero" Inherits="TQAQ_Ormer_Slinger_Temperate" >
     <part Name="Render" DisplayName="Temperate Orm Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans-100" />
+    <builder Name="TQAQ_EldimorHeroTemperate" />
+    <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
     <part Name="GivesRep" />
   </object>
 
@@ -325,7 +329,9 @@
 
   <object Name="TQAQ_Ormer_Warrior_Temperate_Hero" Inherits="TQAQ_Ormer_Warrior_Temperate" >
     <part Name="Render" DisplayName="Temperate Orm Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans-100" />
+    <builder Name="TQAQ_EldimorHeroTemperate" />
+    <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
     <part Name="GivesRep" />
   </object>
 
@@ -341,7 +347,9 @@
 
   <object Name="TQAQ_Ormer_Axe_Thrower_Temperate_Hero" Inherits="TQAQ_Ormer_Axe_Thrower_Temperate" >
     <part Name="Render" DisplayName="Temperate Orm Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans-100" />
+    <builder Name="TQAQ_EldimorHeroTemperate" />
+    <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
     <part Name="GivesRep" />
   </object>
 
@@ -355,7 +363,9 @@
 
   <object Name="TQAQ_Ormer_Mage_Temperate_Hero" Inherits="TQAQ_Ormer_Mage_Temperate" >
     <part Name="Render" DisplayName="Temperate Orm Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans-100" />
+    <builder Name="TQAQ_EldimorHeroTemperate" />
+    <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
     <part Name="GivesRep" />
   </object>
 
@@ -370,7 +380,9 @@
 
   <object Name="TQAQ_Ormer_Cannoneer_Temperate_Hero" Inherits="TQAQ_Ormer_Cannoneer_Temperate" >
     <part Name="Render" DisplayName="Temperate Orm Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans-100" />
+    <builder Name="TQAQ_EldimorHeroTemperate" />
+    <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
     <part Name="GivesRep" />
   </object>
 
@@ -395,7 +407,6 @@
 
   <object Name="TQAQ_Mavotur_Librarian_Hero" Inherits="TQAQ_Mavotur_Librarian" >
     <part Name="Render" DisplayName="Mavot Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
     <part Name="GivesRep" />
   </object>
 
@@ -410,7 +421,6 @@
 
   <object Name="TQAQ_Mavotur_Bard_Hero" Inherits="TQAQ_Mavotur_Bard" >
     <part Name="Render" DisplayName="Mavot Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
     <part Name="GivesRep" />
   </object>
 
@@ -425,7 +435,6 @@
 
   <object Name="TQAQ_Mavotur_Commander_Hero" Inherits="TQAQ_Mavotur_Commander" >
     <part Name="Render" DisplayName="Mavot Hero" ColorString="&amp;M" />
-    <builder Name="TQAQ_EldimorHero" />
     <part Name="GivesRep" />
   </object>
 

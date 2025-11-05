@@ -27,6 +27,118 @@
   </faction>
 
   <faction
+    Name="TQAQ_Temperate_Clans"
+    DisplayName="Temperate Eldimor Clans"
+    Old="true"
+    FormatWithArticle="true"
+    InitialPlayerReputation="0"
+    PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
+    NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
+    HistoricalSignificance="1"
+		EmblemTile="DrekFighter.png"
+    EmblemTileColor="w"
+    EmblemDetailColor="g"
+  >
+    <feeling About="Sivilao" Value="-250" />
+    <feeling About="*" Value="0" />
+    <waterritual
+	  skill="Tactics"
+    />
+    <interests>
+      <interest Tags="eldimor,lair" />
+    </interests>
+    <factionworshipattitudes>
+      <factionworshipattitude Name="TQAQ_Temperate_Clans" Attitude="100" />
+      <factionworshipattitude Name="Eldimor" Attitude="50" />
+      <factionworshipattitude Name="Sivilao" Attitude="-100" />
+    </factionworshipattitudes>
+  </faction>
+
+  <faction
+    Name="TQAQ_Arid_Clans"
+    DisplayName="Arid Eldimor Clans"
+    Old="true"
+    FormatWithArticle="true"
+    InitialPlayerReputation="0"
+    PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
+    NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
+    HistoricalSignificance="1"
+		EmblemTile="DrekFighter.png"
+    EmblemTileColor="w"
+    EmblemDetailColor="r"
+  >
+    <feeling About="Sivilao" Value="-250" />
+    <feeling About="*" Value="0" />
+    <waterritual
+	  skill="Tactics"
+    />
+    <interests>
+      <interest Tags="eldimor,lair" />
+    </interests>
+    <factionworshipattitudes>
+      <factionworshipattitude Name="TQAQ_Temperate_Clans" Attitude="100" />
+      <factionworshipattitude Name="Eldimor" Attitude="50" />
+      <factionworshipattitude Name="Sivilao" Attitude="-100" />
+    </factionworshipattitudes>
+  </faction>
+
+  <faction
+    Name="TQAQ_Alpine_Clans"
+    DisplayName="Alpine Eldimor Clans"
+    Old="true"
+    FormatWithArticle="true"
+    InitialPlayerReputation="0"
+    PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
+    NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
+    HistoricalSignificance="1"
+		EmblemTile="DrekFighter.png"
+    EmblemTileColor="w"
+    EmblemDetailColor="g"
+  >
+    <feeling About="Sivilao" Value="-250" />
+    <feeling About="*" Value="0" />
+    <waterritual
+	  skill="Tactics"
+    />
+    <interests>
+      <interest Tags="eldimor,lair" />
+    </interests>
+    <factionworshipattitudes>
+      <factionworshipattitude Name="TQAQ_Temperate_Clans" Attitude="100" />
+      <factionworshipattitude Name="Eldimor" Attitude="50" />
+      <factionworshipattitude Name="Sivilao" Attitude="-100" />
+    </factionworshipattitudes>
+  </faction>
+
+  <faction
+    Name="TQAQ_Artic_Clans"
+    DisplayName="Artic Eldimor Clans"
+    Old="true"
+    FormatWithArticle="true"
+    InitialPlayerReputation="0"
+    PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
+    NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
+    HistoricalSignificance="1"
+		EmblemTile="DrekFighter.png"
+    EmblemTileColor="w"
+    EmblemDetailColor="g"
+  >
+    <feeling About="Sivilao" Value="-250" />
+    <feeling About="*" Value="0" />
+    <waterritual
+	  skill="Tactics"
+    />
+    <interests>
+      <interest Tags="eldimor,lair" />
+    </interests>
+    <factionworshipattitudes>
+      <factionworshipattitude Name="TQAQ_Temperate_Clans" Attitude="100" />
+      <factionworshipattitude Name="Eldimor" Attitude="50" />
+      <factionworshipattitude Name="Sivilao" Attitude="-100" />
+    </factionworshipattitudes>
+  </faction>
+
+  <faction
     Name="Sivilao"
     DisplayName="Sivilao"
     Old="true"

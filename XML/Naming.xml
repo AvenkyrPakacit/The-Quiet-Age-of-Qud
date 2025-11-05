@@ -147,12 +147,106 @@
       </templates>
       <templatevars>
         <templatevar Name="Clan">
-          <value Name="Hotur" />
-          <value Name="Ibex" />
-          <value Name="Sol" />
-          <value Name="Whitetongue" />
-          <value Name="Yr" />
-          <value Name="Mnim" />
+		  <!--Temperate-->
+          <value Name="Lowmarsh" />
+          <value Name="Redrock" />
+          <value Name="Saltbog" />
+          <value Name="Whitecrust" />
+          <value Name="Saltvine" />
+          <value Name="Deepbog" />
+          <value Name="Snapmaw" />
+		  <!--Arid-->
+          <value Name="White Dune" />
+          <value Name="Saline Oasis" />
+          <value Name="Issachari" />
+          <value Name="Saltbowl" />
+          <value Name="Firespitter" />
+		  <!--Artic-->
+          <value Name="Highlander" />
+          <value Name="Batholith" />
+          <value Name="Canyonland" />
+          <value Name="Deepcrag" />
+		  <!--Alpine-->
+          <value Name="Greensplit" />
+          <value Name="Basin" />
+          <value Name="Riverland" />
+          <value Name="Yatyl" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+
+	<namestyle Name="Eldimor Temperate Hero Title">
+      <scopes>
+        <scope Name="Main" Type="Title" Special="Hero" Faction="TQAQ_Temperate_Clans" Priority="200" Combine="false" />
+      </scopes>
+      <templates>
+        <template Name="of Clan *Clan*" />
+      </templates>
+      <templatevars>
+        <templatevar Name="Clan">
+		  <!--Temperate-->
+          <value Name="Lowmarsh" />
+          <value Name="Redrock" />
+          <value Name="Saltbog" />
+          <value Name="Whitecrust" />
+          <value Name="Saltvine" />
+          <value Name="Deepbog" />
+          <value Name="Snapmaw" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+
+	<namestyle Name="Eldimor Arid Hero Title">
+      <scopes>
+        <scope Name="Main" Type="Title" Special="Hero" Faction="TQAQ_Arid_Clans" Priority="200" Combine="false" />
+      </scopes>
+      <templates>
+        <template Name="of Clan *Clan*" />
+      </templates>
+      <templatevars>
+        <templatevar Name="Clan">
+		  <!--Arid-->
+          <value Name="White Dune" />
+          <value Name="Saline Oasis" />
+          <value Name="Issachari" />
+          <value Name="Saltbowl" />
+          <value Name="Firespitter" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+
+	<namestyle Name="Eldimor Artic Hero Title">
+      <scopes>
+        <scope Name="Main" Type="Title" Special="Hero" Faction="TQAQ_Artic_Clans" Priority="200" Combine="false" />
+      </scopes>
+      <templates>
+        <template Name="of Clan *Clan*" />
+      </templates>
+      <templatevars>
+        <templatevar Name="Clan">
+		  <!--Artic-->
+          <value Name="Highlander" />
+          <value Name="Batholith" />
+          <value Name="Canyonland" />
+          <value Name="Deepcrag" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+
+	<namestyle Name="Eldimor Alpine Hero Title">
+      <scopes>
+        <scope Name="Main" Type="Title" Special="Hero" Faction="TQAQ_Alpine_Clans" Priority="200" Combine="false" />
+      </scopes>
+      <templates>
+        <template Name="of Clan *Clan*" />
+      </templates>
+      <templatevars>
+        <templatevar Name="Clan">
+		  <!--Alpine-->
+          <value Name="Greensplit" />
+          <value Name="Basin" />
+          <value Name="Riverland" />
+          <value Name="Yatyl" />
         </templatevar>
       </templatevars>
     </namestyle>

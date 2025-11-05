@@ -7,7 +7,7 @@ using XRL.World.Parts;
 namespace XRL.World.ObjectBuilders
 {
 
-    public class TQAQ_EldimorHero : IObjectBuilder
+    public class TQAQ_EldimorHeroTemperate : IObjectBuilder
     {
 
         public string ForceTitle;
@@ -113,37 +113,33 @@ namespace XRL.World.ObjectBuilders
             }
             if (!title.IsNullOrEmpty())
             {
-                if (title.Contains("Clan Hotur"))
+                if (title.Contains("Clan Lowmarsh"))
                 {
                     GO.BoostStat("Strength", 1);
                 }
-                if (title.Contains("Clan Ibex"))
+                if (title.Contains("Clan Redrock"))
                 {
                     mutations.AddMutation(new World.Parts.Mutation.Horns(), 2);
                 }
-                if (title.Contains("Clan Sol"))
+                if (title.Contains("Clan Saltbog"))
                 {
-                    if (!mutations.HasMutation("PhotosyntheticSkin"))
-                    {
-                        mutations.AddMutation(new World.Parts.Mutation.PhotosyntheticSkin(), 4);
-                    }
-                    var clan = GO.GetPart<TQAQ_EldimorHeroDrekirClanTemperate>();
-                    if (clan != null)
-                    {
-                        clan.Photosynthetic = true;
-                    }
+                    mutations.AddMutation(new World.Parts.Mutation.Horns(), 2);
                 }
-                if (title.Contains("Clan Whitetongue"))
+                if (title.Contains("Clan Whitecrust"))
                 {
                     GO.BoostStat("Intelligence", 1);
                     GO.BoostStat("Ego", 1);
                     GO.BoostStat("Willpower", 1);
                 }
-                if (title.Contains("Clan Yr"))
+                if (title.Contains("Clan Saltvine"))
                 {
                     GO.BoostStat("MoveSpeed", -0.75);
                 }
-                if (title.Contains("Clan Mnim"))
+                if (title.Contains("Clan Deepbog"))
+                {
+                    GO.BoostStat("Toughness", 1);
+                }
+                if (title.Contains("Clan Snapmaw"))
                 {
                     GO.BoostStat("Toughness", 1);
                 }
@@ -224,14 +220,6 @@ namespace XRL.World.Parts
                         break;
                     }
                     GameObject follower = GameObject.Create(followers[i]);
-                    if (Photosynthetic)
-                    {
-                        var mutations = follower.RequirePart<Mutations>();
-                        if (!mutations.HasMutation("PhotosyntheticSkin"))
-                        {
-                            mutations.AddMutation(new XRL.World.Parts.Mutation.PhotosyntheticSkin(), 1);
-                        }
-                    }
                     follower.SetAlliedLeader<AllyClan>(ParentObject);
                     cell.AddObject(follower);
                     follower.MakeActive();
@@ -241,6 +229,93 @@ namespace XRL.World.Parts
             catch (Exception ex)
             {
                 MetricsManager.LogError("TQAQ_EldimorHeroDrekirClanTemperate setup", ex);
+            }
+            ParentObject.RemovePart(this);
+            return base.HandleEvent(E);
+        }
+
+    }
+
+}
+
+namespace XRL.World.Parts
+{
+
+    [Serializable]
+    public class TQAQ_EldimorHeroOrmerClanTemperate : IPart
+    {
+
+        public bool Created;
+        [NonSerialized] public bool Photosynthetic;
+
+        public override bool SameAs(IPart p)
+        {
+            return false;
+        }
+
+        public override bool WantEvent(int ID, int cascade)
+        {
+            return
+                base.WantEvent(ID, cascade)
+                || ID == EnteredCellEvent.ID
+            ;
+        }
+
+        public override bool HandleEvent(EnteredCellEvent E)
+        {
+            try
+            {
+                List<Cell> emptyCells = Event.NewCellList();
+                foreach (Cell cell in ParentObject.CurrentCell.GetAdjacentCells(4))
+                {
+                    if (cell.IsEmptyOfSolid())
+                    {
+                        emptyCells.Add(cell);
+                    }
+                }
+                int slingers = Rules.Stat.Random(1, 2);
+                int warriors = Rules.Stat.Random(2, 4);
+                int axethrowers = Rules.Stat.Random(1, 2);
+                int mages = 95.in100() ? 1 : 0;
+                int cannoneer = Rules.Stat.Random(1, 2);
+                List<string> followers = new List<string>(slingers + warriors + axethrowers + mages + cannoneer);
+                for (int x = 0; x < slingers; x++)
+                {
+                    followers.Add("TQAQ_Ormer_Slinger_Temperate");
+                }
+                for (int x = 0; x < warriors; x++)
+                {
+                    followers.Add("TQAQ_Ormer_Warrior_Temperate");
+                }
+                for (int x = 0; x < axethrowers; x++)
+                {
+                    followers.Add("TQAQ_Ormer_Axe_Thrower_Temperate");
+                }
+                for (int x = 0; x < mages; x++)
+                {
+                    followers.Add("TQAQ_Ormer_Mage_Temperate");
+                }
+                for (int x = 0; x < cannoneer; x++)
+                {
+                    followers.Add("TQAQ_Ormer_Cannoneer_Temperate");
+                }
+                for (int i = 0, j = followers.Count; i < j; i++)
+                {
+                    Cell cell = emptyCells.GetRandomElement();
+                    if (cell == null)
+                    {
+                        break;
+                    }
+                    GameObject follower = GameObject.Create(followers[i]);
+                    follower.SetAlliedLeader<AllyClan>(ParentObject);
+                    cell.AddObject(follower);
+                    follower.MakeActive();
+                    emptyCells.Remove(cell);
+                }
+            }
+            catch (Exception ex)
+            {
+                MetricsManager.LogError("TQAQ_EldimorHeroOrmerClanTemperate setup", ex);
             }
             ParentObject.RemovePart(this);
             return base.HandleEvent(E);
