@@ -186,11 +186,11 @@ namespace XRL.World.Parts
                         emptyCells.Add(cell);
                     }
                 }
-                int peltasts = Rules.Stat.Random(1, 2);
-                int fighters = Rules.Stat.Random(2, 4);
-                int archers = Rules.Stat.Random(1, 2);
-                int mages = 95.in100() ? 1 : 0;
-                int jezailers = Rules.Stat.Random(1, 2);
+                int peltasts = Rules.Stat.Random(0, 2);
+                int fighters = Rules.Stat.Random(0, 4);
+                int archers = Rules.Stat.Random(0, 2);
+                int mages = Rules.Stat.Random(0, 1);
+                int jezailers = Rules.Stat.Random(0, 2);
                 List<string> followers = new List<string>(peltasts + fighters + archers + mages + jezailers);
                 for (int x = 0; x < peltasts; x++)
                 {
@@ -273,11 +273,11 @@ namespace XRL.World.Parts
                         emptyCells.Add(cell);
                     }
                 }
-                int slingers = Rules.Stat.Random(1, 2);
-                int warriors = Rules.Stat.Random(2, 4);
-                int axethrowers = Rules.Stat.Random(1, 2);
-                int mages = 95.in100() ? 1 : 0;
-                int cannoneer = Rules.Stat.Random(1, 2);
+                int slingers = Rules.Stat.Random(0, 2);
+                int warriors = Rules.Stat.Random(0, 4);
+                int axethrowers = Rules.Stat.Random(0, 2);
+                int mages = Rules.Stat.Random(0, 1);
+                int cannoneer = Rules.Stat.Random(0, 2);
                 List<string> followers = new List<string>(slingers + warriors + axethrowers + mages + cannoneer);
                 for (int x = 0; x < slingers; x++)
                 {
