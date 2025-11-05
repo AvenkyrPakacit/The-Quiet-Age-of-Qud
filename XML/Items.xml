@@ -55,49 +55,98 @@
 
   <!--Armor-->
 
-  <object Name="TQAQ_Chest_Stal" Inherits="BaseArmor">
-    <part Name="Render" DisplayName="{{C|Stal}} chestplate" Tile="Items/sw_chest_hightier1.bmp" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" RenderString="]" />
+  <object Name="TQAQ_Body_Yatal_Hammered" Inherits="BaseArmor">
+    <part Name="Armor" AV="3" DV="-3" WornOn="Body" />
+    <part Name="Render" DisplayName="hammered {{m|yatal}} plate armor" ColorString="&amp;m" RenderString="]" Tile="Items/sw_plate_mail.bmp" DetailColor="B" />
+    <part Name="Commerce" Value="95" />
     <part Name="Description" Short="." />
-    <part Name="Armor" AV="8" DV="-2" WornOn="Body" />
-    <part Name="Physics" Weight="18" />
-    <part Name="Commerce" Value="3000" />
-    <tag Name="Tier" Value="8" />
-	<tag Name="EquipSound" Value="sfx_equip_metal_quantum" />
-    <tag Name="Role" Value="Rare" />
+    <part Name="Physics" Weight="23" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="3" />
   </object>
 
-  <object Name="TQAQ_Feet_Stal" Inherits="BaseBoot">
-    <part Name="Render" DisplayName="{{C|Stal}} greaves" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" Tile="Items/sw_boots_hightier1.bmp" RenderString="]" />
-    <part Name="Description" Short="." />
-    <part Name="Armor" AV="4" DV="0" WornOn="Feet" />
-    <part Name="Physics" Weight="5" />
-    <part Name="Commerce" Value="750" />
-	<tag Name="EquipSound" Value="sfx_equip_armor_metal_quantum" />
-    <tag Name="Tier" Value="8" />
-    <tag Name="Role" Value="Rare" />
-  </object>
-
-  <object Name="TQAQ_Hands_Stal" Inherits="BaseGlove">
-    <part Name="Render" DisplayName="{{C|Stal}} gauntlets" RenderString="]" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" Tile="Items/sw_gauntlets_hightier1.bmp" />
-    <part Name="Description" Short="." />
-    <part Name="Armor" AV="4" DV="0" WornOn="Hands" />
-    <part Name="Physics" Weight="5" />
+  <object Name="TQAQ_Feet_Yatal_Hammered" Inherits="BaseBoot">
+    <part Name="Armor" AV="3" DV="-5" WornOn="Feet" />
+    <part Name="Render" DisplayName="hammered {{m|yatal}} greaves" ColorString="&amp;m" DetailColor="y" Tile="Items/sw_boots_midtier_metal.bmp" RenderString="]" />
     <part Name="Commerce" Value="75" />
-	<tag Name="EquipSound" Value="sfx_equip_armor_metal_quantum" />
-    <tag Name="Tier" Value="8" />
+    <part Name="Description" Short="" />
+    <part Name="Physics" Weight="8" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="3" />
+  </object>
+
+  <object Name="TQAQ_Hands_Yatal_Hammered" Inherits="BaseGauntlet">
+    <part Name="Armor" AV="2" DV="-3" WornOn="Hands" />
+    <part Name="Render" DisplayName="hammered {{m|yatal}} gauntlets" RenderString="]" ColorString="&amp;m" DetailColor="y" Tile="Items/sw_metal_gloves.bmp" />
+    <part Name="Commerce" Value="75" />
+    <part Name="Description" Short="Nicked folding metal of dull azure is hand-cut and stitched to a pair of undergloves made from padded goat leather." />
+    <part Name="Physics" Weight="9" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="3" />
+  </object>
+
+  <object Name="TQAQ_Head_Yatal_Hammered" Inherits="BaseHelmet">
+    <part Name="Armor" AV="2" DV="-3" WornOn="Head" />
+    <part Name="Render" DisplayName="hammered {{m|yatal}} helmet" ColorString="&amp;m" RenderString="]" Tile="Items/sw_metal_helmet.bmp" DetailColor="y" />
+    <part Name="Commerce" Value="13" />
+    <part Name="Description" Short="A second skull was raised as a cone from a sheet of desulfurized metal. Tiny initials are scratched in." />
+    <part Name="Physics" Weight="6" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="3" />
+    <tag Name="DynamicObjectsTable:Headwear" />
+  </object>
+
+  <object Name="TQAQ_Body_Yatal_Casted" Inherits="BaseArmor">
+    <part Name="Armor" AV="3" DV="-3" WornOn="Body" />
+    <part Name="Render" DisplayName="casted {{m|yatal}} plate armor" ColorString="&amp;m" RenderString="]" Tile="Items/sw_plate_mail.bmp" DetailColor="B" />
+    <part Name="Commerce" Value="95" />
+    <part Name="Description" Short="." />
+    <part Name="Physics" Weight="23" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="3" />
     <tag Name="Role" Value="Rare" />
   </object>
 
-  <object Name="TQAQ_Head_Stal" Inherits="BaseHelmet">
-    <part Name="Render" DisplayName="{{C|Stal}} helm" ColorString="&amp;m" TileColor="&amp;c" DetailColor="C" Tile="Items/sw_helm_hightier1.bmp" RenderString="]" />
-    <part Name="Description" Short="." />
-    <part Name="Armor" AV="4" DV="0" WornOn="Head" />
-    <part Name="Commerce" Value="750" />
-    <part Name="Physics" Weight="4" />
-    <tag Name="Tier" Value="8" />
+  <object Name="TQAQ_Feet_Yatal_Casted" Inherits="BaseBoot">
+    <part Name="Armor" AV="3" DV="-5" WornOn="Feet" />
+    <part Name="Render" DisplayName="casted {{m|yatal}} greaves" ColorString="&amp;m" DetailColor="y" Tile="Items/sw_boots_midtier_metal.bmp" RenderString="]" />
+    <part Name="Commerce" Value="75" />
+    <part Name="Description" Short="" />
+    <part Name="Physics" Weight="8" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="3" />
+    <tag Name="Role" Value="Rare" />
+  </object>
+
+  <object Name="TQAQ_Hands_Yatal_Casted" Inherits="BaseGauntlet">
+    <part Name="Armor" AV="2" DV="-3" WornOn="Hands" />
+    <part Name="Render" DisplayName="casted {{m|yatal}} gauntlets" RenderString="]" ColorString="&amp;m" DetailColor="y" Tile="Items/sw_metal_gloves.bmp" />
+    <part Name="Commerce" Value="75" />
+    <part Name="Description" Short="Nicked folding metal of dull azure is hand-cut and stitched to a pair of undergloves made from padded goat leather." />
+    <part Name="Physics" Weight="9" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="3" />
+    <tag Name="Role" Value="Rare" />
+  </object>
+
+  <object Name="TQAQ_Head_Yatal_Casted" Inherits="BaseHelmet">
+    <part Name="Armor" AV="2" DV="-3" WornOn="Head" />
+    <part Name="Render" DisplayName="casted {{m|yatal}} helmet" ColorString="&amp;m" RenderString="]" Tile="Items/sw_metal_helmet.bmp" DetailColor="y" />
+    <part Name="Commerce" Value="13" />
+    <part Name="Description" Short="A second skull was raised as a cone from a sheet of desulfurized metal. Tiny initials are scratched in." />
+    <part Name="Physics" Weight="6" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="3" />
     <tag Name="DynamicObjectsTable:Headwear" />
     <tag Name="Role" Value="Rare" />
-	<tag Name="EquipSound" Value="sfx_equip_armor_metal_quantum" />
   </object>
 
   <!--Guns-->
@@ -125,7 +174,7 @@
     <part Name="Render" DisplayName="large handgonne" Tile="Items/sw_musket.bmp" />
     <part Name="Physics" Weight="50" UsesTwoSlots="true" />
     <part Name="Commerce" Value="34" />
-    <part Name="MissileWeapon" Skill="HeavyWeapons" ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="12" />
+    <part Name="MissileWeapon" Skill="HeavyWeapons" NoWildfire="true" ShotsPerAction="8" AmmoPerAction="1" ShotsPerAnimation="8" WeaponAccuracy="12" />
     <part Name="MagazineAmmoLoader" ProjectileObject="TQAQ_ProjectileCannonBall_Large" AmmoPart="TQAQ_AmmoCannon" MaxAmmo="1" />
     <part Name="Description" Short="A smoothbore barrel of found steel is blackened by pocks of gunpowder mess." />
     <part Name="Metal" />
@@ -137,6 +186,9 @@
 		<stag Name="Contemporary" />
   </object>
   <object Name="TQAQ_ProjectileCannonBall_Large" Inherits="BaseLeadSlugProjectile">
+    <part Name="Render" DisplayName="blast of shot" />
+	<tag Name="Slug" /> NoWildfire="true"
+	<tag Name="ImpactSound" Value="sfx_missile_leadSlugBurst_hit" />
     <part Name="Projectile" BasePenetration="16" BaseDamage="2d8" />
   </object>
 

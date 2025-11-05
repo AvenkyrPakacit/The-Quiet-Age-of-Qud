@@ -33,24 +33,18 @@
 		<scope Name="Subtype20" Subtype="Alpine Drek Archer" Priority="50" Combine="true" />
 		<scope Name="Subtype21" Subtype="Alpine Drek Mage" Priority="50" Combine="true" />
 		<scope Name="Subtype22" Subtype="Alpine Drek Jezailer" Priority="50" Combine="true" />
-		<scope Name="Subtype23" Subtype="Arid Drek Hiker" Priority="50" Combine="true" />
-		<scope Name="Subtype24" Subtype="Arid Drek Peltast" Priority="50" Combine="true" />
-		<scope Name="Subtype25" Subtype="Arid Drek Fighter" Priority="50" Combine="true" />
-		<scope Name="Subtype26" Subtype="Arid Drek Archer" Priority="50" Combine="true" />
-		<scope Name="Subtype27" Subtype="Arid Drek Mage" Priority="50" Combine="true" />
-		<scope Name="Subtype28" Subtype="Arid Drek Jezailer" Priority="50" Combine="true" />
-		<scope Name="Subtype29" Subtype="Artic Drek Hiker" Priority="50" Combine="true" />
-		<scope Name="Subtype30" Subtype="Artic Drek Peltast" Priority="50" Combine="true" />
-		<scope Name="Subtype31" Subtype="Artic Drek Fighter" Priority="50" Combine="true" />
-		<scope Name="Subtype32" Subtype="Artic Drek Archer" Priority="50" Combine="true" />
-		<scope Name="Subtype33" Subtype="Artic Drek Mage" Priority="50" Combine="true" />
-		<scope Name="Subtype34" Subtype="Artic Drek Jezailer" Priority="50" Combine="true" />
-		<scope Name="Subtype35" Subtype="Tropical Drek Hiker" Priority="50" Combine="true" />
-		<scope Name="Subtype36" Subtype="Tropical Drek Peltast" Priority="50" Combine="true" />
-		<scope Name="Subtype37" Subtype="Tropical Drek Fighter" Priority="50" Combine="true" />
-		<scope Name="Subtype38" Subtype="Tropical Drek Archer" Priority="50" Combine="true" />
-		<scope Name="Subtype39" Subtype="Tropical Drek Mage" Priority="50" Combine="true" />
-		<scope Name="Subtype40" Subtype="Tropical Drek Jezailer" Priority="50" Combine="true" />
+		<scope Name="Subtype23" Subtype="Artic Drek Hiker" Priority="50" Combine="true" />
+		<scope Name="Subtype24" Subtype="Artic Drek Peltast" Priority="50" Combine="true" />
+		<scope Name="Subtype25" Subtype="Artic Drek Fighter" Priority="50" Combine="true" />
+		<scope Name="Subtype26" Subtype="Artic Drek Archer" Priority="50" Combine="true" />
+		<scope Name="Subtype27" Subtype="Artic Drek Mage" Priority="50" Combine="true" />
+		<scope Name="Subtype28" Subtype="Artic Drek Jezailer" Priority="50" Combine="true" />
+		<scope Name="Subtype29" Subtype="Tropical Drek Hiker" Priority="50" Combine="true" />
+		<scope Name="Subtype30" Subtype="Tropical Drek Peltast" Priority="50" Combine="true" />
+		<scope Name="Subtype31" Subtype="Tropical Drek Fighter" Priority="50" Combine="true" />
+		<scope Name="Subtype32" Subtype="Tropical Drek Archer" Priority="50" Combine="true" />
+		<scope Name="Subtype33" Subtype="Tropical Drek Mage" Priority="50" Combine="true" />
+		<scope Name="Subtype34" Subtype="Tropical Drek Jezailer" Priority="50" Combine="true" />
       </scopes>
       <prefixes Amount="1">
         <prefix Name="Im" />
@@ -136,7 +130,7 @@
       <scopes>
         <scope Name="Main1" Special="Hero" Faction="Eldimor" Priority="200" Combine="false" />
         <scope Name="Main2" Special="Hero" Faction="TQAQ_Temperate_Clans" Priority="200" Combine="false" />
-		<scope Name="Main3" Special="Hero" Faction="TQAQ_Arid_Clans" Priority="200" Combine="false" />
+		<scope Name="Main3" Special="Hero" Faction="TQAQ_Tropical_Clans" Priority="200" Combine="false" />
 		<scope Name="Main4" Special="Hero" Faction="TQAQ_Artic_Clans" Priority="200" Combine="false" />
 		<scope Name="Main5" Special="Hero" Faction="TQAQ_Alpine_Clans" Priority="200" Combine="false" />
 		<scope Name="Main5" Special="Hero" Faction="Sivlao" Priority="200" Combine="false" />
@@ -149,7 +143,7 @@
 	<namestyle Name="Eldimor Hero Epithet">
       <scopes>
 		<scope Name="Main1" Type="Epithet" Special="Hero" Faction="TQAQ_Temperate_Clans" Priority="200" Combine="false" />
-		<scope Name="Main2" Type="Epithet" Special="Hero" Faction="TQAQ_Arid_Clans" Priority="200" Combine="false" />
+		<scope Name="Main2" Type="Epithet" Special="Hero" Faction="TQAQ_Tropical_Clans" Priority="200" Combine="false" />
 		<scope Name="Main3" Type="Epithet" Special="Hero" Faction="TQAQ_Artic_Clans" Priority="200" Combine="false" />
 		<scope Name="Main4" Type="Epithet" Special="Hero" Faction="TQAQ_Alpine_Clans" Priority="200" Combine="false" />
       </scopes>
@@ -193,14 +187,15 @@
 
 	<namestyle Name="Eldimor Arid Hero Title">
       <scopes>
-        <scope Name="Main" Type="Title" Special="Hero" Faction="TQAQ_Arid_Clans" Priority="200" Combine="false" />
+        <scope Name="Main1" Type="Title" Special="Hero" Faction="TQAQ_Artic_Clans" Priority="200" Combine="false" />
+        <scope Name="Main2" Type="Title" Special="Hero" Faction="TQAQ_Temperate_Clans" Priority="200" Combine="false" />
+        <scope Name="Main3" Type="Title" Special="Hero" Faction="TQAQ_Tropical_Clans" Priority="200" Combine="false" />
       </scopes>
       <templates>
         <template Name="of Clan *Clan*" />
       </templates>
       <templatevars>
         <templatevar Name="Clan">
-		  <!--Arid-->
           <value Name="White Dune" />
           <value Name="Saline Oasis" />
           <value Name="Issachari" />

@@ -54,30 +54,57 @@
 
   <!--Armour-->
 
-  <population Name="Armor 6R" Load="Merge">
+  <population Name="Armor 1C" Load="Merge">
     <group>
-	  <object Weight="5"  Blueprint="TQAQ_Chest_Stal" Number="1" />
-      <object Weight="5"  Blueprint="TQAQ_Feet_Stal" Number="1" />
-      <object Weight="5"  Blueprint="TQAQ_Hands_Stal" Number="1" />
-      <object Weight="5"  Blueprint="TQAQ_Head_Stal" Number="1" />
+	  <object Weight="5" Blueprint="TQAQ_Body_Yatal_Hammered" Number="1" />
+      <object Weight="5" Blueprint="TQAQ_Feet_Yatal_Hammered" Number="1" />
+      <object Weight="5" Blueprint="TQAQ_Hands_Yatal_Hammered" Number="1" />
+      <object Weight="5" Blueprint="TQAQ_Head_Yatal_Hammered" Number="1" />
     </group>
   </population>
 
-  <population Name="Armor 7R" Load="Merge">
+  <population Name="Armor 2C" Load="Merge">
     <group>
-	  <object Weight="10"  Blueprint="TQAQ_Chest_Stal" Number="1" />
-      <object Weight="10"  Blueprint="TQAQ_Feet_Stal" Number="1" />
-      <object Weight="10"  Blueprint="TQAQ_Hands_Stal" Number="1" />
-      <object Weight="10"  Blueprint="TQAQ_Head_Stal" Number="1" />
+	  <object Weight="10" Blueprint="TQAQ_Body_Yatal_Hammered" Number="1" />
+      <object Weight="10" Blueprint="TQAQ_Feet_Yatal_Hammered" Number="1" />
+      <object Weight="10" Blueprint="TQAQ_Hands_Yatal_Hammered" Number="1" />
+      <object Weight="10" Blueprint="TQAQ_Head_Yatal_Hammered" Number="1" />
     </group>
   </population>
 
-  <population Name="Armor 8R" Load="Merge">
+  <population Name="Armor 3C" Load="Merge">
     <group>
-	  <object Weight="15"  Blueprint="TQAQ_Chest_Stal" Number="1" />
-      <object Weight="15"  Blueprint="TQAQ_Feet_Stal" Number="1" />
-      <object Weight="15"  Blueprint="TQAQ_Hands_Stal" Number="1" />
-      <object Weight="15"  Blueprint="TQAQ_Head_Stal" Number="1" />
+	  <object Weight="15" Blueprint="TQAQ_Body_Yatal_Hammered" Number="1" />
+      <object Weight="15" Blueprint="TQAQ_Feet_Yatal_Hammered" Number="1" />
+      <object Weight="15" Blueprint="TQAQ_Hands_Yatal_Hammered" Number="1" />
+      <object Weight="15" Blueprint="TQAQ_Head_Yatal_Hammered" Number="1" />
+    </group>
+  </population>
+
+  <population Name="Armor 1R" Load="Merge">
+    <group>
+	  <object Weight="5" Blueprint="TQAQ_Body_Yatal_Casted" Number="1" />
+      <object Weight="5" Blueprint="TQAQ_Feet_Yatal_Casted" Number="1" />
+      <object Weight="5" Blueprint="TQAQ_Hands_Yatal_Casted" Number="1" />
+      <object Weight="5" Blueprint="TQAQ_Head_Yatal_Casted" Number="1" />
+    </group>
+  </population>
+
+  <population Name="Armor 2R" Load="Merge">
+    <group>
+	  <object Weight="10" Blueprint="TQAQ_Body_Yatal_Casted" Number="1" />
+      <object Weight="10" Blueprint="TQAQ_Feet_Yatal_Casted" Number="1" />
+      <object Weight="10" Blueprint="TQAQ_Hands_Yatal_Casted" Number="1" />
+      <object Weight="10" Blueprint="TQAQ_Head_Yatal_Casted" Number="1" />
+    </group>
+  </population>
+
+  <population Name="Armor 3R" Load="Merge">
+    <group>
+	  <object Weight="15" Blueprint="TQAQ_Body_Yatal_Casted" Number="1" />
+      <object Weight="15" Blueprint="TQAQ_Feet_Yatal_Casted" Number="1" />
+      <object Weight="15" Blueprint="TQAQ_Hands_Yatal_Casted" Number="1" />
+      <object Weight="15" Blueprint="TQAQ_Head_Yatal_Casted" Number="1" />
     </group>
   </population>
 
@@ -140,7 +167,7 @@
 
   <population Name="TQAQ_Dralkir">
     <group Name="Creatures" Style="pickeach">
-      <object Chance="100" Number="1-3" Blueprint="TQAQ_Dralkir_Sivilao" />
+      <object Chance="100" Number="1-3" Blueprint="TQAQ_Dralkir_ArmourMetal" />
       <object Chance="25" Number="1-3" Blueprint="TQAQ_Dralkir_Peltast" />
       <object Chance="15" Number="1" Blueprint="TQAQ_Dralkir_Fighter" />
       <object Chance="25" Number="1-3" Blueprint="TQAQ_Dralkir_Archer" />
@@ -268,19 +295,35 @@
 	  <object Blueprint="TQAQ_Mask_Manaslate" Number="1" />
     </group>
   </population>
-
-  <population Name="StartingGear_Sivilao">
+  
+  <population Name="StartingGear_Yatal_Hammered">
     <group Name="Items" Style="pickeach">
-      <object Blueprint="TQAQ_Chest_Stal" Number="1" />
-      <object Blueprint="TQAQ_Feet_Stal" Number="1" />
-      <object Blueprint="TQAQ_Hands_Stal" Number="1" />
-      <object Blueprint="TQAQ_Head_Stal" Number="1" />
+      <object Blueprint="TQAQ_Body_Yatal_Hammered" Number="1" />
+      <object Blueprint="TQAQ_Feet_Yatal_Hammered" Number="1" />
+      <object Blueprint="TQAQ_Hands_Yatal_Hammered" Number="1" />
+      <object Blueprint="TQAQ_Head_Yatal_Hammered" Number="1" />
+    </group>
+  </population>
+  
+  <population Name="StartingGear_Yatal_Casted">
+    <group Name="Items" Style="pickeach">
+      <object Blueprint="TQAQ_Body_Yatal_Casted" Number="1" />
+      <object Blueprint="TQAQ_Feet_Yatal_Casted" Number="1" />
+      <object Blueprint="TQAQ_Hands_Yatal_Casted" Number="1" />
+      <object Blueprint="TQAQ_Head_Yatal_Casted" Number="1" />
     </group>
   </population>
 
-  <population Name="StartingGear_Sivilao_Mavotur">
+  <population Name="StartingGear_EldimorArmourMetal">
     <group Name="Items" Style="pickeach">
-      <table Name="StartingGear_Sivilao" />
+      <table Name="StartingGear_Yatal_Hammered" />
+      <table Name="StartingGear_Yatal_Casted" />
+    </group>
+  </population>
+
+  <population Name="StartingGear_EldimorArmourMetal_Mavotur">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_EldimorArmourMetal" />
 	  <object Blueprint="TQAQ_Mask_Manaslate" Number="1" />
     </group>
   </population>
@@ -302,7 +345,7 @@
   <population Name="StartingGear_EldimorFighter">
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
-	  <table Name="StartingGear_EldimorArmour" />
+	  <table Name="StartingGear_EldimorArmourMetal" />
 	  <table Name="TQAQ_Weapons_Melee" />
       <object Blueprint="HalfFullWaterskin" Number="1" />
 	  <object Blueprint="Wooden Buckler" Number="1" />
@@ -312,10 +355,10 @@
     </group>
   </population>
 
-  <population Name="StartingGear_EldimorFighter_Sivilao">
+  <population Name="StartingGear_EldimorFighter_ArmourMetal">
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
-	  <table Name="StartingGear_Sivilao" />
+	  <table Name="StartingGear_EldimorArmourMetal" />
 	  <table Name="TQAQ_Weapons_Melee" />
       <object Blueprint="HalfFullWaterskin" Number="1" />
 	  <object Blueprint="Wooden Buckler" Number="1" />
@@ -358,10 +401,10 @@
     </group>
   </population>
 
-  <population Name="StartingGear_EldimorArcher_Sivilao">
+  <population Name="StartingGear_EldimorArcher_ArmourMetal">
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
-	  <table Name="StartingGear_Sivilao" />
+	  <table Name="StartingGear_EldimorArmourMetal" />
       <object Blueprint="HalfFullWaterskin" Number="1" />
 	  <object Blueprint="Wooden Buckler" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
@@ -384,10 +427,10 @@
     </group>
   </population>
 
-  <population Name="StartingGear_EldimorGunner_Sivilao">
+  <population Name="StartingGear_EldimorGunner_ArmourMetal">
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
-	  <table Name="StartingGear_Sivilao" />
+	  <table Name="StartingGear_EldimorArmourMetal" />
       <object Blueprint="HalfFullWaterskin" Number="1" />
 	  <object Blueprint="Wooden Buckler" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
@@ -488,10 +531,10 @@
     </group>
   </population>
 
-  <population Name="StartingGear_SivilaoPeltast">
+  <population Name="StartingGear_EldimorArmourMetalPeltast">
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
-	  <table Name="StartingGear_Sivilao" />
+	  <table Name="StartingGear_EldimorArmourMetal" />
       <object Blueprint="HalfFullWaterskin" Number="1" />
 	  <object Blueprint="Wooden Buckler" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
