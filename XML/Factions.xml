@@ -27,8 +27,8 @@
   </faction>
 
   <faction
-    Name="TQAQ_Alpine_Clans"
-    DisplayName="Alpine Eldimor Clans"
+    Name="TQAQ_Alpine_Clans_Drekir"
+    DisplayName="Alpine Drekir Clans"
     Old="true"
     FormatWithArticle="true"
     InitialPlayerReputation="0"
@@ -48,15 +48,43 @@
       <interest Tags="eldimor,lair" />
     </interests>
     <factionworshipattitudes>
-      <factionworshipattitude Name="TQAQ_Alpine_Clans" Attitude="100" />
+      <factionworshipattitude Name="TQAQ_Alpine_Clans_Drekir" Attitude="100" />
       <factionworshipattitude Name="Eldimor" Attitude="50" />
       <factionworshipattitude Name="Sivilao" Attitude="-100" />
     </factionworshipattitudes>
   </faction>
 
   <faction
-    Name="TQAQ_Artic_Clans"
-    DisplayName="Artic Eldimor Clans"
+    Name="TQAQ_Alpine_Clans_Ormer"
+    DisplayName="Alpine Ormer Clans"
+    Old="true"
+    FormatWithArticle="true"
+    InitialPlayerReputation="0"
+    PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
+    NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
+    HistoricalSignificance="1"
+		EmblemTile="OrmWarrior.png"
+    EmblemTileColor="w"
+    EmblemDetailColor="Y"
+  >
+    <feeling About="Sivilao" Value="-250" />
+    <feeling About="*" Value="0" />
+    <waterritual
+	  skill="Tactics"
+    />
+    <interests>
+      <interest Tags="eldimor,lair" />
+    </interests>
+    <factionworshipattitudes>
+      <factionworshipattitude Name="TQAQ_Alpine_Clans_Ormer" Attitude="100" />
+      <factionworshipattitude Name="Eldimor" Attitude="50" />
+      <factionworshipattitude Name="Sivilao" Attitude="-100" />
+    </factionworshipattitudes>
+  </faction>
+
+  <faction
+    Name="TQAQ_Artic_Clans_Drekir"
+    DisplayName="Artic Drekir Clans"
     Old="true"
     FormatWithArticle="true"
     InitialPlayerReputation="0"
@@ -76,7 +104,35 @@
       <interest Tags="eldimor,lair" />
     </interests>
     <factionworshipattitudes>
-      <factionworshipattitude Name="TQAQ_Artic_Clans" Attitude="100" />
+      <factionworshipattitude Name="TQAQ_Artic_Clans_Drekir" Attitude="100" />
+      <factionworshipattitude Name="Eldimor" Attitude="50" />
+      <factionworshipattitude Name="Sivilao" Attitude="-100" />
+    </factionworshipattitudes>
+  </faction>
+
+  <faction
+    Name="TQAQ_Artic_Clans_Ormer"
+    DisplayName="Artic Ormer Clans"
+    Old="true"
+    FormatWithArticle="true"
+    InitialPlayerReputation="0"
+    PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
+    NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
+    HistoricalSignificance="1"
+		EmblemTile="OrmWarrior.png"
+    EmblemTileColor="Y"
+    EmblemDetailColor="w"
+  >
+    <feeling About="Sivilao" Value="-250" />
+    <feeling About="*" Value="0" />
+    <waterritual
+	  skill="Tactics"
+    />
+    <interests>
+      <interest Tags="eldimor,lair" />
+    </interests>
+    <factionworshipattitudes>
+      <factionworshipattitude Name="TQAQ_Artic_Clans_Ormer" Attitude="100" />
       <factionworshipattitude Name="Eldimor" Attitude="50" />
       <factionworshipattitude Name="Sivilao" Attitude="-100" />
     </factionworshipattitudes>
@@ -108,8 +164,8 @@
   </faction>
 
   <faction
-    Name="TQAQ_Temperate_Clans"
-    DisplayName="Temperate Eldimor Clans"
+    Name="TQAQ_Temperate_Clans_Drekir"
+    DisplayName="Temperate Drekir Clans"
     Old="true"
     FormatWithArticle="true"
     InitialPlayerReputation="0"
@@ -129,15 +185,43 @@
       <interest Tags="eldimor,lair" />
     </interests>
     <factionworshipattitudes>
-      <factionworshipattitude Name="TQAQ_Temperate_Clans" Attitude="100" />
+      <factionworshipattitude Name="TQAQ_Temperate_Clans_Drekir" Attitude="100" />
       <factionworshipattitude Name="Eldimor" Attitude="50" />
       <factionworshipattitude Name="Sivilao" Attitude="-100" />
     </factionworshipattitudes>
   </faction>
 
   <faction
-    Name="TQAQ_Tropical_Clans"
-    DisplayName="Temperate Eldimor Clans"
+    Name="TQAQ_Temperate_Clans_Ormer"
+    DisplayName="Temperate Ormer Clans"
+    Old="true"
+    FormatWithArticle="true"
+    InitialPlayerReputation="0"
+    PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
+    NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
+    HistoricalSignificance="1"
+		EmblemTile="OrmWarrior.png"
+    EmblemTileColor="w"
+    EmblemDetailColor="g"
+  >
+    <feeling About="Sivilao" Value="-250" />
+    <feeling About="*" Value="0" />
+    <waterritual
+	  skill="Tactics"
+    />
+    <interests>
+      <interest Tags="eldimor,lair" />
+    </interests>
+    <factionworshipattitudes>
+      <factionworshipattitude Name="TQAQ_Temperate_Clans_Ormer" Attitude="100" />
+      <factionworshipattitude Name="Eldimor" Attitude="50" />
+      <factionworshipattitude Name="Sivilao" Attitude="-100" />
+    </factionworshipattitudes>
+  </faction>
+
+  <faction
+    Name="TQAQ_Tropical_Clans_Drekir"
+    DisplayName="Temperate Drekir Clans"
     Old="true"
     FormatWithArticle="true"
     InitialPlayerReputation="0"
@@ -157,7 +241,35 @@
       <interest Tags="eldimor,lair" />
     </interests>
     <factionworshipattitudes>
-      <factionworshipattitude Name="TQAQ_Tropical_Clans" Attitude="100" />
+      <factionworshipattitude Name="TQAQ_Tropical_Clans_Drekir" Attitude="100" />
+      <factionworshipattitude Name="Eldimor" Attitude="50" />
+      <factionworshipattitude Name="Sivilao" Attitude="-100" />
+    </factionworshipattitudes>
+  </faction>
+
+  <faction
+    Name="TQAQ_Tropical_Clans_Ormer"
+    DisplayName="Temperate Ormer Clans"
+    Old="true"
+    FormatWithArticle="true"
+    InitialPlayerReputation="0"
+    PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
+    NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
+    HistoricalSignificance="1"
+		EmblemTile="OrmWarrior.png"
+    EmblemTileColor="w"
+    EmblemDetailColor="b"
+  >
+    <feeling About="Sivilao" Value="-250" />
+    <feeling About="*" Value="0" />
+    <waterritual
+	  skill="Tactics"
+    />
+    <interests>
+      <interest Tags="eldimor,lair" />
+    </interests>
+    <factionworshipattitudes>
+      <factionworshipattitude Name="TQAQ_Tropical_Clans_Ormer" Attitude="100" />
       <factionworshipattitude Name="Eldimor" Attitude="50" />
       <factionworshipattitude Name="Sivilao" Attitude="-100" />
     </factionworshipattitudes>
