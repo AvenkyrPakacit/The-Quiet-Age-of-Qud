@@ -15,7 +15,7 @@
     <tag Name="TurretStockExclusive" />
   </object>
   <object Name="TQAQ_ProjectileLeadCannonBall_Small" Inherits="BaseLeadSlugProjectile">
-    <part Name="Projectile" BasePenetration="6" BaseDamage="2d6" />
+    <part Name="Projectile" BasePenetration="3" BaseDamage="2d6" />
   </object>
 
   <object Name="TQAQ_LeadCannonBall_Large" Inherits="Projectile">
@@ -30,7 +30,7 @@
     <tag Name="TurretStockExclusive" />
   </object>
   <object Name="TQAQ_ProjectileLeadCannonBall_Large" Inherits="BaseLeadSlugProjectile">
-    <part Name="Projectile" BasePenetration="12" BaseDamage="4d6" />
+    <part Name="Projectile" BasePenetration="6" BaseDamage="4d6" />
   </object>
 
   <!--Natural-->
@@ -167,7 +167,7 @@
 		<stag Name="Contemporary" />
   </object>
   <object Name="TQAQ_ProjectileCannonBall_Small" Inherits="BaseLeadSlugProjectile">
-    <part Name="Projectile" BasePenetration="8" BaseDamage="2d8" />
+    <part Name="Projectile" BasePenetration="3" BaseDamage="2d8" />
   </object>
 
   <object Name="TQAQ_Cannon_Large" Inherits="BaseMagazineRifle">
@@ -189,7 +189,7 @@
     <part Name="Render" DisplayName="blast of shot" />
 	<tag Name="Slug" />
 	<tag Name="ImpactSound" Value="sfx_missile_leadSlugBurst_hit" />
-    <part Name="Projectile" BasePenetration="16" BaseDamage="2d8" />
+    <part Name="Projectile" BasePenetration="5" BaseDamage="2d8" />
   </object>
 
   <!--Spears-->

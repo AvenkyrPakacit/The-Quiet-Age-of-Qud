@@ -45,6 +45,24 @@
 		<scope Name="Subtype32" Subtype="Tropical Drek Archer" Priority="50" Combine="true" />
 		<scope Name="Subtype33" Subtype="Tropical Drek Mage" Priority="50" Combine="true" />
 		<scope Name="Subtype34" Subtype="Tropical Drek Jezailer" Priority="50" Combine="true" />
+		<scope Name="Subtype35" Subtype="Alpine Orm Hiker" Priority="50" Combine="true" />
+		<scope Name="Subtype36" Subtype="Alpine Orm Slinger" Priority="50" Combine="true" />
+		<scope Name="Subtype37" Subtype="Alpine Orm Warrior" Priority="50" Combine="true" />
+		<scope Name="Subtype38" Subtype="Alpine Orm Axe Thrower" Priority="50" Combine="true" />
+		<scope Name="Subtype39" Subtype="Alpine Orm Mage" Priority="50" Combine="true" />
+		<scope Name="Subtype40" Subtype="Alpine Orm Cannoneer" Priority="50" Combine="true"/>
+		<scope Name="Subtype41" Subtype="Artic Orm Hiker" Priority="50" Combine="true" />
+		<scope Name="Subtype42" Subtype="Artic Orm Slinger" Priority="50" Combine="true" />
+		<scope Name="Subtype43" Subtype="Artic Orm Warrior" Priority="50" Combine="true" />
+		<scope Name="Subtype44" Subtype="Artic Orm Axe Thrower" Priority="50" Combine="true" />
+		<scope Name="Subtype45" Subtype="Artic Orm Mage" Priority="50" Combine="true" />
+		<scope Name="Subtype46" Subtype="Artic Orm Cannoneer" Priority="50" Combine="true"/>
+		<scope Name="Subtype47" Subtype="Tropical Orm Hiker" Priority="50" Combine="true" />
+		<scope Name="Subtype48" Subtype="Tropical Orm Slinger" Priority="50" Combine="true" />
+		<scope Name="Subtype49" Subtype="Tropical Orm Warrior" Priority="50" Combine="true" />
+		<scope Name="Subtype50" Subtype="Tropical Orm Axe Thrower" Priority="50" Combine="true" />
+		<scope Name="Subtype51" Subtype="Tropical Orm Mage" Priority="50" Combine="true" />
+		<scope Name="Subtype52" Subtype="Tropical Orm Cannoneer" Priority="50" Combine="true"/>
       </scopes>
       <prefixes Amount="1">
         <prefix Name="Im" />

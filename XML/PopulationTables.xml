@@ -436,7 +436,7 @@
 	  <object Blueprint="Wooden Buckler" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
       <object Blueprint="TQAQ_Cannon_small" Number="1" />
-      <object Blueprint="TQAQ_LeadCannonBall_Small" Number="30-50" />
+      <object Blueprint="TQAQ_LeadCannonBall_Small" Number="15-30" />
       <object Blueprint="Witchwood Bark" Number="3-4" />
     </group>
   </population>
@@ -449,7 +449,7 @@
 	  <object Blueprint="Wooden Buckler" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
       <object Blueprint="TQAQ_Cannon_small" Number="1" />
-      <object Blueprint="TQAQ_LeadCannonBall_Small" Number="30-50" />
+      <object Blueprint="TQAQ_LeadCannonBall_Small" Number="15-30" />
       <object Blueprint="Witchwood Bark" Number="3-4" />
     </group>
   </population>
@@ -462,7 +462,7 @@
 	  <object Blueprint="Wooden Buckler" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
       <object Blueprint="TQAQ_Cannon_Large" Number="1" />
-      <object Blueprint="TQAQ_LeadCannonBall_Large" Number="30-50" />
+      <object Blueprint="TQAQ_LeadCannonBall_Large" Number="15-30" />
       <object Blueprint="Witchwood Bark" Number="3-4" />
     </group>
   </population>
