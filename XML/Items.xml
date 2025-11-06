@@ -6,7 +6,7 @@
   <object Name="TQAQ_LeadCannonBall_Small" Inherits="Projectile">
     <part Name="Render" DisplayName="small lead cannonball" ColorString="&amp;w" DetailColor="y" Tile="items/sw_bullet.bmp" />
     <part Name="TQAQ_AmmoCannon" ProjectileObject="TQAQ_ProjectileLeadCannonBall_Small" />
-    <part Name="Physics" Category="Ammo" Weight="2" />
+    <part Name="Physics" Category="Ammo" Weight="1" />
 	<part Name="Commerce" Value="6" />
     <part Name="Description" Short="Lead is cast to a small ball." />
     <part Name="TinkerItem" Bits="C" CanBuild="true" CanDisassemble="false" NumberMade="50" />
@@ -21,7 +21,7 @@
   <object Name="TQAQ_LeadCannonBall_Large" Inherits="Projectile">
     <part Name="Render" DisplayName="large lead cannonball" ColorString="&amp;w" DetailColor="y" Tile="items/sw_bullet.bmp" />
     <part Name="TQAQ_AmmoCannon" ProjectileObject="TQAQ_ProjectileLeadCannonBall_Large" />
-    <part Name="Physics" Category="Ammo" Weight="4" />
+    <part Name="Physics" Category="Ammo" Weight="2" />
 	<part Name="Commerce" Value="12" />
     <part Name="Description" Short="Lead is cast to a large ball." />
     <part Name="TinkerItem" Bits="C" CanBuild="true" CanDisassemble="false" NumberMade="50" />
