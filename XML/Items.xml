@@ -195,7 +195,7 @@
   <!--Spears-->
 
   <object Name="TQAQ_ThrowingSpear_Bronze" Inherits="BaseDagger">
-    <part Name="Render" DisplayName="{{w|bronze}} throwing spear" Tile="TQAQ_Javelin.png" ColorString="&amp;w" />
+    <part Name="Render" DisplayName="{{w|bronze}} throwing spear" Tile="TQAQ_Javelin.png" ColorString="&amp;y" DetailColor="w" />
     <part Name="MeleeWeapon" MaxStrengthBonus="1" BaseDamage="1d2" />
     <part Name="ThrownWeapon" Penetration="1" Damage="1d2" Attributes="ShortBlades" />
     <part Name="Commerce" Value="5" />
@@ -207,7 +207,8 @@
   </object>
 
   <object Name="TQAQ_Spear_Bronze" Inherits="TQAQ_ThrowingSpear_Bronze">
-    <part Name="Render" DisplayName="{{w|bronze}} spear" />
+    <part Name="Render" DisplayName="{{w|bronze}} spear" Tile="TQAQ_Spear.png" />
+	<part Name="Description" Short="A tanged bronze point is hafted into a tree sapling with sinew and rawhide, the weathered marks of impurities in the bronze blends into the woodgrain of the shaft." />
     <tag Name="NoAIEquipAsThrownWeapon" />
     <tag Name="HideThrownWeaponPerformance" />
   </object>
@@ -225,7 +226,8 @@
   </object>
 
   <object Name="TQAQ_Spear_Yatal" Inherits="TQAQ_ThrowingSpear_Yatal">
-    <part Name="Render" DisplayName="{{m|yatal}} spear" />
+    <part Name="Render" DisplayName="{{m|yatal}} spear" Tile="TQAQ_Spear.png" />
+	<part Name="Description" Short="A tanged yatal point is hafted into a tree sapling with sinew and rawhide, the weathered marks of impurities in the dark maroon metal blends into the woodgrain of the red ochre shaft." />
     <tag Name="NoAIEquipAsThrownWeapon" />
     <tag Name="HideThrownWeaponPerformance" />
   </object>
