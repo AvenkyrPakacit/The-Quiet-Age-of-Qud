@@ -152,7 +152,7 @@
   <!--Guns-->
 
   <object Name="TQAQ_Cannon_small" Inherits="BaseMagazineRifle">
-    <part Name="Render" DisplayName="small handgonne" Tile="DrekGonne.png" ColorString="&amp;r" DetailColor="m" />
+    <part Name="Render" DisplayName="small {{m|yatal}} handgonne" Tile="DrekGonne.png" ColorString="&amp;r" DetailColor="m" />
     <part Name="Physics" Weight="25" UsesTwoSlots="true" />
     <part Name="Commerce" Value="17" />
     <part Name="MissileWeapon" Skill="Rifles" ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="12" />
@@ -171,12 +171,12 @@
   </object>
 
   <object Name="TQAQ_Cannon_Large" Inherits="BaseMagazineRifle">
-    <part Name="Render" DisplayName="large handgonne" Tile="OrmGonne.png" ColorString="&amp;r" DetailColor="m" />
+    <part Name="Render" DisplayName="large {{m|yatal}} handgonne" Tile="OrmGonne.png" ColorString="&amp;r" DetailColor="m" />
     <part Name="Physics" Weight="50" UsesTwoSlots="true" />
     <part Name="Commerce" Value="34" />
     <part Name="MissileWeapon" Skill="HeavyWeapons" NoWildfire="true" ShotsPerAction="6" AmmoPerAction="1" ShotsPerAnimation="6" WeaponAccuracy="24" />
     <part Name="MagazineAmmoLoader" ProjectileObject="TQAQ_ProjectileCannonBall_Large" AmmoPart="TQAQ_AmmoCannon" MaxAmmo="1" />
-    <part Name="Description" Short=".A 6 gauge bombard is set into a thick piece of ochre stained wood. The heavy gonne's casted maroon metal is stained with the black soot of prior stories of hunting and conflict" />
+    <part Name="Description" Short="A 6 gauge bombard is set into a thick piece of ochre stained wood. The heavy gonne's casted maroon metal is stained with the black soot of prior stories of hunting and conflict" />
     <part Name="Metal" />
     <part Name="TinkerItem" Bits="002" CanDisassemble="true" CanBuild="true" />
     <tag Name="Tier" Value="1" />
@@ -187,7 +187,7 @@
   </object>
   <object Name="TQAQ_ProjectileCannonBall_Large" Inherits="BaseLeadSlugProjectile">
     <part Name="Render" DisplayName="blast of shot" />
-	<tag Name="Slug" /> NoWildfire="true"
+	<tag Name="Slug" />
 	<tag Name="ImpactSound" Value="sfx_missile_leadSlugBurst_hit" />
     <part Name="Projectile" BasePenetration="16" BaseDamage="2d8" />
   </object>
@@ -195,11 +195,11 @@
   <!--Spears-->
 
   <object Name="TQAQ_ThrowingSpear_Bronze" Inherits="BaseDagger">
-    <part Name="Render" DisplayName="{{w|bronze}} throwing spear" Tile="Items/sw_shortblade_1.bmp" ColorString="&amp;w" />
+    <part Name="Render" DisplayName="{{w|bronze}} throwing spear" Tile="TQAQ_Javelin.png" ColorString="&amp;w" />
     <part Name="MeleeWeapon" MaxStrengthBonus="1" BaseDamage="1d2" />
     <part Name="ThrownWeapon" Penetration="1" Damage="1d2" Attributes="ShortBlades" />
     <part Name="Commerce" Value="5" />
-    <part Name="Description" Short="Solid bronze spindled into a wooden pole weighted to the tip." />
+    <part Name="Description" Short="A fire straightened branch bears the char marks of fireside hunters, while it's fletched rear and bronze tipped point ensure that it meets its target so that those hunters can meet again by the fireside." />
     <part Name="Metal" />
     <tag Name="Tier" Value="0" />
 	<tag Name="Spear" />
@@ -207,7 +207,25 @@
   </object>
 
   <object Name="TQAQ_Spear_Bronze" Inherits="TQAQ_ThrowingSpear_Bronze">
-    <part Name="Render" DisplayName="{{w|bronze}} spear" Tile="Items/sw_shortblade_1.bmp" ColorString="&amp;w" />
+    <part Name="Render" DisplayName="{{w|bronze}} spear" />
+    <tag Name="NoAIEquipAsThrownWeapon" />
+    <tag Name="HideThrownWeaponPerformance" />
+  </object>
+
+  <object Name="TQAQ_ThrowingSpear_Yatal" Inherits="BaseDagger">
+    <part Name="Render" DisplayName="{{m|yatal}} throwing spear" Tile="TQAQ_Javelin.png" ColorString="&amp;r" DetailColor="m" />
+    <part Name="MeleeWeapon" MaxStrengthBonus="2" BaseDamage="2d4" />
+    <part Name="ThrownWeapon" Penetration="2" Damage="2d4" Attributes="ShortBlades" />
+    <part Name="Commerce" Value="10" />
+    <part Name="Description" Short="A fire straightened branch bears the char marks of fireside hunters, while it's fletched rear and yatal tipped point ensure that it meets its target so that those hunters can meet again by the fireside." />
+    <part Name="Metal" />
+    <tag Name="Tier" Value="1" />
+	<tag Name="Spear" />
+		<stag Name="Contemporary" />
+  </object>
+
+  <object Name="TQAQ_Spear_Yatal" Inherits="TQAQ_ThrowingSpear_Yatal">
+    <part Name="Render" DisplayName="{{m|yatal}} spear" />
     <tag Name="NoAIEquipAsThrownWeapon" />
     <tag Name="HideThrownWeaponPerformance" />
   </object>
