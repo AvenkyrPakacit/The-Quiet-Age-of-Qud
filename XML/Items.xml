@@ -152,12 +152,12 @@
   <!--Guns-->
 
   <object Name="TQAQ_Cannon_small" Inherits="BaseMagazineRifle">
-    <part Name="Render" DisplayName="small handgonne" Tile="Items/sw_musket.bmp" />
+    <part Name="Render" DisplayName="small handgonne" Tile="DrekGonne.png" ColorString="&amp;r" DetailColor="m" />
     <part Name="Physics" Weight="25" UsesTwoSlots="true" />
     <part Name="Commerce" Value="17" />
     <part Name="MissileWeapon" Skill="Rifles" ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="12" />
     <part Name="MagazineAmmoLoader" ProjectileObject="TQAQ_ProjectileCannonBall_Small" AmmoPart="TQAQ_AmmoCannon" MaxAmmo="1" />
-    <part Name="Description" Short="A smoothbore barrel of found steel is blackened by pocks of gunpowder mess." />
+    <part Name="Description" Short="A short smoothbore barrel made of yatal is affixed at the end of a pole. The impurities of the dark and pale maroon metal blend seamlessly into the woodgrain of the aged, ochre stained tiller." />
     <part Name="Metal" />
     <part Name="TinkerItem" Bits="002" CanDisassemble="true" CanBuild="true" />
     <tag Name="Tier" Value="1" />
@@ -171,12 +171,12 @@
   </object>
 
   <object Name="TQAQ_Cannon_Large" Inherits="BaseMagazineRifle">
-    <part Name="Render" DisplayName="large handgonne" Tile="Items/sw_musket.bmp" />
+    <part Name="Render" DisplayName="large handgonne" Tile="OrmGonne.png" ColorString="&amp;r" DetailColor="m" />
     <part Name="Physics" Weight="50" UsesTwoSlots="true" />
     <part Name="Commerce" Value="34" />
-    <part Name="MissileWeapon" Skill="HeavyWeapons" NoWildfire="true" ShotsPerAction="8" AmmoPerAction="1" ShotsPerAnimation="8" WeaponAccuracy="12" />
+    <part Name="MissileWeapon" Skill="HeavyWeapons" NoWildfire="true" ShotsPerAction="6" AmmoPerAction="1" ShotsPerAnimation="6" WeaponAccuracy="6" />
     <part Name="MagazineAmmoLoader" ProjectileObject="TQAQ_ProjectileCannonBall_Large" AmmoPart="TQAQ_AmmoCannon" MaxAmmo="1" />
-    <part Name="Description" Short="A smoothbore barrel of found steel is blackened by pocks of gunpowder mess." />
+    <part Name="Description" Short=".A 6 gauge bombard is set into a thick piece of ochre stained wood. The heavy gonne's casted maroon metal is stained with the black soot of prior stories of hunting and conflict" />
     <part Name="Metal" />
     <part Name="TinkerItem" Bits="002" CanDisassemble="true" CanBuild="true" />
     <tag Name="Tier" Value="1" />
