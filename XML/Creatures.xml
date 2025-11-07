@@ -198,23 +198,28 @@
 	<part Name="Brain" Factions="Sivilao-100" />
   </object>
 
-  <object Name="TQAQ_Dralkir_Peltast" Inherits="TQAQ_Dralkir_Sivilao">
-    <part Name="Render" DisplayName="Dralk Peltast" Tile="DrekPeltast.png"/>
+  <object Name="TQAQ_Dralkir_Sivilao_Stal" Inherits="TQAQ_Dralkir_Sivilao">
+    <part Name="Description" Short="Clad in glimmering teal steel, spiteful eyes gaze upon those who do not abide the cult of the wheel. their quiet chants to the ofuth from which they hail hide a fanatical rage. The ofuth needs more spokes to labor in the bilor." />
+    <tag Name="BaseObject" Value="*noinherit" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Peltast" Inherits="TQAQ_Dralkir_Sivilao_Stal">
+    <part Name="Render" DisplayName="Dralk Peltast" Tile="DrekPeltast.png" />
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Shield" />
 	<skill Name="ShortBlades" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_ArmourMetal" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArmourMetalPeltast" />
   </object>
 
   <object Name="TQAQ_Dralkir_Peltast_Hero" Inherits="TQAQ_Dralkir_Peltast" >
-    <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Dralk Hero" Tile="SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
   </object>
 
-  <object Name="TQAQ_Dralkir_Fighter" Inherits="TQAQ_Dralkir_Sivilao">
-    <part Name="Render" DisplayName="Dralk Fighter" Tile="DrekFighter.png"/>
+  <object Name="TQAQ_Dralkir_Fighter" Inherits="TQAQ_Dralkir_Sivilao_Stal">
+    <part Name="Render" DisplayName="Dralk Fighter" Tile="DrekFighter.png" />
 	<stat Name="Agility" Boost="1" />
 	<stat Name="Strength'" Boost="1" />
 	<stat Name="Toughness" Boost="1" />
@@ -223,30 +228,30 @@
     <skill Name="LongBlades" />
     <skill Name="Shield" />
     <skill Name="ShortBlades" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter_Sivilao" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter_ArmourMetal" />
   </object>
 
   <object Name="TQAQ_Dralkir_Fighter_Hero" Inherits="TQAQ_Dralkir_Fighter" >
-    <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Dralk Hero" Tile="SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
   </object>
 
-  <object Name="TQAQ_Dralkir_Archer" Inherits="TQAQ_Dralkir_Sivilao">
-    <part Name="Render" DisplayName="Dralk Peltast" Tile="DrekArcher.png"/>
+  <object Name="TQAQ_Dralkir_Archer" Inherits="TQAQ_Dralkir_Sivilao_Stal">
+    <part Name="Render" DisplayName="Dralk Peltast" Tile="DrekArcher.png" />
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Rifles" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArcher_Sivilao" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArcher_ArmourMetal" />
   </object>
 
   <object Name="TQAQ_Dralkir_Archer_Hero" Inherits="TQAQ_Dralkir_Archer" >
-    <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Dralk Hero" Tile="SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
   </object>
 
-  <object Name="TQAQ_Dralkir_Mage" Inherits="TQAQ_Dralkir_Sivilao">
-    <part Name="Render" DisplayName="Dralk Mage" Tile="DrekMage.png"/>
+  <object Name="TQAQ_Dralkir_Mage" Inherits="TQAQ_Dralkir_Sivilao_Stal">
+    <part Name="Render" DisplayName="Dralk Mage" Tile="DrekMage.png" />
 	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
 	<stat Name="Ego" Boost="3" />
 	<skill Name="CookingAndGathering" />
@@ -254,21 +259,21 @@
   </object>
 
   <object Name="TQAQ_Dralkir_Mage_Hero" Inherits="TQAQ_Dralkir_Mage" >
-    <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Dralk Hero" Tile="SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
   </object>
 
-  <object Name="TQAQ_Dralkir_Jezailer" Inherits="TQAQ_Dralkir_Sivilao">
-    <part Name="Render" DisplayName="Dralk Jezailer" Tile="DrekJezailer.png"/>
+  <object Name="TQAQ_Dralkir_Jezailer" Inherits="TQAQ_Dralkir_Sivilao_Stal">
+    <part Name="Render" DisplayName="Dralk Jezailer" Tile="DrekJezailer.png" />
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Rifles" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorGunner_Sivilao" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorGunner_ArmourMetal" />
   </object>
 
   <object Name="TQAQ_Dralkir_Jezailer_Hero" Inherits="TQAQ_Dralkir_Jezailer">
-    <part Name="Render" DisplayName="Dralk Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Dralk Hero" Tile="SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
   </object>
 
