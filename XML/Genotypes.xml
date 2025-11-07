@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <genotypes>
   <genotype Name="Drekir" MutationPoints="12" StatPoints="44" AllowedMutationCategories="*"
-    RandomWeight="10" DisplayName="Drekir" Subtypes="Drekir" Class="" Tile="DrekHiker.png"
+    RandomWeight="10" DisplayName="Drekir" Subtypes="Drekir" Class="" Tile="SivilaoDralk.png"
     DetailColor="C" BodyObject="EldimorBodyDrekir" BaseHPGain="1-4" BaseSPGain="50" BaseMPGain="1" Species="eldimor"
     IsMutant="true" CharacterBuilderModules="">
     <!-- Stats -->
@@ -29,7 +29,7 @@
     <extrainfo>Friendly reputation with {{C|the Eldimor}}</extrainfo>
   </genotype>
   <genotype Name="Ormer" MutationPoints="12" StatPoints="44" AllowedMutationCategories="*"
-    RandomWeight="10" DisplayName="Ormer" Subtypes="Ormer" Class="" Tile="OrmHiker.png"
+    RandomWeight="10" DisplayName="Ormer" Subtypes="Ormer" Class="" Tile="SivilaoOrm.png"
     DetailColor="C" BodyObject="EldimorBodyOrmer" BaseHPGain="1-4" BaseSPGain="50" BaseMPGain="1" Species="eldimor"
     IsMutant="true" CharacterBuilderModules="">
     <!-- Stats -->
