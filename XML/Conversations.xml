@@ -4,10 +4,21 @@
   <conversation ID="Drekir">
     <start ID="Start">
       <text>
-        {{emote|*Yip*}}~
+        {{emote|*Yips*}}~
         {{emote|*Yipral*}}~
-        {{emote|*Yop*}}~
-        {{emote|*Rattles*}}
+        {{emote|*Yops*}}~
+        {{emote|*Rattles*}}~
+        {{emote|*Yelps*}}~
+        {{emote|*Huffs*}}~
+        {{emote|*Jops*}}~
+        {{emote|*Jips*}}~
+        {{emote|*Grumbles*}}~
+        {{emote|*Chitters*}}~
+        {{emote|*Chatters*}}~
+        {{emote|*Yups*}}~
+        {{emote|*Rals*}}~
+        {{emote|*Grumpfs*}}~
+        {{emote|*Sighs*}}
 	  </text>
       <choice Target="End">Live and drink.</choice>
     </start>
