@@ -143,6 +143,26 @@ namespace XRL.World.ObjectBuilders
                 {
                     GO.BoostStat("Toughness", 1);
                 }
+                if (title.Contains("Clan White Dune"))
+                {
+                    GO.BoostStat("Toughness", 1);
+                }
+                if (title.Contains("Clan Saline Oasis"))
+                {
+                    GO.BoostStat("Toughness", 1);
+                }
+                if (title.Contains("Clan Issachari"))
+                {
+                    GO.BoostStat("Toughness", 1);
+                }
+                if (title.Contains("Clan Saltbowl"))
+                {
+                    GO.BoostStat("Toughness", 1);
+                }
+                if (title.Contains("Clan Firespitter"))
+                {
+                    GO.BoostStat("Toughness", 1);
+                }
             }
             GO.MultiplyStat("Hitpoints", 2);
         }
