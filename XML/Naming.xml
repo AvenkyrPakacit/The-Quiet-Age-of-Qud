@@ -155,7 +155,9 @@
 		<scope Name="Main7" Special="Hero" Faction="TQAQ_Tropical_Clans_Ormer" Priority="200" Combine="false" />
 		<scope Name="Main8" Special="Hero" Faction="TQAQ_Artic_Clans_Ormer" Priority="200" Combine="false" />
 		<scope Name="Main9" Special="Hero" Faction="TQAQ_Alpine_Clans_Ormer" Priority="200" Combine="false" />
-		<scope Name="Main10" Special="Hero" Faction="Sivlao" Priority="200" Combine="false" />
+		<scope Name="Main10" Special="Hero" Faction="TQAQ_Arid_Clans_Drekir" Priority="200" Combine="false" />
+		<scope Name="Main11" Special="Hero" Faction="TQAQ_Arid_Clans_Ormer" Priority="200" Combine="false" />
+		<scope Name="Main12" Special="Hero" Faction="Sivlao" Priority="200" Combine="false" />
       </scopes>
       <templates>
         <template Name="*Name*" />
@@ -172,6 +174,8 @@
 		<scope Name="Main6" Type="Epithet" Special="Hero" Faction="TQAQ_Tropical_Clans_Ormer" Priority="200" Combine="false" />
 		<scope Name="Main7" Type="Epithet" Special="Hero" Faction="TQAQ_Artic_Clans_Ormer" Priority="200" Combine="false" />
 		<scope Name="Main8" Type="Epithet" Special="Hero" Faction="TQAQ_Alpine_Clans_Ormer" Priority="200" Combine="false" />
+		<scope Name="Main9" Type="Epithet" Special="Hero" Faction="TQAQ_Arid_Clans_Drekir" Priority="200" Combine="false" />
+		<scope Name="Main10" Type="Epithet" Special="Hero" Faction="TQAQ_Arid_Clans_Ormer" Priority="200" Combine="false" />
       </scopes>
       <templates>
         <template Name="*Epithet*" />

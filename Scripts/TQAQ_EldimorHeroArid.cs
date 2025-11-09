@@ -119,15 +119,17 @@ namespace XRL.World.ObjectBuilders
                 }
                 if (title.Contains("Clan Saline Oasis"))
                 {
-                    GO.BoostStat("Toughness", 1);
+                    mutations.AddMutation(new World.Parts.Mutation.Horns(), 2);
                 }
                 if (title.Contains("Clan Issachari"))
                 {
-                    GO.BoostStat("Toughness", 1);
+                    GO.BoostStat("Intelligence", 1);
+                    GO.BoostStat("Ego", 1);
+                    GO.BoostStat("Willpower", 1);
                 }
                 if (title.Contains("Clan Saltbowl"))
                 {
-                    GO.BoostStat("Toughness", 1);
+                    GO.BoostStat("MoveSpeed", -0.75);
                 }
                 if (title.Contains("Clan Firespitter"))
                 {

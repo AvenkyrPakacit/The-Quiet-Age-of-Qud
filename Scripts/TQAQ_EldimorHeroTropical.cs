@@ -119,15 +119,17 @@ namespace XRL.World.ObjectBuilders
                 }
                 if (title.Contains("Clan Basin"))
                 {
-                    GO.BoostStat("Toughness", 1);
+                    mutations.AddMutation(new World.Parts.Mutation.Horns(), 2);
                 }
                 if (title.Contains("Clan Riverland"))
                 {
-                    GO.BoostStat("Toughness", 1);
+                    GO.BoostStat("Intelligence", 1);
+                    GO.BoostStat("Ego", 1);
+                    GO.BoostStat("Willpower", 1);
                 }
                 if (title.Contains("Clan Yatyl"))
                 {
-                    GO.BoostStat("Toughness", 1);
+                    GO.BoostStat("MoveSpeed", -0.75);
                 }
             }
             GO.MultiplyStat("Hitpoints", 2);
