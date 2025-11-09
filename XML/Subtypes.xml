@@ -59,6 +59,57 @@
       </skills>
     </subtype>
 	</category>
+	<category Name="Arid" DisplayName="{{desert camouflage|Arid}}">
+	<subtype Name="Arid Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/DrekHiker.png" DetailColor="r">
+	  <stat Name="HeatResistance" Bonus="30" />
+      <skills>
+        <skill Name="Survival" />
+        <skill Name="Survival_MountainsSurvival" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="Creatures/DrekPeltast.png" DetailColor="r">
+	  <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="Creatures/DrekFighter.png" DetailColor="r">
+	  <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="1" />
+	  <stat Name="Strength" Bonus="1" />
+	  <stat Name="Toughness" Bonus="1" />
+      <skills>
+        <skill Name="Axe" />
+        <skill Name="Cudgel" />
+        <skill Name="LongBlades" />
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Drek Archer" Gear="StartingGear_EldimorArcher" Tile="Creatures/DrekArcher.png" DetailColor="r">
+	  <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Rifles" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Drek Mage" Gear="StartingGear_EldimorMage" Tile="Creatures/DrekMage.png" DetailColor="r">
+      <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Ego" Bonus="3" />
+      <skills>
+        <skill Name="CookingAndGathering" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="Creatures/DrekJezailer.png" DetailColor="r">
+	  <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="3" />
+      <skills>
+        <skill Name="Rifles" />
+      </skills>
+    </subtype>
+	</category>
 	<category Name="Artic" DisplayName="{{cloudy|Artic}}">
 	<subtype Name="Artic Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/DrekHiker.png" DetailColor="w">
 	  <stat Name="ColdResistance" Bonus="30" />
@@ -287,6 +338,58 @@
       </skills>
     </subtype>
 	</category>
+	<category Name="Arid" DisplayName="{{desert camouflage|Arid}}">
+    <subtype Name="Arid Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/OrmHiker.png" DetailColor="r">
+      <stat Name="HeatResistance" Bonus="30" />
+      <skills>
+        <skill Name="Survival" />
+        <skill Name="Survival_MountainsSurvival" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Orm Slinger" Gear="StartingGear_EldimorSlinger" Tile="Creatures/OrmSlinger.png" DetailColor="r">
+      <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Strength" Bonus="2" />
+	  <stat Name="Agility" Bonus="1" />
+      <skills>
+        <skill Name="Cudgel" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Orm Warrior" Gear="StartingGear_EldimorFighter" Tile="Creatures/OrmWarrior.png" DetailColor="r">
+      <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="1" />
+	  <stat Name="Strength" Bonus="1" />
+	  <stat Name="Toughness" Bonus="1" />
+      <skills>
+        <skill Name="Axe" />
+        <skill Name="Cudgel" />
+        <skill Name="LongBlades" />
+        <skill Name="Shield" />
+        <skill Name="ShortBlades" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Orm Axe Thrower" Gear="StartingGear_EldimorAxeThrower" Tile="Creatures/OrmAxeThrower.png" DetailColor="r">
+      <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Agility" Bonus="1" />
+	  <stat Name="Strength" Bonus="2" />
+      <skills>
+        <skill Name="Cudgel" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Orm Mage" Gear="StartingGear_EldimorMage" Tile="Creatures/OrmMage.png" DetailColor="r">
+      <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Ego" Bonus="3" />
+      <skills>
+        <skill Name="CookingAndGathering" />
+      </skills>
+    </subtype>
+	<subtype Name="Arid Orm Cannoneer" Gear="StartingGear_EldimorCannoneer" Tile="Creatures/OrmCannoneer.png" DetailColor="r">
+      <stat Name="HeatResistance" Bonus="30" />
+	  <stat Name="Strength" Bonus="3" />
+      <skills>
+        <skill Name="HeavyWeapons" />
+      </skills>
+    </subtype>
+	</category>
 	<category Name="Artic" DisplayName="{{Cloudy|Artic}}">
     <subtype Name="Artic Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/OrmHiker.png" DetailColor="w">
       <stat Name="ColdResistance" Bonus="30" />
@@ -296,8 +399,7 @@
       </skills>
     </subtype>
 	<subtype Name="Artic Orm Slinger" Gear="StartingGear_EldimorSlinger" Tile="Creatures/OrmSlinger.png" DetailColor="w">
-      <stat Name="ColdResistance" Bonus="25" />
-	  <stat Name="HeatResistance" Bonus="5" />
+      <stat Name="ColdResistance" Bonus="30" />
 	  <stat Name="Strength" Bonus="2" />
 	  <stat Name="Agility" Bonus="1" />
       <skills>

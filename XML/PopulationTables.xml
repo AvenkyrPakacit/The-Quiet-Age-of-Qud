@@ -111,7 +111,7 @@
   <!--Populations-->
 
   <population Name="TQAQ_TemperateDrekir_Hero">
-    <group Name="Creatures" Style="pickeach">
+    <group Name="Creatures" Style="pickone">
       <object Chance="75" Number="1" Blueprint="TQAQ_Drekir_Hiker_Temperate_Hero" />
       <object Chance="25" Number="1" Blueprint="TQAQ_Drekir_Peltast_Temperate_Hero" />
       <object Chance="15" Number="1" Blueprint="TQAQ_Drekir_Fighter_Temperate_Hero" />
@@ -141,7 +141,7 @@
       <object Chance="25" Number="1" Blueprint="TQAQ_Dralkir_Jezailer_Hero" />
     </group>
   </population>
-  
+
   <population Name="TQAQ_Mavotur_Hero">
     <group Name="Creatures" Style="pickone">
       <object Chance="75" Number="1" Blueprint="TQAQ_Mavotur_Librarian_Hero" />
@@ -151,6 +151,20 @@
   </population>
 
   <population Name="TQAQ_TemperateDrekir">
+    <group Name="Creatures" Style="pickeach">
+      <object Chance="100" Number="1-3" Blueprint="TQAQ_Drekir_Temperate" />
+      <object Chance="75" Number="1-3" Blueprint="TQAQ_Drekir_Hiker_Temperate" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Drekir_Peltast_Temperate" />
+      <object Chance="15" Number="1" Blueprint="TQAQ_Drekir_Fighter_Temperate" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Drekir_Archer_Temperate" />
+      <object Chance="15" Number="1" Blueprint="TQAQ_Drekir_Mage_Temperate" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Drekir_Jezailer_Temperate" />
+      <table Name="HumanoidEnvironmentFeatures" Chance="25" />
+      <table Name="TQAQ_TemperateDrekir" Chance="10" />
+    </group>
+  </population>
+
+  <population Name="TQAQ_TemperateDrekir_Clan">
     <group Name="Creatures" Style="pickeach">
       <object Chance="100" Number="1-3" Blueprint="TQAQ_Drekir_Temperate" />
       <object Chance="75" Number="1-3" Blueprint="TQAQ_Drekir_Hiker_Temperate" />
@@ -189,12 +203,37 @@
       <object Chance="15" Number="1" Blueprint="TQAQ_Ormer_Mage_Temperate" />
       <object Chance="25" Number="1-3" Blueprint="TQAQ_Ormer_Cannoneer_Temperate" />
       <table Name="HumanoidEnvironmentFeatures" Chance="25" />
+      <table Name="TQAQ_TemperateOrmer" Chance="10" />
+    </group>
+  </population>
+
+  <population Name="TQAQ_TemperateOrmer_Clan">
+    <group Name="Creatures" Style="pickeach">
+      <object Chance="100" Number="1-3" Blueprint="TQAQ_Ormer_Temperate" />
+      <object Chance="75" Number="1-3" Blueprint="TQAQ_Ormer_Hiker_Temperate" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Ormer_Slinger_Temperate" />
+      <object Chance="15" Number="1" Blueprint="TQAQ_Ormer_Warrior_Temperate" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Ormer_Axe_Thrower_Temperate" />
+      <object Chance="15" Number="1" Blueprint="TQAQ_Ormer_Mage_Temperate" />
+      <object Chance="25" Number="1-3" Blueprint="TQAQ_Ormer_Cannoneer_Temperate" />
+      <table Name="HumanoidEnvironmentFeatures" Chance="25" />
       <table Name="TQAQ_TemperateOrmer_Hero" Chance="2" />
       <table Name="TQAQ_TemperateOrmer" Chance="10" />
     </group>
   </population>
-  
+
   <population Name="TQAQ_Mavotur">
+    <group Name="Creatures" Style="pickeach">
+      <object Chance="100" Number="1-3" Blueprint="TQAQ_Mavotur" />
+      <object Chance="75" Number="1-2" Blueprint="TQAQ_Mavotur_Librarian" />
+      <object Chance="25" Number="1" Blueprint="TQAQ_Mavotur_Bard" />
+      <object Chance="15" Number="1" Blueprint="TQAQ_Mavotur_Commander" />
+      <table Name="HumanoidEnvironmentFeatures" Chance="25" />
+      <table Name="TQAQ_Mavotur" Chance="10" />
+    </group>
+  </population>
+
+  <population Name="TQAQ_Mavotur_Sivilao">
     <group Name="Creatures" Style="pickeach">
       <object Chance="100" Number="1-3" Blueprint="TQAQ_Mavotur" />
       <object Chance="75" Number="1-2" Blueprint="TQAQ_Mavotur_Librarian" />
@@ -209,18 +248,24 @@
   <population Name="WatervineCreatures" Load="Merge">
     <group Name="Creatures">
       <table Weight="1" Name="TQAQ_TemperateDrekir" />
+      <table Weight="1" Name="TQAQ_TemperateDrekir_Clan" />
       <table Weight="1" Name="TQAQ_TemperateOrmer" />
+      <table Weight="1" Name="TQAQ_TemperateOrmer_Clan" />
       <table Weight="1" Name="TQAQ_Dralkir" />
       <table Weight="1" Name="TQAQ_Mavotur" />
+      <table Weight="1" Name="TQAQ_Mavotur_Sivilao" />
     </group>
   </population>
 
   <population Name="FlowerfieldCreatures" Load="Merge">
     <group Name="Creatures">
       <table Weight="1" Name="TQAQ_TemperateDrekir" />
+      <table Weight="1" Name="TQAQ_TemperateDrekir_Clan" />
       <table Weight="1" Name="TQAQ_TemperateOrmer" />
+      <table Weight="1" Name="TQAQ_TemperateOrmer_Clan" />
       <table Weight="1" Name="TQAQ_Dralkir" />
       <table Weight="1" Name="TQAQ_Mavotur" />
+      <table Weight="1" Name="TQAQ_Mavotur_Sivilao" />
     </group>
   </population>
 
@@ -228,6 +273,7 @@
     <group Name="Creatures">
       <table Weight="1" Name="TQAQ_Dralkir" />
       <table Weight="1" Name="TQAQ_Mavotur" />
+      <table Weight="1" Name="TQAQ_Mavotur_Sivilao" />
     </group>
   </population>
 
@@ -235,6 +281,7 @@
     <group Name="Creatures" Style="pickone">
       <table Weight="1" Name="TQAQ_Dralkir" />
       <table Weight="1" Name="TQAQ_Mavotur" />
+      <table Weight="1" Name="TQAQ_Mavotur_Sivilao" />
     </group>
   </population>
 
@@ -242,6 +289,7 @@
     <group Name="Creatures">
       <table Weight="1" Name="TQAQ_Dralkir" />
       <table Weight="1" Name="TQAQ_Mavotur" />
+      <table Weight="1" Name="TQAQ_Mavotur_Sivilao" />
     </group>
   </population>
 
@@ -250,6 +298,7 @@
       <group Name="Drekir" Style="pickeach" Weight="2">
         <table Weight="1" Name="TQAQ_Dralkir" />
       <table Weight="1" Name="TQAQ_Mavotur" />
+      <table Weight="1" Name="TQAQ_Mavotur_Sivilao" />
       </group>
     </group>
   </population>
@@ -258,6 +307,7 @@
     <group Name="Creatures">
       <table Weight="1" Name="TQAQ_Dralkir" />
       <table Weight="1" Name="TQAQ_Mavotur" />
+      <table Weight="1" Name="TQAQ_Mavotur_Sivilao" />
     </group>
   </population>
 
