@@ -4,7 +4,7 @@
   <!--Bases-->
 
   <object Name="BaseDrekir" Inherits="BaseHumanoid">
-    <part Name="Render" DisplayName="Drek" Tile="DrekHiker.png" RenderString="d" ColorString="&amp;w" DetailColor="g" />
+    <part Name="Render" DisplayName="Drek" Tile="Creatures/DrekHiker.png" RenderString="d" ColorString="&amp;w" DetailColor="g" />
     <part Name="Brain" Factions="Eldimor-100" />
 	<part Name="Description" Short="Fur and rawhide hang loose from the wooly, scaly hide of the small theropod's muscled back. Their eyes gaze both languorous yet sharp. They walk on stout yet powerful legs, yapping a drawl whose crocodilian rattle is almost beyond your understanding." />
 	<part Name="Body" Anatomy="TailedBiped" />
@@ -24,7 +24,7 @@
   </object>
 
   <object Name="BaseOrmer" Inherits="BaseHumanoid">
-    <part Name="Render" DisplayName="Orm" Tile="OrmHiker.png" RenderString="O" ColorString="&amp;w" DetailColor="g" />
+    <part Name="Render" DisplayName="Orm" Tile="Creatures/OrmHiker.png" RenderString="O" ColorString="&amp;w" DetailColor="g" />
     <part Name="Brain" Factions="Eldimor-100" />
 	<part Name="Description" Short="Large drapes of cloth cover the giant woolen reptile and giant bracelets wrap around their tree trunk like arms. For a moment they stand upright from their quadraped gait. Their deep rumbling voice shaking the bones of those around them." />
 	<part Name="Body" Anatomy="TailedBiped" />
@@ -42,7 +42,7 @@
   </object>
 
   <object Name="BaseMavotur" Inherits="BaseHumanoid">
-    <part Name="Render" DisplayName="Mavot" Tile="MavotLibrarian.png" RenderString="M" ColorString="&amp;w" DetailColor="g" />
+    <part Name="Render" DisplayName="Mavot" Tile="Creatures/MavotLibrarian.png" RenderString="M" ColorString="&amp;w" DetailColor="g" />
     <part Name="Brain" Factions="Eldimor-100" />
 	<part Name="Description" Short="The stone mask and glass eyes grown from the anomaly's face see all. It's presence resonates and hums with the strings of the universe nearby. Yet still, reality tremors when the winged being speaks in its true voice." />
 	<part Name="Body" Anatomy="TailedBiped" />
@@ -91,7 +91,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Peltast_Temperate" Inherits="TQAQ_Drekir_Temperate">
-    <part Name="Render" DisplayName="Temperate Drek Peltast" Tile="DrekPeltast.png"/>
+    <part Name="Render" DisplayName="Temperate Drek Peltast" Tile="Creatures/DrekPeltast.png"/>
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
@@ -109,7 +109,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Fighter_Temperate" Inherits="TQAQ_Drekir_Temperate">
-    <part Name="Render" DisplayName="Temperate Drek Fighter" Tile="DrekFighter.png"/>
+    <part Name="Render" DisplayName="Temperate Drek Fighter" Tile="Creatures/DrekFighter.png"/>
 	<stat Name="Agility" Boost="1" />
 	<stat Name="Strength'" Boost="1" />
 	<stat Name="Toughness" Boost="1" />
@@ -130,7 +130,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Archer_Temperate" Inherits="TQAQ_Drekir_Temperate">
-    <part Name="Render" DisplayName="Temperate Drek Peltast" Tile="DrekArcher.png"/>
+    <part Name="Render" DisplayName="Temperate Drek Peltast" Tile="Creatures/DrekArcher.png"/>
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
@@ -147,7 +147,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Mage_Temperate" Inherits="TQAQ_Drekir_Temperate">
-    <part Name="Render" DisplayName="Temperate Drek Mage" Tile="DrekMage.png"/>
+    <part Name="Render" DisplayName="Temperate Drek Mage" Tile="Creatures/DrekMage.png"/>
 	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
 	<stat Name="Ego" Boost="3" />
 	<skill Name="CookingAndGathering" />
@@ -163,7 +163,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Jezailer_Temperate" Inherits="TQAQ_Drekir_Temperate">
-    <part Name="Render" DisplayName="Temperate Drek Jezailer" Tile="DrekJezailer.png"/>
+    <part Name="Render" DisplayName="Temperate Drek Jezailer" Tile="Creatures/DrekJezailer.png"/>
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
@@ -204,7 +204,7 @@
   </object>
 
   <object Name="TQAQ_Dralkir_Peltast" Inherits="TQAQ_Dralkir_Sivilao_Stal">
-    <part Name="Render" DisplayName="Dralk Peltast" Tile="DrekPeltast.png" />
+    <part Name="Render" DisplayName="Dralk Peltast" Tile="Creatures/DrekPeltast.png" />
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
@@ -214,12 +214,12 @@
   </object>
 
   <object Name="TQAQ_Dralkir_Peltast_Hero" Inherits="TQAQ_Dralkir_Peltast" >
-    <part Name="Render" DisplayName="Dralk Hero" Tile="SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
   </object>
 
   <object Name="TQAQ_Dralkir_Fighter" Inherits="TQAQ_Dralkir_Sivilao_Stal">
-    <part Name="Render" DisplayName="Dralk Fighter" Tile="DrekFighter.png" />
+    <part Name="Render" DisplayName="Dralk Fighter" Tile="Creatures/DrekFighter.png" />
 	<stat Name="Agility" Boost="1" />
 	<stat Name="Strength'" Boost="1" />
 	<stat Name="Toughness" Boost="1" />
@@ -232,12 +232,12 @@
   </object>
 
   <object Name="TQAQ_Dralkir_Fighter_Hero" Inherits="TQAQ_Dralkir_Fighter" >
-    <part Name="Render" DisplayName="Dralk Hero" Tile="SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
   </object>
 
   <object Name="TQAQ_Dralkir_Archer" Inherits="TQAQ_Dralkir_Sivilao_Stal">
-    <part Name="Render" DisplayName="Dralk Peltast" Tile="DrekArcher.png" />
+    <part Name="Render" DisplayName="Dralk Peltast" Tile="Creatures/DrekArcher.png" />
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
@@ -246,12 +246,12 @@
   </object>
 
   <object Name="TQAQ_Dralkir_Archer_Hero" Inherits="TQAQ_Dralkir_Archer" >
-    <part Name="Render" DisplayName="Dralk Hero" Tile="SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
   </object>
 
   <object Name="TQAQ_Dralkir_Mage" Inherits="TQAQ_Dralkir_Sivilao_Stal">
-    <part Name="Render" DisplayName="Dralk Mage" Tile="DrekMage.png" />
+    <part Name="Render" DisplayName="Dralk Mage" Tile="Creatures/DrekMage.png" />
 	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
 	<stat Name="Ego" Boost="3" />
 	<skill Name="CookingAndGathering" />
@@ -259,12 +259,12 @@
   </object>
 
   <object Name="TQAQ_Dralkir_Mage_Hero" Inherits="TQAQ_Dralkir_Mage" >
-    <part Name="Render" DisplayName="Dralk Hero" Tile="SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
   </object>
 
   <object Name="TQAQ_Dralkir_Jezailer" Inherits="TQAQ_Dralkir_Sivilao_Stal">
-    <part Name="Render" DisplayName="Dralk Jezailer" Tile="DrekJezailer.png" />
+    <part Name="Render" DisplayName="Dralk Jezailer" Tile="Creatures/DrekJezailer.png" />
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
@@ -273,7 +273,7 @@
   </object>
 
   <object Name="TQAQ_Dralkir_Jezailer_Hero" Inherits="TQAQ_Dralkir_Jezailer">
-    <part Name="Render" DisplayName="Dralk Hero" Tile="SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
   </object>
 
@@ -303,7 +303,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Slinger_Temperate" Inherits="TQAQ_Ormer_Temperate">
-    <part Name="Render" DisplayName="Temperate Orm Slinger" Tile="OrmSlinger.png"/>
+    <part Name="Render" DisplayName="Temperate Orm Slinger" Tile="Creatures/OrmSlinger.png"/>
 	<stat Name="Strength" Boost="2" />
 	<stat Name="Agility" Boost="1" />
     <tag Name="Role" Value="Skirmisher" />
@@ -321,7 +321,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Warrior_Temperate" Inherits="TQAQ_Ormer_Temperate">
-    <part Name="Render" DisplayName="Temperate Orm Warrior" Tile="OrmWarrior.png"/>
+    <part Name="Render" DisplayName="Temperate Orm Warrior" Tile="Creatures/OrmWarrior.png"/>
 	<stat Name="Agility" Boost="1" />
 	<stat Name="Strength'" Boost="1" />
 	<stat Name="Toughness" Boost="1" />
@@ -342,7 +342,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Axe_Thrower_Temperate" Inherits="TQAQ_Ormer_Temperate">
-    <part Name="Render" DisplayName="Temperate Orm Axe Thrower" Tile="OrmAxeThrower.png"/>
+    <part Name="Render" DisplayName="Temperate Orm Axe Thrower" Tile="Creatures/OrmAxeThrower.png"/>
 	<stat Name="Strength" Boost="2" />
 	<stat Name="Agility" Boost="1" />
     <tag Name="Role" Value="Skirmisher" />
@@ -360,7 +360,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Mage_Temperate" Inherits="TQAQ_Ormer_Temperate">
-    <part Name="Render" DisplayName="Temperate Orm Mage" Tile="OrmMage.png"/>
+    <part Name="Render" DisplayName="Temperate Orm Mage" Tile="Creatures/OrmMage.png"/>
 	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
 	<stat Name="Ego" Boost="3" />
 	<skill Name="CookingAndGathering" />
@@ -376,7 +376,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Cannoneer_Temperate" Inherits="TQAQ_Ormer_Temperate">
-    <part Name="Render" DisplayName="Temperate Orm Cannoneer" Tile="OrmCannoneer.png"/>
+    <part Name="Render" DisplayName="Temperate Orm Cannoneer" Tile="Creatures/OrmCannoneer.png"/>
 	<stat Name="Strength" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
@@ -417,7 +417,7 @@
   </object>
 
   <object Name="TQAQ_Mavotur_Bard" Inherits="TQAQ_Mavotur">
-    <part Name="Render" DisplayName="Mavot Bard" Tile="MavotBard.png"/>
+    <part Name="Render" DisplayName="Mavot Bard" Tile="Creatures/MavotBard.png"/>
 	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
 	<stat Name="Ego" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
@@ -431,7 +431,7 @@
   </object>
 
   <object Name="TQAQ_Mavotur_Commander" Inherits="TQAQ_Mavotur">
-    <part Name="Render" DisplayName="Mavot Commander" Tile="MavotCommander.png"/>
+    <part Name="Render" DisplayName="Mavot Commander" Tile="Creatures/MavotCommander.png"/>
 	<stat Name="Strength" Boost="1" />
 	<stat Name="Toughness" Boost="2" />
 	<skill Name="Shield" />

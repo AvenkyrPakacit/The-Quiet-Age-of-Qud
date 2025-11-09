@@ -152,7 +152,7 @@
   <!--Guns-->
 
   <object Name="TQAQ_Cannon_small" Inherits="BaseMagazineRifle">
-    <part Name="Render" DisplayName="small {{m|yatal}} handgonne" Tile="DrekGonne.png" ColorString="&amp;r" DetailColor="m" />
+    <part Name="Render" DisplayName="small {{m|yatal}} handgonne" Tile="Items/DrekGonne.png" ColorString="&amp;r" DetailColor="m" />
     <part Name="Physics" Weight="25" UsesTwoSlots="true" />
     <part Name="Commerce" Value="17" />
     <part Name="MissileWeapon" Skill="Rifles" ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="12" />
@@ -171,7 +171,7 @@
   </object>
 
   <object Name="TQAQ_Cannon_Large" Inherits="BaseMagazineRifle">
-    <part Name="Render" DisplayName="large {{m|yatal}} handgonne" Tile="OrmGonne.png" ColorString="&amp;r" DetailColor="m" />
+    <part Name="Render" DisplayName="large {{m|yatal}} handgonne" Tile="Items/OrmGonne.png" ColorString="&amp;r" DetailColor="m" />
     <part Name="Physics" Weight="50" UsesTwoSlots="true" />
     <part Name="Commerce" Value="34" />
     <part Name="MissileWeapon" Skill="HeavyWeapons" NoWildfire="true" ShotsPerAction="6" AmmoPerAction="1" ShotsPerAnimation="6" WeaponAccuracy="24" />
@@ -195,7 +195,7 @@
   <!--Spears-->
 
   <object Name="TQAQ_ThrowingSpear_Bronze" Inherits="BaseDagger">
-    <part Name="Render" DisplayName="{{w|bronze}} throwing spear" Tile="TQAQ_Javelin.png" ColorString="&amp;y" DetailColor="w" />
+    <part Name="Render" DisplayName="{{w|bronze}} throwing spear" Tile="Items/TQAQ_Javelin.png" ColorString="&amp;y" DetailColor="w" />
     <part Name="MeleeWeapon" MaxStrengthBonus="1" BaseDamage="1d2" />
     <part Name="ThrownWeapon" Penetration="1" Damage="1d2" Attributes="ShortBlades" />
     <part Name="Commerce" Value="5" />
@@ -207,14 +207,14 @@
   </object>
 
   <object Name="TQAQ_Spear_Bronze" Inherits="TQAQ_ThrowingSpear_Bronze">
-    <part Name="Render" DisplayName="{{w|bronze}} spear" Tile="TQAQ_Spear.png" />
+    <part Name="Render" DisplayName="{{w|bronze}} spear" Tile="Items/TQAQ_Spear.png" />
 	<part Name="Description" Short="A tanged bronze point is hafted into a tree sapling with sinew and rawhide, the weathered marks of impurities in the bronze blends into the woodgrain of the shaft." />
     <tag Name="NoAIEquipAsThrownWeapon" />
     <tag Name="HideThrownWeaponPerformance" />
   </object>
 
   <object Name="TQAQ_ThrowingSpear_Yatal" Inherits="BaseDagger">
-    <part Name="Render" DisplayName="{{m|yatal}} throwing spear" Tile="TQAQ_Javelin.png" ColorString="&amp;r" DetailColor="m" />
+    <part Name="Render" DisplayName="{{m|yatal}} throwing spear" Tile="Items/TQAQ_Javelin.png" ColorString="&amp;r" DetailColor="m" />
     <part Name="MeleeWeapon" MaxStrengthBonus="2" BaseDamage="2d4" />
     <part Name="ThrownWeapon" Penetration="2" Damage="2d4" Attributes="ShortBlades" />
     <part Name="Commerce" Value="10" />
@@ -226,7 +226,7 @@
   </object>
 
   <object Name="TQAQ_Spear_Yatal" Inherits="TQAQ_ThrowingSpear_Yatal">
-    <part Name="Render" DisplayName="{{m|yatal}} spear" Tile="TQAQ_Spear.png" />
+    <part Name="Render" DisplayName="{{m|yatal}} spear" Tile="Items/TQAQ_Spear.png" />
 	<part Name="Description" Short="A tanged yatal point is hafted into a tree sapling with sinew and rawhide, the weathered marks of impurities in the dark maroon metal blends into the woodgrain of the red ochre shaft." />
     <tag Name="NoAIEquipAsThrownWeapon" />
     <tag Name="HideThrownWeaponPerformance" />

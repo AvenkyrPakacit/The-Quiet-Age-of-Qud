@@ -10,7 +10,7 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="OrmHiker.png"
+		EmblemTile="Creatures/OrmHiker.png"
     EmblemTileColor="w"
     EmblemDetailColor="c"
   >
@@ -35,7 +35,7 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="DrekFighter.png"
+		EmblemTile="Creatures/DrekFighter.png"
     EmblemTileColor="w"
     EmblemDetailColor="Y"
   >
@@ -63,7 +63,7 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="OrmWarrior.png"
+		EmblemTile="Creatures/OrmWarrior.png"
     EmblemTileColor="w"
     EmblemDetailColor="Y"
   >
@@ -91,7 +91,7 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="DrekFighter.png"
+		EmblemTile="Creatures/DrekFighter.png"
     EmblemTileColor="w"
     EmblemDetailColor="r"
   >
@@ -119,7 +119,7 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="OrmWarrior.png"
+		EmblemTile="Creatures/OrmWarrior.png"
     EmblemTileColor="w"
     EmblemDetailColor="r"
   >
@@ -147,7 +147,7 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="DrekFighter.png"
+		EmblemTile="Creatures/DrekFighter.png"
     EmblemTileColor="Y"
     EmblemDetailColor="w"
   >
@@ -175,7 +175,7 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="OrmWarrior.png"
+		EmblemTile="Creatures/OrmWarrior.png"
     EmblemTileColor="Y"
     EmblemDetailColor="w"
   >
@@ -203,9 +203,9 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="DrekFighter.png"
-    EmblemTileColor="W"
-    EmblemDetailColor="C"
+		EmblemTile="Creatures/SivilaoDralk.png"
+    EmblemTileColor="C"
+    EmblemDetailColor="B"
   >
     <feeling About="*" Value="-250" />
     <waterritual
@@ -228,7 +228,7 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="DrekFighter.png"
+		EmblemTile="Creatures/DrekFighter.png"
     EmblemTileColor="w"
     EmblemDetailColor="g"
   >
@@ -256,7 +256,7 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="OrmWarrior.png"
+		EmblemTile="Creatures/OrmWarrior.png"
     EmblemTileColor="w"
     EmblemDetailColor="g"
   >
@@ -277,14 +277,14 @@
 
   <faction
     Name="TQAQ_Tropical_Clans_Drekir"
-    DisplayName="Temperate Drekir Clans"
+    DisplayName="Tropical Drekir Clans"
     Old="true"
     FormatWithArticle="true"
     InitialPlayerReputation="0"
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="DrekFighter.png"
+		EmblemTile="Creatures/DrekFighter.png"
     EmblemTileColor="w"
     EmblemDetailColor="b"
   >
@@ -305,14 +305,14 @@
 
   <faction
     Name="TQAQ_Tropical_Clans_Ormer"
-    DisplayName="Temperate Ormer Clans"
+    DisplayName="Tropical Ormer Clans"
     Old="true"
     FormatWithArticle="true"
     InitialPlayerReputation="0"
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="OrmWarrior.png"
+		EmblemTile="Creatures/OrmWarrior.png"
     EmblemTileColor="w"
     EmblemDetailColor="b"
   >

@@ -2,7 +2,7 @@
 <subtypes>
   <class ID="Drekir" ChargenTitle="choose breed" SingularTitle="breed">
 	<category Name="Alpine" DisplayName="{{cloudy|Alpine}}">
-	<subtype Name="Alpine Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="DrekHiker.png" DetailColor="Y">
+	<subtype Name="Alpine Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/DrekHiker.png" DetailColor="Y">
 	  <stat Name="ColdResistance" Bonus="25" />
 	  <stat Name="HeatResistance" Bonus="5" />
       <skills>
@@ -11,7 +11,7 @@
         <skill Name="Survival_MountainsSurvival" />
       </skills>
     </subtype>
-	<subtype Name="Alpine Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="DrekPeltast.png" DetailColor="Y">
+	<subtype Name="Alpine Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="Creatures/DrekPeltast.png" DetailColor="Y">
 	  <stat Name="ColdResistance" Bonus="25" />
 	  <stat Name="HeatResistance" Bonus="5" />
 	  <stat Name="Agility" Bonus="3" />
@@ -20,7 +20,7 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Alpine Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="DrekFighter.png" DetailColor="Y">
+	<subtype Name="Alpine Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="Creatures/DrekFighter.png" DetailColor="Y">
 	  <stat Name="ColdResistance" Bonus="25" />
 	  <stat Name="HeatResistance" Bonus="5" />
 	  <stat Name="Agility" Bonus="1" />
@@ -34,7 +34,7 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Alpine Drek Archer" Gear="StartingGear_EldimorArcher" Tile="DrekArcher.png" DetailColor="Y">
+	<subtype Name="Alpine Drek Archer" Gear="StartingGear_EldimorArcher" Tile="Creatures/DrekArcher.png" DetailColor="Y">
 	  <stat Name="ColdResistance" Bonus="25" />
 	  <stat Name="HeatResistance" Bonus="5" />
 	  <stat Name="Agility" Bonus="3" />
@@ -42,7 +42,7 @@
         <skill Name="Rifles" />
       </skills>
     </subtype>
-	<subtype Name="Alpine Drek Mage" Gear="StartingGear_EldimorMage" Tile="DrekMage.png" DetailColor="Y">
+	<subtype Name="Alpine Drek Mage" Gear="StartingGear_EldimorMage" Tile="Creatures/DrekMage.png" DetailColor="Y">
       <stat Name="ColdResistance" Bonus="25" />
 	  <stat Name="HeatResistance" Bonus="5" />
 	  <stat Name="Ego" Bonus="3" />
@@ -50,7 +50,7 @@
         <skill Name="CookingAndGathering" />
       </skills>
     </subtype>
-	<subtype Name="Alpine Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="DrekJezailer.png" DetailColor="Y">
+	<subtype Name="Alpine Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="Creatures/DrekJezailer.png" DetailColor="Y">
 	  <stat Name="ColdResistance" Bonus="25" />
 	  <stat Name="HeatResistance" Bonus="5" />
 	  <stat Name="Agility" Bonus="3" />
@@ -60,14 +60,14 @@
     </subtype>
 	</category>
 	<category Name="Artic" DisplayName="{{cloudy|Artic}}">
-	<subtype Name="Artic Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="DrekHiker.png" DetailColor="w">
+	<subtype Name="Artic Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/DrekHiker.png" DetailColor="w">
 	  <stat Name="ColdResistance" Bonus="30" />
       <skills>
         <skill Name="Survival" />
         <skill Name="Survival_MountainsSurvival" />
       </skills>
     </subtype>
-	<subtype Name="Artic Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="DrekPeltast.png" DetailColor="w">
+	<subtype Name="Artic Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="Creatures/DrekPeltast.png" DetailColor="w">
 	  <stat Name="ColdResistance" Bonus="30" />
 	  <stat Name="Agility" Bonus="3" />
       <skills>
@@ -75,7 +75,7 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Artic Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="DrekFighter.png" DetailColor="w">
+	<subtype Name="Artic Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="Creatures/DrekFighter.png" DetailColor="w">
 	  <stat Name="ColdResistance" Bonus="30" />
 	  <stat Name="Agility" Bonus="1" />
 	  <stat Name="Strength" Bonus="1" />
@@ -88,21 +88,21 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Artic Drek Archer" Gear="StartingGear_EldimorArcher" Tile="DrekArcher.png" DetailColor="w">
+	<subtype Name="Artic Drek Archer" Gear="StartingGear_EldimorArcher" Tile="Creatures/DrekArcher.png" DetailColor="w">
 	  <stat Name="ColdResistance" Bonus="30" />
 	  <stat Name="Agility" Bonus="3" />
       <skills>
         <skill Name="Rifles" />
       </skills>
     </subtype>
-	<subtype Name="Artic Drek Mage" Gear="StartingGear_EldimorMage" Tile="DrekMage.png" DetailColor="w">
+	<subtype Name="Artic Drek Mage" Gear="StartingGear_EldimorMage" Tile="Creatures/DrekMage.png" DetailColor="w">
       <stat Name="ColdResistance" Bonus="30" />
 	  <stat Name="Ego" Bonus="3" />
       <skills>
         <skill Name="CookingAndGathering" />
       </skills>
     </subtype>
-	<subtype Name="Artic Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="DrekJezailer.png" DetailColor="w">
+	<subtype Name="Artic Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="Creatures/DrekJezailer.png" DetailColor="w">
 	  <stat Name="ColdResistance" Bonus="30" />
 	  <stat Name="Agility" Bonus="3" />
       <skills>
@@ -111,7 +111,7 @@
     </subtype>
 	</category>
 	<category Name="Temperate" DisplayName="{{forest|Temperate}}">
-	<subtype Name="Temperate Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="DrekHiker.png" DetailColor="g">
+	<subtype Name="Temperate Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/DrekHiker.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
       <skills>
@@ -120,7 +120,7 @@
 		<skill Name="Survival_PlainsSurvival" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="DrekPeltast.png" DetailColor="g">
+	<subtype Name="Temperate Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="Creatures/DrekPeltast.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
 	  <stat Name="Agility" Bonus="3" />
@@ -129,7 +129,7 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="DrekFighter.png" DetailColor="g">
+	<subtype Name="Temperate Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="Creatures/DrekFighter.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
 	  <stat Name="Agility" Bonus="1" />
@@ -143,7 +143,7 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Drek Archer" Gear="StartingGear_EldimorArcher" Tile="DrekArcher.png" DetailColor="g">
+	<subtype Name="Temperate Drek Archer" Gear="StartingGear_EldimorArcher" Tile="Creatures/DrekArcher.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
 	  <stat Name="Agility" Bonus="3" />
@@ -151,7 +151,7 @@
         <skill Name="Rifles" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Drek Mage" Gear="StartingGear_EldimorMage" Tile="DrekMage.png" DetailColor="g">
+	<subtype Name="Temperate Drek Mage" Gear="StartingGear_EldimorMage" Tile="Creatures/DrekMage.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
 	  <stat Name="Ego" Bonus="3" />
@@ -159,7 +159,7 @@
         <skill Name="CookingAndGathering" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="DrekJezailer.png" DetailColor="g">
+	<subtype Name="Temperate Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="Creatures/DrekJezailer.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
 	  <stat Name="Agility" Bonus="3" />
@@ -169,7 +169,7 @@
     </subtype>
 	</category>
 	<category Name="Tropical" DisplayName="{{jungle|Tropical}}">
-	<subtype Name="Tropical Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="DrekHiker.png" DetailColor="b">
+	<subtype Name="Tropical Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/DrekHiker.png" DetailColor="b">
 	  <stat Name="ColdResistance" Bonus="5" />
 	  <stat Name="HeatResistance" Bonus="25" />
       <skills>
@@ -178,7 +178,7 @@
         <skill Name="Survival_RiversLakesSurvival" />
       </skills>
     </subtype>
-	<subtype Name="Tropical Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="DrekPeltast.png" DetailColor="b">
+	<subtype Name="Tropical Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="Creatures/DrekPeltast.png" DetailColor="b">
 	  <stat Name="ColdResistance" Bonus="5" />
 	  <stat Name="HeatResistance" Bonus="25" />
 	  <stat Name="Agility" Bonus="3" />
@@ -187,7 +187,7 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Tropical Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="DrekFighter.png" DetailColor="b">
+	<subtype Name="Tropical Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="Creatures/DrekFighter.png" DetailColor="b">
 	  <stat Name="ColdResistance" Bonus="5" />
 	  <stat Name="HeatResistance" Bonus="25" />
 	  <stat Name="Agility" Bonus="1" />
@@ -201,7 +201,7 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Tropical Drek Archer" Gear="StartingGear_EldimorArcher" Tile="DrekArcher.png" DetailColor="b">
+	<subtype Name="Tropical Drek Archer" Gear="StartingGear_EldimorArcher" Tile="Creatures/DrekArcher.png" DetailColor="b">
 	  <stat Name="ColdResistance" Bonus="5" />
 	  <stat Name="HeatResistance" Bonus="25" />
 	  <stat Name="Agility" Bonus="3" />
@@ -209,7 +209,7 @@
         <skill Name="Rifles" />
       </skills>
     </subtype>
-	<subtype Name="Tropical Drek Mage" Gear="StartingGear_EldimorMage" Tile="DrekMage.png" DetailColor="b">
+	<subtype Name="Tropical Drek Mage" Gear="StartingGear_EldimorMage" Tile="Creatures/DrekMage.png" DetailColor="b">
       <stat Name="ColdResistance" Bonus="5" />
 	  <stat Name="HeatResistance" Bonus="25" />
 	  <stat Name="Ego" Bonus="3" />
@@ -217,7 +217,7 @@
         <skill Name="CookingAndGathering" />
       </skills>
     </subtype>
-	<subtype Name="Tropical Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="DrekJezailer.png" DetailColor="b">
+	<subtype Name="Tropical Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="Creatures/DrekJezailer.png" DetailColor="b">
 	  <stat Name="ColdResistance" Bonus="5" />
 	  <stat Name="HeatResistance" Bonus="25" />
 	  <stat Name="Agility" Bonus="3" />
@@ -229,7 +229,7 @@
   </class>
 	<class ID="Ormer" ChargenTitle="choose breed" SingularTitle="breed">
     <category Name="Alpine" DisplayName="{{Cloudy|Alpine}}">
-    <subtype Name="Alpine Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="OrmHiker.png" DetailColor="Y">
+    <subtype Name="Alpine Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/OrmHiker.png" DetailColor="Y">
       <stat Name="ColdResistance" Bonus="25" />
 	  <stat Name="HeatResistance" Bonus="5" />
       <skills>
@@ -238,7 +238,7 @@
         <skill Name="Survival_MountainsSurvival" />
       </skills>
     </subtype>
-	<subtype Name="Alpine Orm Slinger" Gear="StartingGear_EldimorSlinger" Tile="OrmSlinger.png" DetailColor="Y">
+	<subtype Name="Alpine Orm Slinger" Gear="StartingGear_EldimorSlinger" Tile="Creatures/OrmSlinger.png" DetailColor="Y">
       <stat Name="ColdResistance" Bonus="25" />
 	  <stat Name="HeatResistance" Bonus="5" />
 	  <stat Name="Strength" Bonus="2" />
@@ -247,7 +247,7 @@
         <skill Name="Cudgel" />
       </skills>
     </subtype>
-	<subtype Name="Alpine Orm Warrior" Gear="StartingGear_EldimorFighter" Tile="OrmWarrior.png" DetailColor="Y">
+	<subtype Name="Alpine Orm Warrior" Gear="StartingGear_EldimorFighter" Tile="Creatures/OrmWarrior.png" DetailColor="Y">
       <stat Name="ColdResistance" Bonus="25" />
 	  <stat Name="HeatResistance" Bonus="5" />
 	  <stat Name="Agility" Bonus="1" />
@@ -261,7 +261,7 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Alpine Orm Axe Thrower" Gear="StartingGear_EldimorAxeThrower" Tile="OrmAxeThrower.png" DetailColor="Y">
+	<subtype Name="Alpine Orm Axe Thrower" Gear="StartingGear_EldimorAxeThrower" Tile="Creatures/OrmAxeThrower.png" DetailColor="Y">
       <stat Name="ColdResistance" Bonus="25" />
 	  <stat Name="HeatResistance" Bonus="5" />
 	  <stat Name="Agility" Bonus="1" />
@@ -270,7 +270,7 @@
         <skill Name="Cudgel" />
       </skills>
     </subtype>
-	<subtype Name="Alpine Orm Mage" Gear="StartingGear_EldimorMage" Tile="OrmMage.png" DetailColor="Y">
+	<subtype Name="Alpine Orm Mage" Gear="StartingGear_EldimorMage" Tile="Creatures/OrmMage.png" DetailColor="Y">
       <stat Name="ColdResistance" Bonus="25" />
 	  <stat Name="HeatResistance" Bonus="5" />
 	  <stat Name="Ego" Bonus="3" />
@@ -278,7 +278,7 @@
         <skill Name="CookingAndGathering" />
       </skills>
     </subtype>
-	<subtype Name="Alpine Orm Cannoneer" Gear="StartingGear_EldimorCannoneer" Tile="OrmCannoneer.png" DetailColor="Y">
+	<subtype Name="Alpine Orm Cannoneer" Gear="StartingGear_EldimorCannoneer" Tile="Creatures/OrmCannoneer.png" DetailColor="Y">
       <stat Name="ColdResistance" Bonus="25" />
 	  <stat Name="HeatResistance" Bonus="5" />
 	  <stat Name="Strength" Bonus="3" />
@@ -288,14 +288,14 @@
     </subtype>
 	</category>
 	<category Name="Artic" DisplayName="{{Cloudy|Artic}}">
-    <subtype Name="Artic Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="OrmHiker.png" DetailColor="w">
+    <subtype Name="Artic Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/OrmHiker.png" DetailColor="w">
       <stat Name="ColdResistance" Bonus="30" />
       <skills>
         <skill Name="Survival" />
         <skill Name="Survival_MountainsSurvival" />
       </skills>
     </subtype>
-	<subtype Name="Artic Orm Slinger" Gear="StartingGear_EldimorSlinger" Tile="OrmSlinger.png" DetailColor="w">
+	<subtype Name="Artic Orm Slinger" Gear="StartingGear_EldimorSlinger" Tile="Creatures/OrmSlinger.png" DetailColor="w">
       <stat Name="ColdResistance" Bonus="25" />
 	  <stat Name="HeatResistance" Bonus="5" />
 	  <stat Name="Strength" Bonus="2" />
@@ -304,7 +304,7 @@
         <skill Name="Cudgel" />
       </skills>
     </subtype>
-	<subtype Name="Artic Orm Warrior" Gear="StartingGear_EldimorFighter" Tile="OrmWarrior.png" DetailColor="w">
+	<subtype Name="Artic Orm Warrior" Gear="StartingGear_EldimorFighter" Tile="Creatures/OrmWarrior.png" DetailColor="w">
       <stat Name="ColdResistance" Bonus="30" />
 	  <stat Name="Agility" Bonus="1" />
 	  <stat Name="Strength" Bonus="1" />
@@ -317,7 +317,7 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Artic Orm Axe Thrower" Gear="StartingGear_EldimorAxeThrower" Tile="OrmAxeThrower.png" DetailColor="w">
+	<subtype Name="Artic Orm Axe Thrower" Gear="StartingGear_EldimorAxeThrower" Tile="Creatures/OrmAxeThrower.png" DetailColor="w">
       <stat Name="ColdResistance" Bonus="30" />
 	  <stat Name="Agility" Bonus="1" />
 	  <stat Name="Strength" Bonus="2" />
@@ -325,14 +325,14 @@
         <skill Name="Cudgel" />
       </skills>
     </subtype>
-	<subtype Name="Artic Orm Mage" Gear="StartingGear_EldimorMage" Tile="OrmMage.png" DetailColor="w">
+	<subtype Name="Artic Orm Mage" Gear="StartingGear_EldimorMage" Tile="Creatures/OrmMage.png" DetailColor="w">
       <stat Name="ColdResistance" Bonus="30" />
 	  <stat Name="Ego" Bonus="3" />
       <skills>
         <skill Name="CookingAndGathering" />
       </skills>
     </subtype>
-	<subtype Name="Artic Orm Cannoneer" Gear="StartingGear_EldimorCannoneer" Tile="OrmCannoneer.png" DetailColor="w">
+	<subtype Name="Artic Orm Cannoneer" Gear="StartingGear_EldimorCannoneer" Tile="Creatures/OrmCannoneer.png" DetailColor="w">
       <stat Name="ColdResistance" Bonus="30" />
 	  <stat Name="Strength" Bonus="3" />
       <skills>
@@ -341,7 +341,7 @@
     </subtype>
 	</category>
 	<category Name="Temperate" DisplayName="{{forest|Temperate}}">
-    <subtype Name="Temperate Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="OrmHiker.png" DetailColor="g">
+    <subtype Name="Temperate Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/OrmHiker.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
       <skills>
@@ -350,7 +350,7 @@
 		<skill Name="Survival_PlainsSurvival" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Orm Slinger" Gear="StartingGear_EldimorSlinger" Tile="OrmSlinger.png" DetailColor="g">
+	<subtype Name="Temperate Orm Slinger" Gear="StartingGear_EldimorSlinger" Tile="Creatures/OrmSlinger.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
 	  <stat Name="Strength" Bonus="2" />
@@ -359,7 +359,7 @@
         <skill Name="Cudgel" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Orm Warrior" Gear="StartingGear_EldimorFighter" Tile="OrmWarrior.png" DetailColor="g">
+	<subtype Name="Temperate Orm Warrior" Gear="StartingGear_EldimorFighter" Tile="Creatures/OrmWarrior.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
 	  <stat Name="Agility" Bonus="1" />
@@ -373,7 +373,7 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Orm Axe Thrower" Gear="StartingGear_EldimorAxeThrower" Tile="OrmAxeThrower.png" DetailColor="g">
+	<subtype Name="Temperate Orm Axe Thrower" Gear="StartingGear_EldimorAxeThrower" Tile="Creatures/OrmAxeThrower.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
 	  <stat Name="Agility" Bonus="1" />
@@ -382,7 +382,7 @@
         <skill Name="Cudgel" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Orm Mage" Gear="StartingGear_EldimorMage" Tile="OrmMage.png" DetailColor="g">
+	<subtype Name="Temperate Orm Mage" Gear="StartingGear_EldimorMage" Tile="Creatures/OrmMage.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
 	  <stat Name="Ego" Bonus="3" />
@@ -390,7 +390,7 @@
         <skill Name="CookingAndGathering" />
       </skills>
     </subtype>
-	<subtype Name="Temperate Orm Cannoneer" Gear="StartingGear_EldimorCannoneer" Tile="OrmCannoneer.png" DetailColor="g">
+	<subtype Name="Temperate Orm Cannoneer" Gear="StartingGear_EldimorCannoneer" Tile="Creatures/OrmCannoneer.png" DetailColor="g">
       <stat Name="ColdResistance" Bonus="15" />
 	  <stat Name="HeatResistance" Bonus="15" />
 	  <stat Name="Strength" Bonus="3" />
@@ -400,7 +400,7 @@
     </subtype>
 	</category>
 	<category Name="Tropical" DisplayName="{{jungle|Tropical}}">
-    <subtype Name="Tropical Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="OrmHiker.png" DetailColor="b">
+    <subtype Name="Tropical Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/OrmHiker.png" DetailColor="b">
       <stat Name="ColdResistance" Bonus="5" />
 	  <stat Name="HeatResistance" Bonus="25" />
       <skills>
@@ -409,7 +409,7 @@
         <skill Name="Survival_RiversLakesSurvival" />
       </skills>
     </subtype>
-	<subtype Name="Tropical Orm Slinger" Gear="StartingGear_EldimorSlinger" Tile="OrmSlinger.png" DetailColor="b">
+	<subtype Name="Tropical Orm Slinger" Gear="StartingGear_EldimorSlinger" Tile="Creatures/OrmSlinger.png" DetailColor="b">
       <stat Name="ColdResistance" Bonus="5" />
 	  <stat Name="HeatResistance" Bonus="25" />
 	  <stat Name="Strength" Bonus="2" />
@@ -418,7 +418,7 @@
         <skill Name="Cudgel" />
       </skills>
     </subtype>
-	<subtype Name="Tropical Orm Warrior" Gear="StartingGear_EldimorFighter" Tile="OrmWarrior.png" DetailColor="b">
+	<subtype Name="Tropical Orm Warrior" Gear="StartingGear_EldimorFighter" Tile="Creatures/OrmWarrior.png" DetailColor="b">
       <stat Name="ColdResistance" Bonus="5" />
 	  <stat Name="HeatResistance" Bonus="25" />
 	  <stat Name="Agility" Bonus="1" />
@@ -432,7 +432,7 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Tropical Orm Axe Thrower" Gear="StartingGear_EldimorAxeThrower" Tile="OrmAxeThrower.png" DetailColor="b">
+	<subtype Name="Tropical Orm Axe Thrower" Gear="StartingGear_EldimorAxeThrower" Tile="Creatures/OrmAxeThrower.png" DetailColor="b">
       <stat Name="ColdResistance" Bonus="5" />
 	  <stat Name="HeatResistance" Bonus="25" />
 	  <stat Name="Agility" Bonus="1" />
@@ -441,7 +441,7 @@
         <skill Name="Cudgel" />
       </skills>
     </subtype>
-	<subtype Name="Tropical Orm Mage" Gear="StartingGear_EldimorMage" Tile="OrmMage.png" DetailColor="b">
+	<subtype Name="Tropical Orm Mage" Gear="StartingGear_EldimorMage" Tile="Creatures/OrmMage.png" DetailColor="b">
       <stat Name="ColdResistance" Bonus="5" />
 	  <stat Name="HeatResistance" Bonus="25" />
 	  <stat Name="Ego" Bonus="3" />
@@ -449,7 +449,7 @@
         <skill Name="CookingAndGathering" />
       </skills>
     </subtype>
-	<subtype Name="Tropical Orm Cannoneer" Gear="StartingGear_EldimorCannoneer" Tile="OrmCannoneer.png" DetailColor="b">
+	<subtype Name="Tropical Orm Cannoneer" Gear="StartingGear_EldimorCannoneer" Tile="Creatures/OrmCannoneer.png" DetailColor="b">
       <stat Name="ColdResistance" Bonus="5" />
 	  <stat Name="HeatResistance" Bonus="25" />
 	  <stat Name="Strength" Bonus="3" />
@@ -460,19 +460,19 @@
 	</category>
   </class>
 	<class ID="Mavotur" ChargenTitle="choose occupation" SingularTitle="occupation">
-    <subtype Name="Mavot Librarian" Gear="StartingGear_EldimorLibrarian_Mavotur" Tile="MavotLibrarian.png" DetailColor="C">
+    <subtype Name="Mavot Librarian" Gear="StartingGear_EldimorLibrarian_Mavotur" Tile="Creatures/MavotLibrarian.png" DetailColor="C">
 	  <stat Name="Intelligence" Bonus="3" />
       <skills>
         <skill Name="Tinkering" />
       </skills>
     </subtype>
-	<subtype Name="Mavot Bard" Gear="StartingGear_EldimorMage_Mavotur" Tile="MavotBard.png" DetailColor="C">
+	<subtype Name="Mavot Bard" Gear="StartingGear_EldimorMage_Mavotur" Tile="Creatures/MavotBard.png" DetailColor="C">
 	  <stat Name="Ego" Bonus="3" />
       <skills>
         <skill Name="CookingAndGathering" />
       </skills>
     </subtype>
-	<subtype Name="Mavot Commander" Gear="StartingGear_EldimorFighter_Mavotur" Tile="MavotCommander.png" DetailColor="C">
+	<subtype Name="Mavot Commander" Gear="StartingGear_EldimorFighter_Mavotur" Tile="Creatures/MavotCommander.png" DetailColor="C">
 	  <stat Name="Strength" Bonus="1" />
 	  <stat Name="Toughness" Bonus="2" />
       <skills>
