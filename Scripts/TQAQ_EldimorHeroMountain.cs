@@ -7,7 +7,7 @@ using XRL.World.Parts;
 namespace XRL.World.ObjectBuilders
 {
 
-    public class TQAQ_EldimorHeroTemperate : IObjectBuilder
+    public class TQAQ_EldimorHeroMountain : IObjectBuilder
     {
 
         public string ForceTitle;
@@ -113,33 +113,19 @@ namespace XRL.World.ObjectBuilders
             }
             if (!title.IsNullOrEmpty())
             {
-                if (title.Contains("Clan Lowmarsh"))
-                {
-                    GO.BoostStat("Strength", 1);
-                }
-                if (title.Contains("Clan Redrock"))
-                {
-                    mutations.AddMutation(new World.Parts.Mutation.Horns(), 2);
-                }
-                if (title.Contains("Clan Saltbog"))
-                {
-                    mutations.AddMutation(new World.Parts.Mutation.Horns(), 2);
-                }
-                if (title.Contains("Clan Whitecrust"))
-                {
-                    GO.BoostStat("Intelligence", 1);
-                    GO.BoostStat("Ego", 1);
-                    GO.BoostStat("Willpower", 1);
-                }
-                if (title.Contains("Clan Saltvine"))
-                {
-                    GO.BoostStat("MoveSpeed", -0.75);
-                }
-                if (title.Contains("Clan Deepbog"))
+                if (title.Contains("Clan Highlander"))
                 {
                     GO.BoostStat("Toughness", 1);
                 }
-                if (title.Contains("Clan Snapmaw"))
+                if (title.Contains("Clan Batholith"))
+                {
+                    GO.BoostStat("Toughness", 1);
+                }
+                if (title.Contains("Clan Canyonland"))
+                {
+                    GO.BoostStat("Toughness", 1);
+                }
+                if (title.Contains("Clan Deepcrag"))
                 {
                     GO.BoostStat("Toughness", 1);
                 }
@@ -155,7 +141,7 @@ namespace XRL.World.Parts
 {
 
     [Serializable]
-    public class TQAQ_EldimorHeroDrekirClanTemperate : IPart
+    public class TQAQ_EldimorHeroDrekirClanMountain : IPart
     {
 
         public bool Created;
@@ -228,7 +214,7 @@ namespace XRL.World.Parts
             }
             catch (Exception ex)
             {
-                MetricsManager.LogError("TQAQ_EldimorHeroDrekirClanTemperate setup", ex);
+                MetricsManager.LogError("TQAQ_EldimorHeroDrekirClanMountain setup", ex);
             }
             ParentObject.RemovePart(this);
             return base.HandleEvent(E);
@@ -242,7 +228,7 @@ namespace XRL.World.Parts
 {
 
     [Serializable]
-    public class TQAQ_EldimorHeroOrmerClanTemperate : IPart
+    public class TQAQ_EldimorHeroOrmerClanMountain : IPart
     {
 
         public bool Created;
@@ -315,7 +301,7 @@ namespace XRL.World.Parts
             }
             catch (Exception ex)
             {
-                MetricsManager.LogError("TQAQ_EldimorHeroOrmerClanTemperate setup", ex);
+                MetricsManager.LogError("TQAQ_EldimorHeroOrmerClanMountain setup", ex);
             }
             ParentObject.RemovePart(this);
             return base.HandleEvent(E);

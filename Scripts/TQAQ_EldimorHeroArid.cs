@@ -7,7 +7,7 @@ using XRL.World.Parts;
 namespace XRL.World.ObjectBuilders
 {
 
-    public class TQAQ_EldimorHeroTemperate : IObjectBuilder
+    public class TQAQ_EldimorHeroArid : IObjectBuilder
     {
 
         public string ForceTitle;
@@ -113,33 +113,23 @@ namespace XRL.World.ObjectBuilders
             }
             if (!title.IsNullOrEmpty())
             {
-                if (title.Contains("Clan Lowmarsh"))
-                {
-                    GO.BoostStat("Strength", 1);
-                }
-                if (title.Contains("Clan Redrock"))
-                {
-                    mutations.AddMutation(new World.Parts.Mutation.Horns(), 2);
-                }
-                if (title.Contains("Clan Saltbog"))
-                {
-                    mutations.AddMutation(new World.Parts.Mutation.Horns(), 2);
-                }
-                if (title.Contains("Clan Whitecrust"))
-                {
-                    GO.BoostStat("Intelligence", 1);
-                    GO.BoostStat("Ego", 1);
-                    GO.BoostStat("Willpower", 1);
-                }
-                if (title.Contains("Clan Saltvine"))
-                {
-                    GO.BoostStat("MoveSpeed", -0.75);
-                }
-                if (title.Contains("Clan Deepbog"))
+                if (title.Contains("Clan White Dune"))
                 {
                     GO.BoostStat("Toughness", 1);
                 }
-                if (title.Contains("Clan Snapmaw"))
+                if (title.Contains("Clan Saline Oasis"))
+                {
+                    GO.BoostStat("Toughness", 1);
+                }
+                if (title.Contains("Clan Issachari"))
+                {
+                    GO.BoostStat("Toughness", 1);
+                }
+                if (title.Contains("Clan Saltbowl"))
+                {
+                    GO.BoostStat("Toughness", 1);
+                }
+                if (title.Contains("Clan Firespitter"))
                 {
                     GO.BoostStat("Toughness", 1);
                 }
@@ -155,7 +145,7 @@ namespace XRL.World.Parts
 {
 
     [Serializable]
-    public class TQAQ_EldimorHeroDrekirClanTemperate : IPart
+    public class TQAQ_EldimorHeroDrekirClanArid : IPart
     {
 
         public bool Created;
@@ -228,7 +218,7 @@ namespace XRL.World.Parts
             }
             catch (Exception ex)
             {
-                MetricsManager.LogError("TQAQ_EldimorHeroDrekirClanTemperate setup", ex);
+                MetricsManager.LogError("TQAQ_EldimorHeroDrekirClanArid setup", ex);
             }
             ParentObject.RemovePart(this);
             return base.HandleEvent(E);
@@ -242,7 +232,7 @@ namespace XRL.World.Parts
 {
 
     [Serializable]
-    public class TQAQ_EldimorHeroOrmerClanTemperate : IPart
+    public class TQAQ_EldimorHeroOrmerClanArid : IPart
     {
 
         public bool Created;
@@ -315,7 +305,7 @@ namespace XRL.World.Parts
             }
             catch (Exception ex)
             {
-                MetricsManager.LogError("TQAQ_EldimorHeroOrmerClanTemperate setup", ex);
+                MetricsManager.LogError("TQAQ_EldimorHeroOrmerClanArid setup", ex);
             }
             ParentObject.RemovePart(this);
             return base.HandleEvent(E);

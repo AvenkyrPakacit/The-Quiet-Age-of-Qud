@@ -214,12 +214,8 @@
 
 	<namestyle Name="Eldimor Arid Hero Title">
       <scopes>
-        <scope Name="Main1" Type="Title" Special="Hero" Faction="TQAQ_Artic_Clans_Drekir" Priority="200" Combine="false" />
-        <scope Name="Main2" Type="Title" Special="Hero" Faction="TQAQ_Temperate_Clans_Drekir" Priority="200" Combine="false" />
-        <scope Name="Main3" Type="Title" Special="Hero" Faction="TQAQ_Tropical_Clans_Drekir" Priority="200" Combine="false" />
-        <scope Name="Main4" Type="Title" Special="Hero" Faction="TQAQ_Artic_Clans_Ormer" Priority="200" Combine="false" />
-        <scope Name="Main5" Type="Title" Special="Hero" Faction="TQAQ_Temperate_Clans_Ormer" Priority="200" Combine="false" />
-        <scope Name="Main6" Type="Title" Special="Hero" Faction="TQAQ_Tropical_Clans_Ormer" Priority="200" Combine="false" />
+        <scope Name="Main1" Type="Title" Special="Hero" Faction="TQAQ_Arid_Clans_Drekir" Priority="200" Combine="false" />
+        <scope Name="Main2" Type="Title" Special="Hero" Faction="TQAQ_Arid_Clans_Ormer" Priority="200" Combine="false" />
       </scopes>
       <templates>
         <template Name="of Clan *Clan*" />
