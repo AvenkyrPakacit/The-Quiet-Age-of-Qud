@@ -57,20 +57,27 @@ namespace XRL.World.ObjectBuilders
             Mutations mutations = GO.RequirePart<Mutations>();
             if (epithet == "the Seer")
             {
+                GO.BoostStat("Ego", 3);
                 GO.BoostStat("Intelligence", 3);
-                if (!mutations.HasMutation("LightManipulation"))
+                if (!mutations.HasMutation("MentalMirror"))
                 {
-                    mutations.AddMutation(new World.Parts.Mutation.LightManipulation(), 5);
+                    mutations.AddMutation(new World.Parts.Mutation.MentalMirror(), 5);
                 }
             }
             else
             if (epithet == "the Denhead")
             {
+                GO.BoostStat("Ego", 2);
                 GO.BoostStat("Strength", 3);
+                if (!mutations.HasMutation("TwoHearted"))
+                {
+                    mutations.AddMutation(new World.Parts.Mutation.TwoHearted(), 1);
+                }
             }
             else
             if (epithet == "the Champion")
             {
+                GO.BoostStat("Agility", 2);
                 GO.BoostStat("Strength", 3);
                 if (!mutations.HasMutation("AdrenalControl2"))
                 {
@@ -81,28 +88,37 @@ namespace XRL.World.ObjectBuilders
             if (epithet == "the Hiker")
             {
                 GO.BoostStat("Intelligence", 3);
+                if (!mutations.HasMutation("Regeneration"))
+                {
+                    mutations.AddMutation(new World.Parts.Mutation.Regeneration(), 1);
+                }
             }
             else
             if (epithet == "the Oracle")
             {
-                GO.BoostStat("Intelligence", 3);
+                GO.BoostStat("Ego", 3);
+                GO.BoostStat("Intelligence", 2);
+                if (!mutations.HasMutation("Precognition"))
+                {
+                    mutations.AddMutation(new World.Parts.Mutation.Precognition(), 1);
+                }
             }
             else
             if (epithet == "the Shaman")
             {
                 GO.BoostStat("Ego", 3);
-                if (!mutations.HasMutation("Syphon Vim"))
+                if (!mutations.HasMutation("WillForce"))
                 {
-                    mutations.AddMutation(new World.Parts.Mutation.LifeDrain(), 1);
+                    mutations.AddMutation(new World.Parts.Mutation.WillForce(), 1);
                 }
             }
             else
             if (epithet == "the Wicca")
             {
                 GO.BoostStat("Ego", 3);
-                if (!mutations.HasMutation("ElectricalGeneration"))
+                if (!mutations.HasMutation("Pyrokinesis"))
                 {
-                    mutations.AddMutation(new World.Parts.Mutation.ElectricalGeneration(), 4);
+                    mutations.AddMutation(new World.Parts.Mutation.Pyrokinesis(), 4);
                 }
             }
             else
@@ -110,26 +126,29 @@ namespace XRL.World.ObjectBuilders
             {
                 GO.BoostStat("Ego", 1);
                 GO.BoostStat("Willpower", 2);
+                if (!mutations.HasMutation("Horns"))
+                {
+                    mutations.AddMutation(new World.Parts.Mutation.Horns(), 4);
+                }
             }
             if (!title.IsNullOrEmpty())
             {
                 if (title.Contains("Clan Greensplit"))
                 {
-                    GO.BoostStat("Toughness", 1);
+                    GO.BoostStat("Agility", 3);
+                    GO.BoostStat("Toughness", 2);
                 }
                 if (title.Contains("Clan Basin"))
                 {
-                    mutations.AddMutation(new World.Parts.Mutation.Horns(), 2);
+                    GO.BoostStat("Strength", 2);
                 }
                 if (title.Contains("Clan Riverland"))
                 {
-                    GO.BoostStat("Intelligence", 1);
-                    GO.BoostStat("Ego", 1);
-                    GO.BoostStat("Willpower", 1);
+                    GO.BoostStat("Agility", 3);
                 }
                 if (title.Contains("Clan Yatyl"))
                 {
-                    GO.BoostStat("MoveSpeed", -0.75);
+                    GO.BoostStat("Intelligence", 3);
                 }
             }
             GO.MultiplyStat("Hitpoints", 2);
@@ -147,7 +166,6 @@ namespace XRL.World.Parts
     {
 
         public bool Created;
-        [NonSerialized] public bool Photosynthetic;
 
         public override bool SameAs(IPart p)
         {

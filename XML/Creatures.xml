@@ -78,6 +78,15 @@
 	<tag Name="DynamicObjectsTable:DeepJungle_Creatures" />
 	<tag Name="DynamicObjectsTable:Mountains_Creatures" />
 	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
+    <tag Name="DynamicObjectsTable:Saltdunes_Creatures" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Arid" Inherits="BaseDrekir">
+    <part Name="Render" DisplayName="Arid Drek" ColorString="&amp;w" DetailColor="r" />
+    <stat Name="HeatResistance" Value="30" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
+	<tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
+    <tag Name="DynamicObjectsTable:Saltdunes_Creatures" />
   </object>
 
   <object Name="TQAQ_Drekir_Temperate" Inherits="BaseDrekir">
@@ -99,6 +108,15 @@
 	<tag Name="DynamicObjectsTable:DeepJungle_Creatures" />
 	<tag Name="DynamicObjectsTable:Mountains_Creatures" />
 	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
+    <tag Name="DynamicObjectsTable:Saltdunes_Creatures" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Arid" Inherits="BaseOrmer">
+    <part Name="Render" DisplayName="Arid Orm" ColorString="&amp;w" DetailColor="r" />
+    <stat Name="HeatResistance" Value="30" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
+	<tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
+    <tag Name="DynamicObjectsTable:Saltdunes_Creatures" />
   </object>
 
   <object Name="TQAQ_Ormer_Temperate" Inherits="BaseOrmer">
@@ -108,6 +126,305 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
 	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
     <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
+  </object>
+
+  <!--Arid-->
+
+  <object Name="TQAQ_Drekir_Hiker_Arid" Inherits="TQAQ_Drekir_Arid">
+    <part Name="Render" DisplayName="Arid Drek Hiker"/>
+	<skill Name="Survival" />
+	<skill Name="Survival_DesertCanyonSurvival" />
+	<skill Name="Survival_SaltDesertSurvival" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Hiker_Arid_Hero" Inherits="TQAQ_Drekir_Hiker_Arid" >
+    <part Name="Render" DisplayName="Arid Drek Hero" ColorString="&amp;M" />
+	<part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
+	<builder Name="TQAQ_EldimorHeroArid" />
+    <part Name="TQAQ_EldimorHeroDrekirClanArid" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Peltast_Arid" Inherits="TQAQ_Drekir_Arid">
+    <part Name="Render" DisplayName="Arid Drek Peltast" Tile="Creatures/DrekPeltast.png"/>
+	<stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Shield" />
+	<skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorPeltast" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Peltast_Arid_Hero" Inherits="TQAQ_Drekir_Peltast_Arid" >
+    <part Name="Render" DisplayName="Arid Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroArid" />
+    <part Name="TQAQ_EldimorHeroDrekirClanArid" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Fighter_Arid" Inherits="TQAQ_Drekir_Arid">
+    <part Name="Render" DisplayName="Arid Drek Fighter" Tile="Creatures/DrekFighter.png"/>
+	<stat Name="Agility" Boost="1" />
+	<stat Name="Strength'" Boost="1" />
+	<stat Name="Toughness" Boost="1" />
+	<skill Name="Axe" />
+    <skill Name="Cudgel" />
+    <skill Name="LongBlades" />
+    <skill Name="Shield" />
+    <skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Fighter_Arid_Hero" Inherits="TQAQ_Drekir_Fighter_Arid" >
+    <part Name="Render" DisplayName="Arid Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroArid" />
+    <part Name="TQAQ_EldimorHeroDrekirClanArid" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Archer_Arid" Inherits="TQAQ_Drekir_Arid">
+    <part Name="Render" DisplayName="Arid Drek Peltast" Tile="Creatures/DrekArcher.png"/>
+	<stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Rifles" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArcher" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Archer_Arid_Hero" Inherits="TQAQ_Drekir_Archer_Arid" >
+    <part Name="Render" DisplayName="Arid Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroArid" />
+    <part Name="TQAQ_EldimorHeroDrekirClanArid" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Mage_Arid" Inherits="TQAQ_Drekir_Arid">
+    <part Name="Render" DisplayName="Arid Drek Mage" Tile="Creatures/DrekMage.png"/>
+	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
+	<stat Name="Ego" Boost="3" />
+	<skill Name="CookingAndGathering" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Mage_Arid_Hero" Inherits="TQAQ_Drekir_Mage_Arid" >
+    <part Name="Render" DisplayName="Arid Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroArid" />
+    <part Name="TQAQ_EldimorHeroDrekirClanArid" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Jezailer_Arid" Inherits="TQAQ_Drekir_Arid">
+    <part Name="Render" DisplayName="Arid Drek Jezailer" Tile="Creatures/DrekJezailer.png"/>
+	<stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Rifles" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorGunner" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Jezailer_Arid_Hero" Inherits="TQAQ_Drekir_Jezailer_Arid" >
+    <part Name="Render" DisplayName="Arid Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroArid" />
+    <part Name="TQAQ_EldimorHeroDrekirClanArid" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Hiker_Arid" Inherits="TQAQ_Ormer_Arid">
+    <part Name="Render" DisplayName="Arid Orm Hiker"/>
+	<skill Name="Survival" />
+	<skill Name="Survival_SaltmarshSurvival" />
+	<skill Name="Survival_PlainsSurvival" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Hiker_Arid_Hero" Inherits="TQAQ_Ormer_Hiker_Arid" >
+    <part Name="Render" DisplayName="Arid Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Arid_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroArid" />
+    <part Name="TQAQ_EldimorHeroOrmerClanArid" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Slinger_Arid" Inherits="TQAQ_Ormer_Arid">
+    <part Name="Render" DisplayName="Arid Orm Slinger" Tile="Creatures/OrmSlinger.png"/>
+	<stat Name="Strength" Boost="2" />
+	<stat Name="Agility" Boost="1" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Cudgel" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorSlinger" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Slinger_Arid_Hero" Inherits="TQAQ_Ormer_Slinger_Arid" >
+    <part Name="Render" DisplayName="Arid Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Arid_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroArid" />
+    <part Name="TQAQ_EldimorHeroOrmerClanArid" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Warrior_Arid" Inherits="TQAQ_Ormer_Arid">
+    <part Name="Render" DisplayName="Arid Orm Warrior" Tile="Creatures/OrmWarrior.png"/>
+	<stat Name="Agility" Boost="1" />
+	<stat Name="Strength'" Boost="1" />
+	<stat Name="Toughness" Boost="1" />
+	<skill Name="Axe" />
+    <skill Name="Cudgel" />
+    <skill Name="LongBlades" />
+    <skill Name="Shield" />
+    <skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Warrior_Arid_Hero" Inherits="TQAQ_Ormer_Warrior_Arid" >
+    <part Name="Render" DisplayName="Arid Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Arid_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroArid" />
+    <part Name="TQAQ_EldimorHeroOrmerClanArid" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Axe_Thrower_Arid" Inherits="TQAQ_Ormer_Arid">
+    <part Name="Render" DisplayName="Arid Orm Axe Thrower" Tile="Creatures/OrmAxeThrower.png"/>
+	<stat Name="Strength" Boost="2" />
+	<stat Name="Agility" Boost="1" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Cudgel" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorAxeThrower" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Axe_Thrower_Arid_Hero" Inherits="TQAQ_Ormer_Axe_Thrower_Arid" >
+    <part Name="Render" DisplayName="Arid Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Arid_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroArid" />
+    <part Name="TQAQ_EldimorHeroOrmerClanArid" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Mage_Arid" Inherits="TQAQ_Ormer_Arid">
+    <part Name="Render" DisplayName="Arid Orm Mage" Tile="Creatures/OrmMage.png"/>
+	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
+	<stat Name="Ego" Boost="3" />
+	<skill Name="CookingAndGathering" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Mage_Arid_Hero" Inherits="TQAQ_Ormer_Mage_Arid" >
+    <part Name="Render" DisplayName="Arid Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Arid_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroArid" />
+    <part Name="TQAQ_EldimorHeroOrmerClanArid" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Cannoneer_Arid" Inherits="TQAQ_Ormer_Arid">
+    <part Name="Render" DisplayName="Arid Orm Cannoneer" Tile="Creatures/OrmCannoneer.png"/>
+	<stat Name="Strength" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="HeavyWeapons" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorCannoneer" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Cannoneer_Arid_Hero" Inherits="TQAQ_Ormer_Cannoneer_Arid" >
+    <part Name="Render" DisplayName="Arid Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Arid_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroArid" />
+    <part Name="TQAQ_EldimorHeroOrmerClanArid" />
+    <part Name="GivesRep" />
+  </object>
+
+  <!--Sivilao-->
+
+  <object Name="TQAQ_Dralkir_Sivilao" Inherits="TQAQ_Dralkir">
+    <part Name="Render" DisplayName="Dralk"/>
+	<part Name="Brain" Factions="Sivilao-100" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Sivilao_Stal" Inherits="TQAQ_Dralkir_Sivilao">
+    <part Name="Description" Short="Clad in glimmering teal steel, spiteful eyes gaze upon those who do not abide the cult of the wheel. their quiet chants to the ofuth from which they hail hide a fanatical rage. The ofuth needs more spokes to labor in the bilor." />
+    <tag Name="BaseObject" Value="*noinherit" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Peltast" Inherits="TQAQ_Dralkir_Sivilao_Stal">
+    <part Name="Render" DisplayName="Dralk Peltast" Tile="Creatures/DrekPeltast.png" />
+	<stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Shield" />
+	<skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArmourMetalPeltast" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Peltast_Hero" Inherits="TQAQ_Dralkir_Peltast" >
+    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Fighter" Inherits="TQAQ_Dralkir_Sivilao_Stal">
+    <part Name="Render" DisplayName="Dralk Fighter" Tile="Creatures/DrekFighter.png" />
+	<stat Name="Agility" Boost="1" />
+	<stat Name="Strength'" Boost="1" />
+	<stat Name="Toughness" Boost="1" />
+	<skill Name="Axe" />
+    <skill Name="Cudgel" />
+    <skill Name="LongBlades" />
+    <skill Name="Shield" />
+    <skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter_ArmourMetal" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Fighter_Hero" Inherits="TQAQ_Dralkir_Fighter" >
+    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Archer" Inherits="TQAQ_Dralkir_Sivilao_Stal">
+    <part Name="Render" DisplayName="Dralk Peltast" Tile="Creatures/DrekArcher.png" />
+	<stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Rifles" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArcher_ArmourMetal" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Archer_Hero" Inherits="TQAQ_Dralkir_Archer" >
+    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Mage" Inherits="TQAQ_Dralkir_Sivilao_Stal">
+    <part Name="Render" DisplayName="Dralk Mage" Tile="Creatures/DrekMage.png" />
+	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
+	<stat Name="Ego" Boost="3" />
+	<skill Name="CookingAndGathering" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Mage_Hero" Inherits="TQAQ_Dralkir_Mage" >
+    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Jezailer" Inherits="TQAQ_Dralkir_Sivilao_Stal">
+    <part Name="Render" DisplayName="Dralk Jezailer" Tile="Creatures/DrekJezailer.png" />
+	<stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Rifles" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorGunner_ArmourMetal" />
+  </object>
+
+  <object Name="TQAQ_Dralkir_Jezailer_Hero" Inherits="TQAQ_Dralkir_Jezailer">
+    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="GivesRep" />
   </object>
 
   <!--Temperate-->
@@ -122,6 +439,7 @@
 
   <object Name="TQAQ_Drekir_Hiker_Temperate_Hero" Inherits="TQAQ_Drekir_Hiker_Temperate" >
     <part Name="Render" DisplayName="Temperate Drek Hero" ColorString="&amp;M" />
+	<part Name="Brain" Factions="TQAQ_Temperate_Clans_Drekir-100" />
 	<builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
     <part Name="GivesRep" />
@@ -319,92 +637,6 @@
     <part Name="Brain" Factions="TQAQ_Temperate_Clans_Ormer-100" />
     <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
-    <part Name="GivesRep" />
-  </object>
-
-  <!--Dralkir-->
-
-  <object Name="TQAQ_Dralkir_Sivilao" Inherits="TQAQ_Dralkir">
-    <part Name="Render" DisplayName="Dralk"/>
-	<part Name="Brain" Factions="Sivilao-100" />
-  </object>
-
-  <object Name="TQAQ_Dralkir_Sivilao_Stal" Inherits="TQAQ_Dralkir_Sivilao">
-    <part Name="Description" Short="Clad in glimmering teal steel, spiteful eyes gaze upon those who do not abide the cult of the wheel. their quiet chants to the ofuth from which they hail hide a fanatical rage. The ofuth needs more spokes to labor in the bilor." />
-    <tag Name="BaseObject" Value="*noinherit" />
-  </object>
-
-  <object Name="TQAQ_Dralkir_Peltast" Inherits="TQAQ_Dralkir_Sivilao_Stal">
-    <part Name="Render" DisplayName="Dralk Peltast" Tile="Creatures/DrekPeltast.png" />
-	<stat Name="Agility" Boost="3" />
-    <tag Name="Role" Value="Skirmisher" />
-    <part Name="AIShootAndScoot" Duration="1d2" />
-	<skill Name="Shield" />
-	<skill Name="ShortBlades" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArmourMetalPeltast" />
-  </object>
-
-  <object Name="TQAQ_Dralkir_Peltast_Hero" Inherits="TQAQ_Dralkir_Peltast" >
-    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
-    <part Name="GivesRep" />
-  </object>
-
-  <object Name="TQAQ_Dralkir_Fighter" Inherits="TQAQ_Dralkir_Sivilao_Stal">
-    <part Name="Render" DisplayName="Dralk Fighter" Tile="Creatures/DrekFighter.png" />
-	<stat Name="Agility" Boost="1" />
-	<stat Name="Strength'" Boost="1" />
-	<stat Name="Toughness" Boost="1" />
-	<skill Name="Axe" />
-    <skill Name="Cudgel" />
-    <skill Name="LongBlades" />
-    <skill Name="Shield" />
-    <skill Name="ShortBlades" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter_ArmourMetal" />
-  </object>
-
-  <object Name="TQAQ_Dralkir_Fighter_Hero" Inherits="TQAQ_Dralkir_Fighter" >
-    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
-    <part Name="GivesRep" />
-  </object>
-
-  <object Name="TQAQ_Dralkir_Archer" Inherits="TQAQ_Dralkir_Sivilao_Stal">
-    <part Name="Render" DisplayName="Dralk Peltast" Tile="Creatures/DrekArcher.png" />
-	<stat Name="Agility" Boost="3" />
-    <tag Name="Role" Value="Skirmisher" />
-    <part Name="AIShootAndScoot" Duration="1d2" />
-	<skill Name="Rifles" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArcher_ArmourMetal" />
-  </object>
-
-  <object Name="TQAQ_Dralkir_Archer_Hero" Inherits="TQAQ_Dralkir_Archer" >
-    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
-    <part Name="GivesRep" />
-  </object>
-
-  <object Name="TQAQ_Dralkir_Mage" Inherits="TQAQ_Dralkir_Sivilao_Stal">
-    <part Name="Render" DisplayName="Dralk Mage" Tile="Creatures/DrekMage.png" />
-	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
-	<stat Name="Ego" Boost="3" />
-	<skill Name="CookingAndGathering" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
-  </object>
-
-  <object Name="TQAQ_Dralkir_Mage_Hero" Inherits="TQAQ_Dralkir_Mage" >
-    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
-    <part Name="GivesRep" />
-  </object>
-
-  <object Name="TQAQ_Dralkir_Jezailer" Inherits="TQAQ_Dralkir_Sivilao_Stal">
-    <part Name="Render" DisplayName="Dralk Jezailer" Tile="Creatures/DrekJezailer.png" />
-	<stat Name="Agility" Boost="3" />
-    <tag Name="Role" Value="Skirmisher" />
-    <part Name="AIShootAndScoot" Duration="1d2" />
-	<skill Name="Rifles" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorGunner_ArmourMetal" />
-  </object>
-
-  <object Name="TQAQ_Dralkir_Jezailer_Hero" Inherits="TQAQ_Dralkir_Jezailer">
-    <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
   </object>
   

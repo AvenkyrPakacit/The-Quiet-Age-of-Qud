@@ -64,7 +64,8 @@
 	  <stat Name="HeatResistance" Bonus="30" />
       <skills>
         <skill Name="Survival" />
-        <skill Name="Survival_MountainsSurvival" />
+        <skill Name="Survival_DesertCanyonSurvival" />
+        <skill Name="Survival_SaltDesertSurvival" />
       </skills>
     </subtype>
 	<subtype Name="Arid Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="Creatures/DrekPeltast.png" DetailColor="r">
@@ -343,7 +344,8 @@
       <stat Name="HeatResistance" Bonus="30" />
       <skills>
         <skill Name="Survival" />
-        <skill Name="Survival_MountainsSurvival" />
+        <skill Name="Survival_DesertCanyonSurvival" />
+        <skill Name="Survival_SaltDesertSurvival" />
       </skills>
     </subtype>
 	<subtype Name="Arid Orm Slinger" Gear="StartingGear_EldimorSlinger" Tile="Creatures/OrmSlinger.png" DetailColor="r">
