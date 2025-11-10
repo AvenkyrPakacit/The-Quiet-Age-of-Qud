@@ -81,6 +81,15 @@
     <tag Name="DynamicObjectsTable:Saltdunes_Creatures" />
   </object>
 
+  <object Name="TQAQ_Drekir_Alpine" Inherits="BaseDrekir">
+    <part Name="Render" DisplayName="Alpine Drek" ColorString="&amp;w" DetailColor="Y" />
+	<stat Name="ColdResistance" Value="25" />
+    <stat Name="HeatResistance" Value="5" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
+	<tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
+    <tag Name="DynamicObjectsTable:Mountains_Creatures" />
+  </object>
+
   <object Name="TQAQ_Drekir_Arid" Inherits="BaseDrekir">
     <part Name="Render" DisplayName="Arid Drek" ColorString="&amp;w" DetailColor="r" />
     <stat Name="HeatResistance" Value="30" />
@@ -111,6 +120,15 @@
     <tag Name="DynamicObjectsTable:Saltdunes_Creatures" />
   </object>
 
+  <object Name="TQAQ_Ormer_Alpine" Inherits="BaseOrmer">
+    <part Name="Render" DisplayName="Alpine Orm" ColorString="&amp;w" DetailColor="Y" />
+	<stat Name="ColdResistance" Value="25" />
+    <stat Name="HeatResistance" Value="5" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
+	<tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
+    <tag Name="DynamicObjectsTable:Mountains_Creatures" />
+  </object>
+
   <object Name="TQAQ_Ormer_Arid" Inherits="BaseOrmer">
     <part Name="Render" DisplayName="Arid Orm" ColorString="&amp;w" DetailColor="r" />
     <stat Name="HeatResistance" Value="30" />
@@ -126,6 +144,219 @@
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
 	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
     <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
+  </object>
+
+  <!--Alpine-->
+
+  <object Name="TQAQ_Drekir_Hiker_Alpine" Inherits="TQAQ_Drekir_Alpine">
+    <part Name="Render" DisplayName="Alpine Drek Hiker"/>
+	<skill Name="Survival" />
+	<skill Name="Survival_DesertCanyonSurvival" />
+	<skill Name="Survival_MountainsSurvival" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Hiker_Alpine_Hero" Inherits="TQAQ_Drekir_Hiker_Alpine" >
+    <part Name="Render" DisplayName="Alpine Drek Hero" ColorString="&amp;M" />
+	<part Name="Brain" Factions="TQAQ_Alpine_Clans_Drekir-100" />
+	<builder Name="TQAQ_EldimorHeroMountain" />
+    <part Name="TQAQ_EldimorHeroDrekirClanAlpine" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Peltast_Alpine" Inherits="TQAQ_Drekir_Alpine">
+    <part Name="Render" DisplayName="Alpine Drek Peltast" Tile="Creatures/DrekPeltast.png"/>
+	<stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Shield" />
+	<skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorPeltast" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Peltast_Alpine_Hero" Inherits="TQAQ_Drekir_Peltast_Alpine" >
+    <part Name="Render" DisplayName="Alpine Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Alpine_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroMountain" />
+    <part Name="TQAQ_EldimorHeroDrekirClanAlpine" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Fighter_Alpine" Inherits="TQAQ_Drekir_Alpine">
+    <part Name="Render" DisplayName="Alpine Drek Fighter" Tile="Creatures/DrekFighter.png"/>
+	<stat Name="Agility" Boost="1" />
+	<stat Name="Strength'" Boost="1" />
+	<stat Name="Toughness" Boost="1" />
+	<skill Name="Axe" />
+    <skill Name="Cudgel" />
+    <skill Name="LongBlades" />
+    <skill Name="Shield" />
+    <skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Fighter_Alpine_Hero" Inherits="TQAQ_Drekir_Fighter_Alpine" >
+    <part Name="Render" DisplayName="Alpine Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Alpine_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroMountain" />
+    <part Name="TQAQ_EldimorHeroDrekirClanAlpine" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Archer_Alpine" Inherits="TQAQ_Drekir_Alpine">
+    <part Name="Render" DisplayName="Alpine Drek Peltast" Tile="Creatures/DrekArcher.png"/>
+	<stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Rifles" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArcher" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Archer_Alpine_Hero" Inherits="TQAQ_Drekir_Archer_Alpine" >
+    <part Name="Render" DisplayName="Alpine Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Alpine_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroMountain" />
+    <part Name="TQAQ_EldimorHeroDrekirClanAlpine" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Mage_Alpine" Inherits="TQAQ_Drekir_Alpine">
+    <part Name="Render" DisplayName="Alpine Drek Mage" Tile="Creatures/DrekMage.png"/>
+	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
+	<stat Name="Ego" Boost="3" />
+	<skill Name="CookingAndGathering" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Mage_Alpine_Hero" Inherits="TQAQ_Drekir_Mage_Alpine" >
+    <part Name="Render" DisplayName="Alpine Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Alpine_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroMountain" />
+    <part Name="TQAQ_EldimorHeroDrekirClanAlpine" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Jezailer_Alpine" Inherits="TQAQ_Drekir_Alpine">
+    <part Name="Render" DisplayName="Alpine Drek Jezailer" Tile="Creatures/DrekJezailer.png"/>
+	<stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Rifles" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorGunner" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Jezailer_Alpine_Hero" Inherits="TQAQ_Drekir_Jezailer_Alpine" >
+    <part Name="Render" DisplayName="Alpine Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Alpine_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroMountain" />
+    <part Name="TQAQ_EldimorHeroDrekirClanAlpine" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Hiker_Alpine" Inherits="TQAQ_Ormer_Alpine">
+    <part Name="Render" DisplayName="Alpine Orm Hiker"/>
+	<skill Name="Survival" />
+	<skill Name="Survival_DesertCanyonSurvival" />
+	<skill Name="Survival_MountainsSurvival" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Hiker_Alpine_Hero" Inherits="TQAQ_Ormer_Hiker_Alpine" >
+    <part Name="Render" DisplayName="Alpine Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Alpine_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroMountain" />
+    <part Name="TQAQ_EldimorHeroOrmerClanAlpine" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Slinger_Alpine" Inherits="TQAQ_Ormer_Alpine">
+    <part Name="Render" DisplayName="Alpine Orm Slinger" Tile="Creatures/OrmSlinger.png"/>
+	<stat Name="Strength" Boost="2" />
+	<stat Name="Agility" Boost="1" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Cudgel" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorSlinger" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Slinger_Alpine_Hero" Inherits="TQAQ_Ormer_Slinger_Alpine" >
+    <part Name="Render" DisplayName="Alpine Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Alpine_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroMountain" />
+    <part Name="TQAQ_EldimorHeroOrmerClanAlpine" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Warrior_Alpine" Inherits="TQAQ_Ormer_Alpine">
+    <part Name="Render" DisplayName="Alpine Orm Warrior" Tile="Creatures/OrmWarrior.png"/>
+	<stat Name="Agility" Boost="1" />
+	<stat Name="Strength'" Boost="1" />
+	<stat Name="Toughness" Boost="1" />
+	<skill Name="Axe" />
+    <skill Name="Cudgel" />
+    <skill Name="LongBlades" />
+    <skill Name="Shield" />
+    <skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Warrior_Alpine_Hero" Inherits="TQAQ_Ormer_Warrior_Alpine" >
+    <part Name="Render" DisplayName="Alpine Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Alpine_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroMountain" />
+    <part Name="TQAQ_EldimorHeroOrmerClanAlpine" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Axe_Thrower_Alpine" Inherits="TQAQ_Ormer_Alpine">
+    <part Name="Render" DisplayName="Alpine Orm Axe Thrower" Tile="Creatures/OrmAxeThrower.png"/>
+	<stat Name="Strength" Boost="2" />
+	<stat Name="Agility" Boost="1" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Cudgel" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorAxeThrower" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Axe_Thrower_Alpine_Hero" Inherits="TQAQ_Ormer_Axe_Thrower_Alpine" >
+    <part Name="Render" DisplayName="Alpine Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Alpine_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroMountain" />
+    <part Name="TQAQ_EldimorHeroOrmerClanAlpine" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Mage_Alpine" Inherits="TQAQ_Ormer_Alpine">
+    <part Name="Render" DisplayName="Alpine Orm Mage" Tile="Creatures/OrmMage.png"/>
+	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
+	<stat Name="Ego" Boost="3" />
+	<skill Name="CookingAndGathering" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Mage_Alpine_Hero" Inherits="TQAQ_Ormer_Mage_Alpine" >
+    <part Name="Render" DisplayName="Alpine Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Alpine_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroMountain" />
+    <part Name="TQAQ_EldimorHeroOrmerClanAlpine" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Cannoneer_Alpine" Inherits="TQAQ_Ormer_Alpine">
+    <part Name="Render" DisplayName="Alpine Orm Cannoneer" Tile="Creatures/OrmCannoneer.png"/>
+	<stat Name="Strength" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="HeavyWeapons" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorCannoneer" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Cannoneer_Alpine_Hero" Inherits="TQAQ_Ormer_Cannoneer_Alpine" >
+    <part Name="Render" DisplayName="Alpine Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Alpine_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroMountain" />
+    <part Name="TQAQ_EldimorHeroOrmerClanAlpine" />
+    <part Name="GivesRep" />
   </object>
 
   <!--Arid-->
@@ -238,8 +469,8 @@
   <object Name="TQAQ_Ormer_Hiker_Arid" Inherits="TQAQ_Ormer_Arid">
     <part Name="Render" DisplayName="Arid Orm Hiker"/>
 	<skill Name="Survival" />
-	<skill Name="Survival_SaltmarshSurvival" />
-	<skill Name="Survival_PlainsSurvival" />
+	<skill Name="Survival_DesertCanyonSurvival" />
+	<skill Name="Survival_SaltDesertSurvival" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
   </object>
 

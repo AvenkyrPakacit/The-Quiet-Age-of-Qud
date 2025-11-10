@@ -146,18 +146,17 @@
 
 	<namestyle Name="Eldimor Hero" Base="Eldimor">
       <scopes>
-        <scope Name="Main1" Special="Hero" Faction="Eldimor" Priority="200" Combine="false" />
-        <scope Name="Main2" Special="Hero" Faction="TQAQ_Temperate_Clans_Drekir" Priority="200" Combine="false" />
-		<scope Name="Main3" Special="Hero" Faction="TQAQ_Tropical_Clans_Drekir" Priority="200" Combine="false" />
-		<scope Name="Main4" Special="Hero" Faction="TQAQ_Artic_Clans_Drekir" Priority="200" Combine="false" />
-		<scope Name="Main5" Special="Hero" Faction="TQAQ_Alpine_Clans_Drekir" Priority="200" Combine="false" />
-        <scope Name="Main6" Special="Hero" Faction="TQAQ_Temperate_Clans_Ormer" Priority="200" Combine="false" />
-		<scope Name="Main7" Special="Hero" Faction="TQAQ_Tropical_Clans_Ormer" Priority="200" Combine="false" />
-		<scope Name="Main8" Special="Hero" Faction="TQAQ_Artic_Clans_Ormer" Priority="200" Combine="false" />
-		<scope Name="Main9" Special="Hero" Faction="TQAQ_Alpine_Clans_Ormer" Priority="200" Combine="false" />
-		<scope Name="Main10" Special="Hero" Faction="TQAQ_Arid_Clans_Drekir" Priority="200" Combine="false" />
-		<scope Name="Main11" Special="Hero" Faction="TQAQ_Arid_Clans_Ormer" Priority="200" Combine="false" />
-		<scope Name="Main12" Special="Hero" Faction="Sivlao" Priority="200" Combine="false" />
+        <scope Name="Main1" Special="Hero" Faction="TQAQ_Temperate_Clans_Drekir" Priority="200" Combine="false" />
+		<scope Name="Main2" Special="Hero" Faction="TQAQ_Tropical_Clans_Drekir" Priority="200" Combine="false" />
+		<scope Name="Main3" Special="Hero" Faction="TQAQ_Artic_Clans_Drekir" Priority="200" Combine="false" />
+		<scope Name="Main4" Special="Hero" Faction="TQAQ_Alpine_Clans_Drekir" Priority="200" Combine="false" />
+        <scope Name="Main5" Special="Hero" Faction="TQAQ_Temperate_Clans_Ormer" Priority="200" Combine="false" />
+		<scope Name="Main6" Special="Hero" Faction="TQAQ_Tropical_Clans_Ormer" Priority="200" Combine="false" />
+		<scope Name="Main7" Special="Hero" Faction="TQAQ_Artic_Clans_Ormer" Priority="200" Combine="false" />
+		<scope Name="Main8" Special="Hero" Faction="TQAQ_Alpine_Clans_Ormer" Priority="200" Combine="false" />
+		<scope Name="Main9" Special="Hero" Faction="TQAQ_Arid_Clans_Drekir" Priority="200" Combine="false" />
+		<scope Name="Main10" Special="Hero" Faction="TQAQ_Arid_Clans_Ormer" Priority="200" Combine="false" />
+		<scope Name="Main11" Special="Hero" Faction="Sivlao" Priority="200" Combine="false" />
       </scopes>
       <templates>
         <template Name="*Name*" />

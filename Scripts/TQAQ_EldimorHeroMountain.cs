@@ -165,7 +165,179 @@ namespace XRL.World.Parts
 {
 
     [Serializable]
-    public class TQAQ_EldimorHeroDrekirClanMountain : IPart
+    public class TQAQ_EldimorHeroDrekirClanAlpine : IPart
+    {
+
+        public bool Created;
+
+        public override bool SameAs(IPart p)
+        {
+            return false;
+        }
+
+        public override bool WantEvent(int ID, int cascade)
+        {
+            return
+                base.WantEvent(ID, cascade)
+                || ID == EnteredCellEvent.ID
+            ;
+        }
+
+        public override bool HandleEvent(EnteredCellEvent E)
+        {
+            try
+            {
+                List<Cell> emptyCells = Event.NewCellList();
+                foreach (Cell cell in ParentObject.CurrentCell.GetAdjacentCells(4))
+                {
+                    if (cell.IsEmptyOfSolid())
+                    {
+                        emptyCells.Add(cell);
+                    }
+                }
+                int peltasts = Rules.Stat.Random(0, 2);
+                int fighters = Rules.Stat.Random(0, 4);
+                int archers = Rules.Stat.Random(0, 2);
+                int mages = Rules.Stat.Random(0, 1);
+                int jezailers = Rules.Stat.Random(0, 2);
+                List<string> followers = new List<string>(peltasts + fighters + archers + mages + jezailers);
+                for (int x = 0; x < peltasts; x++)
+                {
+                    followers.Add("TQAQ_Drekir_Peltast_Alpine");
+                }
+                for (int x = 0; x < fighters; x++)
+                {
+                    followers.Add("TQAQ_Drekir_Fighter_Alpine");
+                }
+                for (int x = 0; x < archers; x++)
+                {
+                    followers.Add("TQAQ_Drekir_Archer_Alpine");
+                }
+                for (int x = 0; x < mages; x++)
+                {
+                    followers.Add("TQAQ_Drekir_Mage_Alpine");
+                }
+                for (int x = 0; x < jezailers; x++)
+                {
+                    followers.Add("TQAQ_Drekir_Jezailer_Alpine");
+                }
+                for (int i = 0, j = followers.Count; i < j; i++)
+                {
+                    Cell cell = emptyCells.GetRandomElement();
+                    if (cell == null)
+                    {
+                        break;
+                    }
+                    GameObject follower = GameObject.Create(followers[i]);
+                    follower.SetAlliedLeader<AllyClan>(ParentObject);
+                    cell.AddObject(follower);
+                    follower.MakeActive();
+                    emptyCells.Remove(cell);
+                }
+            }
+            catch (Exception ex)
+            {
+                MetricsManager.LogError("TQAQ_EldimorHeroDrekirClanAlpine setup", ex);
+            }
+            ParentObject.RemovePart(this);
+            return base.HandleEvent(E);
+        }
+
+    }
+
+}
+
+namespace XRL.World.Parts
+{
+
+    [Serializable]
+    public class TQAQ_EldimorHeroOrmerClanAlpine : IPart
+    {
+
+        public bool Created;
+        [NonSerialized] public bool Photosynthetic;
+
+        public override bool SameAs(IPart p)
+        {
+            return false;
+        }
+
+        public override bool WantEvent(int ID, int cascade)
+        {
+            return
+                base.WantEvent(ID, cascade)
+                || ID == EnteredCellEvent.ID
+            ;
+        }
+
+        public override bool HandleEvent(EnteredCellEvent E)
+        {
+            try
+            {
+                List<Cell> emptyCells = Event.NewCellList();
+                foreach (Cell cell in ParentObject.CurrentCell.GetAdjacentCells(4))
+                {
+                    if (cell.IsEmptyOfSolid())
+                    {
+                        emptyCells.Add(cell);
+                    }
+                }
+                int slingers = Rules.Stat.Random(0, 2);
+                int warriors = Rules.Stat.Random(0, 4);
+                int axethrowers = Rules.Stat.Random(0, 2);
+                int mages = Rules.Stat.Random(0, 1);
+                int cannoneer = Rules.Stat.Random(0, 2);
+                List<string> followers = new List<string>(slingers + warriors + axethrowers + mages + cannoneer);
+                for (int x = 0; x < slingers; x++)
+                {
+                    followers.Add("TQAQ_Ormer_Slinger_Alpine");
+                }
+                for (int x = 0; x < warriors; x++)
+                {
+                    followers.Add("TQAQ_Ormer_Warrior_Alpine");
+                }
+                for (int x = 0; x < axethrowers; x++)
+                {
+                    followers.Add("TQAQ_Ormer_Axe_Thrower_Alpine");
+                }
+                for (int x = 0; x < mages; x++)
+                {
+                    followers.Add("TQAQ_Ormer_Mage_Alpine");
+                }
+                for (int x = 0; x < cannoneer; x++)
+                {
+                    followers.Add("TQAQ_Ormer_Cannoneer_Alpine");
+                }
+                for (int i = 0, j = followers.Count; i < j; i++)
+                {
+                    Cell cell = emptyCells.GetRandomElement();
+                    if (cell == null)
+                    {
+                        break;
+                    }
+                    GameObject follower = GameObject.Create(followers[i]);
+                    follower.SetAlliedLeader<AllyClan>(ParentObject);
+                    cell.AddObject(follower);
+                    follower.MakeActive();
+                    emptyCells.Remove(cell);
+                }
+            }
+            catch (Exception ex)
+            {
+                MetricsManager.LogError("TQAQ_EldimorHeroOrmerClanAlpine setup", ex);
+            }
+            ParentObject.RemovePart(this);
+            return base.HandleEvent(E);
+        }
+
+    }
+
+}
+namespace XRL.World.Parts
+{
+
+    [Serializable]
+    public class TQAQ_EldimorHeroDrekirClanArtic : IPart
     {
 
         public bool Created;
@@ -237,7 +409,7 @@ namespace XRL.World.Parts
             }
             catch (Exception ex)
             {
-                MetricsManager.LogError("TQAQ_EldimorHeroDrekirClanMountain setup", ex);
+                MetricsManager.LogError("TQAQ_EldimorHeroDrekirClanArtic setup", ex);
             }
             ParentObject.RemovePart(this);
             return base.HandleEvent(E);
@@ -251,7 +423,7 @@ namespace XRL.World.Parts
 {
 
     [Serializable]
-    public class TQAQ_EldimorHeroOrmerClanMountain : IPart
+    public class TQAQ_EldimorHeroOrmerClanArtic : IPart
     {
 
         public bool Created;
@@ -324,7 +496,7 @@ namespace XRL.World.Parts
             }
             catch (Exception ex)
             {
-                MetricsManager.LogError("TQAQ_EldimorHeroOrmerClanMountain setup", ex);
+                MetricsManager.LogError("TQAQ_EldimorHeroOrmerClanArtic setup", ex);
             }
             ParentObject.RemovePart(this);
             return base.HandleEvent(E);

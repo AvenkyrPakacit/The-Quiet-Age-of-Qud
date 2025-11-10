@@ -208,23 +208,23 @@ namespace XRL.World.Parts
                 List<string> followers = new List<string>(peltasts + fighters + archers + mages + jezailers);
                 for (int x = 0; x < peltasts; x++)
                 {
-                    followers.Add("TQAQ_Drekir_Peltast_Temperate");
+                    followers.Add("TQAQ_Drekir_Peltast_Arid");
                 }
                 for (int x = 0; x < fighters; x++)
                 {
-                    followers.Add("TQAQ_Drekir_Fighter_Temperate");
+                    followers.Add("TQAQ_Drekir_Fighter_Arid");
                 }
                 for (int x = 0; x < archers; x++)
                 {
-                    followers.Add("TQAQ_Drekir_Archer_Temperate");
+                    followers.Add("TQAQ_Drekir_Archer_Arid");
                 }
                 for (int x = 0; x < mages; x++)
                 {
-                    followers.Add("TQAQ_Drekir_Mage_Temperate");
+                    followers.Add("TQAQ_Drekir_Mage_Arid");
                 }
                 for (int x = 0; x < jezailers; x++)
                 {
-                    followers.Add("TQAQ_Drekir_Jezailer_Temperate");
+                    followers.Add("TQAQ_Drekir_Jezailer_Arid");
                 }
                 for (int i = 0, j = followers.Count; i < j; i++)
                 {
@@ -295,23 +295,23 @@ namespace XRL.World.Parts
                 List<string> followers = new List<string>(slingers + warriors + axethrowers + mages + cannoneer);
                 for (int x = 0; x < slingers; x++)
                 {
-                    followers.Add("TQAQ_Ormer_Slinger_Temperate");
+                    followers.Add("TQAQ_Ormer_Slinger_Arid");
                 }
                 for (int x = 0; x < warriors; x++)
                 {
-                    followers.Add("TQAQ_Ormer_Warrior_Temperate");
+                    followers.Add("TQAQ_Ormer_Warrior_Arid");
                 }
                 for (int x = 0; x < axethrowers; x++)
                 {
-                    followers.Add("TQAQ_Ormer_Axe_Thrower_Temperate");
+                    followers.Add("TQAQ_Ormer_Axe_Thrower_Arid");
                 }
                 for (int x = 0; x < mages; x++)
                 {
-                    followers.Add("TQAQ_Ormer_Mage_Temperate");
+                    followers.Add("TQAQ_Ormer_Mage_Arid");
                 }
                 for (int x = 0; x < cannoneer; x++)
                 {
-                    followers.Add("TQAQ_Ormer_Cannoneer_Temperate");
+                    followers.Add("TQAQ_Ormer_Cannoneer_Arid");
                 }
                 for (int i = 0, j = followers.Count; i < j; i++)
                 {
