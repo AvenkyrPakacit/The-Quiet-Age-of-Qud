@@ -59,8 +59,8 @@
       </skills>
     </subtype>
 	</category>
-	<category Name="Arid" DisplayName="{{desert camouflage|Arid}}">
-	<subtype Name="Arid Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/DrekHiker.png" DetailColor="r">
+	<category Name="Arid" DisplayName="{{desert camouflage|Salt Dunes Temperate}}">
+	<subtype Name="Salt Dune Temperate Drek Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/DrekHiker.png" DetailColor="r">
 	  <stat Name="HeatResistance" Bonus="30" />
       <skills>
         <skill Name="Survival" />
@@ -68,7 +68,7 @@
         <skill Name="Survival_SaltDesertSurvival" />
       </skills>
     </subtype>
-	<subtype Name="Arid Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="Creatures/DrekPeltast.png" DetailColor="r">
+	<subtype Name="Salt Dune Temperate Drek Peltast" Gear="StartingGear_EldimorPeltast" Tile="Creatures/DrekPeltast.png" DetailColor="r">
 	  <stat Name="HeatResistance" Bonus="30" />
 	  <stat Name="Agility" Bonus="3" />
       <skills>
@@ -76,7 +76,7 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Arid Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="Creatures/DrekFighter.png" DetailColor="r">
+	<subtype Name="Salt Dune Temperate Drek Fighter" Gear="StartingGear_EldimorFighter" Tile="Creatures/DrekFighter.png" DetailColor="r">
 	  <stat Name="HeatResistance" Bonus="30" />
 	  <stat Name="Agility" Bonus="1" />
 	  <stat Name="Strength" Bonus="1" />
@@ -89,21 +89,21 @@
         <skill Name="ShortBlades" />
       </skills>
     </subtype>
-	<subtype Name="Arid Drek Archer" Gear="StartingGear_EldimorArcher" Tile="Creatures/DrekArcher.png" DetailColor="r">
+	<subtype Name="Salt Dune Temperate Drek Archer" Gear="StartingGear_EldimorArcher" Tile="Creatures/DrekArcher.png" DetailColor="r">
 	  <stat Name="HeatResistance" Bonus="30" />
 	  <stat Name="Agility" Bonus="3" />
       <skills>
         <skill Name="Rifles" />
       </skills>
     </subtype>
-	<subtype Name="Arid Drek Mage" Gear="StartingGear_EldimorMage" Tile="Creatures/DrekMage.png" DetailColor="r">
+	<subtype Name="Salt Dune Temperate Drek Mage" Gear="StartingGear_EldimorMage" Tile="Creatures/DrekMage.png" DetailColor="r">
       <stat Name="HeatResistance" Bonus="30" />
 	  <stat Name="Ego" Bonus="3" />
       <skills>
         <skill Name="CookingAndGathering" />
       </skills>
     </subtype>
-	<subtype Name="Arid Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="Creatures/DrekJezailer.png" DetailColor="r">
+	<subtype Name="Salt Dune Temperate Drek Jezailer" Gear="StartingGear_EldimorGunner" Tile="Creatures/DrekJezailer.png" DetailColor="r">
 	  <stat Name="HeatResistance" Bonus="30" />
 	  <stat Name="Agility" Bonus="3" />
       <skills>
@@ -339,8 +339,8 @@
       </skills>
     </subtype>
 	</category>
-	<category Name="Arid" DisplayName="{{desert camouflage|Arid}}">
-    <subtype Name="Arid Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/OrmHiker.png" DetailColor="r">
+	<category Name="Arid" DisplayName="{{desert camouflage|Salt Dunes Temperate}}">
+    <subtype Name="Salt Dune Temperate Orm Hiker" Gear="StartingGear_EldimorHiker" Tile="Creatures/OrmHiker.png" DetailColor="r">
       <stat Name="HeatResistance" Bonus="30" />
       <skills>
         <skill Name="Survival" />

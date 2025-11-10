@@ -91,7 +91,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Arid" Inherits="BaseDrekir">
-    <part Name="Render" DisplayName="Arid Drek" ColorString="&amp;w" DetailColor="r" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Drek" ColorString="&amp;w" DetailColor="r" />
     <stat Name="HeatResistance" Value="30" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
 	<tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
@@ -130,7 +130,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Arid" Inherits="BaseOrmer">
-    <part Name="Render" DisplayName="Arid Orm" ColorString="&amp;w" DetailColor="r" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Orm" ColorString="&amp;w" DetailColor="r" />
     <stat Name="HeatResistance" Value="30" />
 	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
 	<tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
@@ -362,7 +362,7 @@
   <!--Arid-->
 
   <object Name="TQAQ_Drekir_Hiker_Arid" Inherits="TQAQ_Drekir_Arid">
-    <part Name="Render" DisplayName="Arid Drek Hiker"/>
+    <part Name="Render" DisplayName="Salt Dune Temperate Drek Hiker"/>
 	<skill Name="Survival" />
 	<skill Name="Survival_DesertCanyonSurvival" />
 	<skill Name="Survival_SaltDesertSurvival" />
@@ -370,7 +370,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Hiker_Arid_Hero" Inherits="TQAQ_Drekir_Hiker_Arid" >
-    <part Name="Render" DisplayName="Arid Drek Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Drek Hero" ColorString="&amp;M" />
 	<part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
 	<builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroDrekirClanArid" />
@@ -378,7 +378,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Peltast_Arid" Inherits="TQAQ_Drekir_Arid">
-    <part Name="Render" DisplayName="Arid Drek Peltast" Tile="Creatures/DrekPeltast.png"/>
+    <part Name="Render" DisplayName="Salt Dune Temperate Drek Peltast" Tile="Creatures/DrekPeltast.png"/>
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
@@ -388,7 +388,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Peltast_Arid_Hero" Inherits="TQAQ_Drekir_Peltast_Arid" >
-    <part Name="Render" DisplayName="Arid Drek Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Drek Hero" ColorString="&amp;M" />
     <part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroDrekirClanArid" />
@@ -396,7 +396,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Fighter_Arid" Inherits="TQAQ_Drekir_Arid">
-    <part Name="Render" DisplayName="Arid Drek Fighter" Tile="Creatures/DrekFighter.png"/>
+    <part Name="Render" DisplayName="Salt Dune Temperate Drek Fighter" Tile="Creatures/DrekFighter.png"/>
 	<stat Name="Agility" Boost="1" />
 	<stat Name="Strength'" Boost="1" />
 	<stat Name="Toughness" Boost="1" />
@@ -409,7 +409,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Fighter_Arid_Hero" Inherits="TQAQ_Drekir_Fighter_Arid" >
-    <part Name="Render" DisplayName="Arid Drek Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Drek Hero" ColorString="&amp;M" />
     <part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroDrekirClanArid" />
@@ -417,7 +417,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Archer_Arid" Inherits="TQAQ_Drekir_Arid">
-    <part Name="Render" DisplayName="Arid Drek Peltast" Tile="Creatures/DrekArcher.png"/>
+    <part Name="Render" DisplayName="Salt Dune Temperate Drek Peltast" Tile="Creatures/DrekArcher.png"/>
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
@@ -426,7 +426,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Archer_Arid_Hero" Inherits="TQAQ_Drekir_Archer_Arid" >
-    <part Name="Render" DisplayName="Arid Drek Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Drek Hero" ColorString="&amp;M" />
     <part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroDrekirClanArid" />
@@ -434,7 +434,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Mage_Arid" Inherits="TQAQ_Drekir_Arid">
-    <part Name="Render" DisplayName="Arid Drek Mage" Tile="Creatures/DrekMage.png"/>
+    <part Name="Render" DisplayName="Salt Dune Temperate Drek Mage" Tile="Creatures/DrekMage.png"/>
 	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
 	<stat Name="Ego" Boost="3" />
 	<skill Name="CookingAndGathering" />
@@ -442,7 +442,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Mage_Arid_Hero" Inherits="TQAQ_Drekir_Mage_Arid" >
-    <part Name="Render" DisplayName="Arid Drek Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Drek Hero" ColorString="&amp;M" />
     <part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroDrekirClanArid" />
@@ -450,7 +450,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Jezailer_Arid" Inherits="TQAQ_Drekir_Arid">
-    <part Name="Render" DisplayName="Arid Drek Jezailer" Tile="Creatures/DrekJezailer.png"/>
+    <part Name="Render" DisplayName="Salt Dune Temperate Drek Jezailer" Tile="Creatures/DrekJezailer.png"/>
 	<stat Name="Agility" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
@@ -459,7 +459,7 @@
   </object>
 
   <object Name="TQAQ_Drekir_Jezailer_Arid_Hero" Inherits="TQAQ_Drekir_Jezailer_Arid" >
-    <part Name="Render" DisplayName="Arid Drek Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Drek Hero" ColorString="&amp;M" />
     <part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroDrekirClanArid" />
@@ -467,7 +467,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Hiker_Arid" Inherits="TQAQ_Ormer_Arid">
-    <part Name="Render" DisplayName="Arid Orm Hiker"/>
+    <part Name="Render" DisplayName="Salt Dune Temperate Orm Hiker"/>
 	<skill Name="Survival" />
 	<skill Name="Survival_DesertCanyonSurvival" />
 	<skill Name="Survival_SaltDesertSurvival" />
@@ -475,7 +475,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Hiker_Arid_Hero" Inherits="TQAQ_Ormer_Hiker_Arid" >
-    <part Name="Render" DisplayName="Arid Orm Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Orm Hero" ColorString="&amp;M" />
     <part Name="Brain" Factions="TQAQ_Arid_Clans_Ormer-100" />
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroOrmerClanArid" />
@@ -483,7 +483,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Slinger_Arid" Inherits="TQAQ_Ormer_Arid">
-    <part Name="Render" DisplayName="Arid Orm Slinger" Tile="Creatures/OrmSlinger.png"/>
+    <part Name="Render" DisplayName="Salt Dune Temperate Orm Slinger" Tile="Creatures/OrmSlinger.png"/>
 	<stat Name="Strength" Boost="2" />
 	<stat Name="Agility" Boost="1" />
     <tag Name="Role" Value="Skirmisher" />
@@ -493,7 +493,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Slinger_Arid_Hero" Inherits="TQAQ_Ormer_Slinger_Arid" >
-    <part Name="Render" DisplayName="Arid Orm Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Orm Hero" ColorString="&amp;M" />
     <part Name="Brain" Factions="TQAQ_Arid_Clans_Ormer-100" />
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroOrmerClanArid" />
@@ -501,7 +501,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Warrior_Arid" Inherits="TQAQ_Ormer_Arid">
-    <part Name="Render" DisplayName="Arid Orm Warrior" Tile="Creatures/OrmWarrior.png"/>
+    <part Name="Render" DisplayName="Salt Dune Temperate Orm Warrior" Tile="Creatures/OrmWarrior.png"/>
 	<stat Name="Agility" Boost="1" />
 	<stat Name="Strength'" Boost="1" />
 	<stat Name="Toughness" Boost="1" />
@@ -514,7 +514,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Warrior_Arid_Hero" Inherits="TQAQ_Ormer_Warrior_Arid" >
-    <part Name="Render" DisplayName="Arid Orm Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Orm Hero" ColorString="&amp;M" />
     <part Name="Brain" Factions="TQAQ_Arid_Clans_Ormer-100" />
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroOrmerClanArid" />
@@ -522,7 +522,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Axe_Thrower_Arid" Inherits="TQAQ_Ormer_Arid">
-    <part Name="Render" DisplayName="Arid Orm Axe Thrower" Tile="Creatures/OrmAxeThrower.png"/>
+    <part Name="Render" DisplayName="Salt Dune Temperate Orm Axe Thrower" Tile="Creatures/OrmAxeThrower.png"/>
 	<stat Name="Strength" Boost="2" />
 	<stat Name="Agility" Boost="1" />
     <tag Name="Role" Value="Skirmisher" />
@@ -532,7 +532,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Axe_Thrower_Arid_Hero" Inherits="TQAQ_Ormer_Axe_Thrower_Arid" >
-    <part Name="Render" DisplayName="Arid Orm Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Orm Hero" ColorString="&amp;M" />
     <part Name="Brain" Factions="TQAQ_Arid_Clans_Ormer-100" />
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroOrmerClanArid" />
@@ -540,7 +540,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Mage_Arid" Inherits="TQAQ_Ormer_Arid">
-    <part Name="Render" DisplayName="Arid Orm Mage" Tile="Creatures/OrmMage.png"/>
+    <part Name="Render" DisplayName="Salt Dune Temperate Orm Mage" Tile="Creatures/OrmMage.png"/>
 	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
 	<stat Name="Ego" Boost="3" />
 	<skill Name="CookingAndGathering" />
@@ -548,7 +548,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Mage_Arid_Hero" Inherits="TQAQ_Ormer_Mage_Arid" >
-    <part Name="Render" DisplayName="Arid Orm Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Orm Hero" ColorString="&amp;M" />
     <part Name="Brain" Factions="TQAQ_Arid_Clans_Ormer-100" />
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroOrmerClanArid" />
@@ -556,7 +556,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Cannoneer_Arid" Inherits="TQAQ_Ormer_Arid">
-    <part Name="Render" DisplayName="Arid Orm Cannoneer" Tile="Creatures/OrmCannoneer.png"/>
+    <part Name="Render" DisplayName="Salt Dune Temperate Orm Cannoneer" Tile="Creatures/OrmCannoneer.png"/>
 	<stat Name="Strength" Boost="3" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
@@ -565,7 +565,7 @@
   </object>
 
   <object Name="TQAQ_Ormer_Cannoneer_Arid_Hero" Inherits="TQAQ_Ormer_Cannoneer_Arid" >
-    <part Name="Render" DisplayName="Arid Orm Hero" ColorString="&amp;M" />
+    <part Name="Render" DisplayName="Salt Dune Temperate Orm Hero" ColorString="&amp;M" />
     <part Name="Brain" Factions="TQAQ_Arid_Clans_Ormer-100" />
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroOrmerClanArid" />
