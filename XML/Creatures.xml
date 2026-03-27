@@ -146,6 +146,21 @@
     <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
   </object>
 
+  <object Name="TQAQ_OrmerSivilao" Inherits="BaseOrmer">
+    <part Name="Render" DisplayName="OrmerSivilao" ColorString="&amp;W" DetailColor="C" />
+	<stat Name="Strength" Boost="1" />
+    <stat Name="Toughness" Boost="1" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
+	<tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
+    <tag Name="DynamicObjectsTable:Jungle_Creatures" />
+    <tag Name="DynamicObjectsTable:Hills_Creatures" />
+    <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
+	<tag Name="DynamicObjectsTable:DeepJungle_Creatures" />
+	<tag Name="DynamicObjectsTable:Mountains_Creatures" />
+	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
+    <tag Name="DynamicObjectsTable:Saltdunes_Creatures" />
+  </object>
+
   <!--Alpine-->
 
   <object Name="TQAQ_Drekir_Hiker_Alpine" Inherits="TQAQ_Drekir_Alpine">
@@ -655,6 +670,90 @@
 
   <object Name="TQAQ_Dralkir_Jezailer_Hero" Inherits="TQAQ_Dralkir_Jezailer">
     <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="GivesRep" />
+  </object>
+
+<object Name="TQAQ_Ormer_Sivilao" Inherits="TQAQ_OrmerSivilao">
+  <part Name="Brain" Factions="Sivilao-100" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Sivilao_Stal" Inherits="TQAQ_Ormer_Sivilao">
+    <part Name="Description" Short="The hulking cyan armored tank on all fours shakes the earth as their shields crush it. Their deep, heavy breaths can be heard from afar as silent prayers push up against them. They will ensure new bodies arrive to the ofuth so that the wheel can be turned one day more." />
+    <tag Name="BaseObject" Value="*noinherit" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Slinger_Sivilao" Inherits="TQAQ_Ormer_Sivilao_Stal">
+    <part Name="Render" DisplayName="Ormer Sivilao Slinger" Tile="Creatures/OrmSlinger.png"/>
+	<stat Name="Strength" Boost="2" />
+	<stat Name="Agility" Boost="1" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Cudgel" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorSlinger" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Slinger_Sivilao_Hero" Inherits="TQAQ_Ormer_Slinger_Sivilao" >
+    <part Name="Render" DisplayName="Ormer Sivilao Hero" Tile="Creatures/SivilaoOrm.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Warrior_Sivilao" Inherits="TQAQ_Ormer_Sivilao_Stal">
+    <part Name="Render" DisplayName="Ormer Sivilao Warrior" Tile="Creatures/OrmWarrior.png"/>
+	<stat Name="Agility" Boost="1" />
+	<stat Name="Strength'" Boost="1" />
+	<stat Name="Toughness" Boost="1" />
+	<skill Name="Axe" />
+    <skill Name="Cudgel" />
+    <skill Name="LongBlades" />
+    <skill Name="Shield" />
+    <skill Name="ShortBlades" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Warrior_Sivilao_Hero" Inherits="TQAQ_Ormer_Warrior_Sivilao" >
+    <part Name="Render" DisplayName="Ormer Sivilao Hero" Tile="Creatures/SivilaoOrm.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Axe_Thrower_Sivilao" Inherits="TQAQ_Ormer_Sivilao_Stal">
+    <part Name="Render" DisplayName="Ormer Sivilao Axe Thrower" Tile="Creatures/OrmAxeThrower.png"/>
+	<stat Name="Strength" Boost="2" />
+	<stat Name="Agility" Boost="1" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="Cudgel" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorAxeThrower" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Axe_Thrower_Sivilao_Hero" Inherits="TQAQ_Ormer_Axe_Thrower_Sivilao" >
+    <part Name="Render" DisplayName="Ormer Sivilao Hero" Tile="Creatures/SivilaoOrm.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Mage_Sivilao" Inherits="TQAQ_Ormer_Sivilao_Stal">
+    <part Name="Render" DisplayName="Ormer Sivilao Mage" Tile="Creatures/OrmMage.png"/>
+	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
+	<stat Name="Ego" Boost="3" />
+	<skill Name="CookingAndGathering" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Mage_Sivilao_Hero" Inherits="TQAQ_Ormer_Mage_Sivilao" >
+    <part Name="Render" DisplayName="Ormer Sivilao Hero" Tile="Creatures/SivilaoOrm.png" ColorString="&amp;C" DetailColor="B" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Cannoneer_Sivilao" Inherits="TQAQ_Ormer_Sivilao_Stal">
+    <part Name="Render" DisplayName="Ormer Sivilao Cannoneer" Tile="Creatures/OrmCannoneer.png"/>
+	<stat Name="Strength" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	<skill Name="HeavyWeapons" />
+	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorCannoneer" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Cannoneer_Sivilao_Hero" Inherits="TQAQ_Ormer_Cannoneer_Sivilao" >
+    <part Name="Render" DisplayName="Ormer Sivilao Hero" Tile="Creatures/SivilaoOrm.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
   </object>
 
