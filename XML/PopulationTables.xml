@@ -394,8 +394,10 @@
 
   <population Name="StartingGear_EldimorArmour">
     <group Name="Items" Style="pickeach">
+      <object Blueprint="Leather Cap" Number="1" />
       <object Blueprint="Leather Armor" Number="1" />
       <object Blueprint="LeatherBracer" Number="2" />
+      <object Blueprint="Leather Boots" Number="1" />
     </group>
   </population>
   

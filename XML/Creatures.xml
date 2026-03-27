@@ -1022,7 +1022,20 @@ To protect her family, as she left her clan to rubble." />
     <part Name="Pettable" />
     <property Name="Story" Value="TQAQ_Hishkla_Story" />
     <tag Name="PetResponse" Value="groans,huffs,looks to you with displeasure" />
-	<tag Name="Gender" Value="female" />
+	  <tag Name="Gender" Value="female" />
+    <xtagGrammar Proper="true" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    <tag Name="StartingPet" />
+  </object>
+
+  <object Name="TQAQ_Webby" Inherits="TQAQ_Drekir_Jezailer_Arid">
+    <part Name="Render" DisplayName="Webby" ColorString="&amp;g"/>
+    <part Name="Description" Short="TBD by Patches" />
+    <part Name="Pettable" />
+    <inventoryobject Blueprint="Walking Stick" Number="1" />
+    <property Name="Story" Value="TQAQ_Webby_Story" />
+    <tag Name="PetResponse" Value="yeks,yaps,purraps" />
+	  <tag Name="Gender" Value="nonspecific" />
     <xtagGrammar Proper="true" />
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
     <tag Name="StartingPet" />
