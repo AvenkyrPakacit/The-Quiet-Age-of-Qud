@@ -612,6 +612,8 @@
   <object Name="TQAQ_Dralkir_Peltast_Hero" Inherits="TQAQ_Dralkir_Peltast" >
     <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
+    <tag Name="StaticLikeReason" Value="proving a worthy challenge" />
+    <tag Name="StaticHateReason" Value="raiding their settlements" />
   </object>
 
   <object Name="TQAQ_Dralkir_Fighter" Inherits="TQAQ_Dralkir_Sivilao_Stal">
@@ -630,6 +632,8 @@
   <object Name="TQAQ_Dralkir_Fighter_Hero" Inherits="TQAQ_Dralkir_Fighter" >
     <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
+    <tag Name="StaticLikeReason" Value="proving a worthy challenge" />
+    <tag Name="StaticHateReason" Value="raiding their settlements" />
   </object>
 
   <object Name="TQAQ_Dralkir_Archer" Inherits="TQAQ_Dralkir_Sivilao_Stal">
@@ -644,6 +648,8 @@
   <object Name="TQAQ_Dralkir_Archer_Hero" Inherits="TQAQ_Dralkir_Archer" >
     <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
+    <tag Name="StaticLikeReason" Value="proving a worthy challenge" />
+    <tag Name="StaticHateReason" Value="raiding their settlements" />
   </object>
 
   <object Name="TQAQ_Dralkir_Mage" Inherits="TQAQ_Dralkir_Sivilao_Stal">
@@ -657,6 +663,8 @@
   <object Name="TQAQ_Dralkir_Mage_Hero" Inherits="TQAQ_Dralkir_Mage" >
     <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
+    <tag Name="StaticLikeReason" Value="proving a worthy challenge" />
+    <tag Name="StaticHateReason" Value="raiding their settlements" />
   </object>
 
   <object Name="TQAQ_Dralkir_Jezailer" Inherits="TQAQ_Dralkir_Sivilao_Stal">
@@ -671,6 +679,8 @@
   <object Name="TQAQ_Dralkir_Jezailer_Hero" Inherits="TQAQ_Dralkir_Jezailer">
     <part Name="Render" DisplayName="Dralk Hero" Tile="Creatures/SivilaoDralk.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
+    <tag Name="StaticLikeReason" Value="proving a worthy challenge" />
+    <tag Name="StaticHateReason" Value="raiding their settlements" />
   </object>
 
 <object Name="TQAQ_Ormer_Sivilao" Inherits="TQAQ_OrmerSivilao">
@@ -695,6 +705,8 @@
   <object Name="TQAQ_Ormer_Slinger_Sivilao_Hero" Inherits="TQAQ_Ormer_Slinger_Sivilao" >
     <part Name="Render" DisplayName="Ormer Sivilao Hero" Tile="Creatures/SivilaoOrm.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
+    <tag Name="StaticLikeReason" Value="proving a worthy challenge" />
+    <tag Name="StaticHateReason" Value="enslaving their members" />
   </object>
 
   <object Name="TQAQ_Ormer_Warrior_Sivilao" Inherits="TQAQ_Ormer_Sivilao_Stal">
@@ -713,6 +725,8 @@
   <object Name="TQAQ_Ormer_Warrior_Sivilao_Hero" Inherits="TQAQ_Ormer_Warrior_Sivilao" >
     <part Name="Render" DisplayName="Ormer Sivilao Hero" Tile="Creatures/SivilaoOrm.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
+    <tag Name="StaticLikeReason" Value="proving a worthy challenge" />
+    <tag Name="StaticHateReason" Value="enslaving their members" />
   </object>
 
   <object Name="TQAQ_Ormer_Axe_Thrower_Sivilao" Inherits="TQAQ_Ormer_Sivilao_Stal">
@@ -728,6 +742,8 @@
   <object Name="TQAQ_Ormer_Axe_Thrower_Sivilao_Hero" Inherits="TQAQ_Ormer_Axe_Thrower_Sivilao" >
     <part Name="Render" DisplayName="Ormer Sivilao Hero" Tile="Creatures/SivilaoOrm.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
+    <tag Name="StaticLikeReason" Value="proving a worthy challenge" />
+    <tag Name="StaticHateReason" Value="enslaving their members" />
   </object>
 
   <object Name="TQAQ_Ormer_Mage_Sivilao" Inherits="TQAQ_Ormer_Sivilao_Stal">
@@ -741,6 +757,8 @@
   <object Name="TQAQ_Ormer_Mage_Sivilao_Hero" Inherits="TQAQ_Ormer_Mage_Sivilao" >
     <part Name="Render" DisplayName="Ormer Sivilao Hero" Tile="Creatures/SivilaoOrm.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
+    <tag Name="StaticLikeReason" Value="proving a worthy challenge" />
+    <tag Name="StaticHateReason" Value="enslaving their members" />
   </object>
 
   <object Name="TQAQ_Ormer_Cannoneer_Sivilao" Inherits="TQAQ_Ormer_Sivilao_Stal">
@@ -755,6 +773,8 @@
   <object Name="TQAQ_Ormer_Cannoneer_Sivilao_Hero" Inherits="TQAQ_Ormer_Cannoneer_Sivilao" >
     <part Name="Render" DisplayName="Ormer Sivilao Hero" Tile="Creatures/SivilaoOrm.png" ColorString="&amp;C" DetailColor="B" />
     <part Name="GivesRep" />
+    <tag Name="StaticLikeReason" Value="proving a worthy challenge" />
+    <tag Name="StaticHateReason" Value="enslaving their members" />
   </object>
 
   <!--Temperate-->
