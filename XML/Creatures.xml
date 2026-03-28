@@ -591,7 +591,7 @@
 
   <object Name="TQAQ_Dralkir_Sivilao" Inherits="TQAQ_Dralkir">
     <part Name="Render" DisplayName="Dralk"/>
-	<part Name="Brain" Factions="Sivilao-100" />
+	  <part Name="Brain" Factions="Sivilao-100" />
   </object>
 
   <object Name="TQAQ_Dralkir_Sivilao_Stal" Inherits="TQAQ_Dralkir_Sivilao">
@@ -1012,10 +1012,50 @@
     <part Name="GivesRep" />
   </object>
 
+  <!--NPCs-->
+
+  <object Name="TQAQ_Domazaya" Inherits="TQAQ_Ormer_Mage_Temperate">
+    <part Name="Render" DisplayName="Domazaya" ColorString="&amp;K"/>
+	  <part Name="Brain" Factions="Eldimor-100" />
+    <part Name="Description" Short="Shaggy and horned, she stands on all fours.
+Her name is of mysticality. Her will is of learned power.
+Be it scale morphing, or breath throwing, she is capable of turning the tide of battle in minutes.
+Her frosty breath is nonetheless kindled and ready to match any foe." />
+    <part Name="ConversationScript" ConversationID="TQAQ_Domazaya_Dialogue" />
+    <part Name="Pettable" />
+    <tag Name="PetResponse" Value="groans,huffs,looks to you with confusion" />
+	  <tag Name="Gender" Value="female" />
+    <mutation Name="FreezingRay" Level="10" BodyPartType="Face" />
+    <stat Name="ColdResistance" Value="100" />
+    <stat Name="Level" Value="50" />
+    <stat Name="Hitpoints" Value="250" />
+    <xtagGrammar Proper="true" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+  </object>
+
+  <object Name="TQAQ_Yattraya" Inherits="TQAQ_Dralkir_Peltast">
+    <part Name="Render" DisplayName="Yattraya"/>
+	  <part Name="Brain" Factions="Eldimor-100" />
+    <part Name="Description" Short="Once a former member of the Sivilao, this Dralk stands as a symbol of freedom.
+She lost rank after gaining the bravery to free a ormer she had grown attached to during her service.
+She was branded a traitor and was about to be executed before a Arinate Xirasaphics drove off her once friends in arms.
+She now vows to protect those who need it.
+She retains her fangs, that most of her kindred have lost." />
+    <part Name="ConversationScript" ConversationID="TQAQ_Yattraya_Dialogue" />
+    <part Name="Pettable" />
+    <tag Name="PetResponse" Value="yeks,yaps,purraps" />
+	  <tag Name="Gender" Value="female" />
+    <stat Name="Level" Value="50" />
+    <stat Name="Hitpoints" Value="250" />
+    <xtagGrammar Proper="true" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+  </object>
+
   <!--Companions-->
 
   <object Name="TQAQ_Hishkla" Inherits="TQAQ_Ormer_Cannoneer_Temperate">
     <part Name="Render" DisplayName="Hishkla" ColorString="&amp;K"/>
+	  <part Name="Brain" Factions="Playerneutral-100" />
     <part Name="Description" Short="What stands large and tall carries a thundering shot.
 This was Hishkla's calling.
 To protect her family, as she left her clan to rubble." />
@@ -1030,6 +1070,7 @@ To protect her family, as she left her clan to rubble." />
 
   <object Name="TQAQ_Webby" Inherits="TQAQ_Drekir_Jezailer_Arid">
     <part Name="Render" DisplayName="Webby" ColorString="&amp;g"/>
+	  <part Name="Brain" Factions="Playerneutral-100" />
     <part Name="Description" Short="TBD by Patches" />
     <part Name="Pettable" />
     <inventoryobject Blueprint="Walking Stick" Number="1" />

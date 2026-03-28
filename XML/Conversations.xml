@@ -43,4 +43,28 @@
     </start>
   </conversation>
 
+  <!--Characters-->
+
+  <conversation ID="TQAQ_Domazaya_Dialogue">
+    <start ID="Start">
+      <text>
+        {{emote|*Groans*}}
+
+        What does one need?
+	  </text>
+      <choice Target="End">Live and drink.</choice>
+    </start>
+  </conversation>
+
+  <conversation ID="TQAQ_Yattraya_Dialogue">
+    <start ID="Start">
+      <text>
+        {{emote|*Huffs*}}
+
+        What does one need?
+	  </text>
+      <choice Target="End">Live and drink.</choice>
+    </start>
+  </conversation>
+
 </conversations>
