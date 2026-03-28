@@ -1,5 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <books>
+  
+  <!--NPCs-->
+
+  <book ID="TQAQ_Domazaya_Story" Title="{{W|Domazaya}}">
+    <page>
+Shaggy and horned, she stands on all fours.
+Her name is of mysticality. Her will is of learned power.
+    </page>
+    <page>
+Be it scale morphing, or breath throwing, she is capable of turning the tide of battle in minutes.
+Her frosty breath is nonetheless kindled and ready to match any foe.
+    </page>
+  </book>
+
+  <book ID="TQAQ_Yattraya_Story" Title="{{W|Yattraya}}">
+    <page>
+Once a former member of the Sivilao, this Dralk stands as a symbol of freedom.
+She lost rank after gaining the bravery to free a ormer she had grown attached to during her service.
+She was branded a traitor and was about to be executed before a Arinate Xirasaphics drove off her once friends in arms.
+    </page>
+    <page>
+She now vows to protect those who need it.
+She retains her fangs, that most of her kindred have lost.
+    </page>
+  </book>
+
+  <!--Companions-->
+
   <book ID="TQAQ_Hishkla_Story" Title="{{W|Hishkla}}">
     <page>
 What stands large and tall carries a thundering shot.

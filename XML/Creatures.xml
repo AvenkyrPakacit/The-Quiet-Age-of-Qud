@@ -1017,18 +1017,22 @@
   <object Name="TQAQ_Domazaya" Inherits="TQAQ_Ormer_Mage_Temperate">
     <part Name="Render" DisplayName="Domazaya" ColorString="&amp;K"/>
 	  <part Name="Brain" Factions="Eldimor-100" />
-    <part Name="Description" Short="Shaggy and horned, she stands on all fours.
-Her name is of mysticality. Her will is of learned power.
-Be it scale morphing, or breath throwing, she is capable of turning the tide of battle in minutes.
-Her frosty breath is nonetheless kindled and ready to match any foe." />
+    <part Name="Description" Short="Bathed in shimmering cold, her breath spreads out from her grand maw.
+Her dense fur coat swathes about her form, as she moves.
+Her stance is fours between twos, together in a momentary stand." />
     <part Name="ConversationScript" ConversationID="TQAQ_Domazaya_Dialogue" />
     <part Name="Pettable" />
+    <property Name="Story" Value="TQAQ_Domazaya_Story" />
     <tag Name="PetResponse" Value="groans,huffs,looks to you with confusion" />
 	  <tag Name="Gender" Value="female" />
     <mutation Name="FreezingRay" Level="10" BodyPartType="Face" />
     <stat Name="ColdResistance" Value="100" />
     <stat Name="Level" Value="50" />
     <stat Name="Hitpoints" Value="250" />
+    <part Name="GivesRep" />
+    <tag Name="staticFaction3" Value=",dislike,witchery" />
+    <tag Name="staticFaction2" Value=",friend,saving a friend's life" />
+    <tag Name="staticFaction1" Value="Sivilao,hate,escaping slavery" />
     <xtagGrammar Proper="true" />
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
   </object>
@@ -1036,17 +1040,20 @@ Her frosty breath is nonetheless kindled and ready to match any foe." />
   <object Name="TQAQ_Yattraya" Inherits="TQAQ_Dralkir_Peltast">
     <part Name="Render" DisplayName="Yattraya"/>
 	  <part Name="Brain" Factions="Eldimor-100" />
-    <part Name="Description" Short="Once a former member of the Sivilao, this Dralk stands as a symbol of freedom.
-She lost rank after gaining the bravery to free a ormer she had grown attached to during her service.
-She was branded a traitor and was about to be executed before a Arinate Xirasaphics drove off her once friends in arms.
-She now vows to protect those who need it.
-She retains her fangs, that most of her kindred have lost." />
+    <part Name="Description" Short="Golden scales meet silver fangs.
+Teal steel adorned in heretical fashion.
+What mayest be their curious passion?" />
     <part Name="ConversationScript" ConversationID="TQAQ_Yattraya_Dialogue" />
     <part Name="Pettable" />
+    <property Name="Story" Value="TQAQ_Yattraya_Story" />
     <tag Name="PetResponse" Value="yeks,yaps,purraps" />
 	  <tag Name="Gender" Value="female" />
     <stat Name="Level" Value="50" />
     <stat Name="Hitpoints" Value="250" />
+    <part Name="GivesRep" />
+    <tag Name="staticFaction3" Value=",dislike,her fangs" />
+    <tag Name="staticFaction2" Value=",friend,freeing a friend from slavery" />
+    <tag Name="staticFaction1" Value="Sivilao,hate,freeing slaves" />
     <xtagGrammar Proper="true" />
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
   </object>
