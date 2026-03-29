@@ -7,14 +7,14 @@
     <part Name="Render" DisplayName="small lead cannonball" ColorString="&amp;w" DetailColor="y" Tile="items/sw_bullet.bmp" />
     <part Name="TQAQ_AmmoCannon" ProjectileObject="TQAQ_ProjectileLeadCannonBall_Small" />
     <part Name="Physics" Category="Ammo" Weight="1" />
-	<part Name="Commerce" Value="6" />
+  	<part Name="Commerce" Value="6" />
     <part Name="Description" Short="Lead is cast to a small ball." />
     <part Name="TinkerItem" Bits="C" CanBuild="true" CanDisassemble="false" NumberMade="50" />
     <tag Name="AlwaysStack" Value="Yes" />
     <tag Name="DynamicObjectsTable:Ammo" />
     <tag Name="TurretStockExclusive" />
   </object>
-  <object Name="TQAQ_ProjectileLeadCannonBall_Small" Inherits="BaseLeadSlugProjectile">
+    <object Name="TQAQ_ProjectileLeadCannonBall_Small" Inherits="BaseLeadSlugProjectile">
     <part Name="Projectile" BasePenetration="3" BaseDamage="2d6" />
   </object>
 
@@ -22,14 +22,14 @@
     <part Name="Render" DisplayName="large lead cannonball" ColorString="&amp;w" DetailColor="y" Tile="items/sw_bullet.bmp" />
     <part Name="TQAQ_AmmoCannon" ProjectileObject="TQAQ_ProjectileLeadCannonBall_Large" />
     <part Name="Physics" Category="Ammo" Weight="2" />
-	<part Name="Commerce" Value="12" />
+  	<part Name="Commerce" Value="12" />
     <part Name="Description" Short="Lead is cast to a large ball." />
     <part Name="TinkerItem" Bits="C" CanBuild="true" CanDisassemble="false" NumberMade="50" />
     <tag Name="AlwaysStack" Value="Yes" />
     <tag Name="DynamicObjectsTable:Ammo" />
     <tag Name="TurretStockExclusive" />
   </object>
-  <object Name="TQAQ_ProjectileLeadCannonBall_Large" Inherits="BaseLeadSlugProjectile">
+    <object Name="TQAQ_ProjectileLeadCannonBall_Large" Inherits="BaseLeadSlugProjectile">
     <part Name="Projectile" BasePenetration="6" BaseDamage="4d6" />
   </object>
 
@@ -55,56 +55,22 @@
 
   <!--Armor-->
 
-  <object Name="TQAQ_Body_Yatal_Hammered" Inherits="BaseArmor">
-    <part Name="Armor" AV="3" DV="-3" WornOn="Body" />
-    <part Name="Render" DisplayName="hammered {{m|yatal}} plate armor" ColorString="&amp;m" RenderString="]" Tile="Items/sw_plate_mail.bmp" DetailColor="B" />
-    <part Name="Commerce" Value="95" />
-    <part Name="Description" Short="." />
-    <part Name="Physics" Weight="23" />
+  <object Name="TQAQ_Body_Stal" Inherits="BaseArmor">
+    <part Name="Armor" AV="5" DV="-5" WornOn="Body" />
+    <part Name="Render" DisplayName="{{C|stal}} plate armor" ColorString="&amp;c" RenderString="]" Tile="Items/sw_plate_mail.bmp" DetailColor="C" />
+    <part Name="Commerce" Value="190" />
+    <part Name="Description" Short="The chest glimmers with finely crafted teal steel." />
+    <part Name="Physics" Weight="45" />
     <part Name="Metal" />
 	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
-    <tag Name="Tier" Value="3" />
-  </object>
-
-  <object Name="TQAQ_Feet_Yatal_Hammered" Inherits="BaseBoot">
-    <part Name="Armor" AV="3" DV="-5" WornOn="Feet" />
-    <part Name="Render" DisplayName="hammered {{m|yatal}} greaves" ColorString="&amp;m" DetailColor="y" Tile="Items/sw_boots_midtier_metal.bmp" RenderString="]" />
-    <part Name="Commerce" Value="75" />
-    <part Name="Description" Short="" />
-    <part Name="Physics" Weight="8" />
-    <part Name="Metal" />
-	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
-    <tag Name="Tier" Value="3" />
-  </object>
-
-  <object Name="TQAQ_Hands_Yatal_Hammered" Inherits="BaseGauntlet">
-    <part Name="Armor" AV="2" DV="-3" WornOn="Hands" />
-    <part Name="Render" DisplayName="hammered {{m|yatal}} gauntlets" RenderString="]" ColorString="&amp;m" DetailColor="y" Tile="Items/sw_metal_gloves.bmp" />
-    <part Name="Commerce" Value="75" />
-    <part Name="Description" Short="Nicked folding metal of dull azure is hand-cut and stitched to a pair of undergloves made from padded goat leather." />
-    <part Name="Physics" Weight="9" />
-    <part Name="Metal" />
-	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
-    <tag Name="Tier" Value="3" />
-  </object>
-
-  <object Name="TQAQ_Head_Yatal_Hammered" Inherits="BaseHelmet">
-    <part Name="Armor" AV="2" DV="-3" WornOn="Head" />
-    <part Name="Render" DisplayName="hammered {{m|yatal}} helmet" ColorString="&amp;m" RenderString="]" Tile="Items/sw_metal_helmet.bmp" DetailColor="y" />
-    <part Name="Commerce" Value="13" />
-    <part Name="Description" Short="A second skull was raised as a cone from a sheet of desulfurized metal. Tiny initials are scratched in." />
-    <part Name="Physics" Weight="6" />
-    <part Name="Metal" />
-	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
-    <tag Name="Tier" Value="3" />
-    <tag Name="DynamicObjectsTable:Headwear" />
+    <tag Name="Tier" Value="4" />
   </object>
 
   <object Name="TQAQ_Body_Yatal_Casted" Inherits="BaseArmor">
     <part Name="Armor" AV="3" DV="-3" WornOn="Body" />
-    <part Name="Render" DisplayName="casted {{m|yatal}} plate armor" ColorString="&amp;m" RenderString="]" Tile="Items/sw_plate_mail.bmp" DetailColor="B" />
+    <part Name="Render" DisplayName="casted {{m|yatal}} plate armor" ColorString="&amp;m" RenderString="]" Tile="Items/sw_plate_mail.bmp" DetailColor="M" />
     <part Name="Commerce" Value="95" />
-    <part Name="Description" Short="." />
+    <part Name="Description" Short="The chest glimmers with finely casted yatal." />
     <part Name="Physics" Weight="23" />
     <part Name="Metal" />
 	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
@@ -112,11 +78,33 @@
     <tag Name="Role" Value="Rare" />
   </object>
 
+  <object Name="TQAQ_Body_Yatal_Hammered" Inherits="BaseArmor">
+    <part Name="Armor" AV="3" DV="-3" WornOn="Body" />
+    <part Name="Render" DisplayName="hammered {{m|yatal}} plate armor" ColorString="&amp;m" RenderString="]" Tile="Items/sw_plate_mail.bmp" DetailColor="M" />
+    <part Name="Commerce" Value="95" />
+    <part Name="Description" Short="The chest glimmers with finely hammered yatal." />
+    <part Name="Physics" Weight="23" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="3" />
+  </object>
+
+  <object Name="TQAQ_Feet_Stal" Inherits="BaseBoot">
+    <part Name="Armor" AV="3" DV="-5" WornOn="Feet" />
+    <part Name="Render" DisplayName="{{C|Stal}} boots" ColorString="&amp;c" DetailColor="C" Tile="Items/sw_boots_midtier_metal.bmp" RenderString="]" />
+    <part Name="Commerce" Value="150" />
+    <part Name="Description" Short="The greaves glimmer with finely crafted teal steel." />
+    <part Name="Physics" Weight="15" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="4" />
+  </object>
+
   <object Name="TQAQ_Feet_Yatal_Casted" Inherits="BaseBoot">
     <part Name="Armor" AV="3" DV="-5" WornOn="Feet" />
-    <part Name="Render" DisplayName="casted {{m|yatal}} greaves" ColorString="&amp;m" DetailColor="y" Tile="Items/sw_boots_midtier_metal.bmp" RenderString="]" />
+    <part Name="Render" DisplayName="casted {{m|yatal}} greaves" ColorString="&amp;m" DetailColor="M" Tile="Items/sw_boots_midtier_metal.bmp" RenderString="]" />
     <part Name="Commerce" Value="75" />
-    <part Name="Description" Short="" />
+    <part Name="Description" Short="The greaves glimmer with finely casted yatal." />
     <part Name="Physics" Weight="8" />
     <part Name="Metal" />
 	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
@@ -124,11 +112,33 @@
     <tag Name="Role" Value="Rare" />
   </object>
 
+  <object Name="TQAQ_Feet_Yatal_Hammered" Inherits="BaseBoot">
+    <part Name="Armor" AV="3" DV="-5" WornOn="Feet" />
+    <part Name="Render" DisplayName="hammered {{m|yatal}} greaves" ColorString="&amp;m" DetailColor="M" Tile="Items/sw_boots_midtier_metal.bmp" RenderString="]" />
+    <part Name="Commerce" Value="75" />
+    <part Name="Description" Short="The greaves glimmer with finely hammered yatal." />
+    <part Name="Physics" Weight="8" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="3" />
+  </object>
+
+  <object Name="TQAQ_Hands_Stal" Inherits="BaseGauntlet">
+    <part Name="Armor" AV="3" DV="-5" WornOn="Hands" />
+    <part Name="Render" DisplayName="{{C|Stal}} gauntlets" RenderString="]" ColorString="&amp;c" DetailColor="C" Tile="Items/sw_metal_gloves.bmp" />
+    <part Name="Commerce" Value="150" />
+    <part Name="Description" Short="The guantlets glimmer with finely crafted teal steel." />
+    <part Name="Physics" Weight="18" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="4" />
+  </object>
+
   <object Name="TQAQ_Hands_Yatal_Casted" Inherits="BaseGauntlet">
     <part Name="Armor" AV="2" DV="-3" WornOn="Hands" />
-    <part Name="Render" DisplayName="casted {{m|yatal}} gauntlets" RenderString="]" ColorString="&amp;m" DetailColor="y" Tile="Items/sw_metal_gloves.bmp" />
+    <part Name="Render" DisplayName="casted {{m|yatal}} gauntlets" RenderString="]" ColorString="&amp;m" DetailColor="M" Tile="Items/sw_metal_gloves.bmp" />
     <part Name="Commerce" Value="75" />
-    <part Name="Description" Short="Nicked folding metal of dull azure is hand-cut and stitched to a pair of undergloves made from padded goat leather." />
+    <part Name="Description" Short="The guantlets glimmer with finely casted yatal." />
     <part Name="Physics" Weight="9" />
     <part Name="Metal" />
 	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
@@ -136,17 +146,52 @@
     <tag Name="Role" Value="Rare" />
   </object>
 
+  <object Name="TQAQ_Hands_Yatal_Hammered" Inherits="BaseGauntlet">
+    <part Name="Armor" AV="2" DV="-3" WornOn="Hands" />
+    <part Name="Render" DisplayName="hammered {{m|yatal}} gauntlets" RenderString="]" ColorString="&amp;m" DetailColor="M" Tile="Items/sw_metal_gloves.bmp" />
+    <part Name="Commerce" Value="75" />
+    <part Name="Description" Short="The guantlets glimmer with finely hammered yatal." />
+    <part Name="Physics" Weight="9" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="3" />
+  </object>
+
+  <object Name="TQAQ_Head_Stal" Inherits="BaseHelmet">
+    <part Name="Armor" AV="5" DV="-1" WornOn="Head" />
+    <part Name="Render" DisplayName="{{C|Stal}} helmet" ColorString="&amp;c" RenderString="]" Tile="Items/sw_metal_helmet.bmp" DetailColor="C" />
+    <part Name="Commerce" Value="26" />
+    <part Name="Description" Short="The helm is caressed by glimmering teel steel." />
+    <part Name="Physics" Weight="3" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="4" />
+    <tag Name="DynamicObjectsTable:Headwear" />
+  </object>
+
   <object Name="TQAQ_Head_Yatal_Casted" Inherits="BaseHelmet">
-    <part Name="Armor" AV="2" DV="-3" WornOn="Head" />
-    <part Name="Render" DisplayName="casted {{m|yatal}} helmet" ColorString="&amp;m" RenderString="]" Tile="Items/sw_metal_helmet.bmp" DetailColor="y" />
+    <part Name="Armor" AV="4" DV="-2" WornOn="Head" />
+    <part Name="Render" DisplayName="casted {{m|yatal}} helmet" ColorString="&amp;m" RenderString="]" Tile="Items/sw_metal_helmet.bmp" DetailColor="M" />
     <part Name="Commerce" Value="13" />
-    <part Name="Description" Short="A second skull was raised as a cone from a sheet of desulfurized metal. Tiny initials are scratched in." />
+    <part Name="Description" Short="The helm is caressed by casted yatal." />
     <part Name="Physics" Weight="6" />
     <part Name="Metal" />
 	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
     <tag Name="Tier" Value="3" />
     <tag Name="DynamicObjectsTable:Headwear" />
     <tag Name="Role" Value="Rare" />
+  </object>
+
+  <object Name="TQAQ_Head_Yatal_Hammered" Inherits="BaseHelmet">
+    <part Name="Armor" AV="2" DV="-3" WornOn="Head" />
+    <part Name="Render" DisplayName="hammered {{m|yatal}} helmet" ColorString="&amp;m" RenderString="]" Tile="Items/sw_metal_helmet.bmp" DetailColor="M" />
+    <part Name="Commerce" Value="13" />
+    <part Name="Description" Short="The helm is caressed by hammered yatal." />
+    <part Name="Physics" Weight="6" />
+    <part Name="Metal" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_metal_light" />
+    <tag Name="Tier" Value="3" />
+    <tag Name="DynamicObjectsTable:Headwear" />
   </object>
 
   <!--Guns-->
@@ -187,9 +232,34 @@
   </object>
   <object Name="TQAQ_ProjectileCannonBall_Large" Inherits="BaseLeadSlugProjectile">
     <part Name="Render" DisplayName="blast of shot" />
-	<tag Name="Slug" />
-	<tag Name="ImpactSound" Value="sfx_missile_leadSlugBurst_hit" />
+	  <tag Name="Slug" />
+  	<tag Name="ImpactSound" Value="sfx_missile_leadSlugBurst_hit" />
     <part Name="Projectile" BasePenetration="5" BaseDamage="2d8" />
+  </object>
+
+  <!--Shields-->
+
+  <object Name="TQAQ_Shield_Stal" Inherits="BaseShield">
+    <part Name="Render" DisplayName="{{C|stal}} shield" Tile="Items/sw_shield4.bmp" ColorString="&amp;c" TileColor="&amp;y" DetailColor="C" />
+    <part Name="Shield" AV="4" DV="-3" WornOn="Arm" />
+    <part Name="Description" Short="Rounded to a point and caressed in glimmering teel fashion, the shield of teal steel resounds and beckons." />
+    <part Name="Commerce" Value="50" />
+    <part Name="Physics" Weight="14" />
+    <part Name="Metal" />
+    <tag Name="Tier" Value="4" />
+  </object>
+
+  <object Name="TQAQ_Shield_Bladed_Stal" Inherits="BaseShield">
+    <part Name="Render" DisplayName="{{C|stal}} bladed shield" Tile="Items/sw_shield4.bmp" ColorString="&amp;c" TileColor="&amp;y" DetailColor="C" />
+    <part Name="Shield" AV="4" DV="-3" WornOn="Arm" />
+    <tag Name="Mods" Value="BladeMods,ShieldMods,WeaponMods,CommonMods" />
+    <part Name="MeleeWeapon" MaxStrengthBonus="5" BaseDamage="1d8" Slot="Arm" />
+    <part Name="Description" Short="Edged to a point and caressed in glimmering teel fashion, the shield of teal steel resounds and beckons." />
+    <part Name="Commerce" Value="125" />
+    <part Name="Physics" Weight="14" />
+    <part Name="Metal" />
+    <tag Name="SwingSound" Value="Sounds/Melee/shortBlades/sfx_melee_foldedCarbide_wristblade_swing" />
+    <tag Name="Tier" Value="4" />
   </object>
 
   <!--Spears-->
@@ -202,13 +272,13 @@
     <part Name="Description" Short="A fire straightened branch bears the char marks of fireside hunters, while it's fletched rear and bronze tipped point ensure that it meets its target so that those hunters can meet again by the fireside." />
     <part Name="Metal" />
     <tag Name="Tier" Value="0" />
-	<tag Name="Spear" />
+  	<tag Name="Spear" />
 		<stag Name="Contemporary" />
   </object>
 
   <object Name="TQAQ_Spear_Bronze" Inherits="TQAQ_ThrowingSpear_Bronze">
     <part Name="Render" DisplayName="{{w|bronze}} spear" Tile="Items/TQAQ_Spear.png" />
-	<part Name="Description" Short="A tanged bronze point is hafted into a tree sapling with sinew and rawhide, the weathered marks of impurities in the bronze blends into the woodgrain of the shaft." />
+  	<part Name="Description" Short="A tanged bronze point is hafted into a tree sapling with sinew and rawhide, the weathered marks of impurities in the bronze blends into the woodgrain of the shaft." />
     <tag Name="NoAIEquipAsThrownWeapon" />
     <tag Name="HideThrownWeaponPerformance" />
   </object>
@@ -221,7 +291,7 @@
     <part Name="Description" Short="A fire straightened branch bears the char marks of fireside hunters, while it's fletched rear and yatal tipped point ensure that it meets its target so that those hunters can meet again by the fireside." />
     <part Name="Metal" />
     <tag Name="Tier" Value="1" />
-	<tag Name="Spear" />
+  	<tag Name="Spear" />
 		<stag Name="Contemporary" />
   </object>
 

@@ -626,7 +626,7 @@
     <part Name="AIShootAndScoot" Duration="1d2" />
   	<skill Name="Shield" />
 	  <skill Name="ShortBlades" />
-	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArmourMetalPeltast" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArmourMetalPeltast_Stal" />
   </object>
 
   <object Name="TQAQ_Dralkir_Peltast_Hero" Inherits="TQAQ_Dralkir_Peltast" >
@@ -646,7 +646,7 @@
     <skill Name="LongBlades" />
     <skill Name="Shield" />
     <skill Name="ShortBlades" />
-  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter_ArmourMetal" />
+  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter_ArmourStal" />
   </object>
 
   <object Name="TQAQ_Dralkir_Fighter_Hero" Inherits="TQAQ_Dralkir_Fighter" >
@@ -662,7 +662,7 @@
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
   	<skill Name="Rifles" />
-	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArcher_ArmourMetal" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArcher_ArmourStal" />
   </object>
 
   <object Name="TQAQ_Dralkir_Archer_Hero" Inherits="TQAQ_Dralkir_Archer" >
@@ -677,7 +677,7 @@
   	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
   	<stat Name="Ego" Boost="3" />
 	  <skill Name="CookingAndGathering" />
-  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
+  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage_Stal" />
   </object>
 
   <object Name="TQAQ_Dralkir_Mage_Hero" Inherits="TQAQ_Dralkir_Mage" >
@@ -693,7 +693,7 @@
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
   	<skill Name="Rifles" />
-  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorGunner_ArmourMetal" />
+  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorGunner_ArmourStal" />
   </object>
 
   <object Name="TQAQ_Dralkir_Jezailer_Hero" Inherits="TQAQ_Dralkir_Jezailer">
@@ -719,7 +719,7 @@
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
   	<skill Name="Cudgel" />
-  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorSlinger" />
+  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorSlinger_Stal" />
   </object>
 
   <object Name="TQAQ_Ormer_Slinger_Sivilao_Hero" Inherits="TQAQ_Ormer_Slinger_Sivilao" >
@@ -739,7 +739,7 @@
     <skill Name="LongBlades" />
     <skill Name="Shield" />
     <skill Name="ShortBlades" />
-  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
+  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter_ArmourStal" />
   </object>
 
   <object Name="TQAQ_Ormer_Warrior_Sivilao_Hero" Inherits="TQAQ_Ormer_Warrior_Sivilao" >
@@ -756,7 +756,7 @@
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
   	<skill Name="Cudgel" />
-  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorAxeThrower" />
+  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorAxeThrower_Stal" />
   </object>
 
   <object Name="TQAQ_Ormer_Axe_Thrower_Sivilao_Hero" Inherits="TQAQ_Ormer_Axe_Thrower_Sivilao" >
@@ -771,7 +771,7 @@
 	  <part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
 	  <stat Name="Ego" Boost="3" />
 	  <skill Name="CookingAndGathering" />
-	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage_Stal" />
   </object>
 
   <object Name="TQAQ_Ormer_Mage_Sivilao_Hero" Inherits="TQAQ_Ormer_Mage_Sivilao" >
@@ -787,7 +787,7 @@
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
   	<skill Name="HeavyWeapons" />
-  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorCannoneer" />
+  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorCannoneer_Stal" />
   </object>
 
   <object Name="TQAQ_Ormer_Cannoneer_Sivilao_Hero" Inherits="TQAQ_Ormer_Cannoneer_Sivilao" >
@@ -1331,7 +1331,7 @@ To protect her family, as she left her clan to rubble." />
   <object Name="TQAQ_Webby" Inherits="TQAQ_Drekir_Jezailer_Arid">
     <part Name="Render" DisplayName="Webby" ColorString="&amp;g"/>
 	  <part Name="Brain" Factions="Playerneutral-100" />
-    <part Name="Description" Short="TBD by Patches" />
+    <part Name="Description" Short="A panting snout and a weary smile, the weary traveler rests his bead covered gonne across his back, covered in hides and pouches. They look as though they have found a lot of stories under their feet." />
     <part Name="Pettable" />
     <inventoryobject Blueprint="Walking Stick" Number="1" />
     <property Name="Story" Value="TQAQ_Webby_Story" />
