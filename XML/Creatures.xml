@@ -87,6 +87,7 @@
     <stat Name="HeatResistance" Value="5" />
   	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
 	  <tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
+    <tag Name="DynamicObjectsTable:Hills_Creatures" />
     <tag Name="DynamicObjectsTable:Mountains_Creatures" />
   </object>
 
@@ -105,6 +106,15 @@
 	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
   	<tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
     <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Tropical" Inherits="BaseDrekir">
+    <part Name="Render" DisplayName="Tropical Drek" ColorString="&amp;w" DetailColor="b" />
+  	<stat Name="ColdResistance" Value="5" />
+    <stat Name="HeatResistance" Value="25" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
+  	<tag Name="DynamicObjectsTable:Jungle_Creatures" />
+  	<tag Name="DynamicObjectsTable:DeepJungle_Creatures" />
   </object>
 
   <object Name="TQAQ_Mavotur" Inherits="BaseMavotur">
@@ -126,6 +136,7 @@
     <stat Name="HeatResistance" Value="5" />
 	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
 	  <tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
+    <tag Name="DynamicObjectsTable:Hills_Creatures" />
     <tag Name="DynamicObjectsTable:Mountains_Creatures" />
   </object>
 
@@ -144,6 +155,15 @@
 	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
 	  <tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
     <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Tropical" Inherits="BaseOrmer">
+    <part Name="Render" DisplayName="Tropical Orm" ColorString="&amp;w" DetailColor="b" />
+  	<stat Name="ColdResistance" Value="5" />
+    <stat Name="HeatResistance" Value="25" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
+	  <tag Name="DynamicObjectsTable:Jungle_Creatures" />
+  	<tag Name="DynamicObjectsTable:DeepJungle_Creatures" />
   </object>
 
   <object Name="TQAQ_OrmerSivilao" Inherits="BaseOrmer">
@@ -823,7 +843,7 @@
     <skill Name="LongBlades" />
     <skill Name="Shield" />
     <skill Name="ShortBlades" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
   </object>
 
   <object Name="TQAQ_Drekir_Fighter_Temperate_Hero" Inherits="TQAQ_Drekir_Fighter_Temperate" >
@@ -987,6 +1007,219 @@
     <part Name="Brain" Factions="TQAQ_Temperate_Clans_Ormer-100" />
     <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
+    <part Name="GivesRep" />
+  </object>
+
+  <!--Tropical-->
+
+  <object Name="TQAQ_Drekir_Hiker_Tropical" Inherits="TQAQ_Drekir_Tropical">
+    <part Name="Render" DisplayName="Tropical Drek Hiker"/>
+  	<skill Name="Survival" />
+  	<skill Name="Survival_SaltmarshSurvival" />
+  	<skill Name="Survival_PlainsSurvival" />
+  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Hiker_Tropical_Hero" Inherits="TQAQ_Drekir_Hiker_Tropical" >
+    <part Name="Render" DisplayName="Tropical Drek Hero" ColorString="&amp;M" />
+  	<part Name="Brain" Factions="TQAQ_Tropical_Clans_Drekir-100" />
+  	<builder Name="TQAQ_EldimorHeroTropical" />
+    <part Name="TQAQ_EldimorHeroDrekirClanTropical" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Peltast_Tropical" Inherits="TQAQ_Drekir_Tropical">
+    <part Name="Render" DisplayName="Tropical Drek Peltast" Tile="Creatures/DrekPeltast.png"/>
+  	<stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+  	<skill Name="Shield" />
+  	<skill Name="ShortBlades" />
+  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorPeltast" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Peltast_Tropical_Hero" Inherits="TQAQ_Drekir_Peltast_Tropical" >
+    <part Name="Render" DisplayName="Tropical Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Tropical_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroTropical" />
+    <part Name="TQAQ_EldimorHeroDrekirClanTropical" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Fighter_Tropical" Inherits="TQAQ_Drekir_Tropical">
+    <part Name="Render" DisplayName="Tropical Drek Fighter" Tile="Creatures/DrekFighter.png"/>
+	  <stat Name="Agility" Boost="1" />
+	  <stat Name="Strength'" Boost="1" />
+	  <stat Name="Toughness" Boost="1" />
+	  <skill Name="Axe" />
+    <skill Name="Cudgel" />
+    <skill Name="LongBlades" />
+    <skill Name="Shield" />
+    <skill Name="ShortBlades" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Fighter_Tropical_Hero" Inherits="TQAQ_Drekir_Fighter_Tropical" >
+    <part Name="Render" DisplayName="Tropical Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Tropical_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroTropical" />
+    <part Name="TQAQ_EldimorHeroDrekirClanTropical" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Archer_Tropical" Inherits="TQAQ_Drekir_Tropical">
+    <part Name="Render" DisplayName="Tropical Drek Peltast" Tile="Creatures/DrekArcher.png"/>
+	  <stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	  <skill Name="Rifles" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorArcher" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Archer_Tropical_Hero" Inherits="TQAQ_Drekir_Archer_Tropical" >
+    <part Name="Render" DisplayName="Tropical Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Tropical_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroTropical" />
+    <part Name="TQAQ_EldimorHeroDrekirClanTropical" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Mage_Tropical" Inherits="TQAQ_Drekir_Tropical">
+    <part Name="Render" DisplayName="Tropical Drek Mage" Tile="Creatures/DrekMage.png"/>
+	  <part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
+	  <stat Name="Ego" Boost="3" />
+	  <skill Name="CookingAndGathering" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Mage_Tropical_Hero" Inherits="TQAQ_Drekir_Mage_Tropical" >
+    <part Name="Render" DisplayName="Tropical Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Tropical_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroTropical" />
+    <part Name="TQAQ_EldimorHeroDrekirClanTropical" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Jezailer_Tropical" Inherits="TQAQ_Drekir_Tropical">
+    <part Name="Render" DisplayName="Tropical Drek Jezailer" Tile="Creatures/DrekJezailer.png"/>
+	  <stat Name="Agility" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	  <skill Name="Rifles" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorGunner" />
+  </object>
+
+  <object Name="TQAQ_Drekir_Jezailer_Tropical_Hero" Inherits="TQAQ_Drekir_Jezailer_Tropical" >
+    <part Name="Render" DisplayName="Tropical Drek Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Tropical_Clans_Drekir-100" />
+    <builder Name="TQAQ_EldimorHeroTropical" />
+    <part Name="TQAQ_EldimorHeroDrekirClanTropical" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Hiker_Tropical" Inherits="TQAQ_Ormer_Tropical">
+    <part Name="Render" DisplayName="Tropical Orm Hiker"/>
+	  <skill Name="Survival" />
+	  <skill Name="Survival_SaltmarshSurvival" />
+	  <skill Name="Survival_PlainsSurvival" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorHiker" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Hiker_Tropical_Hero" Inherits="TQAQ_Ormer_Hiker_Tropical" >
+    <part Name="Render" DisplayName="Tropical Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Tropical_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroTropical" />
+    <part Name="TQAQ_EldimorHeroOrmerClanTropical" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Slinger_Tropical" Inherits="TQAQ_Ormer_Tropical">
+    <part Name="Render" DisplayName="Tropical Orm Slinger" Tile="Creatures/OrmSlinger.png"/>
+	  <stat Name="Strength" Boost="2" />
+	  <stat Name="Agility" Boost="1" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	  <skill Name="Cudgel" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorSlinger" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Slinger_Tropical_Hero" Inherits="TQAQ_Ormer_Slinger_Tropical" >
+    <part Name="Render" DisplayName="Tropical Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Tropical_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroTropical" />
+    <part Name="TQAQ_EldimorHeroOrmerClanTropical" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Warrior_Tropical" Inherits="TQAQ_Ormer_Tropical">
+    <part Name="Render" DisplayName="Tropical Orm Warrior" Tile="Creatures/OrmWarrior.png"/>
+	  <stat Name="Agility" Boost="1" />
+	  <stat Name="Strength'" Boost="1" />
+	  <stat Name="Toughness" Boost="1" />
+	  <skill Name="Axe" />
+    <skill Name="Cudgel" />
+    <skill Name="LongBlades" />
+    <skill Name="Shield" />
+    <skill Name="ShortBlades" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorFighter" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Warrior_Tropical_Hero" Inherits="TQAQ_Ormer_Warrior_Tropical" >
+    <part Name="Render" DisplayName="Tropical Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Tropical_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroTropical" />
+    <part Name="TQAQ_EldimorHeroOrmerClanTropical" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Axe_Thrower_Tropical" Inherits="TQAQ_Ormer_Tropical">
+    <part Name="Render" DisplayName="Tropical Orm Axe Thrower" Tile="Creatures/OrmAxeThrower.png"/>
+	  <stat Name="Strength" Boost="2" />
+	  <stat Name="Agility" Boost="1" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	  <skill Name="Cudgel" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorAxeThrower" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Axe_Thrower_Tropical_Hero" Inherits="TQAQ_Ormer_Axe_Thrower_Tropical" >
+    <part Name="Render" DisplayName="Tropical Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Tropical_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroTropical" />
+    <part Name="TQAQ_EldimorHeroOrmerClanTropical" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Mage_Tropical" Inherits="TQAQ_Ormer_Tropical">
+    <part Name="Render" DisplayName="Tropical Orm Mage" Tile="Creatures/OrmMage.png"/>
+	  <part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
+	  <stat Name="Ego" Boost="3" />
+	  <skill Name="CookingAndGathering" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Mage_Tropical_Hero" Inherits="TQAQ_Ormer_Mage_Tropical" >
+    <part Name="Render" DisplayName="Tropical Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Tropical_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroTropical" />
+    <part Name="TQAQ_EldimorHeroOrmerClanTropical" />
+    <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Cannoneer_Tropical" Inherits="TQAQ_Ormer_Tropical">
+    <part Name="Render" DisplayName="Tropical Orm Cannoneer" Tile="Creatures/OrmCannoneer.png"/>
+	  <stat Name="Strength" Boost="3" />
+    <tag Name="Role" Value="Skirmisher" />
+    <part Name="AIShootAndScoot" Duration="1d2" />
+	  <skill Name="HeavyWeapons" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorCannoneer" />
+  </object>
+
+  <object Name="TQAQ_Ormer_Cannoneer_Tropical_Hero" Inherits="TQAQ_Ormer_Cannoneer_Tropical" >
+    <part Name="Render" DisplayName="Tropical Orm Hero" ColorString="&amp;M" />
+    <part Name="Brain" Factions="TQAQ_Tropical_Clans_Ormer-100" />
+    <builder Name="TQAQ_EldimorHeroTropical" />
+    <part Name="TQAQ_EldimorHeroOrmerClanTropical" />
     <part Name="GivesRep" />
   </object>
   
