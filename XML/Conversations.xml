@@ -45,12 +45,12 @@
 
   <!--Characters-->
 
-  <conversation ID="TQAQ_Domazaya_Dialogue">
+  <conversation ID="TQAQ_Domazeya_Dialogue">
     <start ID="Start">
       <text>
         {{emote|*Groans*}}
 
-        What does one need?
+        What?
 	  </text>
       <choice Target="End">Live and drink.</choice>
     </start>
