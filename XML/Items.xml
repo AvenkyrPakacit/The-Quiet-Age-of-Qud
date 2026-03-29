@@ -194,6 +194,12 @@
     <tag Name="DynamicObjectsTable:Headwear" />
   </object>
 
+  <!--Liquid Containers-->
+
+  <object Name="TQAQ_ManaWaterskin" Inherits="Waterskin">
+    <part Name="LiquidVolume" InitialLiquid="tqaq_mana-1000" StartVolume="2d16" />
+  </object>
+
   <!--Guns-->
 
   <object Name="TQAQ_Cannon_small" Inherits="BaseMagazineRifle">
