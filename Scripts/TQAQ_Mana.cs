@@ -60,11 +60,11 @@ public class TQAQ_Mana : BaseLiquid
 	{
 		if (Liquid == null)
 		{
-			return "{{Y|dilute}}";
+			return "{{extradimensional|spiritual}}";
 		}
 		if (Liquid.ComponentLiquids["tqaq_mana"] > 0)
 		{
-			return "{{Y|dilute}}";
+			return "{{extradimensional|spiritual}}";
 		}
 		return null;
 	}
@@ -153,9 +153,9 @@ public class TQAQ_Mana : BaseLiquid
 		}
 		if (Stat.RandomCosmetic(1, 60) == 1)
 		{
-			render.ColorString = "&y^Y";
-			render.TileColor = "&y";
-			render.DetailColor = "Y";
+			render.ColorString = "&M^m";
+			render.TileColor = "&Y";
+			render.DetailColor = "O";
 			if (num < 15)
 			{
 				render.RenderString = "÷";
