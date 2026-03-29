@@ -1047,6 +1047,7 @@
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
       <object Blueprint="HalfFullWaterskin" Number="1" />
+      <object Blueprint="TQAQ_ManaWaterskin" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
       <object Blueprint="Walking Stick" Number="1" />
       <object Blueprint="Cloth Robe" Number="1" />
@@ -1062,6 +1063,7 @@
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
       <object Blueprint="HalfFullWaterskin" Number="1" />
+      <object Blueprint="TQAQ_ManaWaterskin" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
       <object Blueprint="Walking Stick" Number="1" />
   	  <table Name="StartingGear_Stal_Armour" />
