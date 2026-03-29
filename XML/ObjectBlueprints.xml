@@ -5,22 +5,26 @@
     <part Name="Body" Anatomy="TailedBiped" />
     <mutation Name="Carnivorous" Level="1" />
     <mutation Name="ColdBlooded" Level="1" />
-	<mutation Name="HeightenedSmell" Level="1" />
+	  <mutation Name="HeightenedSmell" Level="1" />
   </object>
 
   <object Name="EldimorBodyOrmer" Inherits="Humanoid">
     <part Name="Body" Anatomy="TailedBiped" />
-	<mutation Name="HeightenedSmell" Level="1" />
+	  <mutation Name="HeightenedSmell" Level="1" />
   </object>
 
   <object Name="EldimorBodyMavotur" Inherits="Humanoid">
     <part Name="Body" Anatomy="TailedBiped" />
-	<mutation Name="HeightenedSmell" Level="1" />
+	  <mutation Name="HeightenedSmell" Level="1" />
     <mutation Name="LeyShifting" />
     <mutation Name="SensePsychic" Level="1" />
     <mutation Name="SunderMind" Level="1" />
     <mutation Name="Telepathy" Level="1" />
     <mutation Name="Wings" Level="1" />
+  </object>
+
+  <object Name="TQAQ_Mana_Pool" Inherits="Water">
+    <part Name="LiquidVolume" MaxVolume="-1" Volume="10" StartVolume="1d100" InitialLiquid="tqaq_mana-1000"/>
   </object>
 
 </objects>

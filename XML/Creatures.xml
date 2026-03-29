@@ -731,8 +731,8 @@
 
   <object Name="TQAQ_Ormer_Axe_Thrower_Sivilao" Inherits="TQAQ_Ormer_Sivilao_Stal">
     <part Name="Render" DisplayName="Ormer Sivilao Axe Thrower" Tile="Creatures/OrmAxeThrower.png"/>
-	<stat Name="Strength" Boost="2" />
-	<stat Name="Agility" Boost="1" />
+	  <stat Name="Strength" Boost="2" />
+	  <stat Name="Agility" Boost="1" />
     <tag Name="Role" Value="Skirmisher" />
     <part Name="AIShootAndScoot" Duration="1d2" />
 	<skill Name="Cudgel" />
@@ -748,10 +748,10 @@
 
   <object Name="TQAQ_Ormer_Mage_Sivilao" Inherits="TQAQ_Ormer_Sivilao_Stal">
     <part Name="Render" DisplayName="Ormer Sivilao Mage" Tile="Creatures/OrmMage.png"/>
-	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
-	<stat Name="Ego" Boost="3" />
-	<skill Name="CookingAndGathering" />
-	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
+	  <part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
+	  <stat Name="Ego" Boost="3" />
+	  <skill Name="CookingAndGathering" />
+	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
   </object>
 
   <object Name="TQAQ_Ormer_Mage_Sivilao_Hero" Inherits="TQAQ_Ormer_Mage_Sivilao" >
