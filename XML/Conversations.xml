@@ -45,6 +45,36 @@
 
   <!--Characters-->
 
+  <conversation ID="TQAQ_Da_Naersean_Dialogue">
+    <start ID="Start">
+      <text>
+        {{emote|*Grumbles*}}
+
+        What do we desire? Make it quick!
+	    </text>
+      <choice GotoID="WhoAreYou">Who are you?</choice>
+      <choice Target="End">Live and drink, wise one.</choice>
+    </start>
+    <node ID="Questions">
+      <text>
+        {{emote|*Grumbles*}}
+
+        What other questions do we have? Make them quick!
+	    </text>
+      <choice GotoID="WhoAreYou">Who are you?</choice>
+      <choice Target="End">No more questions. Live and drink, wise one.</choice>
+    </node>
+    <node ID="WhoAreYou">
+      <text>
+        {{emote|*Sighs*}}
+
+        We go by Da Naersean. Anything else to bother us with?
+	    </text>
+      <choice GotoID="Questions">Yes, there are other things to ask.</choice>
+      <choice Target="End">No, that's all. Live and drink, wise one.</choice>
+    </node>
+  </conversation>
+
   <conversation ID="TQAQ_Domazeya_Dialogue">
     <start ID="Start">
       <text>
@@ -61,9 +91,10 @@
       <text>
         {{emote|*Grumpfs*}}
 
-        Greeting traveler, to my humble abode!
+        Greetings traveler, to my humble abode!
 	  </text>
       <choice GotoID="WhoAreYou">Who are you?</choice>
+      <choice GotoID="TradingHut">Where can I trade?</choice>
       <choice Target="End">Live and drink.</choice>
     </start>
     <node ID="WhoAreYou">
@@ -81,6 +112,7 @@
 
         Well, =name=, it's a pleasure meeting you! Anything I can do to welcome you into our den?
 	  </text>
+      <choice GotoID="TradingHut">Where can I trade?</choice>
       <choice Target="End">Live and drink.</choice>
     </node>
     <node ID="Nobody">
@@ -89,7 +121,25 @@
 
         Well then, either way, it's a pleasure meeting you! Anything I can do to welcome you into our den?
 	  </text>
+      <choice GotoID="TradingHut">Where can I trade?</choice>
       <choice Target="End">Live and drink.</choice>
+    </node>
+    <node ID="TradingHut">
+      <text>
+        {{emote|*Yops*}}
+
+        Well, the main barter hut is to the west of here. Our local mage to the south east may also be willing to trade, but they tend to be a bit grumpy!
+	  </text>
+      <choice GotoID="Mage">Who's the mage?</choice>
+      <choice Target="End">Thanks for the info, Live and drink.</choice>
+    </node>
+    <node ID="Mage">
+      <text>
+        {{emote|*Yaps*}}
+
+        Da Naersean is what they go by! They're one of many within one mind. Fortunately, they don't forget each other as easily as I forget things! They are fairly disagreeable, but can supply you with mana if needed. Just be careful! 
+	  </text>
+      <choice Target="End">Thanks for the info, Live and drink.</choice>
     </node>
   </conversation>
 

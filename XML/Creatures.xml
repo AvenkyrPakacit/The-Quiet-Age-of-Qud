@@ -1275,6 +1275,24 @@
 
   <!--NPCs-->
 
+  <object Name="TQAQ_Da_Naersean" Inherits="TQAQ_Drekir_Mage_Temperate">
+    <part Name="Render" DisplayName="Da Naersean" ColorString="&amp;B"/>
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans_Drekir-100" />
+    <part Name="Description" Short="Azure scales wit touches of charcoal pigment caress the wise mages.
+A soft hum of an ancient mantra, resonates from their jaws." />
+    <part Name="ConversationScript" ConversationID="TQAQ_Da_Naersean_Dialogue" />
+	  <tag Name="Gender" Value="plural" />
+    <stat Name="Level" Value="25" />
+    <stat Name="Hitpoints" Value="125" />
+    <part Name="GivesRep" />
+    <tag Name="staticFaction3" Value=",dislike,they're grumpy attitude" />
+    <tag Name="staticFaction2" Value=",friend,elementalizing mana for them" />
+    <tag Name="staticFaction1" Value=",dislike,refusing to elementalize mana for them" />
+    <xtagGrammar Proper="true" />
+    <xtagWaterRitual NoJoin="true" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+  </object>
+
   <object Name="TQAQ_Domazeya" Inherits="TQAQ_Ormer_Mage_Temperate">
     <part Name="Render" DisplayName="Domazeya" ColorString="&amp;K"/>
 	  <part Name="Brain" Factions="Eldimor-100" />
@@ -1308,11 +1326,13 @@ What stories does this elder drek have to tell?" />
 	  <tag Name="Gender" Value="male" />
     <stat Name="Level" Value="25" />
     <stat Name="Hitpoints" Value="125" />
+		<mutation Name="Amnesia" />
     <part Name="GivesRep" />
     <tag Name="staticFaction3" Value=",dislike,his elden scales" />
     <tag Name="staticFaction2" Value=",friend,his generosity" />
     <tag Name="staticFaction1" Value="Sivilao,hate,distracting their raid parties" />
     <xtagGrammar Proper="true" />
+    <xtagWaterRitual NoJoin="true" />
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
   </object>
 

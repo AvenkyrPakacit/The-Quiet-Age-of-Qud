@@ -2299,7 +2299,7 @@
     <object Name="DirtFloor"></object>
   </cell>
   <cell X="57" Y="15">
-    <object Name="TQAQ_Drekir_Mage_Temperate"></object>
+    <object Name="TQAQ_Da_Naersean"></object>
   </cell>
   <cell X="58" Y="15">
     <object Name="Bedroll"></object>
