@@ -196,17 +196,39 @@
   <cell X="13" Y="2"></cell>
   <cell X="14" Y="2"></cell>
   <cell X="15" Y="2"></cell>
-  <cell X="16" Y="2"></cell>
-  <cell X="17" Y="2"></cell>
-  <cell X="18" Y="2"></cell>
-  <cell X="19" Y="2"></cell>
-  <cell X="20" Y="2"></cell>
-  <cell X="21" Y="2"></cell>
-  <cell X="22" Y="2"></cell>
-  <cell X="23" Y="2"></cell>
-  <cell X="24" Y="2"></cell>
-  <cell X="25" Y="2"></cell>
-  <cell X="26" Y="2"></cell>
+  <cell X="16" Y="2">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="17" Y="2">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="18" Y="2">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="19" Y="2">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="20" Y="2">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="21" Y="2">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="22" Y="2">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="23" Y="2">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="24" Y="2">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="25" Y="2">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="26" Y="2">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="27" Y="2"></cell>
   <cell X="28" Y="2"></cell>
   <cell X="29" Y="2"></cell>
@@ -312,19 +334,45 @@
   <cell X="12" Y="3"></cell>
   <cell X="13" Y="3"></cell>
   <cell X="14" Y="3"></cell>
-  <cell X="15" Y="3"></cell>
-  <cell X="16" Y="3"></cell>
-  <cell X="17" Y="3"></cell>
-  <cell X="18" Y="3"></cell>
-  <cell X="19" Y="3"></cell>
-  <cell X="20" Y="3"></cell>
-  <cell X="21" Y="3"></cell>
-  <cell X="22" Y="3"></cell>
-  <cell X="23" Y="3"></cell>
-  <cell X="24" Y="3"></cell>
-  <cell X="25" Y="3"></cell>
-  <cell X="26" Y="3"></cell>
-  <cell X="27" Y="3"></cell>
+  <cell X="15" Y="3">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="16" Y="3">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="17" Y="3">
+    <object Name="Torchpost"></object>
+  </cell>
+  <cell X="18" Y="3">
+    <object Name="Bedroll"></object>
+  </cell>
+  <cell X="19" Y="3">
+    <object Name="Bedroll"></object>
+  </cell>
+  <cell X="20" Y="3">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="21" Y="3">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="22" Y="3">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="23" Y="3">
+    <object Name="Bedroll"></object>
+  </cell>
+  <cell X="24" Y="3">
+    <object Name="Bedroll"></object>
+  </cell>
+  <cell X="25" Y="3">
+    <object Name="Torchpost"></object>
+  </cell>
+  <cell X="26" Y="3">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="27" Y="3">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="28" Y="3"></cell>
   <cell X="29" Y="3"></cell>
   <cell X="30" Y="3"></cell>
@@ -340,7 +388,9 @@
   <cell X="34" Y="3">
     <object Name="TQAQ_Spigseship"></object>
   </cell>
-  <cell X="35" Y="3"></cell>
+  <cell X="35" Y="3">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="36" Y="3">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
@@ -389,9 +439,15 @@
   <cell X="55" Y="3"></cell>
   <cell X="56" Y="3"></cell>
   <cell X="57" Y="3"></cell>
-  <cell X="58" Y="3"></cell>
-  <cell X="59" Y="3"></cell>
-  <cell X="60" Y="3"></cell>
+  <cell X="58" Y="3">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="59" Y="3">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="60" Y="3">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="61" Y="3"></cell>
   <cell X="62" Y="3"></cell>
   <cell X="63" Y="3"></cell>
@@ -426,31 +482,69 @@
   <cell X="12" Y="4"></cell>
   <cell X="13" Y="4"></cell>
   <cell X="14" Y="4"></cell>
-  <cell X="15" Y="4"></cell>
-  <cell X="16" Y="4"></cell>
-  <cell X="17" Y="4"></cell>
-  <cell X="18" Y="4"></cell>
-  <cell X="19" Y="4"></cell>
-  <cell X="20" Y="4"></cell>
-  <cell X="21" Y="4"></cell>
-  <cell X="22" Y="4"></cell>
-  <cell X="23" Y="4"></cell>
-  <cell X="24" Y="4"></cell>
-  <cell X="25" Y="4"></cell>
-  <cell X="26" Y="4"></cell>
-  <cell X="27" Y="4"></cell>
+  <cell X="15" Y="4">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="16" Y="4">
+    <object Name="Torchpost"></object>
+  </cell>
+  <cell X="17" Y="4">
+    <object Name="Bedroll"></object>
+  </cell>
+  <cell X="18" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="19" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="20" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="21" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="22" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="23" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="24" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="25" Y="4">
+    <object Name="Bedroll"></object>
+  </cell>
+  <cell X="26" Y="4">
+    <object Name="Torchpost"></object>
+  </cell>
+  <cell X="27" Y="4">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="28" Y="4"></cell>
   <cell X="29" Y="4"></cell>
   <cell X="30" Y="4"></cell>
   <cell X="31" Y="4">
     <object Name="WoodWall"></object>
   </cell>
-  <cell X="32" Y="4"></cell>
-  <cell X="33" Y="4"></cell>
-  <cell X="34" Y="4"></cell>
-  <cell X="35" Y="4"></cell>
-  <cell X="36" Y="4"></cell>
-  <cell X="37" Y="4"></cell>
+  <cell X="32" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="33" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="34" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="35" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="36" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="37" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="38" Y="4">
     <object Name="WoodWall"></object>
   </cell>
@@ -470,10 +564,18 @@
   <cell X="46" Y="4">
     <object Name="TQAQ_Drekir_Temperate"></object>
   </cell>
-  <cell X="47" Y="4"></cell>
-  <cell X="48" Y="4"></cell>
-  <cell X="49" Y="4"></cell>
-  <cell X="50" Y="4"></cell>
+  <cell X="47" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="48" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="49" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="50" Y="4">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="51" Y="4">
     <object Name="TQAQ_Drekir_Temperate"></object>
   </cell>
@@ -488,11 +590,21 @@
   </cell>
   <cell X="55" Y="4"></cell>
   <cell X="56" Y="4"></cell>
-  <cell X="57" Y="4"></cell>
-  <cell X="58" Y="4"></cell>
-  <cell X="59" Y="4"></cell>
-  <cell X="60" Y="4"></cell>
-  <cell X="61" Y="4"></cell>
+  <cell X="57" Y="4">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="58" Y="4">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="59" Y="4">
+    <object Name="Bedroll"></object>
+  </cell>
+  <cell X="60" Y="4">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="61" Y="4">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="62" Y="4"></cell>
   <cell X="63" Y="4"></cell>
   <cell X="64" Y="4"></cell>
@@ -526,31 +638,69 @@
   <cell X="12" Y="5"></cell>
   <cell X="13" Y="5"></cell>
   <cell X="14" Y="5"></cell>
-  <cell X="15" Y="5"></cell>
-  <cell X="16" Y="5"></cell>
-  <cell X="17" Y="5"></cell>
-  <cell X="18" Y="5"></cell>
-  <cell X="19" Y="5"></cell>
-  <cell X="20" Y="5"></cell>
-  <cell X="21" Y="5"></cell>
-  <cell X="22" Y="5"></cell>
-  <cell X="23" Y="5"></cell>
-  <cell X="24" Y="5"></cell>
-  <cell X="25" Y="5"></cell>
-  <cell X="26" Y="5"></cell>
-  <cell X="27" Y="5"></cell>
+  <cell X="15" Y="5">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="16" Y="5">
+    <object Name="Bedroll"></object>
+  </cell>
+  <cell X="17" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="18" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="19" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="20" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="21" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="22" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="23" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="24" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="25" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="26" Y="5">
+    <object Name="Bedroll"></object>
+  </cell>
+  <cell X="27" Y="5">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="28" Y="5"></cell>
   <cell X="29" Y="5"></cell>
   <cell X="30" Y="5"></cell>
   <cell X="31" Y="5">
     <object Name="WoodWall"></object>
   </cell>
-  <cell X="32" Y="5"></cell>
-  <cell X="33" Y="5"></cell>
-  <cell X="34" Y="5"></cell>
-  <cell X="35" Y="5"></cell>
-  <cell X="36" Y="5"></cell>
-  <cell X="37" Y="5"></cell>
+  <cell X="32" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="33" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="34" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="35" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="36" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="37" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="38" Y="5">
     <object Name="WoodWall"></object>
   </cell>
@@ -564,14 +714,30 @@
   <cell X="44" Y="5">
     <object Name="Bedroll"></object>
   </cell>
-  <cell X="45" Y="5"></cell>
-  <cell X="46" Y="5"></cell>
-  <cell X="47" Y="5"></cell>
-  <cell X="48" Y="5"></cell>
-  <cell X="49" Y="5"></cell>
-  <cell X="50" Y="5"></cell>
-  <cell X="51" Y="5"></cell>
-  <cell X="52" Y="5"></cell>
+  <cell X="45" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="46" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="47" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="48" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="49" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="50" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="51" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="52" Y="5">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="53" Y="5">
     <object Name="Bedroll"></object>
   </cell>
@@ -581,11 +747,22 @@
   </cell>
   <cell X="55" Y="5"></cell>
   <cell X="56" Y="5"></cell>
-  <cell X="57" Y="5"></cell>
-  <cell X="58" Y="5"></cell>
-  <cell X="59" Y="5"></cell>
-  <cell X="60" Y="5"></cell>
-  <cell X="61" Y="5"></cell>
+  <cell X="57" Y="5">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="58" Y="5">
+    <object Name="Torchpost"></object>
+  </cell>
+  <cell X="59" Y="5">
+    <object Name="TQAQ_Drekir_Temperate"></object>
+  </cell>
+  <cell X="60" Y="5">
+    <object Name="Torchpost"></object>
+    <object Name="Torchpost"></object>
+  </cell>
+  <cell X="61" Y="5">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="62" Y="5"></cell>
   <cell X="63" Y="5"></cell>
   <cell X="64" Y="5"></cell>
@@ -619,19 +796,45 @@
   <cell X="12" Y="6"></cell>
   <cell X="13" Y="6"></cell>
   <cell X="14" Y="6"></cell>
-  <cell X="15" Y="6"></cell>
-  <cell X="16" Y="6"></cell>
-  <cell X="17" Y="6"></cell>
-  <cell X="18" Y="6"></cell>
-  <cell X="19" Y="6"></cell>
-  <cell X="20" Y="6"></cell>
-  <cell X="21" Y="6"></cell>
-  <cell X="22" Y="6"></cell>
-  <cell X="23" Y="6"></cell>
-  <cell X="24" Y="6"></cell>
-  <cell X="25" Y="6"></cell>
-  <cell X="26" Y="6"></cell>
-  <cell X="27" Y="6"></cell>
+  <cell X="15" Y="6">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="16" Y="6">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="17" Y="6">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="18" Y="6">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="19" Y="6">
+    <object Name="Torchpost"></object>
+  </cell>
+  <cell X="20" Y="6">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="21" Y="6">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="22" Y="6">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="23" Y="6">
+    <object Name="Torchpost"></object>
+  </cell>
+  <cell X="24" Y="6">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="25" Y="6">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="26" Y="6">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="27" Y="6">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="28" Y="6"></cell>
   <cell X="29" Y="6"></cell>
   <cell X="30" Y="6"></cell>
@@ -642,10 +845,18 @@
   <cell X="32" Y="6">
     <object Name="Torchpost"></object>
   </cell>
-  <cell X="33" Y="6"></cell>
-  <cell X="34" Y="6"></cell>
-  <cell X="35" Y="6"></cell>
-  <cell X="36" Y="6"></cell>
+  <cell X="33" Y="6">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="34" Y="6">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="35" Y="6">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="36" Y="6">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="37" Y="6">
     <object Name="Torchpost"></object>
   </cell>
@@ -668,11 +879,21 @@
   <cell X="46" Y="6">
     <object Name="TQAQ_Drekir_Temperate"></object>
   </cell>
-  <cell X="47" Y="6"></cell>
-  <cell X="48" Y="6"></cell>
-  <cell X="49" Y="6"></cell>
-  <cell X="50" Y="6"></cell>
-  <cell X="51" Y="6"></cell>
+  <cell X="47" Y="6">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="48" Y="6">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="49" Y="6">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="50" Y="6">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="51" Y="6">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="52" Y="6">
     <object Name="TQAQ_Drekir_Temperate"></object>
   </cell>
@@ -684,11 +905,21 @@
   </cell>
   <cell X="55" Y="6"></cell>
   <cell X="56" Y="6"></cell>
-  <cell X="57" Y="6"></cell>
-  <cell X="58" Y="6"></cell>
-  <cell X="59" Y="6"></cell>
-  <cell X="60" Y="6"></cell>
-  <cell X="61" Y="6"></cell>
+  <cell X="57" Y="6">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="58" Y="6">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="59" Y="6">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="60" Y="6">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="61" Y="6">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="62" Y="6"></cell>
   <cell X="63" Y="6"></cell>
   <cell X="64" Y="6"></cell>
@@ -725,13 +956,27 @@
   <cell X="15" Y="7"></cell>
   <cell X="16" Y="7"></cell>
   <cell X="17" Y="7"></cell>
-  <cell X="18" Y="7"></cell>
-  <cell X="19" Y="7"></cell>
-  <cell X="20" Y="7"></cell>
-  <cell X="21" Y="7"></cell>
-  <cell X="22" Y="7"></cell>
-  <cell X="23" Y="7"></cell>
-  <cell X="24" Y="7"></cell>
+  <cell X="18" Y="7">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="19" Y="7">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="20" Y="7">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="21" Y="7">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="22" Y="7">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="23" Y="7">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="24" Y="7">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="25" Y="7"></cell>
   <cell X="26" Y="7"></cell>
   <cell X="27" Y="7"></cell>
@@ -747,8 +992,12 @@
   <cell X="33" Y="7">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
-  <cell X="34" Y="7"></cell>
-  <cell X="35" Y="7"></cell>
+  <cell X="34" Y="7">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="35" Y="7">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="36" Y="7">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
@@ -774,9 +1023,15 @@
   <cell X="46" Y="7">
     <object Name="Torchpost"></object>
   </cell>
-  <cell X="47" Y="7"></cell>
-  <cell X="48" Y="7"></cell>
-  <cell X="49" Y="7"></cell>
+  <cell X="47" Y="7">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="48" Y="7">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="49" Y="7">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="50" Y="7">
     <object Name="Bedroll"></object>
   </cell>
@@ -796,7 +1051,9 @@
   <cell X="56" Y="7"></cell>
   <cell X="57" Y="7"></cell>
   <cell X="58" Y="7"></cell>
-  <cell X="59" Y="7"></cell>
+  <cell X="59" Y="7">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="60" Y="7"></cell>
   <cell X="61" Y="7"></cell>
   <cell X="62" Y="7"></cell>
@@ -837,9 +1094,15 @@
   <cell X="17" Y="8"></cell>
   <cell X="18" Y="8"></cell>
   <cell X="19" Y="8"></cell>
-  <cell X="20" Y="8"></cell>
-  <cell X="21" Y="8"></cell>
-  <cell X="22" Y="8"></cell>
+  <cell X="20" Y="8">
+    <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
+  </cell>
+  <cell X="21" Y="8">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="22" Y="8">
+    <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
+  </cell>
   <cell X="23" Y="8"></cell>
   <cell X="24" Y="8"></cell>
   <cell X="25" Y="8"></cell>
@@ -855,8 +1118,12 @@
   <cell X="33" Y="8">
     <object Name="WoodWall"></object>
   </cell>
-  <cell X="34" Y="8"></cell>
-  <cell X="35" Y="8"></cell>
+  <cell X="34" Y="8">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="35" Y="8">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="36" Y="8">
     <object Name="WoodWall"></object>
   </cell>
@@ -876,9 +1143,15 @@
   <cell X="46" Y="8">
     <object Name="WoodWall"></object>
   </cell>
-  <cell X="47" Y="8"></cell>
-  <cell X="48" Y="8"></cell>
-  <cell X="49" Y="8"></cell>
+  <cell X="47" Y="8">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="48" Y="8">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="49" Y="8">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="50" Y="8">
     <object Name="WoodWall"></object>
   </cell>
@@ -896,12 +1169,20 @@
   <cell X="56" Y="8"></cell>
   <cell X="57" Y="8"></cell>
   <cell X="58" Y="8"></cell>
-  <cell X="59" Y="8"></cell>
+  <cell X="59" Y="8">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="60" Y="8"></cell>
   <cell X="61" Y="8"></cell>
-  <cell X="62" Y="8"></cell>
-  <cell X="63" Y="8"></cell>
-  <cell X="64" Y="8"></cell>
+  <cell X="62" Y="8">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="63" Y="8">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="64" Y="8">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="65" Y="8"></cell>
   <cell X="66" Y="8"></cell>
   <cell X="67" Y="8"></cell>
@@ -937,24 +1218,54 @@
   <cell X="17" Y="9"></cell>
   <cell X="18" Y="9"></cell>
   <cell X="19" Y="9"></cell>
-  <cell X="20" Y="9"></cell>
-  <cell X="21" Y="9"></cell>
-  <cell X="22" Y="9"></cell>
-  <cell X="23" Y="9"></cell>
-  <cell X="24" Y="9"></cell>
-  <cell X="25" Y="9"></cell>
-  <cell X="26" Y="9"></cell>
-  <cell X="27" Y="9"></cell>
-  <cell X="28" Y="9"></cell>
-  <cell X="29" Y="9"></cell>
-  <cell X="30" Y="9"></cell>
-  <cell X="31" Y="9"></cell>
-  <cell X="32" Y="9"></cell>
+  <cell X="20" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="21" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="22" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="23" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="24" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="25" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="26" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="27" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="28" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="29" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="30" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="31" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="32" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="33" Y="9">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
-  <cell X="34" Y="9"></cell>
-  <cell X="35" Y="9"></cell>
+  <cell X="34" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="35" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="36" Y="9">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
@@ -979,7 +1290,9 @@
   <cell X="47" Y="9">
     <object Name="WoodWall"></object>
   </cell>
-  <cell X="48" Y="9"></cell>
+  <cell X="48" Y="9">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="49" Y="9">
     <object Name="WoodWall"></object>
   </cell>
@@ -993,14 +1306,26 @@
   <cell X="55" Y="9"></cell>
   <cell X="56" Y="9"></cell>
   <cell X="57" Y="9"></cell>
-  <cell X="58" Y="9"></cell>
-  <cell X="59" Y="9"></cell>
+  <cell X="58" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="59" Y="9">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="60" Y="9"></cell>
   <cell X="61" Y="9"></cell>
-  <cell X="62" Y="9"></cell>
-  <cell X="63" Y="9"></cell>
-  <cell X="64" Y="9"></cell>
-  <cell X="65" Y="9"></cell>
+  <cell X="62" Y="9">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="63" Y="9">
+    <object Name="Torchpost"></object>
+  </cell>
+  <cell X="64" Y="9">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="65" Y="9">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="66" Y="9"></cell>
   <cell X="67" Y="9"></cell>
   <cell X="68" Y="9"></cell>
@@ -1034,57 +1359,144 @@
   <cell X="16" Y="10"></cell>
   <cell X="17" Y="10"></cell>
   <cell X="18" Y="10"></cell>
-  <cell X="19" Y="10"></cell>
-  <cell X="20" Y="10"></cell>
-  <cell X="21" Y="10"></cell>
-  <cell X="22" Y="10"></cell>
-  <cell X="23" Y="10"></cell>
-  <cell X="24" Y="10"></cell>
-  <cell X="25" Y="10"></cell>
-  <cell X="26" Y="10"></cell>
-  <cell X="27" Y="10"></cell>
-  <cell X="28" Y="10"></cell>
-  <cell X="29" Y="10"></cell>
-  <cell X="30" Y="10"></cell>
-  <cell X="31" Y="10"></cell>
-  <cell X="32" Y="10"></cell>
-  <cell X="33" Y="10"></cell>
-  <cell X="34" Y="10"></cell>
-  <cell X="35" Y="10"></cell>
-  <cell X="36" Y="10"></cell>
-  <cell X="37" Y="10"></cell>
-  <cell X="38" Y="10"></cell>
-  <cell X="39" Y="10"></cell>
-  <cell X="40" Y="10"></cell>
-  <cell X="41" Y="10"></cell>
-  <cell X="42" Y="10"></cell>
-  <cell X="43" Y="10"></cell>
-  <cell X="44" Y="10"></cell>
+  <cell X="19" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="20" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="21" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="22" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="23" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="24" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="25" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="26" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="27" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="28" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="29" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="30" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="31" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="32" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="33" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="34" Y="10">
+    <object Name="DirtPath"></object>
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="35" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="36" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="37" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="38" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="39" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="40" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="41" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="42" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="43" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="44" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="45" Y="10"></cell>
   <cell X="46" Y="10"></cell>
   <cell X="47" Y="10">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
-  <cell X="48" Y="10"></cell>
+  <cell X="48" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="49" Y="10">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
-  <cell X="50" Y="10"></cell>
-  <cell X="51" Y="10"></cell>
-  <cell X="52" Y="10"></cell>
-  <cell X="53" Y="10"></cell>
-  <cell X="54" Y="10"></cell>
-  <cell X="55" Y="10"></cell>
-  <cell X="56" Y="10"></cell>
-  <cell X="57" Y="10"></cell>
-  <cell X="58" Y="10"></cell>
-  <cell X="59" Y="10"></cell>
-  <cell X="60" Y="10"></cell>
-  <cell X="61" Y="10"></cell>
-  <cell X="62" Y="10"></cell>
-  <cell X="63" Y="10"></cell>
-  <cell X="64" Y="10"></cell>
-  <cell X="65" Y="10"></cell>
+  <cell X="50" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="51" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="52" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="53" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="54" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="55" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="56" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="57" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="58" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="59" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="60" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="61" Y="10">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="62" Y="10">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="63" Y="10">
+    <object Name="TQAQ_Drekir_Temperate"></object>
+  </cell>
+  <cell X="64" Y="10">
+    <object Name="Bedroll"></object>
+  </cell>
+  <cell X="65" Y="10">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="66" Y="10"></cell>
   <cell X="67" Y="10"></cell>
   <cell X="68" Y="10"></cell>
@@ -1118,12 +1530,24 @@
   <cell X="16" Y="11"></cell>
   <cell X="17" Y="11"></cell>
   <cell X="18" Y="11"></cell>
-  <cell X="19" Y="11"></cell>
-  <cell X="20" Y="11"></cell>
-  <cell X="21" Y="11"></cell>
-  <cell X="22" Y="11"></cell>
-  <cell X="23" Y="11"></cell>
-  <cell X="24" Y="11"></cell>
+  <cell X="19" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="20" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="21" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="22" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="23" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="24" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="25" Y="11">
     <object Name="WoodWall"></object>
   </cell>
@@ -1141,41 +1565,106 @@
   <cell X="30" Y="11">
     <object Name="TQAQ_Drekir_Peltast_Temperate"></object>
   </cell>
-  <cell X="31" Y="11"></cell>
-  <cell X="32" Y="11"></cell>
-  <cell X="33" Y="11"></cell>
-  <cell X="34" Y="11"></cell>
-  <cell X="35" Y="11"></cell>
-  <cell X="36" Y="11"></cell>
-  <cell X="37" Y="11"></cell>
-  <cell X="38" Y="11"></cell>
-  <cell X="39" Y="11"></cell>
-  <cell X="40" Y="11"></cell>
-  <cell X="41" Y="11"></cell>
-  <cell X="42" Y="11"></cell>
-  <cell X="43" Y="11"></cell>
-  <cell X="44" Y="11"></cell>
-  <cell X="45" Y="11"></cell>
-  <cell X="46" Y="11"></cell>
-  <cell X="47" Y="11"></cell>
-  <cell X="48" Y="11"></cell>
-  <cell X="49" Y="11"></cell>
-  <cell X="50" Y="11"></cell>
-  <cell X="51" Y="11"></cell>
-  <cell X="52" Y="11"></cell>
-  <cell X="53" Y="11"></cell>
-  <cell X="54" Y="11"></cell>
-  <cell X="55" Y="11"></cell>
-  <cell X="56" Y="11"></cell>
-  <cell X="57" Y="11"></cell>
-  <cell X="58" Y="11"></cell>
+  <cell X="31" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="32" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="33" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="34" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="35" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="36" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="37" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="38" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="39" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="40" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="41" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="42" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="43" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="44" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="45" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="46" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="47" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="48" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="49" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="50" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="51" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="52" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="53" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="54" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="55" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="56" Y="11">
+    <object Name="DirtPath"></object>
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="57" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="58" Y="11">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="59" Y="11"></cell>
   <cell X="60" Y="11"></cell>
   <cell X="61" Y="11"></cell>
-  <cell X="62" Y="11"></cell>
-  <cell X="63" Y="11"></cell>
-  <cell X="64" Y="11"></cell>
-  <cell X="65" Y="11"></cell>
+  <cell X="62" Y="11">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="63" Y="11">
+    <object Name="Torchpost"></object>
+  </cell>
+  <cell X="64" Y="11">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="65" Y="11">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="66" Y="11"></cell>
   <cell X="67" Y="11"></cell>
   <cell X="68" Y="11"></cell>
@@ -1209,11 +1698,21 @@
   <cell X="16" Y="12"></cell>
   <cell X="17" Y="12"></cell>
   <cell X="18" Y="12"></cell>
-  <cell X="19" Y="12"></cell>
-  <cell X="20" Y="12"></cell>
-  <cell X="21" Y="12"></cell>
-  <cell X="22" Y="12"></cell>
-  <cell X="23" Y="12"></cell>
+  <cell X="19" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="20" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="21" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="22" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="23" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="24" Y="12">
     <object Name="WoodWall"></object>
   </cell>
@@ -1233,12 +1732,24 @@
     <object Name="WoodWall"></object>
   </cell>
   <cell X="30" Y="12"></cell>
-  <cell X="31" Y="12"></cell>
-  <cell X="32" Y="12"></cell>
-  <cell X="33" Y="12"></cell>
-  <cell X="34" Y="12"></cell>
-  <cell X="35" Y="12"></cell>
-  <cell X="36" Y="12"></cell>
+  <cell X="31" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="32" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="33" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="34" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="35" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="36" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="37" Y="12">
     <object Name="TQAQ_Mana_Pool"></object>
   </cell>
@@ -1257,15 +1768,33 @@
   <cell X="42" Y="12">
     <object Name="TQAQ_Mana_Pool"></object>
   </cell>
-  <cell X="43" Y="12"></cell>
-  <cell X="44" Y="12"></cell>
-  <cell X="45" Y="12"></cell>
-  <cell X="46" Y="12"></cell>
-  <cell X="47" Y="12"></cell>
-  <cell X="48" Y="12"></cell>
-  <cell X="49" Y="12"></cell>
-  <cell X="50" Y="12"></cell>
-  <cell X="51" Y="12"></cell>
+  <cell X="43" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="44" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="45" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="46" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="47" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="48" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="49" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="50" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="51" Y="12">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="52" Y="12">
     <object Name="TQAQ_Drekir_Peltast_Temperate"></object>
   </cell>
@@ -1288,9 +1817,15 @@
   <cell X="59" Y="12"></cell>
   <cell X="60" Y="12"></cell>
   <cell X="61" Y="12"></cell>
-  <cell X="62" Y="12"></cell>
-  <cell X="63" Y="12"></cell>
-  <cell X="64" Y="12"></cell>
+  <cell X="62" Y="12">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="63" Y="12">
+    <object Name="WoodWall"></object>
+  </cell>
+  <cell X="64" Y="12">
+    <object Name="WoodWall"></object>
+  </cell>
   <cell X="65" Y="12"></cell>
   <cell X="66" Y="12"></cell>
   <cell X="67" Y="12"></cell>
@@ -1325,10 +1860,18 @@
   <cell X="16" Y="13"></cell>
   <cell X="17" Y="13"></cell>
   <cell X="18" Y="13"></cell>
-  <cell X="19" Y="13"></cell>
-  <cell X="20" Y="13"></cell>
-  <cell X="21" Y="13"></cell>
-  <cell X="22" Y="13"></cell>
+  <cell X="19" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="20" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="21" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="22" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="23" Y="13">
     <object Name="WoodWall"></object>
   </cell>
@@ -1341,7 +1884,9 @@
   <cell X="26" Y="13">
     <object Name="TQAQ_Drekir_Temperate"></object>
   </cell>
-  <cell X="27" Y="13"></cell>
+  <cell X="27" Y="13">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="28" Y="13">
     <object Name="TQAQ_Drekir_Jezailer_Temperate"></object>
   </cell>
@@ -1351,11 +1896,21 @@
   <cell X="30" Y="13">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
-  <cell X="31" Y="13"></cell>
-  <cell X="32" Y="13"></cell>
-  <cell X="33" Y="13"></cell>
-  <cell X="34" Y="13"></cell>
-  <cell X="35" Y="13"></cell>
+  <cell X="31" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="32" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="33" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="34" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="35" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="36" Y="13">
     <object Name="TQAQ_Mana_Pool"></object>
   </cell>
@@ -1380,14 +1935,30 @@
   <cell X="43" Y="13">
     <object Name="TQAQ_Mana_Pool"></object>
   </cell>
-  <cell X="44" Y="13"></cell>
-  <cell X="45" Y="13"></cell>
-  <cell X="46" Y="13"></cell>
-  <cell X="47" Y="13"></cell>
-  <cell X="48" Y="13"></cell>
-  <cell X="49" Y="13"></cell>
-  <cell X="50" Y="13"></cell>
-  <cell X="51" Y="13"></cell>
+  <cell X="44" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="45" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="46" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="47" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="48" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="49" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="50" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="51" Y="13">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="52" Y="13"></cell>
   <cell X="53" Y="13">
     <object Name="WoodWall"></object>
@@ -1450,10 +2021,18 @@
   <cell X="16" Y="14"></cell>
   <cell X="17" Y="14"></cell>
   <cell X="18" Y="14"></cell>
-  <cell X="19" Y="14"></cell>
-  <cell X="20" Y="14"></cell>
-  <cell X="21" Y="14"></cell>
-  <cell X="22" Y="14"></cell>
+  <cell X="19" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="20" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="21" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="22" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="23" Y="14">
     <object Name="WoodWall"></object>
   </cell>
@@ -1463,17 +2042,39 @@
   <cell X="25" Y="14">
     <object Name="Bedroll"></object>
   </cell>
-  <cell X="26" Y="14"></cell>
-  <cell X="27" Y="14"></cell>
-  <cell X="28" Y="14"></cell>
-  <cell X="29" Y="14"></cell>
-  <cell X="30" Y="14"></cell>
-  <cell X="31" Y="14"></cell>
-  <cell X="32" Y="14"></cell>
-  <cell X="33" Y="14"></cell>
-  <cell X="34" Y="14"></cell>
-  <cell X="35" Y="14"></cell>
-  <cell X="36" Y="14"></cell>
+  <cell X="26" Y="14">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="27" Y="14">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="28" Y="14">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="29" Y="14">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="30" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="31" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="32" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="33" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="34" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="35" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="36" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="37" Y="14">
     <object Name="TQAQ_Mana_Pool"></object>
   </cell>
@@ -1492,25 +2093,52 @@
   <cell X="42" Y="14">
     <object Name="TQAQ_Mana_Pool"></object>
   </cell>
-  <cell X="43" Y="14"></cell>
-  <cell X="44" Y="14"></cell>
-  <cell X="45" Y="14"></cell>
-  <cell X="46" Y="14"></cell>
-  <cell X="47" Y="14"></cell>
-  <cell X="48" Y="14"></cell>
-  <cell X="49" Y="14"></cell>
-  <cell X="50" Y="14"></cell>
-  <cell X="51" Y="14"></cell>
+  <cell X="43" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="44" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="45" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="46" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="47" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="48" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="49" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="50" Y="14">
+    <object Name="DirtPath"></object>
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="51" Y="14">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="52" Y="14">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
   <cell X="53" Y="14">
     <object Name="WoodWall"></object>
   </cell>
-  <cell X="54" Y="14"></cell>
-  <cell X="55" Y="14"></cell>
-  <cell X="56" Y="14"></cell>
-  <cell X="57" Y="14"></cell>
+  <cell X="54" Y="14">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="55" Y="14">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="56" Y="14">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="57" Y="14">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="58" Y="14">
     <object Name="Bedroll"></object>
   </cell>
@@ -1559,9 +2187,15 @@
   <cell X="17" Y="15"></cell>
   <cell X="18" Y="15"></cell>
   <cell X="19" Y="15"></cell>
-  <cell X="20" Y="15"></cell>
-  <cell X="21" Y="15"></cell>
-  <cell X="22" Y="15"></cell>
+  <cell X="20" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="21" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="22" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="23" Y="15">
     <object Name="WoodWall"></object>
   </cell>
@@ -1574,7 +2208,9 @@
   <cell X="26" Y="15">
     <object Name="TQAQ_Drekir_Temperate"></object>
   </cell>
-  <cell X="27" Y="15"></cell>
+  <cell X="27" Y="15">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="28" Y="15">
     <object Name="TQAQ_Drekir_Jezailer_Temperate"></object>
   </cell>
@@ -1584,32 +2220,84 @@
   <cell X="30" Y="15">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
-  <cell X="31" Y="15"></cell>
-  <cell X="32" Y="15"></cell>
-  <cell X="33" Y="15"></cell>
-  <cell X="34" Y="15"></cell>
-  <cell X="35" Y="15"></cell>
-  <cell X="36" Y="15"></cell>
-  <cell X="37" Y="15"></cell>
-  <cell X="38" Y="15"></cell>
-  <cell X="39" Y="15"></cell>
-  <cell X="40" Y="15"></cell>
-  <cell X="41" Y="15"></cell>
-  <cell X="42" Y="15"></cell>
-  <cell X="43" Y="15"></cell>
-  <cell X="44" Y="15"></cell>
-  <cell X="45" Y="15"></cell>
-  <cell X="46" Y="15"></cell>
-  <cell X="47" Y="15"></cell>
-  <cell X="48" Y="15"></cell>
-  <cell X="49" Y="15"></cell>
-  <cell X="50" Y="15"></cell>
-  <cell X="51" Y="15"></cell>
-  <cell X="52" Y="15"></cell>
-  <cell X="53" Y="15"></cell>
-  <cell X="54" Y="15"></cell>
-  <cell X="55" Y="15"></cell>
-  <cell X="56" Y="15"></cell>
+  <cell X="31" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="32" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="33" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="34" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="35" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="36" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="37" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="38" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="39" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="40" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="41" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="42" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="43" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="44" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="45" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="46" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="47" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="48" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="49" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="50" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="51" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="52" Y="15">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="53" Y="15">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="54" Y="15">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="55" Y="15">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="56" Y="15">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="57" Y="15">
     <object Name="TQAQ_Drekir_Mage_Temperate"></object>
   </cell>
@@ -1661,10 +2349,18 @@
   <cell X="17" Y="16"></cell>
   <cell X="18" Y="16"></cell>
   <cell X="19" Y="16"></cell>
-  <cell X="20" Y="16"></cell>
-  <cell X="21" Y="16"></cell>
-  <cell X="22" Y="16"></cell>
-  <cell X="23" Y="16"></cell>
+  <cell X="20" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="21" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="22" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="23" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="24" Y="16">
     <object Name="WoodWall"></object>
   </cell>
@@ -1685,36 +2381,84 @@
   </cell>
   <cell X="30" Y="16"></cell>
   <cell X="31" Y="16"></cell>
-  <cell X="32" Y="16"></cell>
-  <cell X="33" Y="16"></cell>
-  <cell X="34" Y="16"></cell>
-  <cell X="35" Y="16"></cell>
-  <cell X="36" Y="16"></cell>
-  <cell X="37" Y="16"></cell>
-  <cell X="38" Y="16"></cell>
-  <cell X="39" Y="16"></cell>
-  <cell X="40" Y="16"></cell>
-  <cell X="41" Y="16"></cell>
-  <cell X="42" Y="16"></cell>
-  <cell X="43" Y="16"></cell>
-  <cell X="44" Y="16"></cell>
-  <cell X="45" Y="16"></cell>
-  <cell X="46" Y="16"></cell>
-  <cell X="47" Y="16"></cell>
-  <cell X="48" Y="16"></cell>
-  <cell X="49" Y="16"></cell>
-  <cell X="50" Y="16"></cell>
-  <cell X="51" Y="16"></cell>
+  <cell X="32" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="33" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="34" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="35" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="36" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="37" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="38" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="39" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="40" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="41" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="42" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="43" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="44" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="45" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="46" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="47" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="48" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="49" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="50" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="51" Y="16">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="52" Y="16">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
   <cell X="53" Y="16">
     <object Name="WoodWall"></object>
   </cell>
-  <cell X="54" Y="16"></cell>
-  <cell X="55" Y="16"></cell>
-  <cell X="56" Y="16"></cell>
-  <cell X="57" Y="16"></cell>
+  <cell X="54" Y="16">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="55" Y="16">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="56" Y="16">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="57" Y="16">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="58" Y="16">
     <object Name="Bedroll"></object>
   </cell>
@@ -1764,10 +2508,18 @@
   <cell X="18" Y="17"></cell>
   <cell X="19" Y="17"></cell>
   <cell X="20" Y="17"></cell>
-  <cell X="21" Y="17"></cell>
-  <cell X="22" Y="17"></cell>
-  <cell X="23" Y="17"></cell>
-  <cell X="24" Y="17"></cell>
+  <cell X="21" Y="17">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="22" Y="17">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="23" Y="17">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="24" Y="17">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="25" Y="17">
     <object Name="WoodWall"></object>
   </cell>
@@ -1785,14 +2537,22 @@
     <object Name="TQAQ_Drekir_Peltast_Temperate"></object>
   </cell>
   <cell X="31" Y="17"></cell>
-  <cell X="32" Y="17"></cell>
-  <cell X="33" Y="17"></cell>
-  <cell X="34" Y="17"></cell>
+  <cell X="32" Y="17">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="33" Y="17">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="34" Y="17">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="35" Y="17"></cell>
   <cell X="36" Y="17">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
-  <cell X="37" Y="17"></cell>
+  <cell X="37" Y="17">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="38" Y="17">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
@@ -1807,7 +2567,9 @@
   <cell X="45" Y="17">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
-  <cell X="46" Y="17"></cell>
+  <cell X="46" Y="17">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="47" Y="17">
     <object Name="TQAQ_Drekir_Fighter_Temperate"></object>
   </cell>
@@ -1822,9 +2584,15 @@
   <cell X="54" Y="17">
     <object Name="WoodWall"></object>
   </cell>
-  <cell X="55" Y="17"></cell>
-  <cell X="56" Y="17"></cell>
-  <cell X="57" Y="17"></cell>
+  <cell X="55" Y="17">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="56" Y="17">
+    <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="57" Y="17">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="58" Y="17">
     <object Name="WoodWall"></object>
   </cell>
@@ -1873,18 +2641,42 @@
   <cell X="19" Y="18"></cell>
   <cell X="20" Y="18"></cell>
   <cell X="21" Y="18"></cell>
-  <cell X="22" Y="18"></cell>
-  <cell X="23" Y="18"></cell>
-  <cell X="24" Y="18"></cell>
-  <cell X="25" Y="18"></cell>
-  <cell X="26" Y="18"></cell>
-  <cell X="27" Y="18"></cell>
-  <cell X="28" Y="18"></cell>
-  <cell X="29" Y="18"></cell>
-  <cell X="30" Y="18"></cell>
-  <cell X="31" Y="18"></cell>
-  <cell X="32" Y="18"></cell>
-  <cell X="33" Y="18"></cell>
+  <cell X="22" Y="18">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="23" Y="18">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="24" Y="18">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="25" Y="18">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="26" Y="18">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="27" Y="18">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="28" Y="18">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="29" Y="18">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="30" Y="18">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="31" Y="18">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="32" Y="18">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="33" Y="18">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="34" Y="18"></cell>
   <cell X="35" Y="18">
     <object Name="WoodWall"></object>
@@ -1892,7 +2684,9 @@
   <cell X="36" Y="18">
     <object Name="WoodWall"></object>
   </cell>
-  <cell X="37" Y="18"></cell>
+  <cell X="37" Y="18">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="38" Y="18">
     <object Name="WoodWall"></object>
   </cell>
@@ -1909,7 +2703,9 @@
   <cell X="45" Y="18">
     <object Name="WoodWall"></object>
   </cell>
-  <cell X="46" Y="18"></cell>
+  <cell X="46" Y="18">
+    <object Name="DirtFloor"></object>
+  </cell>
   <cell X="47" Y="18">
     <object Name="WoodWall"></object>
   </cell>
@@ -1982,16 +2778,36 @@
   <cell X="20" Y="19"></cell>
   <cell X="21" Y="19"></cell>
   <cell X="22" Y="19"></cell>
-  <cell X="23" Y="19"></cell>
-  <cell X="24" Y="19"></cell>
-  <cell X="25" Y="19"></cell>
-  <cell X="26" Y="19"></cell>
-  <cell X="27" Y="19"></cell>
-  <cell X="28" Y="19"></cell>
-  <cell X="29" Y="19"></cell>
-  <cell X="30" Y="19"></cell>
-  <cell X="31" Y="19"></cell>
-  <cell X="32" Y="19"></cell>
+  <cell X="23" Y="19">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="24" Y="19">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="25" Y="19">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="26" Y="19">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="27" Y="19">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="28" Y="19">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="29" Y="19">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="30" Y="19">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="31" Y="19">
+    <object Name="DirtPath"></object>
+  </cell>
+  <cell X="32" Y="19">
+    <object Name="DirtPath"></object>
+  </cell>
   <cell X="33" Y="19"></cell>
   <cell X="34" Y="19"></cell>
   <cell X="35" Y="19">
