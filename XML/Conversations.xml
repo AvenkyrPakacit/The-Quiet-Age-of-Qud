@@ -56,6 +56,43 @@
     </start>
   </conversation>
 
+  <conversation ID="TQAQ_Spigseship_Dialogue">
+    <start ID="Start">
+      <text>
+        {{emote|*Grumpfs*}}
+
+        Greeting traveler, to my humble abode!
+	  </text>
+      <choice GotoID="WhoAreYou">Who are you?</choice>
+      <choice Target="End">Live and drink.</choice>
+    </start>
+    <node ID="WhoAreYou">
+      <text>
+        {{emote|*Chatters*}}
+
+        Oh! Me? My denmates call me Spigseship, what's yours?
+	  </text>
+      <choice GotoID="Name">I'm =name=.</choice>
+      <choice GotoID="Nobody">I'm Nobody.</choice>
+    </node>
+    <node ID="Name">
+      <text>
+        {{emote|*Rattles*}}
+
+        Well, =name=, it's a pleasure meeting you! Anything I can do to welcome you into our den?
+	  </text>
+      <choice Target="End">Live and drink.</choice>
+    </node>
+    <node ID="Nobody">
+      <text>
+        {{emote|*Rattles*}}
+
+        Well then, either way, it's a pleasure meeting you! Anything I can do to welcome you into our den?
+	  </text>
+      <choice Target="End">Live and drink.</choice>
+    </node>
+  </conversation>
+
   <conversation ID="TQAQ_Yattraya_Dialogue">
     <start ID="Start">
       <text>

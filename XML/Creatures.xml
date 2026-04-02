@@ -83,6 +83,7 @@
 
   <object Name="TQAQ_Drekir_Alpine" Inherits="BaseDrekir">
     <part Name="Render" DisplayName="Alpine Drek" ColorString="&amp;w" DetailColor="Y" />
+    <part Name="Brain" Factions="Eldimor-50,TQAQ_Alpine_Clans_Drekir-100" />
   	<stat Name="ColdResistance" Value="25" />
     <stat Name="HeatResistance" Value="5" />
   	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
@@ -93,6 +94,7 @@
 
   <object Name="TQAQ_Drekir_Arid" Inherits="BaseDrekir">
     <part Name="Render" DisplayName="Salt Dune Temperate Drek" ColorString="&amp;w" DetailColor="r" />
+    <part Name="Brain" Factions="Eldimor-50,TQAQ_Arid_Clans_Drekir-100" />
     <stat Name="HeatResistance" Value="30" />
   	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
 	  <tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
@@ -101,6 +103,7 @@
 
   <object Name="TQAQ_Drekir_Temperate" Inherits="BaseDrekir">
     <part Name="Render" DisplayName="Temperate Drek" ColorString="&amp;w" DetailColor="g" />
+    <part Name="Brain" Factions="Eldimor-50,TQAQ_Temperate_Clans_Drekir-100" />
   	<stat Name="ColdResistance" Value="15" />
     <stat Name="HeatResistance" Value="15" />
 	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
@@ -110,6 +113,7 @@
 
   <object Name="TQAQ_Drekir_Tropical" Inherits="BaseDrekir">
     <part Name="Render" DisplayName="Tropical Drek" ColorString="&amp;w" DetailColor="b" />
+    <part Name="Brain" Factions="Eldimor-50,TQAQ_Tropical_Clans_Drekir-100" />
   	<stat Name="ColdResistance" Value="5" />
     <stat Name="HeatResistance" Value="25" />
 	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
@@ -132,6 +136,7 @@
 
   <object Name="TQAQ_Ormer_Alpine" Inherits="BaseOrmer">
     <part Name="Render" DisplayName="Alpine Orm" ColorString="&amp;w" DetailColor="Y" />
+    <part Name="Brain" Factions="Eldimor-50,TQAQ_Alpine_Clans_Ormer-100" />
   	<stat Name="ColdResistance" Value="25" />
     <stat Name="HeatResistance" Value="5" />
 	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
@@ -142,6 +147,7 @@
 
   <object Name="TQAQ_Ormer_Arid" Inherits="BaseOrmer">
     <part Name="Render" DisplayName="Salt Dune Temperate Orm" ColorString="&amp;w" DetailColor="r" />
+    <part Name="Brain" Factions="Eldimor-50,TQAQ_Arid_Clans_Ormer-100" />
     <stat Name="HeatResistance" Value="30" />
   	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
 	  <tag Name="DynamicObjectsTable:DesertCanyon_Creatures" />
@@ -150,6 +156,7 @@
 
   <object Name="TQAQ_Ormer_Temperate" Inherits="BaseOrmer">
     <part Name="Render" DisplayName="Temperate Orm" ColorString="&amp;w" DetailColor="g" />
+    <part Name="Brain" Factions="Eldimor-50,TQAQ_Temperate_Clans_Ormer-100" />
   	<stat Name="ColdResistance" Value="15" />
     <stat Name="HeatResistance" Value="15" />
 	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
@@ -159,6 +166,7 @@
 
   <object Name="TQAQ_Ormer_Tropical" Inherits="BaseOrmer">
     <part Name="Render" DisplayName="Tropical Orm" ColorString="&amp;w" DetailColor="b" />
+    <part Name="Brain" Factions="Eldimor-50,TQAQ_Tropical_Clans_Ormer-100" />
   	<stat Name="ColdResistance" Value="5" />
     <stat Name="HeatResistance" Value="25" />
 	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
@@ -1286,6 +1294,24 @@ Her stance is fours between twos, together in a momentary stand." />
     <tag Name="staticFaction3" Value=",dislike,witchery" />
     <tag Name="staticFaction2" Value=",friend,saving a friend's life" />
     <tag Name="staticFaction1" Value="Sivilao,hate,escaping slavery" />
+    <xtagGrammar Proper="true" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+  </object>
+
+  <object Name="TQAQ_Spigseship" Inherits="TQAQ_Drekir_Hiker_Temperate">
+    <part Name="Render" DisplayName="Spigseship" ColorString="&amp;K"/>
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans_Drekir-100" />
+    <part Name="Description" Short="Elden black scales cover this once fellow traveler.
+His feet hooved, and cracked, but still resound.
+What stories does this elder drek have to tell?" />
+    <part Name="ConversationScript" ConversationID="TQAQ_Spigseship_Dialogue" />
+	  <tag Name="Gender" Value="male" />
+    <stat Name="Level" Value="25" />
+    <stat Name="Hitpoints" Value="125" />
+    <part Name="GivesRep" />
+    <tag Name="staticFaction3" Value=",dislike,his elden scales" />
+    <tag Name="staticFaction2" Value=",friend,his generosity" />
+    <tag Name="staticFaction1" Value="Sivilao,hate,distracting their raid parties" />
     <xtagGrammar Proper="true" />
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
   </object>
