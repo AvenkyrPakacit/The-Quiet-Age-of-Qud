@@ -1422,6 +1422,28 @@ What stories does this elder drek have to tell?" />
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
   </object>
 
+  <object Name="TQAQ_Ukerakah" Inherits="TQAQ_Drekir_Fighter_Temperate">
+    <part Name="Render" DisplayName="Ukerakah" ColorString="&amp;W"/>
+    <part Name="Brain" Factions="TQAQ_Temperate_Clans_Drekir-100" />
+    <part Name="Description" Short="Yellow scales and rounded ears mark the drek with curiosity.
+Strong and bold, she stands ready to challenge even the strongest Dralk.
+Be it bronze or yatal, she forges the strongest gear she knows." />
+    <part Name="ConversationScript" ConversationID="TQAQ_Ukerakah_Dialogue" />
+    <part Name="GenericInventoryRestocker" Table="TQAQ_EldimorEquipmentSmith" />
+	  <tag Name="Gender" Value="female" />
+    <stat Name="Level" Value="25" />
+    <stat Name="Hitpoints" Value="125" />
+    <tag Name="Role" Value="NPC" />
+    <part Name="GivesRep" />
+    <tag Name="staticFaction3" Value=",dislike,refusing to forge equipment for them" />
+    <tag Name="staticFaction2" Value=",friend,forging equipment for them" />
+    <tag Name="staticFaction1" Value="Sivilao,hate,slaying members of their raid parties" />
+    <xtagGrammar Proper="true" />
+    <xtagWaterRitual NoJoin="true" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+  </object>
+
   <object Name="TQAQ_Yattraya" Inherits="TQAQ_Dralkir_Peltast">
     <part Name="Render" DisplayName="Yattraya"/>
 	  <part Name="Brain" Factions="Eldimor-100" />

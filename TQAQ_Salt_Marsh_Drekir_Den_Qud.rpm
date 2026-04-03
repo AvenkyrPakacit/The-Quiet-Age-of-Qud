@@ -431,7 +431,7 @@
     <object Name="DirtFloor"></object>
   </cell>
   <cell X="21" Y="3">
-    <object Name="DirtFloor"></object>
+    <object Name="TQAQ_Ukerakah"></object>
   </cell>
   <cell X="22" Y="3">
     <object Name="DirtFloor"></object>

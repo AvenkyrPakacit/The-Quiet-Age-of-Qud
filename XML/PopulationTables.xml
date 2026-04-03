@@ -739,6 +739,20 @@
     </group>
   </population>
 
+  <population Name="TQAQ_EldimorWeaponSmith">
+    <group Name="Items" Style="pickeach">
+      <table Name="TQAQ_Weapons_Peltast" />
+      <table Name="TQAQ_Weapons_Melee" />
+    </group>
+  </population>
+
+  <population Name="TQAQ_EldimorEquipmentSmith">
+    <group Name="Items" Style="pickeach">
+      <table Name="TQAQ_EldimorWeaponSmith" />
+      <table Name="StartingGear_EldimorArmourMetal" />
+    </group>
+  </population>
+
   <population Name="TQAQ_Weapons_Peltast_Bronze">
     <group Name="Items" Style="pickeach">
       <object Blueprint="TQAQ_ThrowingSpear_Bronze" Number="4-6" />
@@ -764,6 +778,7 @@
     <group Name="Items" Style="pickone">
       <object Blueprint="Mace2" Number="1" />
       <object Blueprint="TQAQ_Spear_Bronze" Number="1" />
+      <object Blueprint="TQAQ_Spear_Yatal" Number="1" />
       <object Blueprint="Battle Axe" Number="1" />
       <object Blueprint="Long Sword" Number="1" />
     </group>
