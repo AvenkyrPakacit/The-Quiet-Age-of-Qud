@@ -5,10 +5,10 @@
     <part Name="Render"
       DisplayName="The Dolkara Den"
       Tile="Terrain/sw_joppa.bmp"
-      ColorString="&amp;G^k"
+      ColorString="&amp;w^k"
       DetailColor="g">
     </part>
-    <part Name="Description" Short="touching the salt desert, and in the watervine bloom. ."></part>
+    <part Name="Description" Short="touching the salt desert, and in the watervine bloom. A den of drekir lay."></part>
     <tag Name="NoBiomes" Value="1"></tag>
     <tag Name="OverlayColor" Value="&amp;W"></tag>
   </object>
