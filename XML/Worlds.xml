@@ -1,0 +1,19 @@
+<worlds>
+
+  <world Name="JoppaWorld" Load="Merge">
+    <cell Name="The Dolkara Den" Inherits="WatervineCell"
+          ApplyTo="TQAQ_Salt_Marsh_Drekir_Den_Qud"
+          Mutable="false" > <!--sets whether or not procgen functions here -->
+      <zone Level="10" x="0" y="0" Name="Drekir Den" NameContext="Joppa">
+        <builder Class="JoppaOutskirts"></builder>
+        <encounter Table="JoppaOutskirtsEncounters" Amount="minimum"></encounter>
+      </zone> <!-- this first part is borrowed from Joppa in this example -->
+      <zone Level="10" x="1" y="1" Name="The Dolkara Den" ProperName="true">
+        <map FileName="TQAQ_Salt_Marsh_Drekir_Den_Qud.rpm"></map> <!-- put this map file in your mod folder -->
+        <builder Class="Music" Track="MehmetsMorning" Chance="100"></builder>
+      </zone>
+      <!-- more zones such as underground could be added here -->
+    </cell>
+  </world>
+
+</worlds>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Width="80" Hight="25">
+  <cell X="7" Y="21">
+    <object Name="TQAQ_Salt_Marsh_Drekir_Den_Qud"></object>
+  </cell>
+
+</Map>
