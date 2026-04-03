@@ -401,6 +401,14 @@
     </group>
   </population>
 
+  <population Name="TQAQ_Mavotur_Hero_Sivilao">
+    <group Name="Creatures" Style="pickone">
+      <object Chance="75" Number="1" Blueprint="TQAQ_Mavotur_Librarian_Hero_Sivilao" />
+      <object Chance="25" Number="1" Blueprint="TQAQ_Mavotur_Bard_Hero_Sivilao" />
+      <object Chance="15" Number="1" Blueprint="TQAQ_Mavotur_Commander_Hero_Sivilao" />
+    </group>
+  </population>
+
   <population Name="TQAQ_TemperateDrekir">
     <group Name="Creatures" Style="pickeach">
       <object Chance="100" Number="1-3" Blueprint="TQAQ_Drekir_Temperate" />
@@ -528,10 +536,10 @@
 
   <population Name="TQAQ_Mavotur_Sivilao">
     <group Name="Creatures" Style="pickeach">
-      <object Chance="100" Number="1-3" Blueprint="TQAQ_Mavotur" />
-      <object Chance="75" Number="1-2" Blueprint="TQAQ_Mavotur_Librarian" />
-      <object Chance="25" Number="1" Blueprint="TQAQ_Mavotur_Bard" />
-      <object Chance="15" Number="1" Blueprint="TQAQ_Mavotur_Commander" />
+      <object Chance="100" Number="1-3" Blueprint="TQAQ_Mavotur_Sivilao" />
+      <object Chance="75" Number="1-2" Blueprint="TQAQ_Mavotur_Librarian_Sivilao" />
+      <object Chance="25" Number="1" Blueprint="TQAQ_Mavotur_Bard_Sivilao" />
+      <object Chance="15" Number="1" Blueprint="TQAQ_Mavotur_Commander_Sivilao" />
       <table Name="HumanoidEnvironmentFeatures" Chance="25" />
       <table Name="TQAQ_Mavotur_Hero" Chance="2" />
       <table Name="TQAQ_Mavotur" Chance="10" />
@@ -718,6 +726,18 @@
   </population>
 
   <!--Equipment-->
+
+  <population Name="TQAQ_EldimorMageGear">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Common" />
+      <object Blueprint="TQAQ_ManaWaterskin" Number="1" />
+      <table Name="Injectors" Number="2-6" />
+      <table Name="Ingredients1" Number="2-5" />
+      <table Name="Cookbooks" Number="1" />
+      <table Number="0-2" Name="BooksAndRandomBooks" />
+      <object Blueprint="Witchwood Bark" Number="3-4" />
+    </group>
+  </population>
 
   <population Name="TQAQ_Weapons_Peltast_Bronze">
     <group Name="Items" Style="pickeach">
@@ -1045,34 +1065,22 @@
 
   <population Name="StartingGear_EldimorMage">
     <group Name="Items" Style="pickeach">
-      <table Name="StartingGear_Common" />
       <object Blueprint="HalfFullWaterskin" Number="1" />
-      <object Blueprint="TQAQ_ManaWaterskin" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
       <object Blueprint="Walking Stick" Number="1" />
       <object Blueprint="Cloth Robe" Number="1" />
-      <table Name="Injectors" Number="2-6" />
-      <table Name="Ingredients1" Number="2-5" />
-      <table Name="Cookbooks" Number="1" />
-      <table Number="0-2" Name="BooksAndRandomBooks" />
-      <object Blueprint="Witchwood Bark" Number="3-4" />
+      <table Name="TQAQ_EldimorMageGear" Number="1" />
     </group>
   </population>
 
   <population Name="StartingGear_EldimorMage_Stal">
     <group Name="Items" Style="pickeach">
-      <table Name="StartingGear_Common" />
       <object Blueprint="HalfFullWaterskin" Number="1" />
-      <object Blueprint="TQAQ_ManaWaterskin" Number="1" />
       <object Blueprint="Bear Jerky" Number="8-10" />
       <object Blueprint="Walking Stick" Number="1" />
   	  <table Name="StartingGear_Stal_Armour" />
       <table Name="StartingGear_Stal_Shield_Choice" />
-      <table Name="Injectors" Number="2-6" />
-      <table Name="Ingredients1" Number="2-5" />
-      <table Name="Cookbooks" Number="1" />
-      <table Number="0-2" Name="BooksAndRandomBooks" />
-      <object Blueprint="Witchwood Bark" Number="3-4" />
+      <table Name="TQAQ_EldimorMageGear" Number="1" />
     </group>
   </population>
 

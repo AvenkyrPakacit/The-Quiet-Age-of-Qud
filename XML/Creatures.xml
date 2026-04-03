@@ -205,6 +205,7 @@
 	  <builder Name="TQAQ_EldimorHeroMountain" />
     <part Name="TQAQ_EldimorHeroDrekirClanAlpine" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Peltast_Alpine" Inherits="TQAQ_Drekir_Alpine">
@@ -223,6 +224,7 @@
     <builder Name="TQAQ_EldimorHeroMountain" />
     <part Name="TQAQ_EldimorHeroDrekirClanAlpine" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Fighter_Alpine" Inherits="TQAQ_Drekir_Alpine">
@@ -244,6 +246,7 @@
     <builder Name="TQAQ_EldimorHeroMountain" />
     <part Name="TQAQ_EldimorHeroDrekirClanAlpine" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Archer_Alpine" Inherits="TQAQ_Drekir_Alpine">
@@ -261,6 +264,7 @@
     <builder Name="TQAQ_EldimorHeroMountain" />
     <part Name="TQAQ_EldimorHeroDrekirClanAlpine" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Mage_Alpine" Inherits="TQAQ_Drekir_Alpine">
@@ -268,6 +272,7 @@
   	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
   	<stat Name="Ego" Boost="3" />
   	<skill Name="CookingAndGathering" />
+    <part Name="GenericInventoryRestocker" Table="TQAQ_EldimorMageGear" Chance="71" />
   	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
   </object>
 
@@ -277,6 +282,7 @@
     <builder Name="TQAQ_EldimorHeroMountain" />
     <part Name="TQAQ_EldimorHeroDrekirClanAlpine" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Jezailer_Alpine" Inherits="TQAQ_Drekir_Alpine">
@@ -294,6 +300,7 @@
     <builder Name="TQAQ_EldimorHeroMountain" />
     <part Name="TQAQ_EldimorHeroDrekirClanAlpine" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Hiker_Alpine" Inherits="TQAQ_Ormer_Alpine">
@@ -310,6 +317,7 @@
     <builder Name="TQAQ_EldimorHeroMountain" />
     <part Name="TQAQ_EldimorHeroOrmerClanAlpine" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Slinger_Alpine" Inherits="TQAQ_Ormer_Alpine">
@@ -328,6 +336,7 @@
     <builder Name="TQAQ_EldimorHeroMountain" />
     <part Name="TQAQ_EldimorHeroOrmerClanAlpine" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Warrior_Alpine" Inherits="TQAQ_Ormer_Alpine">
@@ -349,6 +358,7 @@
     <builder Name="TQAQ_EldimorHeroMountain" />
     <part Name="TQAQ_EldimorHeroOrmerClanAlpine" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Axe_Thrower_Alpine" Inherits="TQAQ_Ormer_Alpine">
@@ -367,6 +377,7 @@
     <builder Name="TQAQ_EldimorHeroMountain" />
     <part Name="TQAQ_EldimorHeroOrmerClanAlpine" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Mage_Alpine" Inherits="TQAQ_Ormer_Alpine">
@@ -383,6 +394,7 @@
     <builder Name="TQAQ_EldimorHeroMountain" />
     <part Name="TQAQ_EldimorHeroOrmerClanAlpine" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Cannoneer_Alpine" Inherits="TQAQ_Ormer_Alpine">
@@ -400,6 +412,7 @@
     <builder Name="TQAQ_EldimorHeroMountain" />
     <part Name="TQAQ_EldimorHeroOrmerClanAlpine" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <!--Arid-->
@@ -418,6 +431,7 @@
 	  <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroDrekirClanArid" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Peltast_Arid" Inherits="TQAQ_Drekir_Arid">
@@ -436,6 +450,7 @@
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroDrekirClanArid" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Fighter_Arid" Inherits="TQAQ_Drekir_Arid">
@@ -457,6 +472,7 @@
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroDrekirClanArid" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Archer_Arid" Inherits="TQAQ_Drekir_Arid">
@@ -474,6 +490,7 @@
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroDrekirClanArid" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Mage_Arid" Inherits="TQAQ_Drekir_Arid">
@@ -481,6 +498,7 @@
   	<part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
 	  <stat Name="Ego" Boost="3" />
 	  <skill Name="CookingAndGathering" />
+    <part Name="GenericInventoryRestocker" Table="TQAQ_EldimorMageGear" Chance="71" />
 	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
   </object>
 
@@ -490,6 +508,7 @@
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroDrekirClanArid" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Jezailer_Arid" Inherits="TQAQ_Drekir_Arid">
@@ -507,6 +526,7 @@
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroDrekirClanArid" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Hiker_Arid" Inherits="TQAQ_Ormer_Arid">
@@ -523,6 +543,7 @@
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroOrmerClanArid" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Slinger_Arid" Inherits="TQAQ_Ormer_Arid">
@@ -541,6 +562,7 @@
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroOrmerClanArid" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Warrior_Arid" Inherits="TQAQ_Ormer_Arid">
@@ -562,6 +584,7 @@
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroOrmerClanArid" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Axe_Thrower_Arid" Inherits="TQAQ_Ormer_Arid">
@@ -580,6 +603,7 @@
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroOrmerClanArid" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Mage_Arid" Inherits="TQAQ_Ormer_Arid">
@@ -596,6 +620,7 @@
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroOrmerClanArid" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Cannoneer_Arid" Inherits="TQAQ_Ormer_Arid">
@@ -613,6 +638,7 @@
     <builder Name="TQAQ_EldimorHeroArid" />
     <part Name="TQAQ_EldimorHeroOrmerClanArid" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <!--Sivilao-->
@@ -821,6 +847,7 @@
   	<builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Peltast_Temperate" Inherits="TQAQ_Drekir_Temperate">
@@ -839,6 +866,7 @@
     <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Fighter_Temperate" Inherits="TQAQ_Drekir_Temperate">
@@ -860,6 +888,7 @@
     <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Archer_Temperate" Inherits="TQAQ_Drekir_Temperate">
@@ -877,6 +906,7 @@
     <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Mage_Temperate" Inherits="TQAQ_Drekir_Temperate">
@@ -884,6 +914,7 @@
 	  <part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
 	  <stat Name="Ego" Boost="3" />
 	  <skill Name="CookingAndGathering" />
+    <part Name="GenericInventoryRestocker" Table="TQAQ_EldimorMageGear" Chance="71" />
 	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
   </object>
 
@@ -893,6 +924,7 @@
     <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Jezailer_Temperate" Inherits="TQAQ_Drekir_Temperate">
@@ -910,6 +942,7 @@
     <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroDrekirClanTemperate" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Hiker_Temperate" Inherits="TQAQ_Ormer_Temperate">
@@ -926,6 +959,7 @@
     <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Slinger_Temperate" Inherits="TQAQ_Ormer_Temperate">
@@ -944,6 +978,7 @@
     <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Warrior_Temperate" Inherits="TQAQ_Ormer_Temperate">
@@ -965,6 +1000,7 @@
     <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Axe_Thrower_Temperate" Inherits="TQAQ_Ormer_Temperate">
@@ -983,6 +1019,7 @@
     <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Mage_Temperate" Inherits="TQAQ_Ormer_Temperate">
@@ -999,6 +1036,7 @@
     <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Cannoneer_Temperate" Inherits="TQAQ_Ormer_Temperate">
@@ -1016,6 +1054,7 @@
     <builder Name="TQAQ_EldimorHeroTemperate" />
     <part Name="TQAQ_EldimorHeroOrmerClanTemperate" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <!--Tropical-->
@@ -1034,6 +1073,7 @@
   	<builder Name="TQAQ_EldimorHeroTropical" />
     <part Name="TQAQ_EldimorHeroDrekirClanTropical" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Peltast_Tropical" Inherits="TQAQ_Drekir_Tropical">
@@ -1052,6 +1092,7 @@
     <builder Name="TQAQ_EldimorHeroTropical" />
     <part Name="TQAQ_EldimorHeroDrekirClanTropical" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Fighter_Tropical" Inherits="TQAQ_Drekir_Tropical">
@@ -1073,6 +1114,7 @@
     <builder Name="TQAQ_EldimorHeroTropical" />
     <part Name="TQAQ_EldimorHeroDrekirClanTropical" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Archer_Tropical" Inherits="TQAQ_Drekir_Tropical">
@@ -1090,6 +1132,7 @@
     <builder Name="TQAQ_EldimorHeroTropical" />
     <part Name="TQAQ_EldimorHeroDrekirClanTropical" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Mage_Tropical" Inherits="TQAQ_Drekir_Tropical">
@@ -1097,6 +1140,7 @@
 	  <part Name="RandomMutations" Mental="4-5" MentalLevel="1-4" />
 	  <stat Name="Ego" Boost="3" />
 	  <skill Name="CookingAndGathering" />
+    <part Name="GenericInventoryRestocker" Table="TQAQ_EldimorMageGear" Chance="71" />
 	  <tag Name="InventoryPopulationTable" Value="StartingGear_EldimorMage" />
   </object>
 
@@ -1106,6 +1150,7 @@
     <builder Name="TQAQ_EldimorHeroTropical" />
     <part Name="TQAQ_EldimorHeroDrekirClanTropical" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Drekir_Jezailer_Tropical" Inherits="TQAQ_Drekir_Tropical">
@@ -1123,6 +1168,7 @@
     <builder Name="TQAQ_EldimorHeroTropical" />
     <part Name="TQAQ_EldimorHeroDrekirClanTropical" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Hiker_Tropical" Inherits="TQAQ_Ormer_Tropical">
@@ -1139,6 +1185,7 @@
     <builder Name="TQAQ_EldimorHeroTropical" />
     <part Name="TQAQ_EldimorHeroOrmerClanTropical" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Slinger_Tropical" Inherits="TQAQ_Ormer_Tropical">
@@ -1157,6 +1204,7 @@
     <builder Name="TQAQ_EldimorHeroTropical" />
     <part Name="TQAQ_EldimorHeroOrmerClanTropical" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Warrior_Tropical" Inherits="TQAQ_Ormer_Tropical">
@@ -1178,6 +1226,7 @@
     <builder Name="TQAQ_EldimorHeroTropical" />
     <part Name="TQAQ_EldimorHeroOrmerClanTropical" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Axe_Thrower_Tropical" Inherits="TQAQ_Ormer_Tropical">
@@ -1196,6 +1245,7 @@
     <builder Name="TQAQ_EldimorHeroTropical" />
     <part Name="TQAQ_EldimorHeroOrmerClanTropical" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Mage_Tropical" Inherits="TQAQ_Ormer_Tropical">
@@ -1212,6 +1262,7 @@
     <builder Name="TQAQ_EldimorHeroTropical" />
     <part Name="TQAQ_EldimorHeroOrmerClanTropical" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
 
   <object Name="TQAQ_Ormer_Cannoneer_Tropical" Inherits="TQAQ_Ormer_Tropical">
@@ -1229,9 +1280,14 @@
     <builder Name="TQAQ_EldimorHeroTropical" />
     <part Name="TQAQ_EldimorHeroOrmerClanTropical" />
     <part Name="GivesRep" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
   </object>
-  
+
   <!--Mavotur-->
+
+  <object Name="TQAQ_Mavotur_Sivilao" Inherits="TQAQ_Mavotur">
+	  <part Name="Brain" Factions="Sivilao-100" />
+  </object>
 
   <object Name="TQAQ_Mavotur_Librarian" Inherits="TQAQ_Mavotur">
     <part Name="Render" DisplayName="Mavot Librarian"/>
@@ -1243,6 +1299,14 @@
   <object Name="TQAQ_Mavotur_Librarian_Hero" Inherits="TQAQ_Mavotur_Librarian" >
     <part Name="Render" DisplayName="Mavot Hero" ColorString="&amp;M" />
     <part Name="GivesRep" />
+  </object>
+
+  <object Name="TQAQ_Mavotur_Librarian_Sivilao" Inherits="TQAQ_Mavotur_Librarian">
+	  <part Name="Brain" Factions="Sivilao-100" />
+  </object>
+
+  <object Name="TQAQ_Mavotur_Librarian_Hero_Sivilao" Inherits="TQAQ_Mavotur_Librarian_Hero">
+	  <part Name="Brain" Factions="Sivilao-100" />
   </object>
 
   <object Name="TQAQ_Mavotur_Bard" Inherits="TQAQ_Mavotur">
@@ -1259,6 +1323,14 @@
     <part Name="GivesRep" />
   </object>
 
+  <object Name="TQAQ_Mavotur_Bard_Sivilao" Inherits="TQAQ_Mavotur_Bard">
+	  <part Name="Brain" Factions="Sivilao-100" />
+  </object>
+
+  <object Name="TQAQ_Mavotur_Bard_Hero_Sivilao" Inherits="TQAQ_Mavotur_Bard_Hero">
+	  <part Name="Brain" Factions="Sivilao-100" />
+  </object>
+
   <object Name="TQAQ_Mavotur_Commander" Inherits="TQAQ_Mavotur">
     <part Name="Render" DisplayName="Mavot Commander" Tile="Creatures/MavotCommander.png"/>
 	  <stat Name="Strength" Boost="1" />
@@ -1273,6 +1345,14 @@
     <part Name="GivesRep" />
   </object>
 
+  <object Name="TQAQ_Mavotur_Commander_Sivilao" Inherits="TQAQ_Mavotur_Commander">
+	  <part Name="Brain" Factions="Sivilao-100" />
+  </object>
+
+  <object Name="TQAQ_Mavotur_Commander_Hero_Sivilao" Inherits="TQAQ_Mavotur_Commander_Hero">
+	  <part Name="Brain" Factions="Sivilao-100" />
+  </object>
+
   <!--NPCs-->
 
   <object Name="TQAQ_Da_Naersean" Inherits="TQAQ_Drekir_Mage_Temperate">
@@ -1281,15 +1361,18 @@
     <part Name="Description" Short="Azure scales wit touches of charcoal pigment caress the wise mages.
 A soft hum of an ancient mantra, resonates from their jaws." />
     <part Name="ConversationScript" ConversationID="TQAQ_Da_Naersean_Dialogue" />
+    <part Name="GenericInventoryRestocker" Table="TQAQ_EldimorMageGear" />
 	  <tag Name="Gender" Value="plural" />
     <stat Name="Level" Value="25" />
     <stat Name="Hitpoints" Value="125" />
+    <tag Name="Role" Value="NPC" />
     <part Name="GivesRep" />
     <tag Name="staticFaction3" Value=",dislike,they're grumpy attitude" />
     <tag Name="staticFaction2" Value=",friend,elementalizing mana for them" />
     <tag Name="staticFaction1" Value=",dislike,refusing to elementalize mana for them" />
     <xtagGrammar Proper="true" />
     <xtagWaterRitual NoJoin="true" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
   </object>
 
@@ -1308,6 +1391,7 @@ Her stance is fours between twos, together in a momentary stand." />
     <stat Name="ColdResistance" Value="100" />
     <stat Name="Level" Value="50" />
     <stat Name="Hitpoints" Value="250" />
+    <tag Name="Role" Value="NPC" />
     <part Name="GivesRep" />
     <tag Name="staticFaction3" Value=",dislike,witchery" />
     <tag Name="staticFaction2" Value=",friend,saving a friend's life" />
@@ -1326,6 +1410,7 @@ What stories does this elder drek have to tell?" />
 	  <tag Name="Gender" Value="male" />
     <stat Name="Level" Value="25" />
     <stat Name="Hitpoints" Value="125" />
+    <tag Name="Role" Value="NPC" />
 		<mutation Name="Amnesia" />
     <part Name="GivesRep" />
     <tag Name="staticFaction3" Value=",dislike,his elden scales" />
@@ -1333,6 +1418,7 @@ What stories does this elder drek have to tell?" />
     <tag Name="staticFaction1" Value="Sivilao,hate,distracting their raid parties" />
     <xtagGrammar Proper="true" />
     <xtagWaterRitual NoJoin="true" />
+    <tag Name="NoHateFactions" Value="Eldimor" />
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
   </object>
 
@@ -1349,6 +1435,7 @@ What mayest be their curious passion?" />
 	  <tag Name="Gender" Value="female" />
     <stat Name="Level" Value="50" />
     <stat Name="Hitpoints" Value="250" />
+    <tag Name="Role" Value="NPC" />
     <part Name="GivesRep" />
     <tag Name="staticFaction3" Value=",dislike,her fangs" />
     <tag Name="staticFaction2" Value=",friend,freeing a friend from slavery" />
