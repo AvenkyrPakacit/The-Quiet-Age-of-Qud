@@ -3,21 +3,22 @@
   <world Name="JoppaWorld" Load="Merge">
     <cell Name="The Dolkara Den" Inherits="WatervineCell"
           ApplyTo="TQAQ_Salt_Marsh_Drekir_Den_Qud"
-          Mutable="false" > <!--sets whether or not procgen functions here -->
-      <zone Level="5-9" x="0-2" y="0-2" Name="sky above salt marsh" IndefiniteArticle="the">
+          Mutable="false" >
+      <zone Level="5-10" x="0-2" y="0-2" Name="sky above salt marsh" IndefiniteArticle="the">
         <builder Class="Sky"></builder>
       </zone>
-      <zone Level="10" x="0-2" y="0-2" Name="Drekir Den" NameContext="Salt Marsh Drekir Den">
+      <zone Level="15" x="0-2" y="0-2" Name="Drekir Den" NameContext="Salt Marsh Drekir Den">
         <builder Class="Watervine"></builder>
         <postbuilder Class="ZoneTemplate:SaltMarsh"></postbuilder>
         <builder Class="FactionEncounters" Population="SafeFactionPopulation"></builder>
         <music Track="Music/Deep Dawn" />
-      </zone> <!-- this first part is borrowed from Joppa in this example -->
-      <zone Level="10" x="1" y="1" Name="The Dolkara Den" ProperName="true">
-        <map FileName="TQAQ_Salt_Marsh_Drekir_Den_Qud.rpm"></map> <!-- put this map file in your mod folder -->
+      </zone>
+      <zone Level="20" x="1" y="1" Name="The Dolkara Den" ProperName="true">
+        <builder Class="Watervine"></builder>
+        <map FileName="TQAQ_Salt_Marsh_Drekir_Den_Qud.rpm"></map>
         <builder Class="Music" Track="MehmetsMorning" Chance="100"></builder>
       </zone> 
-      <zone Level="11-15" x="0-2" y="0-2" Name="subterranean salt marsh">
+      <zone Level="10-15" x="0-2" y="0-2" Name="subterranean salt marsh">
         <builder Class="Strata"></builder>
         <builder Class="Watervine" Underground="true"></builder>
         <builder Class="ZoneTemplate:WatervineCaves"></builder>
