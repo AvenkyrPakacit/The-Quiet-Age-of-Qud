@@ -4,7 +4,7 @@
   <object Name="TQAQ_Salt_Marsh_Drekir_Den_Qud" Inherits="Terrain">
     <part Name="Render"
       DisplayName="The Dolkara Den"
-      Tile="Terrain/sw_joppa.bmp"
+      Tile="Terrain/TQAQ_SaltMarsh_Den.png"
       ColorString="&amp;w^k"
       DetailColor="g">
     </part>
