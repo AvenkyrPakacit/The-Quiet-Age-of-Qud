@@ -57,8 +57,8 @@ namespace XRL.World.ObjectBuilders
             Mutations mutations = GO.RequirePart<Mutations>();
             if (epithet == "the Seer")
             {
-                GO.BoostStat("Ego", 3);
-                GO.BoostStat("Intelligence", 3);
+                GO.BoostStat("Ego", 1);
+                GO.BoostStat("Intelligence", 1);
                 if (!mutations.HasMutation("MentalMirror"))
                 {
                     mutations.AddMutation(new World.Parts.Mutation.MentalMirror(), 5);
@@ -67,8 +67,8 @@ namespace XRL.World.ObjectBuilders
             else
             if (epithet == "the Denhead")
             {
-                GO.BoostStat("Ego", 2);
-                GO.BoostStat("Strength", 3);
+                GO.BoostStat("Ego", 1);
+                GO.BoostStat("Strength", 1);
                 if (!mutations.HasMutation("TwoHearted"))
                 {
                     mutations.AddMutation(new World.Parts.Mutation.TwoHearted(), 1);
@@ -77,8 +77,8 @@ namespace XRL.World.ObjectBuilders
             else
             if (epithet == "the Champion")
             {
-                GO.BoostStat("Agility", 2);
-                GO.BoostStat("Strength", 3);
+                GO.BoostStat("Agility", 1);
+                GO.BoostStat("Strength", 1);
                 if (!mutations.HasMutation("AdrenalControl2"))
                 {
                     mutations.AddMutation(new World.Parts.Mutation.AdrenalControl2(), 1);
@@ -87,7 +87,7 @@ namespace XRL.World.ObjectBuilders
             else
             if (epithet == "the Hiker")
             {
-                GO.BoostStat("Intelligence", 3);
+                GO.BoostStat("Intelligence", 1);
                 if (!mutations.HasMutation("Regeneration"))
                 {
                     mutations.AddMutation(new World.Parts.Mutation.Regeneration(), 1);
@@ -96,8 +96,8 @@ namespace XRL.World.ObjectBuilders
             else
             if (epithet == "the Oracle")
             {
-                GO.BoostStat("Ego", 3);
-                GO.BoostStat("Intelligence", 2);
+                GO.BoostStat("Ego", 1);
+                GO.BoostStat("Intelligence", 1);
                 if (!mutations.HasMutation("Precognition"))
                 {
                     mutations.AddMutation(new World.Parts.Mutation.Precognition(), 1);
@@ -106,7 +106,7 @@ namespace XRL.World.ObjectBuilders
             else
             if (epithet == "the Shaman")
             {
-                GO.BoostStat("Ego", 3);
+                GO.BoostStat("Ego", 1);
                 if (!mutations.HasMutation("WillForce"))
                 {
                     mutations.AddMutation(new World.Parts.Mutation.WillForce(), 1);
@@ -115,7 +115,7 @@ namespace XRL.World.ObjectBuilders
             else
             if (epithet == "the Wicca")
             {
-                GO.BoostStat("Ego", 3);
+                GO.BoostStat("Ego", 1);
                 if (!mutations.HasMutation("Pyrokinesis"))
                 {
                     mutations.AddMutation(new World.Parts.Mutation.Pyrokinesis(), 4);
@@ -125,7 +125,7 @@ namespace XRL.World.ObjectBuilders
             if (epithet == "the Pirate King")
             {
                 GO.BoostStat("Ego", 1);
-                GO.BoostStat("Willpower", 2);
+                GO.BoostStat("Willpower", 1);
                 if (!mutations.HasMutation("Horns"))
                 {
                     mutations.AddMutation(new World.Parts.Mutation.Horns(), 4);
@@ -135,20 +135,20 @@ namespace XRL.World.ObjectBuilders
             {
                 if (title.Contains("Clan Greensplit"))
                 {
-                    GO.BoostStat("Agility", 3);
-                    GO.BoostStat("Toughness", 2);
+                    GO.BoostStat("Agility", 1);
+                    GO.BoostStat("Toughness", 1);
                 }
                 if (title.Contains("Clan Basin"))
                 {
-                    GO.BoostStat("Strength", 2);
+                    GO.BoostStat("Strength", 1);
                 }
                 if (title.Contains("Clan Riverland"))
                 {
-                    GO.BoostStat("Agility", 3);
+                    GO.BoostStat("Agility", 1);
                 }
                 if (title.Contains("Clan Yatyl"))
                 {
-                    GO.BoostStat("Intelligence", 3);
+                    GO.BoostStat("Intelligence", 1);
                 }
             }
             GO.MultiplyStat("Hitpoints", 2);
