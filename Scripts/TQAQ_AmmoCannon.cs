@@ -18,15 +18,11 @@ namespace XRL.World.Parts
             return true;
         }
 
-        public override bool AllowStaticRegistration()
+        public override void Register(GameObject Object, IEventRegistrar Registrar)
         {
-            return true;
-        }
-
-        public override void Register(GameObject Object)
-        {
-            Object.RegisterPartEvent(this, "QueryEquippableList");
-            Object.RegisterPartEvent(this, "GetProjectileObject");
+            Registrar.Register("QueryEquippableList");
+            Registrar.Register("GetProjectileObject");
+            base.Register(Object, Registrar);
         }
 
         public override bool FireEvent(Event E)
