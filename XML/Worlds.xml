@@ -31,7 +31,7 @@
 
   <!--TQAQ_Plane_Main-->
 
-  <world Name="TQAQ_Raseke" ZoneFactory="TQAQ_Plane_Main_ZoneFactory" DisplayName="Raseke">
+  <world Name="TQAQ_Raseke" ZoneFactory="TQAQ_Plane_Main_ZoneFactory" Map="TQAQ_Raseke_WorldMap.rpm" AmbientBed="amb_worldMap_sky"  DisplayName="Raseke">
     <cell Name="TQAQ_DefaultRasekeCell" Inherits="" ApplyTo="*Default">
       <zone Level="0-9" x="0-2" y="0-2" Name="open sky" IndefiniteArticle="the" GroundLiquid="" HasWeather="true" WindSpeed="0-80" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="500-6000">
         <builder Class="Sky"></builder>
@@ -67,6 +67,108 @@
         <builder Class="PossibleCryotube"></builder>
         <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
         <music Track="Music/Cave Addendum" />
+      </zone>
+    </cell>
+    <cell Name="TQAQ_DesertCanyon" Inherits="TQAQ_DefaultRasekeCell" ApplyTo="TerrainDesertCanyon">
+      <zone Level="5-9" x="0-2" y="0-2" Name="sky above desert canyon" IndefiniteArticle="the">
+        <builder Class="Sky"></builder>
+      </zone>
+      <zone Level="10" x="0-2" y="0-2" Name="desert canyon" HasWeather="true" WindSpeed="0-60" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="50-3000" AmbientBed="Sounds/Ambiences/amb_bed_canyons">
+        <builder Class="Hills"></builder>
+        <postbuilder Class="ZoneTemplate:DesertCanyon"></postbuilder>        
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Deep Dawn" />
+      </zone>
+      <zone Level="11-15" x="0-2" y="0-2" Name="subterranean desert canyon">
+        <builder Class="Strata"></builder>
+        <builder Class="ZoneTemplate:DesertCanyonCaves"></builder>
+        <builder Class="PossibleCryotube"></builder>
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Deep Dawn" />
+      </zone>
+    </cell>
+    <cell Name="TQAQ_FlowerfieldCell" Inherits="TQAQ_DefaultRasekeCell" ApplyTo="TerrainFlowerfields">
+      <zone Level="5-9" x="0-2" y="0-2" Name="sky above flower fields" IndefiniteArticle="the" AmbientBed="Sounds/Ambiences/amb_bed_flowerFields">
+        <builder Class="Sky"></builder>
+      </zone>
+      <zone Level="10" x="0-2" y="0-2" Name="flower fields" HasWeather="true" WindSpeed="0-40" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="200-3000" AmbientBed="Sounds/Ambiences/amb_bed_flowerFields">
+        <builder Class="Flowerfields"></builder>
+        <builder Class="ZoneTemplate:FlowerFields"></builder>
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Deep Dawn" />
+      </zone>
+      <zone Level="11-15" x="0-2" y="0-2" Name="subterranean flower fields" HasWeather="true" WindSpeed="0-20" WindDirections="N,NW,W,SW,S,SE,E,NE" WindDuration="200-3000">
+        <builder Class="Strata"></builder>
+        <builder Class="Flowerfields" Underground="true"></builder>
+        <builder Class="ZoneTemplate:FlowerfieldCaves"></builder>
+        <builder Class="PossibleCryotube"></builder>
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Deep Dawn" />
+      </zone>
+    </cell>
+    <cell Name="TQAQ_Mountains" Inherits="TQAQ_DefaultRasekeCell" ApplyTo="TerrainMountains">
+      <zone Level="5-9" x="0-2" y="0-2" Name="sky above mountains" IndefiniteArticle="the" AmbientBed="Sounds/Ambiences/amb_bed_mountains">
+        <builder Class="Sky"></builder>
+      </zone>
+      <zone Level="10" x="0-2" y="0-2" Name="mountains" HasWeather="true" WindSpeed="0-100" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="50-3000" AmbientBed="Sounds/Ambiences/amb_bed_mountains">
+        <builder Class="Hills"></builder>
+        <postbuilder Class="ZoneTemplate:Mountains"></postbuilder>        
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Overworld" />
+      </zone>
+      <zone Level="11-15" x="0-2" y="0-2" Name="subterranean mountains">
+        <builder Class="Strata"></builder>
+        <builder Class="ZoneTemplate:MountainCaves"></builder>
+        <builder Class="PossibleCryotube"></builder>
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Overworld" />
+      </zone>
+    </cell>
+    <cell Name="TQAQ_Jungle" Inherits="TQAQ_DefaultRasekeCell" ApplyTo="TerrainJungle">
+      <zone Level="5-9" x="0-2" y="0-2" Name="sky above jungle" IndefiniteArticle="the">
+        <builder Class="Sky"></builder>
+      </zone>
+      <zone Level="10" x="0-2" y="0-2" Name="jungle" HasWeather="true" WindSpeed="0-60" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="50-3000" AmbientBed="Sounds/Ambiences/amb_bed_jungle">
+        <postbuilder Class="ZoneTemplate:Jungle"></postbuilder>        
+        <builder Class="JungleRuins" Chance="5"></builder>
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Overworld" />
+      </zone>
+      <zone Level="11-15" x="0-2" y="0-2" Name="subterranean jungle">
+        <builder Class="Strata"></builder>
+        <builder Class="ZoneTemplate:JungleCaves"></builder>
+        <builder Class="PossibleCryotube"></builder>
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Overworld" />
+      </zone>
+    </cell>
+    <cell Name="TQAQ_SaltDesertCell" Inherits="TQAQ_DefaultRasekeCell" ApplyTo="TerrainSaltdunes">
+      <zone Level="5-9" x="0-2" y="0-2" Name="sky above salt desert" IndefiniteArticle="the" AmbientBed="Sounds/Ambiences/amb_bed_saltDesert">
+        <builder Class="Sky"></builder>
+      </zone>
+      <zone Level="10" x="0-2" y="0-2" Name="salt desert" HasWeather="true" WindSpeed="0-100" WindDirections="NW,NW,W,W,SW" WindDuration="50-3000" AmbientBed="Sounds/Ambiences/amb_bed_saltDesert">
+        <builder Class="SaltDunes"></builder>
+        <postbuilder Class="ZoneTemplate:SaltDesert"></postbuilder>        
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Moghrayi Remembrance Circle" />
+      </zone>
+      <zone Level="11-15" x="0-2" y="0-2" Name="subterranean salt desert">
+        <builder Class="Strata"></builder>
+        <builder Class="ZoneTemplate:SaltDuneCaves"></builder>
+        <builder Class="PossibleCryotube"></builder>
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Moghrayi Remembrance Circle" />
+      </zone>
+    </cell>
+    <cell Name="TQAQ_SaltMarsh" Inherits="WatervineCell" ApplyTo="TerrainSaltmarsh">
+      <zone Level="5-9" x="0-2" y="0-2" Name="sky above salt marsh" IndefiniteArticle="the">
+        <builder Class="Sky"></builder>
+      </zone>
+      <zone Level="10" x="0-2" y="0-2" Name="salt marsh" HasWeather="true" WindSpeed="0-50" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="50-3000" AmbientBed="Sounds/Ambiences/amb_bed_marsh" AmbientSounds="amb_scatter_marsh_bird1,amb_scatter_marsh_bird2,amb_scatter_marsh_insect1,amb_scatter_marsh_insect2">
+        <builder Class="Watervine"></builder>
+        <postbuilder Class="ZoneTemplate:SaltMarsh"></postbuilder>        
+        <builder Class="FactionEncounters" Population="SafeFactionPopulation"></builder>
+        <music Track="Music/Deep Dawn" />
       </zone>
     </cell>
   </world>
