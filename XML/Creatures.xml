@@ -1358,7 +1358,7 @@
   <object Name="TQAQ_Da_Naersean" Inherits="TQAQ_Drekir_Mage_Temperate">
     <part Name="Render" DisplayName="Da Naersean" ColorString="&amp;B"/>
     <part Name="Brain" Factions="TQAQ_Temperate_Clans_Drekir-100" />
-    <part Name="Description" Short="Azure scales wit touches of charcoal pigment caress the wise mages.
+    <part Name="Description" Short="Azure scales with touches of charcoal pigment caress the wise mages.
 A soft hum of an ancient mantra, resonates from their jaws." />
     <part Name="ConversationScript" ConversationID="TQAQ_Da_Naersean_Dialogue" />
     <part Name="GenericInventoryRestocker" Table="TQAQ_EldimorMageGear" />
