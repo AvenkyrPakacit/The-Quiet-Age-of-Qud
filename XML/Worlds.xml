@@ -29,4 +29,46 @@
     </cell>
   </world>
 
+  <!--TQAQ_Plane_Main-->
+
+  <world Name="TQAQ_Raseke" ZoneFactory="TQAQ_Plane_Main_ZoneFactory" DisplayName="Raseke">
+    <cell Name="TQAQ_DefaultRasekeCell" Inherits="" ApplyTo="*Default">
+      <zone Level="0-9" x="0-2" y="0-2" Name="open sky" IndefiniteArticle="the" GroundLiquid="" HasWeather="true" WindSpeed="0-80" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="500-6000">
+        <builder Class="Sky"></builder>
+      </zone>
+      <zone Level="10" x="0-2" y="0-2" HasWeather="true" WindSpeed="0-60" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="50-3000">
+        <builder Class="EmptyGround"></builder>
+        <music Track="Music/Overworld" />
+      </zone>
+      <zone Level="11-20" x="0-2" y="0-2" Name="subterranean caves">
+        <builder Class="Strata"></builder>
+        <builder Class="ZoneTemplate:Caves"></builder>
+        <builder Class="PossibleCryotube"></builder>
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Binaural Concept" />
+      </zone>
+      <zone Level="21-30" x="0-2" y="0-2" Name="subterranean caves">
+        <builder Class="Strata"></builder>
+        <builder Class="ZoneTemplate:Caves"></builder>
+        <builder Class="PossibleCryotube"></builder>
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Binaural Concept" />
+      </zone>
+      <zone Level="31-40" x="0-2" y="0-2" Name="subterranean caves">
+        <builder Class="Strata"></builder>
+        <builder Class="ZoneTemplate:Caves"></builder>
+        <builder Class="PossibleCryotube"></builder>
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Binaural Concept" />
+      </zone>
+      <zone Level="41-49" x="0-2" y="0-2" Name="subterranean caves">
+        <builder Class="Strata"></builder>
+        <builder Class="ZoneTemplate:Caves"></builder>
+        <builder Class="PossibleCryotube"></builder>
+        <builder Class="FactionEncounters" Population="GenericFactionPopulation"></builder>
+        <music Track="Music/Cave Addendum" />
+      </zone>
+    </cell>
+  </world>
+
 </worlds>
