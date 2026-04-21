@@ -65,6 +65,7 @@
 		<scope Name="Subtype52" Subtype="Tropical Orm Cannoneer" Priority="50" Combine="true"/>
       </scopes>
       <prefixes Amount="1">
+        <prefix Name="Ar" />
         <prefix Name="Im" />
 		<prefix Name="Hi" />
 		<prefix Name="O" />
@@ -89,16 +90,17 @@
 		<prefix Name="Br" />
 		<prefix Name="B" />
 		<prefix Name="Da Na" />
+		<prefix Name="Ma" />
 		<prefix Name="No" />
 		<prefix Name="Ej" />
 		<prefix Name="Ri" />
 		<prefix Name="Ra" />
-		<prefix Name="Lo" />
+		<prefix Name="Lo" Weight="2" />
       </prefixes>
       <infixes Amount="0-3">
         <infix Name="k" Weight="2"/>
 		<infix Name="l" Weight="3"/>
-		<infix Name="r" />
+		<infix Name="r" Weight="2" />
 		<infix Name="s" />
 		<infix Name="ig" />
 		<infix Name="d" />
@@ -106,25 +108,28 @@
 		<infix Name="er" Weight="2"/>
 		<infix Name="an" />
 		<infix Name="tt" />
+		<infix Name="g" />
 		<infix Name="b" />
 		<infix Name="se" />
 		<infix Name="i" />
 		<infix Name="sh" />
+		<infix Name="th" />
 		<infix Name="bb" />
 		<infix Name="o" />
 		<infix Name="rr" />
       </infixes>
       <postfixes Amount="1">
         <postfix Name="ua" />
-		<postfix Name="er" Weight="2"/>
+		<postfix Name="er" Weight="3"/>
 		<postfix Name="i" />
+		<postfix Name="ia" />
 		<postfix Name="rl" />
 		<postfix Name="ah" />
 		<postfix Name="ke" />
 		<postfix Name="ha" />
 		<postfix Name="ip" />
 		<postfix Name="ht" />
-		<postfix Name="an" />
+		<postfix Name="an" Weight="2" />
 		<postfix Name="ur" />
 		<postfix Name="il" />
 		<postfix Name="ra" Weight="3"/>

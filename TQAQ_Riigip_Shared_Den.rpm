@@ -459,7 +459,7 @@
     <object Name="WoodWall"></object>
   </cell>
   <cell X="18" Y="5">
-    <object Name="WoodFloor"></object>
+    <object Name="TQAQ_Mattania"></object>
   </cell>
   <cell X="19" Y="5">
     <object Name="WoodFloor"></object>
@@ -471,7 +471,7 @@
     <object Name="WoodFloor"></object>
   </cell>
   <cell X="22" Y="5">
-    <object Name="WoodFloor"></object>
+    <object Name="TQAQ_Arania"></object>
   </cell>
   <cell X="23" Y="5">
     <object Name="WoodWall"></object>

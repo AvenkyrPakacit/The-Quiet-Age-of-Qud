@@ -1426,6 +1426,48 @@ What stories does this elder drek have to tell?" />
 
   <!--Raseke Quest NPCs-->
 
+  <object Name="TQAQ_Arania" Inherits="TQAQ_Ormer_Hiker_Arid">
+    <part Name="Render" DisplayName="Arania" ColorString="&amp;K"/>
+    <part Name="Brain" Factions="TQAQ_Arid_Clans_Ormer-100" />
+    <part Name="Description" Short="Charcoal pigmented scales embrace the elder orm.
+As once strong, now weakened by age.
+She once was forced to craft basic supplies, but has undergone retirement." />
+    <part Name="ConversationScript" ConversationID="Ormer" />
+	  <tag Name="Gender" Value="female" />
+    <stat Name="Level" Value="25" />
+    <stat Name="Hitpoints" Value="125" />
+    <tag Name="Role" Value="NPC" />
+    <part Name="GivesRep" />
+    <tag Name="staticFaction3" Value=",dislike,her elden scales" />
+    <tag Name="staticFaction2" Value=",friend,giving them supplies" />
+    <tag Name="staticFaction1" Value="Sivilao,hate,escaping slavery" />
+    <xtagGrammar Proper="true" />
+    <xtagWaterRitual NoJoin="true" />
+    <tag Name="NoHateFactions" Value="Eldimor,TQAQ_Arid_Clans_Drekir" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+  </object>
+
+  <object Name="TQAQ_Mattania" Inherits="TQAQ_Drekir_Hiker_Arid">
+    <part Name="Render" DisplayName="Mattania" ColorString="&amp;K"/>
+    <part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
+    <part Name="Description" Short="Elden scales coat this wise drek.
+Her bold stature, gives off an ancient omen.
+She speaks a language native to this planar." />
+    <part Name="ConversationScript" ConversationID="Drekir" />
+	  <tag Name="Gender" Value="female" />
+    <stat Name="Level" Value="25" />
+    <stat Name="Hitpoints" Value="125" />
+    <tag Name="Role" Value="NPC" />
+    <part Name="GivesRep" />
+    <tag Name="staticFaction3" Value=",dislike,her elden scales" />
+    <tag Name="staticFaction2" Value=",friend,her aura" />
+    <tag Name="staticFaction1" Value="Sivilao,hate,escaping slavery" />
+    <xtagGrammar Proper="true" />
+    <xtagWaterRitual NoJoin="true" />
+    <tag Name="NoHateFactions" Value="Eldimor,TQAQ_Arid_Clans_Ormer" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+  </object>
+
   <!--Raseke Story NPCs-->
 
   <object Name="TQAQ_Domazeya" Inherits="TQAQ_Ormer_Mage_Temperate">
