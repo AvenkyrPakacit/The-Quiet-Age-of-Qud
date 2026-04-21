@@ -1690,7 +1690,7 @@
     <object Name="TerrainSaltdunes"></object>
   </cell>
   <cell X="3" Y="7">
-    <object Name="TerrainSaltdunes"></object>
+    <object Name="TQAQ_Riigip_Shared_Den"></object>
   </cell>
   <cell X="4" Y="7">
     <object Name="TerrainSaltdunes"></object>
