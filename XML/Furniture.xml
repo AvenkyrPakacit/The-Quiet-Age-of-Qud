@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+  <object Name="TQAQ_Portal" Inherits="HighTechInstallation">
+    <part Name="Render" DisplayName="ancient portal" RenderString="239" ColorString="&amp;c" TileColor="&amp;y" DetailColor="m" Tile="Items/sw_ring_gate_1_off.bmp" />
+    <stat Name="Hitpoints" Value="10000" />
+    <part Name="Description" Short="Water ribbons climb bone-blanched marble columns in high relief. They mount the archivolt and snake between helical rings before a sharp turn upward on the keystone. Here becomes there." />
+    <part Name="TeleportGate" ChargeUse="50000" />
+    <part Name="Capacitor" MaxCharge="20000" StartCharge="0-4x5000" ChargeRate="40" />
+    <part Name="PowerSwitch" ChanceActive="75" />
+    <part Name="Examiner" Complexity="6" Difficulty="1" />
+    <part Name="TinkerItem" Bits="GR246" CanDisassemble="false" CanBuild="false" SubstituteBlueprint="Base Ring Gate" />
+    <part Name="AnimatedMaterialGeneric" AnimationLength="200" ColorStringAnimationFrames="0=&amp;m" TileColorAnimationFrames="" TileAnimationFrames="0=Items/sw_ring_gate_1_on_a.bmp,100=Items/sw_ring_gate_1_on_b.bmp" RequiresOperationalActivePart="TeleportGate" />
+    <part Name="BroadcastPowerReceiver" ChargeRate="40" />
+    <part Name="HydraulicPowerTransmission" ChargeRate="1000" IsConsumer="true" DependsOnLiquid="tqaq_mana-1000" />
+    <part Name="LiquidVolume" MaxVolume="128" Volume="128" StartVolume="0-128" InitialLiquid="tqaq_mana-1000" Collector="true" HasDrain="true" />
+    <removepart Name="AnimatedMaterialGenericAlternate" />
+    <tag Name="Tier" Value="7" />
+    <tag Name="TechTier" Value="7" />
+    <tag Name="ExcludeFromDynamicEncounters" />
+    <tag Name="BaseObject" Value="*noinherit" />
+    <tag Name="AggregateWith" Value="RingGate" />
+  </object>
+</objects>
