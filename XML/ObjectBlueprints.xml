@@ -23,12 +23,4 @@
     <mutation Name="Wings" Level="1" />
   </object>
 
-  <object Name="TQAQ_Mana_Pool" Inherits="Water">
-    <part Name="LiquidVolume" MaxVolume="-1" Volume="10" StartVolume="10d10" InitialLiquid="tqaq_mana-1000"/>
-  </object>
-
-  <object Name="TQAQ_Mana_Pool_Deep" Inherits="Water">
-    <part Name="LiquidVolume" MaxVolume="-1" Volume="500" StartVolume="500" InitialLiquid="tqaq_mana-1000"/>
-  </object>
-
 </objects>

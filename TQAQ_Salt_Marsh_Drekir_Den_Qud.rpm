@@ -2846,7 +2846,7 @@
     <object Name="DirtFloor"></object>
   </cell>
   <cell X="56" Y="17">
-    <object Name="TQAQ_Portal"></object>
+    <object Name="TQAQ_Portal_Dolkara"></object>
   </cell>
   <cell X="57" Y="17">
     <object Name="DirtFloor"></object>

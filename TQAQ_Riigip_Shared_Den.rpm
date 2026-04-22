@@ -907,7 +907,7 @@
     <object Name="WoodFloor"></object>
   </cell>
   <cell X="44" Y="9">
-    <object Name="TQAQ_Portal"></object>
+    <object Name="TQAQ_Portal_Riigip"></object>
   </cell>
   <cell X="45" Y="9">
     <object Name="WoodWall"></object>
