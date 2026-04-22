@@ -1432,7 +1432,7 @@ What stories does this elder drek have to tell?" />
     <part Name="Description" Short="Charcoal pigmented scales embrace the elder orm.
 As once strong, now weakened by age.
 She once was forced to craft basic supplies, but has undergone retirement." />
-    <part Name="ConversationScript" ConversationID="Ormer" />
+    <part Name="ConversationScript" ConversationID="TQAQ_Arania_Dialogue" />
 	  <tag Name="Gender" Value="female" />
     <stat Name="Level" Value="25" />
     <stat Name="Hitpoints" Value="125" />
@@ -1453,7 +1453,7 @@ She once was forced to craft basic supplies, but has undergone retirement." />
     <part Name="Description" Short="Elden scales coat this wise drek.
 Her bold stature, gives off an ancient omen.
 She speaks a language native to this planar." />
-    <part Name="ConversationScript" ConversationID="Drekir" />
+    <part Name="ConversationScript" ConversationID="TQAQ_Mattania_Dialogue" />
 	  <tag Name="Gender" Value="female" />
     <stat Name="Level" Value="25" />
     <stat Name="Hitpoints" Value="125" />

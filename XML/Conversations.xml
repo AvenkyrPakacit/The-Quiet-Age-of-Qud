@@ -45,6 +45,10 @@
 
   <!--Characters-->
 
+  <!--Qud-->
+
+  <!--General-->
+
   <conversation ID="TQAQ_Da_Naersean_Dialogue">
     <start ID="Start">
       <text>
@@ -86,16 +90,48 @@
     </node>
   </conversation>
 
-  <conversation ID="TQAQ_Domazeya_Dialogue">
+  <conversation ID="TQAQ_Ukerakah_Dialogue">
     <start ID="Start">
       <text>
-        {{emote|*Groans*}}
+        {{emote|*Yaps*}}
 
-        What?
-	  </text>
-      <choice Target="End">Live and drink.</choice>
+        Here to barter?
+	    </text>
+      <choice GotoID="WhoAreYou">Who are you?</choice>
+      <choice GotoID="Inventory">What wares do you sell?</choice>
+      <choice Target="End">No. Live and drink.</choice>
     </start>
+    <node ID="Questions">
+      <text>
+        {{emote|*Yaps*}}~
+        {{emote|*Yips*}}~
+        {{emote|*Yops*}}
+	    </text>
+      <choice GotoID="WhoAreYou">Who are you?</choice>
+      <choice GotoID="Inventory">What wares do you sell?</choice>
+      <choice Target="End">No more questions. Live and drink!</choice>
+    </node>
+    <node ID="WhoAreYou">
+      <text>
+        {{emote|*Yaps*}}
+
+        I Ukerakah.
+	    </text>
+      <choice GotoID="Questions">I have other questions.</choice>
+      <choice Target="End">Live and drink, Ukerakah!</choice>
+    </node>
+    <node ID="Inventory">
+      <text>
+        {{emote|*Yips*}}~
+
+        Gear!
+	    </text>
+      <choice GotoID="Questions">I have other questions.</choice>
+      <choice Target="End">Nevermind, live and drink!</choice>
+    </node>
   </conversation>
+
+  <!--Quest-->
 
   <conversation ID="TQAQ_Spigseship_Dialogue">
     <start ID="Start">
@@ -154,45 +190,83 @@
     </node>
   </conversation>
 
-  <conversation ID="TQAQ_Ukerakah_Dialogue">
+  <!--Raseke-->
+
+  <!--Quest-->
+
+  <conversation ID="TQAQ_Arania_Dialogue">
     <start ID="Start">
       <text>
-        {{emote|*Yaps*}}
+        {{emote|*Huffs*}}
 
-        Here to barter?
+        What is needed?
 	    </text>
       <choice GotoID="WhoAreYou">Who are you?</choice>
-      <choice GotoID="Inventory">What wares do you sell?</choice>
-      <choice Target="End">No. Live and drink.</choice>
+      <choice GotoID="Questions">I have questions.</choice>
+      <choice Target="End">Nothing. Live and drink.</choice>
     </start>
     <node ID="Questions">
       <text>
-        {{emote|*Yaps*}}~
-        {{emote|*Yips*}}~
-        {{emote|*Yops*}}
+        {{emote|*Groans*}}
+
+        Speak then.
 	    </text>
       <choice GotoID="WhoAreYou">Who are you?</choice>
-      <choice GotoID="Inventory">What wares do you sell?</choice>
       <choice Target="End">No more questions. Live and drink!</choice>
     </node>
     <node ID="WhoAreYou">
       <text>
-        {{emote|*Yaps*}}
+        {{emote|*Groans*}}
 
-        I Ukerakah.
+        Arania, I am.
 	    </text>
       <choice GotoID="Questions">I have other questions.</choice>
-      <choice Target="End">Live and drink, Ukerakah!</choice>
+      <choice Target="End">Live and drink, Arania!</choice>
     </node>
-    <node ID="Inventory">
+  </conversation>
+
+  <conversation ID="TQAQ_Mattania_Dialogue">
+    <start ID="Start">
       <text>
-        {{emote|*Yips*}}~
+        {{emote|*Yaprals*}}
 
-        Gear!
+        Imah ji fosera?
+	    </text>
+      <choice GotoID="WhoAreYou">Who are you?</choice>
+      <choice GotoID="Questions">I have questions.</choice>
+      <choice Target="End">Nothing. Live and drink.</choice>
+    </start>
+    <node ID="Questions">
+      <text>
+        {{emote|*Yips*}}
+
+        Losua uoha.
+	    </text>
+      <choice GotoID="WhoAreYou">Who are you?</choice>
+      <choice Target="End">No more questions. Live and drink!</choice>
+    </node>
+    <node ID="WhoAreYou">
+      <text>
+        {{emote|*Yipral*}}
+
+        Mattania, I ut.
 	    </text>
       <choice GotoID="Questions">I have other questions.</choice>
-      <choice Target="End">Nevermind, live and drink!</choice>
+      <choice Target="End">Live and drink, Mattania!</choice>
     </node>
+  </conversation>
+
+  <!--Story-->
+
+  <conversation ID="TQAQ_Domazeya_Dialogue">
+    <start ID="Start">
+      <text>
+        {{emote|*Groans*}}
+
+        What?
+	  </text>
+      <choice Target="End">Live and drink.</choice>
+    </start>
   </conversation>
 
   <conversation ID="TQAQ_Yattraya_Dialogue">
