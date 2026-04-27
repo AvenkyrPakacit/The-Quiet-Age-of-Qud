@@ -85,7 +85,7 @@
     <part Name="ConversationScript" ConversationID="TQAQ_Voderai" />
     <tag Name="RandomGender" Value="tqaq_dorator_female,tqaq_dorator_fluid_fem,tqaq_dorator_fluid_masc,tqaq_dorator_male,tqaq_dorator_nonbinary,tqaq_dorator_plural" />
     <part Name="Pettable" UseFactionForFeelingFloor="TQAQ_Veidancyri" />
-    <tag Name="PetResponse" Value="=subject.T= =verb:purrs=." />
+    <tag Name="PetResponse" Value="=subject.T= purrs." />
     <part Name="SmartuseForceTwiddles" />
     <xtagTextFragments Skin="feathery fur" PoeticFeatures="ridged beak,versatile anatomy,voracious demeanor" YounglingNoise="*barks*,*chirps*,*purrs*" Activity="fending off one's instincts" VillageActivity="caring for one another" SacredThing="reason above all else" />
     <tag Name="PrimaryLimbType" Value="Hand" />
