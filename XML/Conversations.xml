@@ -58,6 +58,7 @@
 	    </text>
       <choice GotoID="WhoAreYou">Who are you?</choice>
       <choice GotoID="Inventory">What wares do you sell?</choice>
+      <choice GotoID="Portal">What's with the portal in your hut?</choice>
       <choice Target="End">Live and drink, wise ones.</choice>
     </start>
     <node ID="Questions">
@@ -68,6 +69,7 @@
 	    </text>
       <choice GotoID="WhoAreYou">Who are you?</choice>
       <choice GotoID="Inventory">What wares do you sell?</choice>
+      <choice GotoID="Portal">What's with the portal in your hut?</choice>
       <choice Target="End">No more questions. Live and drink, wise ones.</choice>
     </node>
     <node ID="WhoAreYou">
@@ -84,6 +86,15 @@
         {{emote|*Sighs*}}
 
         We barter in mage supplies. Anything else to bother us with?
+	    </text>
+      <choice GotoID="Questions">Yes, there are other things to ask.</choice>
+      <choice Target="End">No, that's all. Live and drink, wise ones.</choice>
+    </node>
+    <node ID="Portal">
+      <text>
+        {{emote|*Sighs*}}
+
+        The portal is to the foreign planar Raseke, through there one will find Riigip. Anything else to bother us with?
 	    </text>
       <choice GotoID="Questions">Yes, there are other things to ask.</choice>
       <choice Target="End">No, that's all. Live and drink, wise ones.</choice>
