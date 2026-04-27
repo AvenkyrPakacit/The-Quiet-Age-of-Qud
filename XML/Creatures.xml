@@ -67,9 +67,8 @@
   <object Name="TQAQ_BaseArkaedus" Inherits="BaseHumanoid">
     <part Name="Render" DisplayName="Arkaedus" Tile="Creatures/TQAQ_Arkaedus.png" RenderString="k" ColorString="&amp;K" DetailColor="g" />
     <part Name="Brain" Factions="TQAQ_Veidancyri-100" />
-    <part Name="Description" Short="Wind whistling in =pronouns.possessive= feathers as =pronouns.subjective= moves about the area. The voderai hungers ever on, throughout =pronouns.reflexive= is an anxious thread that can unravel any instance." />
+    <part Name="Description" Short="Wind whistling in =pronouns.possessive= feathers as =pronouns.subjective= =verb:move:afterpronoun= about the area. The voderai hungers ever on, throughout =pronouns.reflexive= is an anxious thread that can unravel any instance." />
 	  <part Name="Body" Anatomy="TailedBiped" />
-    <part Name="Body" Anatomy="TailedBiped" />
     <stat Name="Strength" sValue="14,1d3,(t-1)d2" />
     <stat Name="Agility" sValue="18,1d3,(t-1)d1" />
     <stat Name="Toughness" sValue="14,1d3,(t-1)d2" />
@@ -79,7 +78,6 @@
     <tag Name="HeroNameTitleWiseDescriptor" Value="charmer,cunning,flirt,knowledgeable" />
     <tag Name="HeroNameTitleMayorSyn" Value="chirphowler,elder,pack leader" />
     <tag Name="HeroNameTitleMayorSynCap" Value="Chirphowler,Elder,Pack leader" />
-    <tag Name="Class" Value="voderai" />
     <tag Name="Species" Value="voderai" />
     <tag Name="Culture" Value="TQAQ_Doratorian" />
     <inventoryobject Blueprint="TQAQ_Voderai_Beak" />
