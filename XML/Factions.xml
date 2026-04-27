@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <factions>
 
+  <!--Eldimor-->
+
   <faction
     Name="Eldimor"
     DisplayName="Eldimor"
@@ -326,6 +328,68 @@
     </interests>
     <factionworshipattitudes>
       <factionworshipattitude Name="TQAQ_Tropical_Clans_Ormer" Attitude="100" />
+      <factionworshipattitude Name="Eldimor" Attitude="50" />
+      <factionworshipattitude Name="Sivilao" Attitude="-100" />
+    </factionworshipattitudes>
+  </faction>
+
+  <!--Foreign-->
+
+  <faction
+    Name="TQAQ_Veidancyri"
+    DisplayName="Eldimor Veidancyri"
+    Old="true"
+    FormatWithArticle="true"
+    InitialPlayerReputation="0"
+    PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
+    NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
+    HistoricalSignificance="1"
+		EmblemTile="Creatures/OrmWarrior.png"
+    EmblemTileColor="o"
+    EmblemDetailColor="O"
+  >
+    <feeling About="Sivilao" Value="-250" />
+    <feeling About="TQAQ_Veidancyri_Reseke" Value="100" />
+    <feeling About="*" Value="0" />
+    <waterritual
+	  skill="Tactics"
+    />
+    <interests>
+      <interest Tags="eldimor,lair" />
+      <interest Tags="voderai,lair" />
+    </interests>
+    <factionworshipattitudes>
+      <factionworshipattitude Name="TQAQ_Veidancyri_Reseke" Attitude="100" />
+      <factionworshipattitude Name="Eldimor" Attitude="50" />
+      <factionworshipattitude Name="Sivilao" Attitude="-100" />
+    </factionworshipattitudes>
+  </faction>
+
+  <faction
+    Name="TQAQ_Veidancyri_Reseke"
+    DisplayName="Reseke Veidancyri"
+    Old="true"
+    FormatWithArticle="true"
+    InitialPlayerReputation="0"
+    PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
+    NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
+    HistoricalSignificance="1"
+		EmblemTile="Creatures/OrmWarrior.png"
+    EEmblemTileColor="o"
+    EmblemDetailColor="O"
+  >
+    <feeling About="Sivilao" Value="-250" />
+    <feeling About="TQAQ_Veidancyri" Value="100" />
+    <feeling About="*" Value="0" />
+    <waterritual
+	  skill="Tactics"
+    />
+    <interests>
+      <interest Tags="eldimor,lair" />
+      <interest Tags="voderai,lair" />
+    </interests>
+    <factionworshipattitudes>
+      <factionworshipattitude Name="TQAQ_Veidancyri" Attitude="100" />
       <factionworshipattitude Name="Eldimor" Attitude="50" />
       <factionworshipattitude Name="Sivilao" Attitude="-100" />
     </factionworshipattitudes>

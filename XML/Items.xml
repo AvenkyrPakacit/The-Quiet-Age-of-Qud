@@ -53,6 +53,13 @@
 		<tag Name="ShowAsPhysicalFeature" />
   </object>
 
+  <object Name="TQAQ_Voderai_Beak" Inherits="NaturalWeapon">
+    <part Name="Render" DisplayName="ridged beak" RenderString="*" Tile="items/sw_beak.bmp" TileColor="&amp;o" DetailColor="O" />
+		<part Name="Description" Short="The bone plates fused against one another bearing segmented ridges accompanied by a set of hooks." />
+    <part Name="MeleeWeapon" Slot="Face" BaseDamage="1d8" Stat="Strength" Skill="ShortBlades" MaxStrengthBonus="100" />
+    <part Name="Armor" AV="0" DV="0" WornOn="Face" />
+  </object>
+
   <!--Armor-->
 
   <object Name="TQAQ_Body_Stal" Inherits="BaseArmor">

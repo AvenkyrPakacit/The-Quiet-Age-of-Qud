@@ -64,7 +64,45 @@
     <tag Name="BaseObject" Value="*noinherit" />
   </object>
 
+  <object Name="TQAQ_BaseArkaedus" Inherits="BaseHumanoid">
+    <part Name="Render" DisplayName="Arkaedus" Tile="Creatures/TQAQ_Arkaedus.png" RenderString="k" ColorString="&amp;K" DetailColor="g" />
+    <part Name="Brain" Factions="TQAQ_Veidancyri-100" />
+    <part Name="Description" Short="Wind whistling in =pronouns.possessive= feathers as =pronouns.subjective= moves about the area. The voderai hungers ever on, throughout =pronouns.reflexive= is an anxious thread that can unravel any instance." />
+	  <part Name="Body" Anatomy="TailedBiped" />
+    <part Name="Body" Anatomy="TailedBiped" />
+    <stat Name="Strength" sValue="14,1d3,(t-1)d2" />
+    <stat Name="Agility" sValue="18,1d3,(t-1)d1" />
+    <stat Name="Toughness" sValue="14,1d3,(t-1)d2" />
+    <stat Name="Intelligence" sValue="19,1d3,(t-1)d2-1" />
+    <stat Name="Willpower" sValue="20,1d3,(t-1)d2-1" />
+    <stat Name="Ego" sValue="16,1d3,(t-1)d2-1" />
+    <tag Name="HeroNameTitleWiseDescriptor" Value="charmer,cunning,flirt,knowledgeable" />
+    <tag Name="HeroNameTitleMayorSyn" Value="chirphowler,elder,pack leader" />
+    <tag Name="HeroNameTitleMayorSynCap" Value="Chirphowler,Elder,Pack leader" />
+    <tag Name="Class" Value="voderai" />
+    <tag Name="Species" Value="voderai" />
+    <tag Name="Culture" Value="TQAQ_Doratorian" />
+    <inventoryobject Blueprint="TQAQ_Voderai_Beak" />
+    <tag Name="BaseObject" Value="*noinherit" />
+    <part Name="ConversationScript" ConversationID="TQAQ_Voderai" />
+    <tag Name="RandomGender" Value="tqaq_dorator_female,tqaq_dorator_fluid_fem,tqaq_dorator_fluid_masc,tqaq_dorator_male,tqaq_dorator_nonbinary,tqaq_dorator_plural" />
+    <part Name="Pettable" UseFactionForFeelingFloor="TQAQ_Veidancyri" />
+    <tag Name="PetResponse" Value="=subject.T= =verb:purrs=." />
+    <part Name="SmartuseForceTwiddles" />
+    <xtagTextFragments Skin="feathery fur" PoeticFeatures="ridged beak,versatile anatomy,voracious demeanor" YounglingNoise="*barks*,*chirps*,*purrs*" Activity="fending off one's instincts" VillageActivity="caring for one another" SacredThing="reason above all else" />
+    <tag Name="PrimaryLimbType" Value="Hand" />
+    <tag Name="LairAmbientBed" Value="Sounds/Ambiences/amb_creature_cat" />
+  </object>
+
   <!--Character Types-->
+
+  <object Name="TQAQ_Arkaedus" Inherits="TQAQ_BaseArkaedus">
+  	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
+	  <tag Name="DynamicObjectsTable:Jungle_Creatures" />
+    <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
+  	<tag Name="DynamicObjectsTable:DeepJungle_Creatures" />
+	  <tag Name="DynamicObjectsTable:Saltmarsh_Creatures" />
+  </object>
 
   <object Name="TQAQ_Dralkir" Inherits="BaseDrekir">
     <part Name="Render" DisplayName="Dralk" RenderString="D" ColorString="&amp;W" DetailColor="C" />

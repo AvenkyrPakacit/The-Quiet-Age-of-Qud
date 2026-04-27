@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <conversations>
 
+  <!--Eldimor-->
+
   <conversation ID="Drekir">
     <start ID="Start">
       <text>
@@ -289,6 +291,20 @@
 	  </text>
       <choice Target="End">Live and drink.</choice>
     </start>
+  </conversation>
+
+  <!--Foreign-->
+
+<conversation ID="TQAQ_Voderai">
+    <node ID="Start">
+      <text>
+        {{emote|*anxious growling*}}~
+        {{emote|*anxious hissing*}}~
+        {{emote|*chirps and barks*}}~
+        {{emote|*hisses and growls*}}
+      </text>
+      <choice Target="End">...live and drink.</choice>
+    </node>
   </conversation>
 
 </conversations>

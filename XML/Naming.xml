@@ -280,6 +280,79 @@
       </templatevars>
     </namestyle>
 
+	<!--Foreign-->
+
+    <namestyle Name="TQAQ_Doratorian" TwoNameChance="40" Format="TitleCase">
+      <scopes>
+        <scope Name="Culture" Culture="TQAQ_Doratorian" Priority="100" Combine="true" />
+      </scopes>
+      <prefixes Amount="1">
+        <prefix Name="ak" Weight="5" />
+        <prefix Name="al" />
+        <prefix Name="am" />
+        <prefix Name="an" />
+        <prefix Name="ar" Weight="3" />
+        <prefix Name="av" />
+        <prefix Name="ax" />
+        <prefix Name="da" />
+        <prefix Name="de" />
+        <prefix Name="ja" Weight="2" />
+        <prefix Name="ka" />
+        <prefix Name="pa" />
+        <prefix Name="ri" />
+        <prefix Name="su" />
+        <prefix Name="va" />
+      </prefixes>
+      <infixes Amount="1-3">
+        <infix Name="a" Weight="5" />
+        <infix Name="ac" />
+        <infix Name="am" />
+        <infix Name="e" />
+        <infix Name="eik" />
+        <infix Name="en" />
+        <infix Name="fi" />
+        <infix Name="fia" />
+        <infix Name="i" Weight="3" />
+        <infix Name="ice" />
+        <infix Name="ik" />
+        <infix Name="ili" />
+        <infix Name="in" />
+        <infix Name="ir" Weight="2" />
+        <infix Name="isa" />
+        <infix Name="k" />
+        <infix Name="ki" />
+        <infix Name="kra" />
+        <infix Name="las" />
+        <infix Name="mi" />
+        <infix Name="n" />
+        <infix Name="ri" />
+        <infix Name="s" Weight="2" />
+        <infix Name="sa" Weight="3" />
+        <infix Name="se" />
+        <infix Name="si" />
+        <infix Name="stra" />
+        <infix Name="wu" />
+        <infix Name="z" Weight="3" />
+      </infixes>
+      <postfixes Amount="0-1">
+        <postfix Name="al" Weight="2" />
+        <postfix Name="ca" />
+        <postfix Name="fa" />
+        <postfix Name="ia" />
+        <postfix Name="it" />
+        <postfix Name="ka" Weight="3" />
+        <postfix Name="ki" />
+        <postfix Name="li" />
+        <postfix Name="na" />
+        <postfix Name="ol" />
+        <postfix Name="ol" Weight="3" />
+        <postfix Name="ti" />
+        <postfix Name="to" />
+        <postfix Name="va" />
+        <postfix Name="yr" />
+      </postfixes>
+    </namestyle>
+
 </namestyles>
 
 </naming>
