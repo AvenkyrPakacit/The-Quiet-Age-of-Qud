@@ -6,148 +6,148 @@
     <!--Eldimor-->
 
     <namestyle Name="Eldimor" HyphenationChance="0" TwoNameChance="0" Format="TitleCase">
-      <scopes>
-        <scope Name="Culture" Culture="Eldimor" Priority="50" Combine="true" />
-        <scope Name="Faction1" Faction="Eldimor" Priority="100" Combine="false" />
-		<scope Name="Faction2" Faction="Sivilao" Priority="100" Combine="false" />
-        <scope Name="Species" Species="eldimor" Priority="50" Combine="true" />
-		<scope Name="Subtype1" Subtype="Temperate Drek Hiker" Priority="50" Combine="true" />
-		<scope Name="Subtype2" Subtype="Temperate Orm Hiker" Priority="50" Combine="true" />
-		<scope Name="Subtype3" Subtype="Mavot Librarian" Priority="50" Combine="true" />
-		<scope Name="Subtype4" Subtype="Temperate Drek Peltast" Priority="50" Combine="true" />
-		<scope Name="Subtype5" Subtype="Temperate Orm Slinger" Priority="50" Combine="true" />
-		<scope Name="Subtype6" Subtype="Temperate Mavot Librarian" Priority="50" Combine="true" />
-		<scope Name="Subtype7" Subtype="Temperate Drek Fighter" Priority="50" Combine="true" />
-		<scope Name="Subtype8" Subtype="Temperate Orm Warrior" Priority="50" Combine="true" />
-		<scope Name="Subtype9" Subtype="Mavot Bard" Priority="50" Combine="true" />
-		<scope Name="Subtype10" Subtype="Mavot Commander" Priority="50" Combine="true" />
-		<scope Name="Subtype11" Subtype="Temperate Drek Archer" Priority="50" Combine="true" />
-		<scope Name="Subtype12" Subtype="Temperate Drek Mage" Priority="50" Combine="true" />
-		<scope Name="Subtype13" Subtype="Temperate Drek Jezailer" Priority="50" Combine="true" />
-		<scope Name="Subtype14" Subtype="Temperate Orm Axe Thrower" Priority="50" Combine="true" />
-		<scope Name="Subtype15" Subtype="Temperate Orm Mage" Priority="50" Combine="true" />
-		<scope Name="Subtype16" Subtype="Temperate Orm Cannoneer" Priority="50" Combine="true"/>
-		<scope Name="Subtype17" Subtype="Alpine Drek Hiker" Priority="50" Combine="true" />
-		<scope Name="Subtype18" Subtype="Alpine Drek Peltast" Priority="50" Combine="true" />
-		<scope Name="Subtype19" Subtype="Alpine Drek Fighter" Priority="50" Combine="true" />
-		<scope Name="Subtype20" Subtype="Alpine Drek Archer" Priority="50" Combine="true" />
-		<scope Name="Subtype21" Subtype="Alpine Drek Mage" Priority="50" Combine="true" />
-		<scope Name="Subtype22" Subtype="Alpine Drek Jezailer" Priority="50" Combine="true" />
-		<scope Name="Subtype23" Subtype="Artic Drek Hiker" Priority="50" Combine="true" />
-		<scope Name="Subtype24" Subtype="Artic Drek Peltast" Priority="50" Combine="true" />
-		<scope Name="Subtype25" Subtype="Artic Drek Fighter" Priority="50" Combine="true" />
-		<scope Name="Subtype26" Subtype="Artic Drek Archer" Priority="50" Combine="true" />
-		<scope Name="Subtype27" Subtype="Artic Drek Mage" Priority="50" Combine="true" />
-		<scope Name="Subtype28" Subtype="Artic Drek Jezailer" Priority="50" Combine="true" />
-		<scope Name="Subtype29" Subtype="Tropical Drek Hiker" Priority="50" Combine="true" />
-		<scope Name="Subtype30" Subtype="Tropical Drek Peltast" Priority="50" Combine="true" />
-		<scope Name="Subtype31" Subtype="Tropical Drek Fighter" Priority="50" Combine="true" />
-		<scope Name="Subtype32" Subtype="Tropical Drek Archer" Priority="50" Combine="true" />
-		<scope Name="Subtype33" Subtype="Tropical Drek Mage" Priority="50" Combine="true" />
-		<scope Name="Subtype34" Subtype="Tropical Drek Jezailer" Priority="50" Combine="true" />
-		<scope Name="Subtype35" Subtype="Alpine Orm Hiker" Priority="50" Combine="true" />
-		<scope Name="Subtype36" Subtype="Alpine Orm Slinger" Priority="50" Combine="true" />
-		<scope Name="Subtype37" Subtype="Alpine Orm Warrior" Priority="50" Combine="true" />
-		<scope Name="Subtype38" Subtype="Alpine Orm Axe Thrower" Priority="50" Combine="true" />
-		<scope Name="Subtype39" Subtype="Alpine Orm Mage" Priority="50" Combine="true" />
-		<scope Name="Subtype40" Subtype="Alpine Orm Cannoneer" Priority="50" Combine="true"/>
-		<scope Name="Subtype41" Subtype="Artic Orm Hiker" Priority="50" Combine="true" />
-		<scope Name="Subtype42" Subtype="Artic Orm Slinger" Priority="50" Combine="true" />
-		<scope Name="Subtype43" Subtype="Artic Orm Warrior" Priority="50" Combine="true" />
-		<scope Name="Subtype44" Subtype="Artic Orm Axe Thrower" Priority="50" Combine="true" />
-		<scope Name="Subtype45" Subtype="Artic Orm Mage" Priority="50" Combine="true" />
-		<scope Name="Subtype46" Subtype="Artic Orm Cannoneer" Priority="50" Combine="true"/>
-		<scope Name="Subtype47" Subtype="Tropical Orm Hiker" Priority="50" Combine="true" />
-		<scope Name="Subtype48" Subtype="Tropical Orm Slinger" Priority="50" Combine="true" />
-		<scope Name="Subtype49" Subtype="Tropical Orm Warrior" Priority="50" Combine="true" />
-		<scope Name="Subtype50" Subtype="Tropical Orm Axe Thrower" Priority="50" Combine="true" />
-		<scope Name="Subtype51" Subtype="Tropical Orm Mage" Priority="50" Combine="true" />
-		<scope Name="Subtype52" Subtype="Tropical Orm Cannoneer" Priority="50" Combine="true"/>
-      </scopes>
-      <prefixes Amount="1">
-        <prefix Name="Ar" />
-        <prefix Name="Im" />
-		<prefix Name="Hi" />
-		<prefix Name="O" />
-		<prefix Name="Pi" />
-		<prefix Name="Fo" />
-		<prefix Name="Sa" />
-		<prefix Name="Mi" />
-		<prefix Name="Ta" />
-		<prefix Name="Dr" />
-		<prefix Name="Dw" />
-		<prefix Name="Ra" />
-		<prefix Name="Sp" />
-		<prefix Name="Ri" />
-		<prefix Name="Jo" />
-		<prefix Name="J" />
-		<prefix Name="Do" Weight="2"/>
-		<prefix Name="Uk" />
-		<prefix Name="Gr" />
-		<prefix Name="Ge" />
-		<prefix Name="U" />
-		<prefix Name="Jo" />
-		<prefix Name="Br" />
-		<prefix Name="B" />
-		<prefix Name="Da Na" />
-		<prefix Name="Ma" />
-		<prefix Name="No" />
-		<prefix Name="Ej" />
-		<prefix Name="Ri" />
-		<prefix Name="Ra" />
-		<prefix Name="Lo" Weight="2" />
-      </prefixes>
-      <infixes Amount="0-3">
-        <infix Name="k" Weight="2"/>
-		<infix Name="l" Weight="3"/>
-		<infix Name="r" Weight="2" />
-		<infix Name="s" />
-		<infix Name="ig" />
-		<infix Name="d" />
-		<infix Name="a" Weight="3"/>
-		<infix Name="er" Weight="2"/>
-		<infix Name="an" />
-		<infix Name="tt" />
-		<infix Name="g" />
-		<infix Name="b" />
-		<infix Name="se" />
-		<infix Name="i" />
-		<infix Name="sh" />
-		<infix Name="th" />
-		<infix Name="bb" />
-		<infix Name="o" />
-		<infix Name="rr" />
-      </infixes>
+    <scopes>
+      <scope Name="Culture" Culture="Eldimor" Priority="50" Combine="true" />
+      <scope Name="Faction1" Faction="Eldimor" Priority="100" Combine="false" />
+		  <scope Name="Faction2" Faction="Sivilao" Priority="100" Combine="false" />
+      <scope Name="Species" Species="eldimor" Priority="50" Combine="true" />
+		  <scope Name="Subtype1" Subtype="Temperate Drek Hiker" Priority="50" Combine="true" />
+		  <scope Name="Subtype2" Subtype="Temperate Orm Hiker" Priority="50" Combine="true" />
+		  <scope Name="Subtype3" Subtype="Mavot Librarian" Priority="50" Combine="true" />
+	  	<scope Name="Subtype4" Subtype="Temperate Drek Peltast" Priority="50" Combine="true" />
+		  <scope Name="Subtype5" Subtype="Temperate Orm Slinger" Priority="50" Combine="true" />
+  		<scope Name="Subtype6" Subtype="Temperate Mavot Librarian" Priority="50" Combine="true" />
+	  	<scope Name="Subtype7" Subtype="Temperate Drek Fighter" Priority="50" Combine="true" />
+		  <scope Name="Subtype8" Subtype="Temperate Orm Warrior" Priority="50" Combine="true" />
+  		<scope Name="Subtype9" Subtype="Mavot Bard" Priority="50" Combine="true" />
+	  	<scope Name="Subtype10" Subtype="Mavot Commander" Priority="50" Combine="true" />
+		  <scope Name="Subtype11" Subtype="Temperate Drek Archer" Priority="50" Combine="true" />
+  		<scope Name="Subtype12" Subtype="Temperate Drek Mage" Priority="50" Combine="true" />
+	  	<scope Name="Subtype13" Subtype="Temperate Drek Jezailer" Priority="50" Combine="true" />
+		  <scope Name="Subtype14" Subtype="Temperate Orm Axe Thrower" Priority="50" Combine="true" />
+  		<scope Name="Subtype15" Subtype="Temperate Orm Mage" Priority="50" Combine="true" />
+	  	<scope Name="Subtype16" Subtype="Temperate Orm Cannoneer" Priority="50" Combine="true"/>
+		  <scope Name="Subtype17" Subtype="Alpine Drek Hiker" Priority="50" Combine="true" />
+  		<scope Name="Subtype18" Subtype="Alpine Drek Peltast" Priority="50" Combine="true" />
+	  	<scope Name="Subtype19" Subtype="Alpine Drek Fighter" Priority="50" Combine="true" />
+		  <scope Name="Subtype20" Subtype="Alpine Drek Archer" Priority="50" Combine="true" />
+  		<scope Name="Subtype21" Subtype="Alpine Drek Mage" Priority="50" Combine="true" />
+	  	<scope Name="Subtype22" Subtype="Alpine Drek Jezailer" Priority="50" Combine="true" />
+		  <scope Name="Subtype23" Subtype="Artic Drek Hiker" Priority="50" Combine="true" />
+  		<scope Name="Subtype24" Subtype="Artic Drek Peltast" Priority="50" Combine="true" />
+	  	<scope Name="Subtype25" Subtype="Artic Drek Fighter" Priority="50" Combine="true" />
+		  <scope Name="Subtype26" Subtype="Artic Drek Archer" Priority="50" Combine="true" />
+  		<scope Name="Subtype27" Subtype="Artic Drek Mage" Priority="50" Combine="true" />
+	  	<scope Name="Subtype28" Subtype="Artic Drek Jezailer" Priority="50" Combine="true" />
+		  <scope Name="Subtype29" Subtype="Tropical Drek Hiker" Priority="50" Combine="true" />
+  		<scope Name="Subtype30" Subtype="Tropical Drek Peltast" Priority="50" Combine="true" />
+	  	<scope Name="Subtype31" Subtype="Tropical Drek Fighter" Priority="50" Combine="true" />
+		  <scope Name="Subtype32" Subtype="Tropical Drek Archer" Priority="50" Combine="true" />
+  		<scope Name="Subtype33" Subtype="Tropical Drek Mage" Priority="50" Combine="true" />
+	  	<scope Name="Subtype34" Subtype="Tropical Drek Jezailer" Priority="50" Combine="true" />
+		  <scope Name="Subtype35" Subtype="Alpine Orm Hiker" Priority="50" Combine="true" />
+  		<scope Name="Subtype36" Subtype="Alpine Orm Slinger" Priority="50" Combine="true" />
+	  	<scope Name="Subtype37" Subtype="Alpine Orm Warrior" Priority="50" Combine="true" />
+		  <scope Name="Subtype38" Subtype="Alpine Orm Axe Thrower" Priority="50" Combine="true" />
+  		<scope Name="Subtype39" Subtype="Alpine Orm Mage" Priority="50" Combine="true" />
+	  	<scope Name="Subtype40" Subtype="Alpine Orm Cannoneer" Priority="50" Combine="true"/>
+		  <scope Name="Subtype41" Subtype="Artic Orm Hiker" Priority="50" Combine="true" />
+  		<scope Name="Subtype42" Subtype="Artic Orm Slinger" Priority="50" Combine="true" />
+	  	<scope Name="Subtype43" Subtype="Artic Orm Warrior" Priority="50" Combine="true" />
+		  <scope Name="Subtype44" Subtype="Artic Orm Axe Thrower" Priority="50" Combine="true" />
+  		<scope Name="Subtype45" Subtype="Artic Orm Mage" Priority="50" Combine="true" />
+	  	<scope Name="Subtype46" Subtype="Artic Orm Cannoneer" Priority="50" Combine="true"/>
+		  <scope Name="Subtype47" Subtype="Tropical Orm Hiker" Priority="50" Combine="true" />
+  		<scope Name="Subtype48" Subtype="Tropical Orm Slinger" Priority="50" Combine="true" />
+	  	<scope Name="Subtype49" Subtype="Tropical Orm Warrior" Priority="50" Combine="true" />
+		  <scope Name="Subtype50" Subtype="Tropical Orm Axe Thrower" Priority="50" Combine="true" />
+  		<scope Name="Subtype51" Subtype="Tropical Orm Mage" Priority="50" Combine="true" />
+	  	<scope Name="Subtype52" Subtype="Tropical Orm Cannoneer" Priority="50" Combine="true"/>
+    </scopes>
+    <prefixes Amount="1">
+      <prefix Name="Ar" />
+      <prefix Name="Im" />
+	  	<prefix Name="Hi" />
+		  <prefix Name="O" />
+  		<prefix Name="Pi" />
+	  	<prefix Name="Fo" />
+		  <prefix Name="Sa" />
+  		<prefix Name="Mi" />
+	  	<prefix Name="Ta" />
+		  <prefix Name="Dr" />
+  		<prefix Name="Dw" />
+	  	<prefix Name="Ra" />
+		  <prefix Name="Sp" />
+  		<prefix Name="Ri" />
+	  	<prefix Name="Jo" />
+		  <prefix Name="J" />
+  		<prefix Name="Do" Weight="2"/>
+	  	<prefix Name="Uk" />
+		  <prefix Name="Gr" />
+  		<prefix Name="Ge" />
+	  	<prefix Name="U" />
+		  <prefix Name="Jo" />
+  		<prefix Name="Br" />
+	  	<prefix Name="B" />
+		  <prefix Name="Da Na" />
+  		<prefix Name="Ma" />
+	  	<prefix Name="No" />
+		  <prefix Name="Ej" />
+  		<prefix Name="Ri" />
+	  	<prefix Name="Ra" />
+		  <prefix Name="Lo" Weight="2" />
+    </prefixes>
+    <infixes Amount="0-3">
+      <infix Name="k" Weight="2"/>
+		  <infix Name="l" Weight="3"/>
+		  <infix Name="r" Weight="2" />
+		  <infix Name="s" />
+		  <infix Name="ig" />
+		  <infix Name="d" />
+		  <infix Name="a" Weight="3"/>
+		  <infix Name="er" Weight="2"/>
+		  <infix Name="an" />
+		  <infix Name="tt" />
+		  <infix Name="g" />
+		  <infix Name="b" />
+		  <infix Name="se" />
+		  <infix Name="i" />
+		  <infix Name="sh" />
+		  <infix Name="th" />
+		  <infix Name="bb" />
+		  <infix Name="o" />
+		  <infix Name="rr" />
+    </infixes>
       <postfixes Amount="1">
-        <postfix Name="ua" />
-		<postfix Name="er" Weight="3"/>
-		<postfix Name="i" />
-		<postfix Name="ia" />
-		<postfix Name="rl" />
-		<postfix Name="ah" />
-		<postfix Name="ke" />
-		<postfix Name="ha" />
-		<postfix Name="ip" />
-		<postfix Name="ht" />
-		<postfix Name="an" Weight="2" />
-		<postfix Name="ur" />
-		<postfix Name="il" />
-		<postfix Name="ra" Weight="3"/>
-		<postfix Name="t" />
-		<postfix Name="la" />
-		<postfix Name="te" />
-		<postfix Name="do" />
-		<postfix Name="he" />
-		<postfix Name="ge" />
-		<postfix Name="et" Weight="2"/>
-		<postfix Name="ph" />
-		<postfix Name="eh" />
-		<postfix Name="d" />
-		<postfix Name="a" />
-		<postfix Name="ky" Weight="2"/>
-		<postfix Name="el" />
-      </postfixes>
-    </namestyle>
+      <postfix Name="ua" />
+		  <postfix Name="er" Weight="3"/>
+		  <postfix Name="i" />
+		  <postfix Name="ia" />
+		  <postfix Name="rl" />
+		  <postfix Name="ah" />
+		  <postfix Name="ke" />
+		  <postfix Name="ha" />
+		  <postfix Name="ip" />
+		  <postfix Name="ht" />
+		  <postfix Name="an" Weight="2" />
+		  <postfix Name="ur" />
+		  <postfix Name="il" />
+		  <postfix Name="ra" Weight="3"/>
+		  <postfix Name="t" />
+		  <postfix Name="la" />
+		  <postfix Name="te" />
+		  <postfix Name="do" />
+		  <postfix Name="he" />
+		  <postfix Name="ge" />
+		  <postfix Name="et" Weight="2"/>
+		  <postfix Name="ph" />
+		  <postfix Name="eh" />
+		  <postfix Name="d" />
+		  <postfix Name="a" />
+		  <postfix Name="ky" Weight="2"/>
+		  <postfix Name="el" />
+    </postfixes>
+  </namestyle>
 
 	<namestyle Name="Eldimor Hero" Base="Eldimor">
       <scopes>
