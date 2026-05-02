@@ -54,7 +54,6 @@
     <stat Name="Ego" Value="12" />
     <part Name="ConversationScript" ConversationID="Mavotur" />
     <mutation Name="HeightenedSmell" Level="1" />
-    <mutation Name="LeyShifting" />
     <mutation Name="SensePsychic" Level="1" />
     <mutation Name="SunderMind" Level="1" />
     <mutation Name="Telepathy" Level="1" />
@@ -86,7 +85,6 @@
     <tag Name="RandomGender" Value="tqaq_dorator_female,tqaq_dorator_fluid_fem,tqaq_dorator_fluid_masc,tqaq_dorator_male,tqaq_dorator_nonbinary,tqaq_dorator_plural" />
     <part Name="Pettable" UseFactionForFeelingFloor="TQAQ_Veidancyri" />
     <tag Name="PetResponse" Value="=subject.T= purrs." />
-    <part Name="SmartuseForceTwiddles" />
     <xtagTextFragments Skin="feathery fur" PoeticFeatures="ridged beak,versatile anatomy,voracious demeanor" YounglingNoise="*barks*,*chirps*,*purrs*" Activity="fending off one's instincts" VillageActivity="caring for one another" SacredThing="reason above all else" />
     <tag Name="PrimaryLimbType" Value="Hand" />
     <tag Name="LairAmbientBed" Value="Sounds/Ambiences/amb_creature_cat" />

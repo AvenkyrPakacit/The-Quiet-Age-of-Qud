@@ -344,7 +344,7 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="Creatures/OrmWarrior.png"
+		EmblemTile="Creatures/TQAQ_Arkaedus.png"
     EmblemTileColor="o"
     EmblemDetailColor="O"
   >
@@ -374,7 +374,7 @@
     PositiveSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_positive"
     NegativeSound="Sounds/Reputation/sfx_reputation_highlyEntropicBeings_negative"
     HistoricalSignificance="1"
-		EmblemTile="Creatures/OrmWarrior.png"
+		EmblemTile="Creatures/TQAQ_Arkaedus.png"
     EEmblemTileColor="o"
     EmblemDetailColor="O"
   >
