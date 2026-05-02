@@ -63,7 +63,7 @@
     <tag Name="BaseObject" Value="*noinherit" />
   </object>
 
-  <object Name="TQAQ_BaseArkaedus" Inherits="BaseHumanoid">
+  <object Name="TQAQ_BaseVoderaiArkai" Inherits="BaseHumanoid">
     <part Name="Render" DisplayName="Arkaedus" Tile="Creatures/TQAQ_Arkaedus.png" RenderString="k" ColorString="&amp;K" DetailColor="g" />
     <part Name="Brain" Factions="TQAQ_Veidancyri-100" />
     <part Name="Description" Short="Wind whistling in =pronouns.possessive= feathers as =pronouns.subjective= =verb:move:afterpronoun= about the area. The voderai hungers ever on, throughout =pronouns.reflexive= is an anxious thread that can unravel any instance." />
