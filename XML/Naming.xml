@@ -66,7 +66,7 @@
     </scopes>
     <prefixes Amount="1">
       <prefix Name="Ar" />
-      <prefix Name="Im" />
+      <prefix Name="Im" Weight="2" />
 	  	<prefix Name="Hi" />
 		  <prefix Name="O" />
   		<prefix Name="Pi" />
@@ -91,7 +91,7 @@
 	  	<prefix Name="B" />
 		  <prefix Name="Da Na" />
   		<prefix Name="Ma" />
-	  	<prefix Name="Na" />
+	  	<prefix Name="Na" Weight="2" />
 	  	<prefix Name="No" />
 		  <prefix Name="Ej" />
   		<prefix Name="Ri" />
@@ -103,7 +103,7 @@
 		  <infix Name="l" Weight="4"/>
 		  <infix Name="r" Weight="2" />
 		  <infix Name="s" />
-		  <infix Name="ig" Weight="2" />
+		  <infix Name="ig" Weight="3" />
 		  <infix Name="d" />
 		  <infix Name="a" Weight="3"/>
 		  <infix Name="er" Weight="2"/>
@@ -112,10 +112,10 @@
 		  <infix Name="tt" />
 		  <infix Name="g" />
 		  <infix Name="b" />
-		  <infix Name="se" />
+		  <infix Name="se" Weight="2" />
 		  <infix Name="i" />
-		  <infix Name="sh" />
-		  <infix Name="th" />
+		  <infix Name="sh" Weight="2" />
+		  <infix Name="th" Weight="2" />
 		  <infix Name="bb" />
 		  <infix Name="o" />
 		  <infix Name="rr" />
@@ -124,7 +124,7 @@
       <postfix Name="ua" />
 		  <postfix Name="er" Weight="3"/>
 		  <postfix Name="i" />
-		  <postfix Name="ia" />
+		  <postfix Name="ia" Weight="2" />
 		  <postfix Name="ie" Weight="2" />
 		  <postfix Name="rl" />
 		  <postfix Name="ah" />
@@ -148,7 +148,7 @@
 		  <postfix Name="d" />
 		  <postfix Name="a" />
 		  <postfix Name="ky" Weight="2"/>
-		  <postfix Name="el" Weight="2" />
+		  <postfix Name="el" Weight="3" />
     </postfixes>
   </namestyle>
 

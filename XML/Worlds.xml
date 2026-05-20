@@ -189,6 +189,32 @@
         <music Track="Music/Deep Dawn" />
       </zone>
     </cell>
+    <cell Name="Granigip" Inherits="WatervineCell"
+          ApplyTo="TQAQ_Granigip_Shared_Den"
+          Mutable="false" >
+      <zone Level="5-9" x="0-2" y="0-2" Name="sky above salt marsh" IndefiniteArticle="the">
+        <builder Class="Sky"></builder>
+      </zone>
+      <zone Level="10" x="0-2" y="0-2" Name="Drekir Den" NameContext="Salt Marsh Drekir Den">
+        <builder Class="Watervine"></builder>
+        <postbuilder Class="ZoneTemplate:SaltMarsh"></postbuilder>
+        <builder Class="FactionEncounters" Population="SafeFactionPopulation"></builder>
+        <music Track="Music/Deep Dawn" />
+      </zone>
+      <zone Level="10" x="1" y="1" Name="Granigip" ProperName="true">
+        <builder Class="Watervine"></builder>
+        <map FileName="TQAQ_Granigip_Shared_Den.rpm"></map>
+        <music Track="Music/Mehmets Morning" />
+      </zone> 
+      <zone Level="11-15" x="0-2" y="0-2" Name="subterranean salt marsh">
+        <builder Class="Strata"></builder>
+        <builder Class="Watervine" Underground="true"></builder>
+        <builder Class="ZoneTemplate:WatervineCaves"></builder>
+        <builder Class="PossibleCryotube"></builder>
+        <builder Class="FactionEncounters" Population="SafeFactionPopulation"></builder>
+        <music Track="Music/Deep Dawn" />
+      </zone>
+    </cell>
     <cell Name="Riigip" Inherits="SaltDesertCell"
           ApplyTo="TQAQ_Riigip_Shared_Den"
           Mutable="false" >

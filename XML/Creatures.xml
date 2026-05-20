@@ -92,7 +92,7 @@
 
   <!--Character Types-->
 
-  <object Name="TQAQ_Arkaedus" Inherits="TQAQ_BaseArkaedus">
+  <object Name="TQAQ_VoderaiArkai" Inherits="TQAQ_BaseVoderaiArkai">
   	<tag Name="InventoryPopulationTable" Value="StartingGear_EldimorVillager" />
 	  <tag Name="DynamicObjectsTable:Jungle_Creatures" />
     <tag Name="DynamicObjectsTable:Flowerfields_Creatures" />
@@ -1481,6 +1481,23 @@ She once was forced to craft basic supplies, but has undergone retirement." />
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
   </object>
 
+  <object Name="TQAQ_Imsethia" Inherits="TQAQ_Drekir_Hiker_Temperate">
+    <part Name="Render" DisplayName="Imsethia" ColorString="&amp;K"/>
+	  <part Name="Brain" Factions="TQAQ_Temperate_Clans_Drekir-100" />
+    <part Name="Description" Short="." />
+	  <tag Name="Gender" Value="male" />
+    <stat Name="Level" Value="25" />
+    <stat Name="Hitpoints" Value="125" />
+    <tag Name="Role" Value="NPC" />
+    <part Name="GivesRep" />
+    <tag Name="staticFaction3" Value=",dislike,his overt friendliness" />
+    <tag Name="staticFaction2" Value=",friend,his friendliness" />
+    <tag Name="staticFaction1" Value=",hate,partaking in intercourse with a orm" />
+    <tag Name="NoHateFactions" Value="Eldimor,TQAQ_Temperate_Clans_Ormer" />
+    <xtagGrammar Proper="true" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+  </object>
+
   <object Name="TQAQ_Mattania" Inherits="TQAQ_Drekir_Hiker_Arid">
     <part Name="Render" DisplayName="Mattania" ColorString="&amp;K"/>
     <part Name="Brain" Factions="TQAQ_Arid_Clans_Drekir-100" />
@@ -1499,6 +1516,23 @@ She speaks a language native to this planar." />
     <xtagGrammar Proper="true" />
     <xtagWaterRitual NoJoin="true" />
     <tag Name="NoHateFactions" Value="Eldimor,TQAQ_Arid_Clans_Ormer" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+  </object>
+
+  <object Name="TQAQ_Nashigel" Inherits="TQAQ_Ormer_Hiker_Temperate">
+    <part Name="Render" DisplayName="Nashigel" ColorString="&amp;K"/>
+	  <part Name="Brain" Factions="TQAQ_Temperate_Clans_Ormer-100" />
+    <part Name="Description" Short="." />
+	  <tag Name="Gender" Value="female" />
+    <stat Name="Level" Value="25" />
+    <stat Name="Hitpoints" Value="125" />
+    <tag Name="Role" Value="NPC" />
+    <part Name="GivesRep" />
+    <tag Name="staticFaction3" Value=",dislike,her overt rudeness" />
+    <tag Name="staticFaction2" Value=",friend,her attitude" />
+    <tag Name="staticFaction1" Value=",hate,partaking in intercourse with a drek" />
+    <tag Name="NoHateFactions" Value="Eldimor,TQAQ_Temperate_Clans_Drekir" />
+    <xtagGrammar Proper="true" />
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
   </object>
 

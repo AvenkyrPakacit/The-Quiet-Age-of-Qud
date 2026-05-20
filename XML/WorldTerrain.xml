@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <objects>
 
+  <object Name="TQAQ_Granigip_Shared_Den" Inherits="Terrain">
+    <part Name="Render"
+      DisplayName="Granigip"
+      Tile="Terrain/TQAQ_SaltMarsh_Den.png"
+      ColorString="&amp;w^k"
+      DetailColor="g">
+    </part>
+    <part Name="Description" Short=".."></part>
+    <tag Name="NoBiomes" Value="1"></tag>
+    <tag Name="OverlayColor" Value="&amp;W"></tag>
+  </object>
+
   <object Name="TQAQ_Riigip_Shared_Den" Inherits="Terrain">
     <part Name="Render"
       DisplayName="Riigip"
