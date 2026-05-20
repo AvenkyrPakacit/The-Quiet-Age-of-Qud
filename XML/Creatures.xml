@@ -1504,6 +1504,26 @@ She speaks a language native to this planar." />
 
   <!--Raseke Story NPCs-->
 
+  <object Name="TQAQ_Brigel" Inherits="TQAQ_Drekir_Temperate">
+    <part Name="Render" DisplayName="Brigel" ColorString="&amp;g"/>
+	  <part Name="Brain" Factions="Eldimor-100" />
+    <part Name="Description" Short="Olive green scales upon a laughable man.
+The once human miner is now a drek." />
+    <part Name="Pettable" />
+    <tag Name="PetResponse" Value="yeks,yaps,purraps" />
+	  <tag Name="Gender" Value="male" />
+    <stat Name="Level" Value="50" />
+    <stat Name="Hitpoints" Value="250" />
+    <tag Name="Role" Value="NPC" />
+    <part Name="GivesRep" />
+    <tag Name="staticFaction3" Value=",dislike,his personality" />
+    <tag Name="staticFaction2" Value=",friend,his personality" />
+    <tag Name="staticFaction1" Value="Sivilao,hate,breaking free" />
+    <tag Name="NoHateFactions" Value="TQAQ_Temperate_Clans_Drekir,TQAQ_Temperate_Clans_Ormer" />
+    <xtagGrammar Proper="true" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+  </object>
+
   <object Name="TQAQ_Domazeya" Inherits="TQAQ_Ormer_Mage_Temperate">
     <part Name="Render" DisplayName="Domazeya" ColorString="&amp;K"/>
 	  <part Name="Brain" Factions="Eldimor-100" />
@@ -1525,6 +1545,47 @@ Her stance is fours between twos, together in a momentary stand." />
     <tag Name="staticFaction2" Value=",friend,saving a friend's life" />
     <tag Name="staticFaction1" Value="Sivilao,hate,escaping slavery" />
     <tag Name="NoHateFactions" Value="TQAQ_Arid_Clans_Drekir,TQAQ_Arid_Clans_Ormer" />
+    <xtagGrammar Proper="true" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+  </object>
+
+  <object Name="TQAQ_Natalie" Inherits="TQAQ_Drekir_Temperate">
+    <part Name="Render" DisplayName="Natalie" ColorString="&amp;O"/>
+	  <part Name="Brain" Factions="Eldimor-100" />
+    <part Name="Description" Short="Orange scales glisten upon the dreams of sparks.
+Dreams of Sin's Disdain, ever onward to life.
+Once upon a dream, once upon a life, she lives ever on." />
+    <part Name="Pettable" />
+    <tag Name="PetResponse" Value="yeks,yaps,purraps" />
+	  <tag Name="Gender" Value="female" />
+    <stat Name="Level" Value="50" />
+    <stat Name="Hitpoints" Value="250" />
+    <tag Name="Role" Value="NPC" />
+    <part Name="GivesRep" />
+    <tag Name="staticFaction3" Value=",dislike,her intellect" />
+    <tag Name="staticFaction2" Value=",friend,her intellect" />
+    <tag Name="staticFaction1" Value="Sivilao,hate,breaking free" />
+    <tag Name="NoHateFactions" Value="TQAQ_Temperate_Clans_Drekir,TQAQ_Temperate_Clans_Ormer" />
+    <xtagGrammar Proper="true" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+  </object>
+
+  <object Name="TQAQ_Joanie" Inherits="TQAQ_Drekir_Temperate">
+    <part Name="Render" DisplayName="Joanie" ColorString="&amp;b"/>
+	  <part Name="Brain" Factions="Eldimor-100" />
+    <part Name="Description" Short="Blue scales upon a fierce gaze.
+The once agitated human miner, is now a drek." />
+    <part Name="Pettable" />
+    <tag Name="PetResponse" Value="yeks,yaps,purraps" />
+	  <tag Name="Gender" Value="female" />
+    <stat Name="Level" Value="50" />
+    <stat Name="Hitpoints" Value="250" />
+    <tag Name="Role" Value="NPC" />
+    <part Name="GivesRep" />
+    <tag Name="staticFaction3" Value=",dislike,her attitude" />
+    <tag Name="staticFaction2" Value=",friend,her attitude" />
+    <tag Name="staticFaction1" Value="Sivilao,hate,breaking free" />
+    <tag Name="NoHateFactions" Value="TQAQ_Temperate_Clans_Drekir,TQAQ_Temperate_Clans_Ormer" />
     <xtagGrammar Proper="true" />
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
   </object>

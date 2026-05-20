@@ -86,11 +86,12 @@
 		  <prefix Name="Gr" />
   		<prefix Name="Ge" />
 	  	<prefix Name="U" />
-		  <prefix Name="Jo" />
-  		<prefix Name="Br" />
+		  <prefix Name="Jo" Weight="2" />
+  		<prefix Name="Br" Weight="2" />
 	  	<prefix Name="B" />
 		  <prefix Name="Da Na" />
   		<prefix Name="Ma" />
+	  	<prefix Name="Na" />
 	  	<prefix Name="No" />
 		  <prefix Name="Ej" />
   		<prefix Name="Ri" />
@@ -99,14 +100,15 @@
     </prefixes>
     <infixes Amount="0-3">
       <infix Name="k" Weight="2"/>
-		  <infix Name="l" Weight="3"/>
+		  <infix Name="l" Weight="4"/>
 		  <infix Name="r" Weight="2" />
 		  <infix Name="s" />
-		  <infix Name="ig" />
+		  <infix Name="ig" Weight="2" />
 		  <infix Name="d" />
 		  <infix Name="a" Weight="3"/>
 		  <infix Name="er" Weight="2"/>
-		  <infix Name="an" />
+		  <infix Name="an" Weight="2" />
+		  <infix Name="ta" />
 		  <infix Name="tt" />
 		  <infix Name="g" />
 		  <infix Name="b" />
@@ -123,6 +125,7 @@
 		  <postfix Name="er" Weight="3"/>
 		  <postfix Name="i" />
 		  <postfix Name="ia" />
+		  <postfix Name="ie" Weight="2" />
 		  <postfix Name="rl" />
 		  <postfix Name="ah" />
 		  <postfix Name="ke" />
@@ -145,7 +148,7 @@
 		  <postfix Name="d" />
 		  <postfix Name="a" />
 		  <postfix Name="ky" Weight="2"/>
-		  <postfix Name="el" />
+		  <postfix Name="el" Weight="2" />
     </postfixes>
   </namestyle>
 
