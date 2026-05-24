@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <objects>
 
+  <object Name="TQAQ_Bilfim" Inherits="Terrain">
+    <part Name="Render"
+      DisplayName="Bilfim"
+      Tile="Terrain/TQAQ_Bilfim.png"
+      ColorString="&amp;m^k"
+      DetailColor="M">
+    </part>
+    <part Name="Description" Short=".."></part>
+    <tag Name="NoBiomes" Value="1"></tag>
+    <tag Name="OverlayColor" Value="&amp;M"></tag>
+  </object>
+
+  <object Name="TQAQ_Bilguro" Inherits="Terrain">
+    <part Name="Render"
+      DisplayName="Bilguro"
+      Tile="Terrain/TQAQ_Bilguro.png"
+      ColorString="&amp;M^k"
+      DetailColor="R">
+    </part>
+    <part Name="Description" Short=".."></part>
+    <tag Name="NoBiomes" Value="1"></tag>
+    <tag Name="OverlayColor" Value="&amp;R"></tag>
+  </object>
+
+  <object Name="TQAQ_Bilva" Inherits="Terrain">
+    <part Name="Render"
+      DisplayName="Bilva"
+      Tile="Terrain/TQAQ_Bilva.png"
+      ColorString="&amp;b^k"
+      DetailColor="m">
+    </part>
+    <part Name="Description" Short=".."></part>
+    <tag Name="NoBiomes" Value="1"></tag>
+    <tag Name="OverlayColor" Value="&amp;m"></tag>
+  </object>
+
   <object Name="TQAQ_Granigip_Shared_Den" Inherits="Terrain">
     <part Name="Render"
       DisplayName="Granigip"
